@@ -1,4 +1,4 @@
- <!-- headerå¤´éƒ¨ -->
+ <link  rel="stylesheet"  type="text/css"  href="css/common.css"   />
  <script>
 $(function(){
 	$('body').css('background','#eee');
@@ -10,27 +10,15 @@ $(function(){
   <a rel="nofollow" href="http://www.greenco.cn"><embed src="image/logo_greenco.swf" wmode="transparent" width="400" height="300" style="position:absolute;top:-95px;left:-30px;"></embed></a>
   <img src="image/home6.png" style="position:absolute;top:50px;right:-10px;"/>
   <img src="image/home7.png" style="position:absolute;top:16px;left:340px;"/>
-  <ul class="info-nav" style="position:absolute;top:-7px;right:10px;">
-  	  <li><a href="#">Admin</a>
-    </li>
-
-    <li><a rel="nofollow" href="javascript:;" class="cross-site-category">Language Select</a>
-      <div class="dropdown">
-        <ul>
-          <li><a rel="nofollow" href="http://www.greenco.com.cn" target="_blank">ä¸­æ–‡</a></li>
-          <li><a rel="nofollow" href="http://www.greenco.cn" target="_blank">English</a></li>
-		  <li><a rel="nofollow" href="http://translate.google.com/translate?hl=&sl=en&tl=es&u=http%3A%2F%2Fwww.greenco.cn/english1%2F" target="_blank">Spanish</a></li>
-		</ul>
-      </div>
-    </li>
-
-
-  </ul>
-
+  <div class="lang-select">
+     <a href="http://chinese.greenco.cn"  target="_blank" ><img src="image/china.png" class="language_china" title="ÖÐÎÄ°æ" alt="ÖÐÎÄ°æ"/></a>
+     <a href="http://www.greenco.cn"  rel='nofollow' ><img src="image/english.png" class="language_english" title="English" alt="Ó¢ÎÄ°æ"/></a>
+     <a href="http://spanish.greenco.cn"  target="_blank" ><img src="image/spanish.png" class="language_english" title="Spanish" alt="Î÷°àÑÀ°æ"/></a>
   </div>
-<!-- å¤´éƒ¨end -->
+  </div>
+<!-- Í·²¿end -->
 
-<!-- å¯¼èˆª -->
+<!-- µ¼º½ -->
 <nav role="navigation"  style="margin-top:100px;">
   <ul class="main-nav"  >
       <li style="margin-left:10px;">
@@ -96,14 +84,11 @@ $(function(){
         </li>
 
 
-<!-- æœç´¢æ¡† -->
     <li class="search-container">
    <form  action="Side_Channel_Blower_Search_table.php" id="search" method="post">
-	  <input  id="term" name="term" placeholder="Start Searching â€¦" type="text"  style="border-radius:0px;"/>
+	  <input  id="term" name="term" placeholder="Start Searching ..." type="text"  style="border-radius:0px;"/>
 	  <button type="submit" class="image-button search no-margin">Search</button>
   </form>
     </li>
-<!-- æœç´¢æ¡†end -->
   </ul>
 </nav>
-<!-- å¯¼èˆªend -->
