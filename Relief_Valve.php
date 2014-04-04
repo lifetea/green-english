@@ -123,7 +123,7 @@
              <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=2BX4 142" target="_blank"><img  src="image/Relief_Valve_2BX142.jpg" alt="side channel blower Relief Valve 2BX4-142"/></a><h4><a href="Relief_valve_content.php?type=2BX4 142" target="_blank">Relief Valve 2BX4-142</a></h4></div>
              <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=2BX4 143" target="_blank"><img  src="image/Relief_Valve_2BX143.jpg" alt="side channel blower Relief Valve 2BX4-143"/></a><h4><a href="Relief_valve_content.php?type=2BX4 143" target="_blank">Relief Valve 2BX4-143</a></h4></div>
              <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=2BX4 144" target="_blank"><img  src="image/Relief_Valve_2BX144.jpg" alt="side channel blower Relief Valve 2BX4-144"/></a><h4><a href="Relief_valve_content.php?type=2BX4 144" target="_blank">Relief Valve 2BX4-144</a></h4></div>
-             <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=2BX4 144" target="_blank"><img  src="image/Relief_Valve_2BX145.jpg" alt="side channel blower Relief Valve 2BX4-145"/></a><h4><a href="Relief_valve_content.php?type=2BX4 145" target="_blank">Relief Valve 2BX4-145</a></h4></div>
+             <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=2BX4 145" target="_blank"><img  src="image/Relief_Valve_2BX145.jpg" alt="side channel blower Relief Valve 2BX4-145"/></a><h4><a href="Relief_valve_content.php?type=2BX4 145" target="_blank">Relief Valve 2BX4-145</a></h4></div>
        </div>
    </div>
 </div>
