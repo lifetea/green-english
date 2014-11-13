@@ -11,14 +11,14 @@ $(function(){
   <img src="image/home6.png" style="position:absolute;top:50px;right:-10px;"/>
   <img src="image/home7.png" style="position:absolute;top:16px;left:340px;"/>
   <div class="lang-select">
-     <a href="http://chinese.greenco.cn"  target="_blank" ><img src="image/china.png" class="language_china" title="ÖÐÎÄ°æ" alt="ÖÐÎÄ°æ"/></a>
-     <a href="http://www.greenco.cn"  rel='nofollow' ><img src="image/english.png" class="language_english" title="English" alt="Ó¢ÎÄ°æ"/></a>
-     <a href="http://spanish.greenco.cn"  target="_blank" ><img src="image/spanish.png" class="language_english" title="Spanish" alt="Î÷°àÑÀ°æ"/></a>
+     <a href="http://chinese.greenco.cn"  target="_blank" ><img src="image/china.png" class="language_china" title="ä¸­æ–‡ç‰ˆ" alt="ä¸­æ–‡ç‰ˆ"/></a>
+     <a href="http://www.greenco.cn"  rel='nofollow' ><img src="image/english.png" class="language_english" title="English" alt="è‹±æ–‡ç‰ˆ"/></a>
+     <a href="http://spanish.greenco.cn"  target="_blank" ><img src="image/spanish.png" class="language_english" title="Spanish" alt="è¥¿ç­ç‰™ç‰ˆ"/></a>
   </div>
   </div>
-<!-- Í·²¿end -->
+<!-- å¤´éƒ¨end -->
 
-<!-- µ¼º½ -->
+<!-- å¯¼èˆª -->
 <nav role="navigation"  style="margin-top:100px;">
   <ul class="main-nav"  >
       <li style="margin-left:10px;">

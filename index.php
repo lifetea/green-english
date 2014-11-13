@@ -1,5 +1,5 @@
-ï»¿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html  xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
 <title>GREENCO-Side Channel Blower|Ring blower|Regenerative blower|Air blower|Vacuum pump</title>
@@ -52,25 +52,25 @@ $(function(){
 <?php require 'inc/header_inc.php';?>
 
 
-<!--é¦–é¡µå†…å®¹-->
+<!--Ê×Ò³ÄÚÈÝ-->
 <div id="content" style="margin-top:-8px;">
   <div class="container" style="width:980px;border:1px solid #ccc;padding:10px;background:#fff;">
-       <!-- 3Då›¾ç‰‡slider-->
+       <!-- 3DÍ¼Æ¬slider-->
        <div id="cu3er_swf"></div>
   </div>
 
-   <!--ä¸‰å¼ ä¸»è¦å›¾ç‰‡-->
+   <!--ÈýÕÅÖ÷ÒªÍ¼Æ¬-->
    <div style="width:1000px;margin:0 auto;margin-top:5px;margin-bottom:10px;">
-   	<!--3D slideré˜´å½±-->
+   	<!--3D sliderÒõÓ°-->
    	<img src="image/bg_tien.png"  style="margin-top:-5px;"/>
-   	<!--3D slideré˜´å½±end-->
+   	<!--3D sliderÒõÓ°end-->
 		<a href="Cover_Suction_Ring_Blower.php"><img src="image/home1.jpg" style="border:1px solid #999;"/></a>
 		<a href="about_us.php"><img src="image/home2.jpg" style="border:1px solid #999;margin-left:28px;"/></a>
 		<a href="Download.php"><img src="image/home3.jpg" style="border:1px solid #999;margin-left:27px;"/></a>
    </div>
-   <!--ä¸‰å¼ ä¸»è¦å›¾ç‰‡end-->
+   <!--ÈýÕÅÖ÷ÒªÍ¼Æ¬end-->
 </div>
-<!-- é¦–é¡µå†…å®¹end -->
+<!-- Ê×Ò³ÄÚÈÝend -->
 
 <?php require 'inc/footer_inc.php';?>
 

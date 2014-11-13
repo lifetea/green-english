@@ -28,7 +28,39 @@
 
 <?php require 'inc/header_inc.php';?>
 
+<?php
+if(isset($_POST['submit'])){
+    //_check_code($_POST['code'],$_SESSION['code']);
+  require("email.php");   //引入文件（把刚才解压的那些文件放到对应的路径就可以了）
+  $mail = new PHPMailer();   //实例化
+  $mail->IsSMTP();                 // 启用SMTP
+  $mail->Host="smtp.qq.com";      //smtp服务器的名称（这里以163邮箱为例）
+  $mail->SMTPAuth = true;         //启用smtp认证
+  $mail->Username = "494886251@qq.com";   //你的邮箱名
+  $mail->Password = "woyaokuaile";      //邮箱密码
+  $mail->From ='494886251@qq.com';            //发件人邮箱（也就是你的邮箱地址）
+  $mail->FromName = trim($_POST['name']);              //发件人姓名
+  $mail->AddAddress("greenco@greenco.cn","浙江格凌实业有限公司"); //添加收件人邮箱和名字
+  $mail->AddReplyTo(trim($_POST['email']), trim($_POST['name']));    //回复地址(可填可不填)
+  $mail->WordWrap = 50;                    //设置每行字符长度
+  $mail->IsHTML(true);                 // 是否HTML格式邮件
+  $mail->CharSet="utf-8";    //设置邮件编码
+  $mail->Subject = "网站客户留言信息";          //邮件主题
+  $mail->Body    = '<p>留言人：'.trim($_POST['name']).'</p>'.'<p>公司名称：'.trim($_POST['company']).'</p>'.'<p>联系电话：'.trim($_POST['phone']).'</p>'.'<p>邮箱地址：'.trim($_POST['email']).'</p>'.'<p>留言内容：'.trim($_POST['content']).'</p>';        //邮件内容
+  $mail->AltBody = "邮件正文不支持HTML格式"; //邮件正文不支持HTML的备用显示
+  if(!$mail->Send())     {
+    echo "信息未发送成功，请重新填写！";
+    exit();
+  } else {
+    $url = "contact_us.php";
+    echo "<script language='javascript' type='text/javascript'>";
+    echo "alert('恭喜,信息已发送成功,请耐心等待,我们会尽快回复您！');window.location.href='$url'";
+    echo "</script>";
+  }
 
+}
+
+?>
 <!-- 下载内容 -->
 <div id="contact_all">
     <div id="contact">
@@ -47,16 +79,19 @@
 	     <div id="feedback_info">
 	          <p class="h1">Your questions and comments</p>
 	          <p>If you would like us to send you information by post or to make contact to advise on the specification of our products, please complete the form below. </p>
-              <form method="post"  action="?">
+              <form method="post"  action="contact_us.php">
 	              <table>
-		              <tr><td>Name:</td><td style="text-align:left;"><input type="text"/></td></tr>
-		              <tr><td>Company:</td><td style="text-align:left;"><input type="text"/></td></tr>
-		              <tr><td>Telephone:</td><td style="text-align:left;"><input type="text"/></td></tr>
-		              <tr><td>E-mail:</td><td style="text-align:left;"><input type="text"/></td></tr>
-		              <tr><td>Subject:</td><td style="text-align:left;"><input type="text"/></td></tr>
-		              <tr><td style="position:absolute;top:275px;">Comments:</td><td style="text-align:left;"><textarea></textarea></td></tr>
-
-	                  <tr><td><input type="submit"  value="SEND" id="submit"/></td></tr>
+		              <tr><td>Name:</td><td style="text-align:left;"><input name="name" type="text"/></td></tr>
+		              <tr><td>Company:</td><td style="text-align:left;"><input name="company" type="text"/></td></tr>
+		              <tr><td>Telephone:</td><td style="text-align:left;"><input name="phone" type="text"/></td></tr>
+		              <tr><td>E-mail:</td><td style="text-align:left;"><input name="email" type="text"/></td></tr>
+		              <tr><td style="position:absolute;top:275px;">Comments:</td><td style="text-align:left;"><textarea name="content"></textarea></td></tr>
+		              <tr><td style="position:absolute;top:338px;">*Code:</td><td style="text-align:left;">
+			               <img src="code.php"  id="code"   style="cursor: pointer;border:1px solid #999;padding:2px;"/>
+			               <input type="text"  name="code" class="inputxt"  style="width:70px;margin-left:15px;top: -14px;"  />
+		               </td>
+		               </tr>
+	                  <tr><td><input type="submit"  name="submit" value="SEND" id="submit"/></td></tr>
 	              </table>
               </form>
 	    </div>
@@ -64,6 +99,7 @@
     </div>
 </div>
 <!-- 下载内容end -->
+
 
 
 <!-- 底部版权 -->
@@ -112,7 +148,6 @@
   </div>
 </div>
 <!-- 底部版权end -->
-
 
 <script>
 $(function(){
