@@ -31,7 +31,9 @@
 
 
 	<slides>
-
+		<slide>
+			<url>images/image6.jpg</url>
+		</slide>
 		<slide>
 			<url>images/image1.jpg</url>
 		</slide>

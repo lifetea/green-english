@@ -1,4 +1,10 @@
- <link  rel="stylesheet"  type="text/css"  href="css/common.css"   />
+ <style>
+.lang-select{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+</style>
  <script>
 $(function(){
 	$('body').css('background','#eee');
@@ -11,14 +17,14 @@ $(function(){
   <img src="image/home6.png" style="position:absolute;top:50px;right:-10px;"/>
   <img src="image/home7.png" style="position:absolute;top:16px;left:340px;"/>
   <div class="lang-select">
-     <a href="http://chinese.greenco.cn"  target="_blank" ><img src="image/china.png" class="language_china" title="中文版" alt="中文版"/></a>
-     <a href="http://www.greenco.cn"  rel='nofollow' ><img src="image/english.png" class="language_english" title="English" alt="英文版"/></a>
-     <a href="http://spanish.greenco.cn"  target="_blank" ><img src="image/spanish.png" class="language_english" title="Spanish" alt="西班牙版"/></a>
+     <a href="http://chinese.greenco.cn"  target="_blank" ><img src="image/china.png" class="language_china" title="涓枃鐗�" alt="涓枃鐗�"/></a>
+     <a href="http://www.greenco.cn"  rel='nofollow' ><img src="image/english.png" class="language_english" title="English" alt="鑻辨枃鐗�"/></a>
+     <a href="http://spanish.greenco.cn"  target="_blank" ><img src="image/spanish.png" class="language_english" title="Spanish" alt="瑗跨彮鐗欑増"/></a>
   </div>
   </div>
-<!-- 头部end -->
+<!-- 澶撮儴end -->
 
-<!-- 导航 -->
+<!-- 瀵艰埅 -->
 <nav role="navigation"  style="margin-top:100px;">
   <ul class="main-nav"  >
       <li style="margin-left:10px;">
@@ -40,10 +46,22 @@ $(function(){
         <li>
           <a href="Side_Channel_Blower_2RB_Single_Stage.php">Products</a>
 
-            <div class="dropdown" style="width:240px;">
+            <div class="dropdown" style="width:248px;">
               <ul>
                   <li><a href="Side_Channel_Blower_2RB_Single_Stage.php">2RB Single Stage Side Channel Blower</a></li>
                   <li><a href="Side_Channel_Blower_2RB_Double_Stage.php">2RB Double Stage Side Channel Blower</a></li>
+				  <li>
+			  		<img style="float: right;" src="image/new.gif">
+			  		<a href="Side_Channel_Blower_3RB_Single_Stage.php">3RB Single Stage Side Channel Blower</a>
+			  	  </li>
+				  <li>
+			  		<img style="float: right;" src="image/new.gif">
+				  	<a href="Side_Channel_Blower_3RB_Double_Stage.php">3RB Double Stage Side Channel Blower</a>
+				  </li>
+				  <li>
+				 	 <img style="float: right;" src="image/new.gif">
+				  	<a href="Side_Channel_Blower_3RB_Three_Stage.php">3RB Three Stage Side Channel Blower</a>
+				  </li>                  
                   <li><a href="Side_Channel_Blower_4RB_Single_Stage.php">4RB Single Stage Side Channel Blower</a></li>
                   <li><a href="Side_Channel_Blower_4RB_Double_Stage.php">4RB Double Stage Side Channel Blower</a></li>
                   <li><a href="Side_Channel_Blower_4RB_Three_Stage.php">4RB Three Stage Side Channel Blower</a></li>
