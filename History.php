@@ -75,15 +75,7 @@ $(function(){
    <div id="history">
        <img src="image/about_banner.png" style="margin:8px 0 0 8px;border:1px solid #999;"/>
        <div class="left">
-             <h2 style="margin-top:5px;">ENTER GREENCO</h2>
-                 <ul>
-	                  <li style="margin-top:-2px;"><a href="about_us.php">About us</a></li>
-	                  <li><a href="Certification.php">Certification</a></li>
-	                  <li><a href="Honour.php">Honour</a></li>
-	                  <li><a href="History.php">History</a></li>
-	                  <li><a href="Video.php">Video</a></li>
-	                  <li><a href="Equipments.php">Equipments</a></li>
-                  </ul>
+			<?php require 'inc/about-left.php';?>
              <h2 style="margin-top:26px;background:#666 url(image/search_top.png) no-repeat 0 2px;padding-left:18px;width:230px;">Search Product</h2>
                  <form mehtod="post"  action="?">
                       <p>1:Select a Graph:<select><option>Pressure</option><option>Vacuum</option></select></p>

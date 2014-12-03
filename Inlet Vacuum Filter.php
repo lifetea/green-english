@@ -77,7 +77,7 @@
 <div id="Silencer_all" >
    <div id="Silencer">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-       <?php require 'inc/prod-left.inc';?>
+       <?php require 'inc/prod-left.php';?>
        <div class="right">
              <h5>Inlet Vacuum Filter for Side Channel Blower</h5>
              <div  id="mypage" class="mypagination"><a href="Inlet Vacuum Filter_content.php?type=2BX4 080" target="_blank"><img  src="image/inlet_vacuum_filter_080.png" alt="Side channel blower inlet vacuum filter 2BX4-080"/></a><h4><a href="Inlet Vacuum Filter_content.php?type=2BX4 080" target="_blank">2BX4-080</a></h4></div>

@@ -111,7 +111,7 @@ if($_POST['term']=='' or $_POST['term']=='You bastard!' or $_POST['term']=='You 
 <div id="Side_Channel_Blower_2RB_Single_Stage_all" >
    <div id="Side_Channel_Blower_2RB_Single_Stage">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-		<?php require 'inc/prod-left.inc';?>
+		<?php require 'inc/prod-left.php';?>
        <div class="right">
              <h5><i><span style="color:#af0a05;"><?php  echo $_POST['term'];?></span> Product Search Result</i> ▪ Side Channel Blower</h5>
              <table  cellspacing="0" cellpadding="0" id="data">

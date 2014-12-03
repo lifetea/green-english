@@ -1,10 +1,17 @@
+<?php
+$domain = 'lan';
+bindtextdomain($domain, dirname(__FILE__).'\language');
+bind_textdomain_codeset($domain, 'UTF-8');
+textdomain($domain);
+require 'inc/setLan.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>GREENCO-Side Channel Blower|Ring blower|Regenerative blower|Air blower|Vacuum pump</title>
-<meta name="description" content="GREENCO_The world leader manufacturer in side channel blower,regenerative blower,ring blower,air blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications." />
-<meta name="keywords" content="side channel blower,ring blower,regenerative blower,air blower,vortex blower,vacuum pump,industrial blowers,high pressure blowers,double stage blower,three stage multistage blowers,2RB,3RB,4RB series," />
+<title><?php echo _('GREENCO-Side Channel Blower|Ring blower|Regenerative blower|Air blower|Vacuum pump') ?></title>
+<meta name="description" content=" <?php echo _('GREENCO_The world leader manufacturer in side channel blower,regenerative blower,ring blower,air blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications.')?>" />
+<meta name="keywords" content=" <?php echo _('side channel blower,ring blower,regenerative blower,air blower,vortex blower,vacuum pump,industrial blowers,high pressure blowers,double stage blower,three stage multistage blowers,2RB,3RB,4RB series,')?>" />
 <script src="js/jquery-1.7.2.js"></script>
 <script src="js/swfobject.js"></script>
 <script>
@@ -55,19 +62,19 @@ $(function(){
 <?php require 'inc/header_inc.php';?>
 
 
-<!--Ê×Ò³ÄÚÈÝ-->
+<!--ï¿½ï¿½Ò³ï¿½ï¿½ï¿½ï¿½-->
 <div id="content" style="margin-top:-8px;">
   <div class="container" style="width:980px;border:1px solid #ccc;padding:10px;background:#fff;">
        <!-- 3DÍ¼Æ¬slider-->
        <div id="cu3er_swf"></div>
   </div>
 
-   <!--ÈýÕÅÖ÷ÒªÍ¼Æ¬-->
+   <!--ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒªÍ¼Æ¬-->
    <div id="sildeContainer">
-   	<!--3D sliderÒõÓ°-->
+   	<!--3D sliderï¿½ï¿½Ó°-->
    		<img src="image/bg_tien.png"  style="margin-top:-5px;"/>
    		<div id="wrap">
-	   	<!--3D sliderÒõÓ°end-->
+	   	<!--3D sliderï¿½ï¿½Ó°end-->
 			<a class="slider-item" href="Cover_Suction_Ring_Blower.php"  style="left:0px"><img src="image/home1.jpg"/></a>
 			<a class="slider-item" href="about_us.php" style="left:344px;"><img src="image/home2.jpg"/></a>
 			<a class="slider-item" href="Side_Channel_Blower_3RB_Single_Stage.php" style="left:688px;"><img src="image/home4.jpg" /></a>
@@ -76,25 +83,11 @@ $(function(){
 			<a id="next" href="javascript:void(0)" style="left:978px;top:90px;"><img src="image/next.jpg" /></a>
 		</div>
    </div>
-   <!--ÈýÕÅÖ÷ÒªÍ¼Æ¬end-->
+   <!--ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒªÍ¼Æ¬end-->
 </div>
-<!-- Ê×Ò³ÄÚÈÝend -->
+<!-- ï¿½ï¿½Ò³ï¿½ï¿½ï¿½ï¿½end -->
 <script type="text/javascript">
 
-// 	setInterval(function(){
-// 		var sliders = $("#sildeContainer .slider-item");
-// 		var k = 0,len = sliders.length,flag=true;
-// 		for(var i = 0,min = 0;i<len; i++){
-// 			var left = parseInt(sliders[i].style.left);
-// 			$(sliders[i]).animate({left:(left-344)+"px"},"slow",function(){
-// 				console.log(this);
-// 				if(parseInt(this.style.left) < 0){
-// 					this.style.left = ((len-1)*312+(len-1)*32)+"px";
-// 				}
-// 			});
-
-// 		}
-// 	},5000);
 
 	var  slider = {};
 

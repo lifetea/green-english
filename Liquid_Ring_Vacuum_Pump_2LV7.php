@@ -58,7 +58,7 @@
 <div id="Silencer_all" >
    <div id="Silencer">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-       <?php require 'inc/prod-left.inc';?>
+       <?php require 'inc/prod-left.php';?>
        <div class="right">
              <h5><i>2LV7 Series</i> ▪ Liquid Ring Vacuum Pump</h5>
              <div  id="mypage" class="mypagination"><a href="Liquid_Ring_Vacuum_Pump_2LV7_table.php?type=2LV7 060-7AH06" target="_blank"><img  src="image/liquid_ring_2LV7_1.jpg"  alt="Liqudi Ring Vacuum Pump 2LV7 series"/></a><h4><a href="Liquid_Ring_Vacuum_Pump_2LV7_table.php?type=2LV7 060-7AH06" target="_blank">2LV7 060 Series</a></h4></div>

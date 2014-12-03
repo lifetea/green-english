@@ -84,7 +84,7 @@ $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacu
 <div id="Side_Channel_Blower_2RB_Single_Stage_all" >
    <div id="Side_Channel_Blower_2RB_Single_Stage">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-       <?php require 'inc/prod-left.inc';?>
+       <?php require 'inc/prod-left.php';?>
        <div class="right">
              <h5><i>3RB <?php echo  $_GET['series'];?> Series Ordering Data and Performance Data</i> ▪ Side Channel Blower
 
@@ -92,21 +92,22 @@ $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacu
              <table  cellspacing="0" cellpadding="0" id="data">
                  <tr class="one"><td>Order No.</td><td style="width:100px;">Fre-quency</td><td style="width:65px;">Output</td><td>Maximum Airflow</td><td>Maximum Vacuum</td><td style="width:150px;">Maximum Pressure</td></tr>
                  <tr class="two"><td>一</td><td style="width:100px;">Hz</td><td style="width:65px;">Kw</td><td>m³/h</td><td>mbar</td><td style="width:150px;">mbar</td></tr>
-                   <?php  while($_rows=mysql_fetch_array($_result)){?>
+                  <?php
+                  $temp = mysql_num_rows($_result);
+                   while($_rows=mysql_fetch_array($_result)){?>
                              <tr class="content" onclick="window.location.href='Side_Channel_Blower_3RB_Double_Stage_content.php?series=<?php echo $_rows['type'];?>&output=<?php echo $_rows['output'];?>' "><td><strong style="font-size:12px;"><a href="Side_Channel_Blower_3RB_Double_Stage_content.php?series=<?php echo $_rows['type'];?>&output=<?php echo $_rows['output'];?>"><?php  echo $_rows['type'];?></a></strong></td><td style="width:100px;"><?php  echo $_rows['Fre_quency'];?></td><td style="width:65px;"><?php  echo $_rows['output'];?></td><td><?php  echo $_rows['maximum_airflow'];?></td><td><?php  echo $_rows['maximum_vacuum'];?></td><td><?php  echo $_rows['maximum_pressure'];?></td></tr>
                   <?php }?>
                 </table>
                  <div style="color:red;font-size:30px;padding-left:8em;margin-top:2em;">
              	 <?php
-				   $temp=mysql_fetch_array($_result);	   
-				   if(empty($temp)){
+				   if($temp < 1){
 				   	echo "Comming soon .....";
 				   } 
 				 ?>
 				 </div> 
                  <h3 
                    <?php
-				   if(empty($temp)){
+				   if($temp < 1){
 				   	echo 'style="display:none"';
 				   } 
 				 ?>

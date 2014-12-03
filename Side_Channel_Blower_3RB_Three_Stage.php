@@ -77,7 +77,7 @@
 <div id="Side_Channel_Blower_2RB_Single_Stage_all" >
    <div id="Side_Channel_Blower_2RB_Single_Stage">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-	   <?php require 'inc/prod-left.inc';?>
+	   <?php require 'inc/prod-left.php';?>
        <div class="right">
              <h5><i>3RB Three Stage</i> ▪ Side Channel Blower</h5>
              <p style="text-indent: 2em;	line-height: 1.6;	font-size: 13px;	padding: 0 1.8em 1.5em;	text-align: justify;">Greenco classica with innovative technology for 3RB series side channel blower create high pressure,high vacuum and high airflow which can be replaced equivalent power of Roots blower,but Greenco side channel blowers are more advantages than roots blower:the materials are made by aluminum die casting,the weight is much lighter,the volume is even compacter.the lifetime is longer,low noise,oilless,free maintenance.</p>

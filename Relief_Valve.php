@@ -77,7 +77,7 @@
 <div id="Silencer_all" >
    <div id="Silencer">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-       <?php require 'inc/prod-left.inc';?>
+       <?php require 'inc/prod-left.php';?>
        <div class="right">
              <h5>Relief Valve for Side Channel Blower </h5>
              <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=RV-01" target="_blank"><img  src="image/Relief_Valve_RV.jpg" alt="side channel blower Relief Valve RV"/></a><h4><a href="Relief_valve_content.php?type=RV-01" target="_blank">Relief Valve RV-01</a></h4></div>

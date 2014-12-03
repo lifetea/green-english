@@ -81,7 +81,7 @@ $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,rated_voltag
 <div id="Side_Channel_Blower_2RB_Single_Stage_all" >
    <div id="Side_Channel_Blower_2RB_Single_Stage">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-       <?php require 'inc/prod-left.inc';?>
+       <?php require 'inc/prod-left.php';?>
        <div class="right">
              <h5><i><?php echo  $_GET['type'];?> Series Ordering Data and Performance Data</i> ▪ Liquid Ring Vacuum Pump</h5>
              <table  cellspacing="0" cellpadding="0" id="data">

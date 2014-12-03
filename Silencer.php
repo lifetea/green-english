@@ -82,7 +82,7 @@
 <div id="Silencer_all" >
    <div id="Silencer">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-		<?php require 'inc/prod-left.inc';?>
+		<?php require 'inc/prod-left.php';?>
        <div class="right">
              <h5>Silencer for Side Channel Blower</h5>
              <div  id="mypage" class="mypagination"><a href="silencer_content.php?type=2BX4 011" target="_blank"><img  src="image/Silencer.png" alt="Side channel blower silencer 2BX4-011"/></a><h4><a href="silencer_content.php?type=2BX4 011" target="_blank">Silencer 2BX4-011</a></h4></div>

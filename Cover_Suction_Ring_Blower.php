@@ -82,7 +82,7 @@
 <div id="Side_Channel_Blower_2RB_Single_Stage_all" >
    <div id="Side_Channel_Blower_2RB_Single_Stage">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-       <?php require 'inc/prod-left.inc';?>
+       <?php require 'inc/prod-left.php';?>
        <div class="right">
              <h5>Cover Suction Ring Blower</h5>
              <p>The cover suction series ring blower are designed for our specific customers. On the front cover, There is an inlet and an outlet, which make customers use their own products flexibly. The customers are not only able to use the inlet and outlet to suction and blow, but also are able to use the original inlet and outlet on the rear housing to suction and blow. Then it will reduce customers’ cost of product materials as well as decrease the freight cost due to the smaller volume of products. This design has been widely used on industrial vacuum cleaners, automatic hopper loaders and dental suction systems. As a result, Our professional OEM design has been appreciated by many of our customers because we help them win more markets. </p>

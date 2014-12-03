@@ -4,7 +4,7 @@
 define('feifa',ture);
 //引入公共文件
 require 'inc/common.php';
-$_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacuum,maximum_pressure  from B_series where  type like '%2RB {$_GET['series']}%' order by id asc ");
+$_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacuum,maximum_pressure  from b_series where  type like '%2RB {$_GET['series']}%' order by id asc ");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html  xmlns="http://www.w3.org/1999/xhtml">
@@ -84,7 +84,7 @@ $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacu
 <div id="Side_Channel_Blower_2RB_Single_Stage_all" >
    <div id="Side_Channel_Blower_2RB_Single_Stage">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-       <?php require 'inc/prod-left.inc';?>
+       <?php require 'inc/prod-left.php';?>
        <div class="right">
              <h5><i>2RB <?php echo  $_GET['series'];?> Series Ordering Data and Performance Data</i> ▪ Side Channel Blower</h5>
              <table  cellspacing="0" cellpadding="0" id="data">

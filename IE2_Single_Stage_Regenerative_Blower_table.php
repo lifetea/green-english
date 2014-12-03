@@ -84,7 +84,7 @@ $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacu
 <div id="Side_Channel_Blower_2RB_Single_Stage_all" >
    <div id="Side_Channel_Blower_2RB_Single_Stage">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-       <?php require 'inc/prod-left.inc';?>
+       <?php require 'inc/prod-left.php';?>
        <div class="right">
              <h5><i>2RB <?php echo  $_GET['series'];?> IE2 Series Ordering Data and Performance Data</i> ▪ Side Channel Blower</h5>
              <table  cellspacing="0" cellpadding="0" id="data">

@@ -1,0 +1,226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: cn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-01 08:50+0800\n"
+"PO-Revision-Date: 2014-12-01 08:50+0800\n"
+"Last-Translator: LiSongYang <494886251@qq.com>\n"
+"Language-Team: LANGUAGE1 <LL@2li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: index.php:13
+msgid ""
+"GREENCO-Side Channel Blower|Ring blower|Regenerative blower|Air blower|"
+"Vacuum pump"
+msgstr "旋涡气泵_漩涡气泵_高压风机_浙江格凌实业有限公司"
+
+#: index.php:14
+msgid ""
+"GREENCO_The world leader manufacturer in side channel blower,regenerative "
+"blower,ring blower,air blower in China,side channel pumps can be used as "
+"vacuum pumps or compressors and are a highly efficient dry running "
+"technology for numerous applications."
+msgstr ""
+"浙江格凌实业有限公司是一家专业从事空气流体设备的国家高新技术企业,形成了漩涡式"
+"气泵为主,其他空气流体设备（真空泵和压缩机）为辅，集研发、生产、销售、服务于一"
+"体的发展格局,公司已经成为中国乃至全球漩涡气泵与高压风机领域的领导者。http://"
+"chinese.greenco.cn/"
+
+#: index.php:15
+msgid ""
+"side channel blower,ring blower,regenerative blower,air blower,vortex blower,"
+"vacuum pump,industrial blowers,high pressure blowers,double stage blower,"
+"three stage multistage blowers,2RB,3RB,4RB series,"
+msgstr ""
+"高压风机,高压鼓风机,漩涡气泵,旋涡气泵,真空泵,2RB系列高压风机,4RB系列高压风机"
+
+#: inc/header_inc.php:34 inc/about-left.php:3
+msgid "About us"
+msgstr "关于格凌"
+
+#: inc/header_inc.php:37 inc/footer_inc.php:12 inc/about-left.php:1
+msgid "About Greenco"
+msgstr "关于格凌"
+
+#: inc/header_inc.php:38 inc/footer_inc.php:13 inc/about-left.php:4
+msgid "Certification"
+msgstr "质量认证证书"
+
+#: inc/header_inc.php:39 inc/footer_inc.php:14 inc/about-left.php:5
+msgid "Honour"
+msgstr "企业荣誉"
+
+#: inc/header_inc.php:40 inc/footer_inc.php:15 inc/about-left.php:6
+msgid "History"
+msgstr "发展历程"
+
+#: inc/header_inc.php:41 inc/footer_inc.php:16 inc/about-left.php:7
+msgid "Video"
+msgstr "视频中心"
+
+#: inc/header_inc.php:42 inc/footer_inc.php:17 inc/about-left.php:8
+msgid "Equipments"
+msgstr "生产设备展示"
+
+#: inc/header_inc.php:47 inc/footer_inc.php:20
+msgid "Products"
+msgstr "产品展示"
+
+#: inc/header_inc.php:51
+msgid "2RB Single Stage Side Channel Blower"
+msgstr "2RB 单段漩涡气泵"
+
+#: inc/header_inc.php:52
+msgid "2RB Double Stage Side Channel Blower"
+msgstr "2RB 双段漩涡气泵"
+
+#: inc/header_inc.php:55
+msgid "3RB Single Stage Side Channel Blower"
+msgstr "3RB 单段漩涡气泵"
+
+#: inc/header_inc.php:59
+msgid "3RB Double Stage Side Channel Blower"
+msgstr "3RB 双段漩涡气泵"
+
+#: inc/header_inc.php:63
+msgid "3RB Three Stage Side Channel Blower"
+msgstr "3RB 三段漩涡气泵"
+
+#: inc/header_inc.php:65
+msgid "4RB Single Stage Side Channel Blower"
+msgstr "4RB 单段漩涡气泵"
+
+#: inc/header_inc.php:66
+msgid "4RB Double Stage Side Channel Blower"
+msgstr "4RB 双段漩涡气泵"
+
+#: inc/header_inc.php:67
+msgid "4RB Three Stage Side Channel Blower"
+msgstr "4RB 三段漩涡气泵"
+
+#: inc/header_inc.php:68
+msgid "2RB Single Stage Belt Drive Air Blower"
+msgstr "2RB 单段皮带式风机"
+
+#: inc/header_inc.php:69
+msgid "2RB Double Stage Belt Drive Air Blower"
+msgstr "2RB 双段皮带式风机"
+
+#: inc/header_inc.php:70
+msgid "IE2 Single Stage Regenerative Blower"
+msgstr "IE2 单段高效漩涡气泵"
+
+#: inc/header_inc.php:71
+msgid "IE2 Double Stage Regenerative Blower"
+msgstr "IE2 双段高效漩涡气泵"
+
+#: inc/header_inc.php:72
+msgid "Cover Suction Ring Blower"
+msgstr "吸顶式气泵"
+
+#: inc/header_inc.php:73 inc/footer_inc.php:26 inc/footer_inc.php:38
+msgid "Liquid Ring Vacuum Pump"
+msgstr "液环真空泵"
+
+#: inc/header_inc.php:74 inc/footer_inc.php:30
+msgid "Silencer"
+msgstr "消音器"
+
+#: inc/header_inc.php:75 inc/footer_inc.php:31
+msgid "Relief Valve"
+msgstr "释压伐"
+
+#: inc/header_inc.php:76 inc/footer_inc.php:32
+msgid "Inlet Vacuum Filter"
+msgstr "过滤器"
+
+#: inc/footer_inc.php:21
+msgid "2RB Series Side Channel Blower"
+msgstr "2RB 系列漩涡气泵 "
+
+#: inc/footer_inc.php:22
+msgid "3RB Series Side Channel Blower"
+msgstr "3RB 系列漩涡气泵"
+
+#: inc/footer_inc.php:23
+msgid "4RB Series Side Channel Blower"
+msgstr "4RB 系列漩涡气泵"
+
+#: inc/footer_inc.php:24
+msgid "IE2 Series Regenerative Blower"
+msgstr "气环风机IE2"
+
+#: inc/footer_inc.php:25
+msgid "Belt Drive Air Blower"
+msgstr "皮带传动风机"
+
+#: inc/footer_inc.php:29 inc/footer_inc.php:37
+msgid "Accessories"
+msgstr "配件"
+
+#: inc/footer_inc.php:35 inc/header_inc.php:95
+msgid "Downloads"
+msgstr "下载中心"
+
+#: inc/footer_inc.php:36
+msgid "Complete Catalog"
+msgstr "完整的目录"
+
+#: inc/footer_inc.php:39
+msgid "Electric Motor"
+msgstr "电机"
+
+#: inc/footer_inc.php:42
+msgid "News"
+msgstr "新闻中心"
+
+#: inc/footer_inc.php:43
+msgid "Enterprise news"
+msgstr "企业动态"
+
+#: inc/footer_inc.php:44 inc/header_inc.php:89
+msgid "Industry news"
+msgstr "行业新闻"
+
+#: inc/footer_inc.php:45 inc/header_inc.php:98
+msgid "Support"
+msgstr "技术支持"
+
+#: inc/footer_inc.php:46
+msgid "Sitemap"
+msgstr "网站地图"
+
+#: inc/header_inc.php:31
+msgid "Home"
+msgstr "网站首页"
+
+#: inc/header_inc.php:81
+msgid "Applications"
+msgstr "产品展示"
+
+#: inc/header_inc.php:84
+msgid "News & Information"
+msgstr "新闻中心"
+
+#: inc/header_inc.php:88
+msgid "Company news"
+msgstr "企业动态"
+
+#: inc/header_inc.php:101
+msgid "Contact us"
+msgstr "联系我们"
+
+#: inc/header_inc.php:108
+msgid "Search"
+msgstr "搜索"

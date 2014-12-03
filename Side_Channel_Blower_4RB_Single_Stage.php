@@ -79,7 +79,7 @@
 <div id="Side_Channel_Blower_2RB_Single_Stage_all" >
    <div id="Side_Channel_Blower_2RB_Single_Stage">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-       <?php require 'inc/prod-left.inc';?>
+       <?php require 'inc/prod-left.php';?>
        <div class="right">
              <h5><i>4RB Single Stage</i> ▪ Side Channel Blower</h5>
              <div  id="mypage" class="mypagination"><a href="Side_Channel_Blower_4RB_Single_Stage_table.php?series=210" target="_blank"><img  src="product_image/4RB/4RB210.jpg" /></a><h4><a href="Side_Channel_Blower_4RB_Single_Stage_table.php?series=210" target="_blank">4RB 210</a></h4></div>

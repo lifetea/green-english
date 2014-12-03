@@ -76,7 +76,7 @@
 <div id="Belt_Drive_Air_Blower_2RB_Single_Stage_all" >
    <div id="Belt_Drive_Air_Blower_2RB_Single_Stage">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-		<?php require 'inc/prod-left.inc';?>
+		<?php require 'inc/prod-left.php';?>
        <div class="right">
              <h5><i>2RB Single Stage Belt Drive</i> ▪  Air Blower</h5>
              <div  id="mypage" class="mypagination"><a href="upfile/Belt_drive/Side Channel Blower Belt drive 2RB213.pdf" target="_blank"><img  src="product_image/Belt_Drive/2RB 213-1HY99.jpg"/></a><h4><a href="upfile/Belt_drive/Side Channel Blower Belt drive 2RB213.pdf" target="_blank">2RB 213-1HY99</a></h4></div>

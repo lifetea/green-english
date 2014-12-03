@@ -95,7 +95,7 @@ Shadowbox.init({
 <div id="Side_Channel_Blower_2RB_Single_Stage_all" >
    <div id="Side_Channel_Blower_2RB_Single_Stage">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-	   <?php require 'inc/prod-left.inc';?>
+	   <?php require 'inc/prod-left.php';?>
        <div class="right">
              <div id="left">
                 <h4>Silencer <?php echo $_rows['type'];?> Technical Data</h4>

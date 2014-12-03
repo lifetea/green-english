@@ -49,7 +49,7 @@
 <div id="application_all" >
    <div id="application">
        <img src="image/application.jpg" style="margin:10px 0 0 10px;" alt="side channel blower application image"/>
-		<?php require 'inc/prod-left.inc';?>
+		<?php require 'inc/prod-left.php';?>
        <div class="right">
              <h5>Side Channel Blower Applications</h5>
              <p style="margin-top:10px;">Side channel blowers have been widely used in the environmental water treatment. For example, in the aeration of sewage, ring blowers can provide oxy that the aerobe need in the activated sludge. Also, blowers can provide the conditions which make the sewage and activated sludge mixed sufficiently to dissolve all kinds of organic matters in the water. Then, the sewage water can be purified. Besides the above, ring blowers can also be used to mix the plating bath fluid and can be used in the aquaculture industry as well in the printer industry.</p>

@@ -58,7 +58,7 @@
 <div id="Silencer_all" >
    <div id="Silencer">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-       <?php require 'inc/prod-left.inc';?>
+       <?php require 'inc/prod-left.php';?>
        <div class="right">
              <h5><i>2LV5 Series</i> ▪ Liquid Ring Vacuum Pump</h5>
              <p style="margin-left:20px;text-indent:20px;background:#777;height:25px;line-height:25px;font-family:tahoma;color:#eee;">Greenco <strong>2LV5</strong> series Liquid ring vacuum pumps are under developing,the informations will be coming soon.</P>

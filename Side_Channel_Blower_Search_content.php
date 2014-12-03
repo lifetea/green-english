@@ -108,7 +108,7 @@ Shadowbox.init({
 <div id="Side_Channel_Blower_2RB_Single_Stage_all" >
    <div id="Side_Channel_Blower_2RB_Single_Stage">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-      <?php require 'inc/prod-left.inc';?>
+      <?php require 'inc/prod-left.php';?>
        <div class="right">
               <div id="left">
                 <h4><?php if(checkstr($_rows1['type'],T)==false){echo $_rows['type'];}else{echo $_rows1['type'];}?> Technical Data</h4>

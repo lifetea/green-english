@@ -77,7 +77,7 @@
 <div id="Side_Channel_Blower_2RB_Single_Stage_all" >
    <div id="Side_Channel_Blower_2RB_Single_Stage">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-       <?php require 'inc/prod-left.inc';?>
+       <?php require 'inc/prod-left.php';?>
        <div class="right">
              <h5><i>IE2 Single Stage</i> ▪ Regenerative Blower</h5>
 		     <div  id="mypage" class="mypagination"><a href="IE2_Single_Stage_Regenerative_Blower_table.php?series=210" target="_blank"><img  src="product_image/IE2/2RB210_IE2.jpg"/></a><h4><a href="IE2_Single_Stage_Regenerative_Blower_table.php?series=210" target="_blank">2RB 210</a></h4></div>
