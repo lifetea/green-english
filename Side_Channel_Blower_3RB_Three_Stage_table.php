@@ -1,5 +1,5 @@
 ﻿<?php
-
+require 'setLan.php';
 //让这个常量存在就能调用
 @define('feifa',ture);
 //引入公共文件
@@ -10,9 +10,9 @@ $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacu
 <html  xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>3RB <?php  echo $_GET['series'];?> Series Side channel blower</title>
-<meta name="description" content="Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco." />
-<meta name="keywords" content="Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO" />
+<title>3RB <?php  echo $_GET['series'];?> Series <?php echo _('Side channel blower')?></title>
+<meta name="description" content="<?php echo _('Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.')?>" />
+<meta name="keywords" content="<?php echo _('Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO')?>" />
 <script src="js/menu.js" type="text/javascript"></script>
 <link  type="text/css" rel="stylesheet" href="css/main.css"/>
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>
@@ -86,10 +86,10 @@ $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacu
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
        <?php require 'inc/prod-left.php';?>
        <div class="right">
-             <h5><i>4RB <?php echo  $_GET['series'];?> Series Ordering Data and Performance Data</i> ▪ Side Channel Blower
+             <h5><i>4RB <?php echo  $_GET['series'];?> <?php echo _('Series Ordering Data and Performance Data');?></i> ▪ <?php echo _('Side Channel Blower');?>
              </h5>
              <table  cellspacing="0" cellpadding="0" id="data">
-                 <tr class="one"><td>Order No.</td><td style="width:100px;">Fre-quency</td><td style="width:65px;">Output</td><td>Maximum Airflow</td><td>Maximum Vacuum</td><td style="width:150px;">Maximum Pressure</td></tr>
+                 <?php require 'inc/date-hd.php';?>
                  <tr class="two"><td>一</td><td style="width:100px;">Hz</td><td style="width:65px;">Kw</td><td>m³/h</td><td>mbar</td><td style="width:150px;">mbar</td></tr>
                    <?php
                    $temp = mysql_num_rows($_result);
@@ -109,7 +109,7 @@ $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacu
 				   if($temp < 1){
 				   	echo 'style="display:none"';
 				   } 
-				 ?>><a href="upfile/3RB_series/side channel blower 3RB <?php echo substr($_GET['series'],0,5)?>.pdf" target="_blank" >Download Side Channel Blower 3RB <?php echo substr($_GET['series'],0,5)?> Series(PDF-<?php $type=$_GET['series'];$filename ='upfile/3RB_Series/side channel blower 3RB '.$type.'.PDF'; echo floor(filesize($filename)/1024);?>KB)</a></h3>
+				 ?>><a href="<?php echo _('upfile')?>/3RB_series/side channel blower 3RB <?php echo substr($_GET['series'],0,5)?>.pdf" target="_blank" ><?php echo _('Download')?> Side Channel Blower 3RB <?php echo substr($_GET['series'],0,5)?> Series(PDF-<?php $type=$_GET['series'];$filename ='upfile/3RB_Series/side channel blower 3RB '.$type.'.PDF'; echo floor(filesize($filename)/1024);?>KB)</a></h3>
        </div>
    </div>
 </div>

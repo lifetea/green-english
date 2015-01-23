@@ -1,6 +1,7 @@
 ﻿<?php
+require 'setLan.php';
 //让这个常量存在就能调用
-define('feifa',ture);
+@define('feifa',ture);
 //引入公共文件
 require 'inc/common.php';
 $_result=mysql_query("select  type,MPag,A,B,C,D,E,F,G from Relief where  type like '%{$_GET['type']}%' ");
@@ -10,10 +11,15 @@ $_rows=mysql_fetch_array($_result);
 <html  xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>Relief Valve <?php echo  $_GET['type'];?> Technical Data</title>
-<meta name="description" content="<?php echo  $_GET['type'];?> relief valve is used to adjust the pressure of <?php  IF($_GET['type']=='RV-01'){echo  'side channel blower';}elseif($_GET['type']=='RV-02'){echo  'Ring blower';}elseif($_GET['type']=='2BX4 141'){echo  'Air blower';}elseif($_GET['type']=='2BX4 142'){echo  'Regenerative Blower';}elseif($_GET['type']=='2BX4 143'){echo  'vacuum pump';}elseif($_GET['type']=='2BX4 144'){echo  'vortex blower';}elseif($_GET['type']=='2BX4 145'){echo  'vacuum compressor';}?>,it is installed on inlet or outlet of <?php  IF($_GET['type']=='RV-01'){echo  'side channel blower';}elseif($_GET['type']=='RV-02'){echo  'Ring blower';}elseif($_GET['type']=='2BX4 141'){echo  'Air blower';}elseif($_GET['type']=='2BX4 142'){echo  'Regenerative Blower';}elseif($_GET['type']=='2BX4 143'){echo  'vacuum pump';}elseif($_GET['type']=='2BX4 144'){echo  'vortex blower';}elseif($_GET['type']=='2BX4 145'){echo  'vacuum compressor';}?>,in order to protect the blower,the overload pressure will be released from relief valve." />
-<meta name="keywords" content="<?php echo  $_GET['type'];?> relief valve,safety valve,security valve,pressure-relieving valve,vacuum relief valve,reducing valve for Ring blower,Air blower,Regenerative Blower" />
-<script src="js/menu.js" type="text/javascript"></script>
+<?php
+if($lan == "zh_CN"){
+   require 'seo/cn/Relief_valve_content.php';
+}else{
+   require 'seo/en/Relief_valve_content.php';
+}
+
+ ?>
+ <script src="js/menu.js" type="text/javascript"></script>
 <link  type="text/css" rel="stylesheet" href="css/main.css"/>
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>
 <script src="js/jquery-1.7.2.js"></script>

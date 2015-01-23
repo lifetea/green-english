@@ -1,18 +1,19 @@
 ﻿<?php
+require 'setLan.php';
 //让这个常量存在就能调用
-define('feifa',ture);
+@define('feifa',ture);
 //引入公共文件
 require 'inc/common.php';
 $_result=mysql_query("select  type,a,b,c,d,e,f,g,h,i,j,k from Silencer where  type like '%{$_GET['type']}%' ");
 $_rows=mysql_fetch_array($_result);
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html  xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>Silencer <?php echo  $_GET['type'];?>Technical Data</title>
-<meta name="description" content="<?php echo  $_GET['type'];?> Silencers are used for the reduce in positive displacement air blowers and vacuum pumps." />
-<meta name="keywords" content="Silencer,Blower Silencer,Air Silencer,Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,2BX4 series,GREENCO" />
+<title><?php echo _('Silencer|Blower Silencer|Side channel blower'); ?><?php echo  $_GET['type'];?> <?php echo _('Technical Data|Zhejiang GREENCO Industry Co Ltd'); ?></title>
+<meta name="description" content="<?php echo  $_GET['type'];?> <?php echo _('Silencers are used for the reduce in positive displacement air blowers and vacuum pumps.') ?>" />
+<meta name="keywords" content="<?php echo _('Silencer,Blower Silencer,Air Silencer,Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,2BX4 series,GREENCO'); ?>" />
 <script src="js/menu.js" type="text/javascript"></script>
 <link  type="text/css" rel="stylesheet" href="css/main.css"/>
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>

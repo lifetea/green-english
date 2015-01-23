@@ -1,10 +1,13 @@
-﻿<!DOCTYPE html>
+﻿<?php
+require 'setLan.php';
+?>
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>3RB Three Stage Side Channel Blower</title>
-<meta name="description" content="Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco." />
-<meta name="keywords" content="Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO" />
+<title><?php echo _('3RB Three Stage Side Channel Blower'); ?></title>
+<meta name="description" content="<?php echo _('Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.')?>" />
+<meta name="keywords" content="<?php echo _('Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO')?>" />
 <script src="js/menu.js" type="text/javascript"></script>
 <link  type="text/css" rel="stylesheet" href="css/main.css"/>
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>
@@ -79,8 +82,8 @@
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
 	   <?php require 'inc/prod-left.php';?>
        <div class="right">
-             <h5><i>3RB Three Stage</i> ▪ Side Channel Blower</h5>
-             <p style="text-indent: 2em;	line-height: 1.6;	font-size: 13px;	padding: 0 1.8em 1.5em;	text-align: justify;">Greenco classica with innovative technology for 3RB series side channel blower create high pressure,high vacuum and high airflow which can be replaced equivalent power of Roots blower,but Greenco side channel blowers are more advantages than roots blower:the materials are made by aluminum die casting,the weight is much lighter,the volume is even compacter.the lifetime is longer,low noise,oilless,free maintenance.</p>
+       		<h5><i>3RB <?php echo _('Three Stage');?></i><?php echo _(' ▪ Side Channel Blower');?></h5>
+			<?php require 'inc/3RB-desc.php';?>
              <div  id="mypage" class="mypagination"><a href="Side_Channel_Blower_3RB_Three_Stage_table.php?series=350-3" target="_blank"><img  src="product_image/3RB/3RB350-3.jpg"/></a><h4><a href="Side_Channel_Blower_3RB_Three_Stage_table.php?series=350-3" target="_blank">3RB 350</a></h4></div>
               <div  id="mypage" class="mypagination"><a href="Side_Channel_Blower_3RB_Three_Stage_table.php?series=550-3"><img  src="product_image/3RB/3RB350-3.jpg"/></a><h4><a href="Side_Channel_Blower_3RB_Three_Stage_table.php?series=550-3">3RB 550</a></h4></div>
 	         <div  id="page_text"></div>

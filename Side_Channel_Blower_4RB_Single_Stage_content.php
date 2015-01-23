@@ -1,6 +1,7 @@
 ﻿<?php
 //让这个常量存在就能调用
-define('feifa',ture);
+@define('feifa',ture);
+require 'setLan.php';
 //引入公共文件
 require 'inc/common.php';
 $_result=mysql_query("select type,sound_level,Fre_quency,output,maximum_airflow,maximum_vacuum,maximum_pressure,weight,phases,Inlet_outlet,A,A1,B,B1,C,C1,D,E,F,F1,F11,G,H,H1,J,K,L,M,N,N1,O,P,P1,Q,ϕR,S,S1,S2,S3,T,T1,U,V,V1,V1_,V3,V3_,V_PIE,V_1,V_PIE1,α,Y_Z,X_Holes,ϕX,W  from product where  type like '%{$_GET['series']}%' and output={$_GET['output']} ");
@@ -10,9 +11,9 @@ $_rows=mysql_fetch_array($_result);
 <html  xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title><?php  echo $_GET['series'];?> Side channel blower</title>
-<meta name="description" content="Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco." />
-<meta name="keywords" content="Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO" />
+<title><?php  echo $_GET['series'];?> <?php echo _('Side channel blower') ?></title>
+<meta name="description" content="<?php echo _('Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.') ?>" />
+<meta name="keywords" content="<?php echo _('Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO') ?>" />
 <script src="js/menu.js" type="text/javascript"></script>
 <link  type="text/css" rel="stylesheet" href="css/main.css"/>
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>
@@ -99,15 +100,21 @@ Shadowbox.init({
        <?php require 'inc/prod-left.php';?>
        <div class="right">
               <div id="left">
-                <h4><?php echo $_rows['type'];?> Technical Data</h4>
+                <h4><?php echo $_rows['type'];?> <?php echo _('Technical Data');?></h4>
                 <table style="font-size:12px;">
-                <tr><td><strong>Model: </strong><span><?php echo $_rows['type'];?></span></td><td><strong>Stage:</strong> <span>Single</span></td><td>
-                <tr><td><strong>Freq:</strong> <span><?php echo $_rows['Fre_quency'];?></span> (Hz)</td><td><strong>Power:</strong> <span><?php echo $_rows['output'];?></span> (Kw)</td><td>
-                <tr><td><strong>Airflow:</strong> <span><?php echo $_rows['maximum_airflow'];?></span> (m³/h)</td><td><strong>TH.CL:</strong> <span>IP55</span></td><td>
-                <tr><td><strong>Pressure:</strong> <span>+<?php echo $_rows['maximum_pressure'];?></span> (mbar)</td><td><strong>IN.CL:</strong> <span>F or H</span></td><td>
-                <tr><td><strong>Vacuum:</strong> <span><?php echo $_rows['maximum_vacuum'];?></span> (mbar)</td><td><strong>N.weight:</strong> <span><?php echo $_rows['weight'];?></span> (kg)</td><td>
-                <tr><td><strong>Inlet/outlet:</strong> <span><?php echo $_rows['Inlet_outlet'];?></span>(inch)</td><td><strong>Sound:</strong> <span><?php echo $_rows['sound_level'];?></span> dB(A)</td><td>
-                <tr><td><strong>Dimension(L*W*H):</strong> <span><?php  echo $_rows['F'].'×'.$_rows['A'].'×'.($_rows['B']+$_rows['B1']);?>
+                <tr><td><strong><?php echo _('Model');?>: </strong><span><?php echo $_rows['type'];?></span></td>
+                <td><strong><?php echo _('Stage');?>:</strong> <span>Single</span></td><td>
+                <tr><td><strong><?php echo _('Freq');?>:</strong> <span><?php echo $_rows['Fre_quency'];?></span> (Hz)</td>
+                <td><strong><?php echo _('Power');?>:</strong> <span><?php echo $_rows['output'];?></span> (Kw)</td><td>
+                <tr><td><strong><?php echo _('Airflow');?>:</strong> <span><?php echo $_rows['maximum_airflow'];?></span> (m³/h)</td>
+                <td><strong><?php echo _('TH.CL');?>:</strong> <span>IP55</span></td><td>
+                <tr><td><strong><?php echo _('Pressure');?>:</strong> <span>+<?php echo $_rows['maximum_pressure'];?></span> (mbar)</td>
+                <td><strong><?php echo _('IN.CL');?>:</strong> <span>F or H</span></td><td>
+                <tr><td><strong><?php echo _('Vacuum');?>:</strong> <span><?php echo $_rows['maximum_vacuum'];?></span> (mbar)</td>
+                <td><strong><?php echo _('N.weight');?>:</strong> <span><?php echo $_rows['weight'];?></span> (kg)</td><td>
+                <tr><td><strong><?php echo _('Inlet/outlet');?>:</strong> <span><?php echo $_rows['Inlet_outlet'];?></span>(inch)</td>
+                <td><strong><?php echo _('Sound');?>:</strong> <span><?php echo $_rows['sound_level'];?></span> dB(A)</td><td>
+                <tr><td><strong><?php echo _('Dimension');?>(L*W*H):</strong> <span><?php  echo $_rows['F'].'×'.$_rows['A'].'×'.($_rows['B']+$_rows['B1']);?>
                 	                         </span> (mm)</td><td>
                 </table>
              </div>
@@ -116,7 +123,7 @@ Shadowbox.init({
              </div>
 
 
-             <h5>Dimension for side channel blower <?php echo $_rows['type'];?></h5>
+             <h5><?php echo _('Dimension for side channel blower');?>  <?php echo $_rows['type'];?></h5>
              <!-- 尺寸图判断 -->
              <?php
                  echo '<a rel="shadowbox" href="product_image/dimensions/4RB210_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/4RB210_small.jpg"  title="Click to Enlarge"/></a>';
@@ -131,7 +138,9 @@ Shadowbox.init({
 		              '<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['P'].'</td><td>'.$_rows['Q'].'</td><td>'.$_rows['ϕR'].'</td><td>'.$_rows['S1'].'</td><td>'.$_rows['S2'].'</td><td>'.$_rows['S3'].'</td><td>'.$_rows['T'].'</td><td>'.$_rows['T1'].'</td><td>'.$_rows['U'].'</td><td>'.$_rows['V'].'</td><td>'.$_rows['V1'].'</td><td>'.$_rows['W'].'</td><td>'.$_rows['ϕX'].'</td><td>'.$_rows['Y_Z'].'</td></tr>'.
 		             '</table>';
              ?>
-               <p style="position: absolute;bottom:20px;left:20px;">Note:Model offerings and design parameters may change without notice.</p>
+               <p style="position: absolute;bottom:20px;left:20px;">
+              		<?php echo _('Note:Model offerings and design parameters may change without notice.');?>
+               </p>
        </div>
    </div>
 </div>

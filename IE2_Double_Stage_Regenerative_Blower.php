@@ -1,11 +1,25 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html  xmlns="http://www.w3.org/1999/xhtml">
+﻿<?php
+//让这个常量存在就能调用
+@define('feifa',ture);
+//引入公共文件
+require 'setLan.php';
+require 'inc/common.php';
+
+
+?>
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>IE2 Double Stage Regenerative Blower IE2 blower,EFF1 blower,IE3,high efficiency blower</title>
-<meta name="description" content="IE2 blower,EFF1 blower,IE3,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco." />
-<meta name="keywords" content="IE2,IE3,EFF1,EFF2,Side channel blower,Regenerative blower,Ring blower,single stage,double stage,multi stage blower,high efficiency blower,2RB,3RB,4RB series,GREENCO" />
-<script src="js/menu.js" type="text/javascript"></script>
+<?php
+if($lan == "zh_CN"){
+	 require 'seo/cn/IE2_Double_Stage_Regenerative_Blower.php';
+}else{
+	 require 'seo/en/IE2_Double_Stage_Regenerative_Blower.php';
+}
+
+ ?>
+ <script src="js/menu.js" type="text/javascript"></script>
 <link  type="text/css" rel="stylesheet" href="css/main.css"/>
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>
 <link href="favicon.ico" rel="shortcut icon" />
@@ -29,7 +43,7 @@
   	h1,h2,h3,h4,h5,h6{font-weight:600;}
   	.dropdown{border:1px solid #ccc;}
     #Side_Channel_Blower_2RB_Single_Stage_all{background:#ccc;}
-  	#Side_Channel_Blower_2RB_Single_Stage{height:1130px;width:1000px;margin:0 auto;background:#fff;border:1px solid #999;border-top:none;box-shadow:0px 5px 7px 5px #ccc;}
+  	#Side_Channel_Blower_2RB_Single_Stage{height:1410px;width:1000px;margin:0 auto;background:#fff;border:1px solid #999;border-top:none;box-shadow:0px 5px 7px 5px #ccc;}
     #Side_Channel_Blower_2RB_Single_Stage .left{float:left;width:265px;margin:5px 0 0 10px;}
   	#Side_Channel_Blower_2RB_Single_Stage .left H2{text-indent:10px;background:#666;font-size:14px;font-weight:600;width:250px;height:32px;color:#fff;line-height:32px;border:1px solid  #555;}
   	#Side_Channel_Blower_2RB_Single_Stage .left ul{margin-top:8px;list-style:none;}
@@ -79,7 +93,7 @@
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
        <?php require 'inc/prod-left.php';?>
        <div class="right">
-             <h5><i>IE2 Double Stage</i> ▪ Regenerative Blower</h5>
+             <h5><i> IE2 <?php echo _('  Double Stage');?></i><?php echo _('  ▪ Regenerative Blower');?></h5>
 		     <div  id="mypage" class="mypagination"><a href="IE2_Double_Stage_Regenerative_Blower_table.php?series=220" target="_blank"><img  src="product_image/IE2/2RB220_IE2.jpg"/></a><h4><a href="IE2_Double_Stage_Regenerative_Blower_table.php?series=220" target="_blank">2RB 220</a></h4></div>
 		     <div  id="mypage" class="mypagination"><a href="IE2_Double_Stage_Regenerative_Blower_table.php?series=320" target="_blank"><img  src="product_image/IE2/2RB320_IE2.jpg" /></a><h4><a href="IE2_Double_Stage_Regenerative_Blower_table.php?series=320" target="_blank">2RB 320</a></h4></div>
 		     <div  id="mypage" class="mypagination"><a href="IE2_Double_Stage_Regenerative_Blower_table.php?series=420" target="_blank"><img  src="product_image/IE2/2RB420_IE2.jpg" /></a><h4><a href="IE2_Double_Stage_Regenerative_Blower_table.php?series=420" target="_blank">2RB 420</a></h4></div>

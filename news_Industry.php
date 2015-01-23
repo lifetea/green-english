@@ -1,16 +1,29 @@
 ﻿<?php
 //让这个常量存在就能调用
-define('feifa',ture);
+@define('feifa',ture);
 //引入公共文件
+require 'setLan.php';
 require 'inc/common.php';
-$_result=mysql_query("select id,time,title,content  from english_news where type='industry'    ");
+global $_pagenum;//从第几条开始
+global $_pagesize;//每页显示几条
+if($lan == "zh_CN"){
+	_page("SELECT id  FROM chinese_news", 15);//5表示每页显示几条
+	$_result=mysql_query("select id,title,time,content from chinese_news  where  type='行业' order by time desc limit $_pagenum,$_pagesize");
+}else{
+	_page("SELECT id  FROM english_news", 15);//5表示每页显示几条
+	$_result=mysql_query("select id,time,title,content  from english_news where type='industry' order by time desc limit $_pagenum,$_pagesize ");
+// 	$_result=mysql_query("select id,time,title,content  from english_news where 1=1 order by time desc limit $_pagenum,$_pagesize ");
+}
+
+
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html  xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>GREENCO-Side Channel Blower|Regenerative Blower|Ring blower|Vacuum pump|Electric motor|Zhejiang GREENCO Industry Co Ltd</title>
-<meta name="description" content="GREENCO_The world leader manufacturer in side channle blower,regenerative blower,ring blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications." />
+<title><?php echo _('GREENCO-Side Channel Blower|Regenerative Blower|Ring blower|Vacuum pump|Electric motor|Zhejiang GREENCO Industry Co Ltd')?></title>
+<meta name="keywords" content="<?php echo _('News,Blower news,side channel blower news,Industry News,GREENCO')?>" />
+<meta name="description" content="<?php echo _('GREENCO_The world leader manufacturer in side channle blower,regenerative blower,ring blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications.')?>" />
 <script src="js/menu.js" type="text/javascript"></script>
 <link href="css/main.css" media="screen" rel="stylesheet" type="text/css" />
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>
@@ -90,19 +103,20 @@ $_result=mysql_query("select id,time,title,content  from english_news where type
 <!-- 应用内容 -->
 <div id="Side_Channel_Blower_2RB_Single_Stage_all" >
    <div id="Side_Channel_Blower_2RB_Single_Stage">
-       <img src="image/news_banner.jpg" style="margin:10px 0 0 10px;border:1px solid #bbb;" alt="Greenco side channel blower news"/>
-       <div class="left">
-             <h2 style="margin-top:5px;font-family:tahoma;">NEWS</h2>
-                 <ul>
-	                  <li style="margin-top:-2px;"><a href="news_company.php">Company news</a></li>
-	                  <li><a href="news_Industry.php">Industry news</a></li>
-                  </ul>
-       </div>
+       <img src="image/<?php echo _('news_banner.jpg'); ?>" style="margin:10px 0 0 10px;border:1px solid #bbb;" alt="Greenco side channel blower news"/>
+		<?php require 'inc/news-left.php';?>
        <div class="right">
-       <h4 style="margin:18px 0 10px 0;color:#444;font-size:18px;font-family:tahoma;">Industry News</h4>
+       <h4 style="margin:18px 0 10px 0;color:#444;font-size:18px;font-family:tahoma;"><?php echo _('Industry News');?></h4>
        <ul>
                   <?php  while($_rows=mysql_fetch_array($_result)){?>
-                              <li class="mypagination"><p></p><p><strong><a href="news_content.php?id=<?php echo $_rows['id'];?>"><?php  echo $_rows['title'];?></a></strong></p><p><?php  echo  strip_tags(_title($_rows['content']));?></p><p class="more"><?php  echo $_rows['time'];?></p></li>
+                              <li class="mypagination"><p></p><p><strong><a href="news_content.php?id=<?php echo $_rows['id'];?>"><?php  echo $_rows['title'];?></a></strong></p><p>
+                              <?php 
+                              if($lan == "zh_CN"){
+                              	echo _content($_rows['content'],100);
+                              }else{
+                              	echo _content($_rows['content'],200);
+                              }
+                              ?></p><p class="more"><?php  echo $_rows['time'];?></p></li>
                   <?php }?>
        </ul>
        <div  id="page_text"></div>

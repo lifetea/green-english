@@ -2,6 +2,7 @@
 
 //让这个常量存在就能调用
 define('feifa',ture);
+require 'setLan.php';
 //引入公共文件
 require 'inc/common.php';
 $search=trim($_POST['term']);
@@ -115,7 +116,7 @@ if($_POST['term']=='' or $_POST['term']=='You bastard!' or $_POST['term']=='You 
        <div class="right">
              <h5><i><span style="color:#af0a05;"><?php  echo $_POST['term'];?></span> Product Search Result</i> ▪ Side Channel Blower</h5>
              <table  cellspacing="0" cellpadding="0" id="data">
-                 <tr class="one"><td>Order No.</td><td style="width:100px;">Fre-quency</td><td style="width:65px;">Output</td><td>Maximum Airflow</td><td>Maximum Vacuum</td><td style="width:150px;">Maximum Pressure</td></tr>
+                 <?php require 'inc/date-hd.php';?>
                  <tr class="two"><td>一</td><td style="width:100px;">Hz</td><td style="width:65px;">Kw</td><td>m³/h</td><td>mbar</td><td style="width:150px;">mbar</td></tr>
                    <?php  while($_rows=mysql_fetch_array($_result)){?>
                              <tr class="content" onclick="window.location.href='Side_Channel_Blower_Search_content.php?series=<?php echo $_rows['type'];?>&output=<?php echo $_rows['output'];?>' "><td><strong style="font-size:12px;"><a href="Side_Channel_Blower_Search_content.php?series=<?php echo $_rows['type'];?>&output=<?php echo $_rows['output'];?>"><?php  echo $_rows['type'];?></a></strong></td><td style="width:100px;"><?php  echo $_rows['Fre_quency'];?></td><td style="width:65px;"><?php  echo $_rows['output'];?></td><td><?php  echo $_rows['maximum_airflow'];?></td><td><?php  echo $_rows['maximum_vacuum'];?></td><td><?php  echo $_rows['maximum_pressure'];?></td></tr>

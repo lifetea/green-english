@@ -1,5 +1,5 @@
 <?php
-//è¿™æ•´ä¸ªæ–‡ä»¶æ˜¯æ”¾å‡½æ•°çš„
+//ÕâÕû¸öÎÄ¼şÊÇ·Åº¯ÊıµÄ
 /**
 * TestGuest Version1.0
 * ================================================
@@ -10,22 +10,22 @@
 * Date:2012-6-27
 */
 /**
- *_runtime()æ˜¯ç”¨æ¥è·å–æ‰§è¡Œè€—æ—¶
- * @access public  è¡¨ç¤ºå‡½æ•°å¯¹å¤–å…¬å¼€
- * @return float è¡¨ç¤ºè¿”å›å‡ºæ¥çš„æ˜¯ä¸€ä¸ªæµ®ç‚¹å‹æ•°å­—
+ *_runtime()ÊÇÓÃÀ´»ñÈ¡Ö´ĞĞºÄÊ±
+ * @access public  ±íÊ¾º¯Êı¶ÔÍâ¹«¿ª
+ * @return float ±íÊ¾·µ»Ø³öÀ´µÄÊÇÒ»¸ö¸¡µãĞÍÊı×Ö
  */
-//é˜²æ­¢æ¶æ„è°ƒç”¨
+//·ÀÖ¹¶ñÒâµ÷ÓÃ
 if (!defined('feifa')){
 	exit('fei fa diao yong');
 }
 
-//è¿™ä¸ªæ˜¯è¿è¡Œæ—¶é—´çš„å‡½æ•°  ç½‘é¡µè¿è¡Œäº†å‡ ç§’   è¿™ä¸ªå‡½æ•°æ²¡æœ‰å‚æ•°
+//Õâ¸öÊÇÔËĞĞÊ±¼äµÄº¯Êı  ÍøÒ³ÔËĞĞÁË¼¸Ãë   Õâ¸öº¯ÊıÃ»ÓĞ²ÎÊı
   function  _runtime(){
   $_mtime = explode(' ',microtime());
 	return $_mtime[1] + $_mtime[0];
   }
 
- //å‡ºç°æç¤ºæ¡†å¹¶å…³é—­é¡µé¢
+ //³öÏÖÌáÊ¾¿ò²¢¹Ø±ÕÒ³Ãæ
   function  artdialog_close($info){
   	echo  "<script type='text/javascript'>
   	$(document).ready(function(){
@@ -43,7 +43,7 @@ if (!defined('feifa')){
   exit();
 }
 
-//artdialogæ ·å¼çš„è­¦å‘Šæ¡†   å…³é—­å¹¶è¿”å›åŸæ¥ç‚¹å‡»çš„åœ°æ–¹
+//artdialogÑùÊ½µÄ¾¯¸æ¿ò   ¹Ø±Õ²¢·µ»ØÔ­À´µã»÷µÄµØ·½
 function  artdialog_back($info){
   	echo  "<script type='text/javascript'>
   	            $(document).ready(function(){
@@ -64,7 +64,7 @@ function  artdialog_back($info){
   }
 
 
-//æç¤ºå¹¶è·³è½¬
+//ÌáÊ¾²¢Ìø×ª
 function  artdialog_location($info,$_location){
   	echo  "<script type='text/javascript'>
   	                 $(document).ready(function(){
@@ -82,7 +82,7 @@ function  artdialog_location($info,$_location){
   }
 
 
-//å‡ºç°å¯¹è¯æ¡†  å‡ ç§’åæ¶ˆå¤±
+//³öÏÖ¶Ô»°¿ò  ¼¸ÃëºóÏûÊ§
   function  artdialog_info_time($_info,$_time){
 
   	echo  "<script type='text/javascript'>
@@ -96,7 +96,7 @@ function  artdialog_location($info,$_location){
   }
 
 
-//å‡ºç°å¯¹è¯æ¡†  å…³é—­åå›è°ƒå‡½æ•°   callback
+//³öÏÖ¶Ô»°¿ò  ¹Ø±Õºó»Øµ÷º¯Êı   callback
 function   artdialog_alert($_info,$_location){
  	echo  "<script type='text/javascript'>
  	$(document).ready(function(){
@@ -107,15 +107,20 @@ function   artdialog_alert($_info,$_location){
  	exit();
  }
 
-//éªŒè¯ç çš„å‡½æ•°
+//ÑéÖ¤ÂëµÄº¯Êı
 function _check_code($first_code,$end_code){
  	if($first_code!==$end_code){
- 		artdialog_alert('éªŒè¯ç é”™è¯¯','feedback.php');
- 		return false;
+ 		echo "<script type='text/javascript'>
+ 	$(document).ready(function(){
+ 	    alert('ÑéÖ¤Âë´íÎó');
+ 		history.back();
+ 	})
+ 	</script>";
+ 		exit();
  	}
  }
 
-//å”¯ä¸€æ ‡è¯†ç¬¦å‡½æ•°
+//Î¨Ò»±êÊ¶·ûº¯Êı
  function _sha1_uniqid() {
  	return _mysql_string(sha1(uniqid(rand(),true)));
  }
@@ -126,11 +131,11 @@ function _check_code($first_code,$end_code){
    * @param string $_string
    * @return string $_string
  */
- //è½¬ä¹‰çš„å‡½æ•°  è¦å†™å…¥æ•°æ®åº“çš„æœ€å¥½å…¨éƒ¨éƒ½è¿›è¡Œè½¬ä¹‰
+ //×ªÒåµÄº¯Êı  ÒªĞ´ÈëÊı¾İ¿âµÄ×îºÃÈ«²¿¶¼½øĞĞ×ªÒå
  function _mysql_string($_string) {
-  	//get_magic_quotes_gpc()å¦‚æœæ˜¯å¼€å¯çŠ¶æ€ï¼Œé‚£ä¹ˆå°±ä¸éœ€è¦è½¬ä¹‰  é»˜è®¤æ˜¯å¼€å¯çš„ æ”¾åœ¨äº†GPCè¿™ä¸ªå¸¸é‡é‡Œ
+  	//get_magic_quotes_gpc()Èç¹ûÊÇ¿ªÆô×´Ì¬£¬ÄÇÃ´¾Í²»ĞèÒª×ªÒå  Ä¬ÈÏÊÇ¿ªÆôµÄ ·ÅÔÚÁËGPCÕâ¸ö³£Á¿Àï
   	if (!GPC) {
-  		//mysql_real_escape_string è¿™æ˜¯ä¸€ä¸ªè½¬ä¹‰çš„å‡½æ•°
+  		//mysql_real_escape_string ÕâÊÇÒ»¸ö×ªÒåµÄº¯Êı
   		return mysql_real_escape_string($_string);
   	}else{
   		return $_string;
@@ -139,67 +144,67 @@ function _check_code($first_code,$end_code){
   }
 
 
-//ç”ŸæˆéªŒè¯ç çš„å‡½æ•° (æœ‰4ä¸ªå‚æ•° )
- function _code($_width =75,$_height =30,$_rnd_code = 4,$_flag = false) {
+//Éú³ÉÑéÖ¤ÂëµÄº¯Êı (ÓĞ4¸ö²ÎÊı )
+ function _code($_width =60,$_height =30,$_rnd_code = 4,$_flag = false) {
 
-  		//åˆ›å»ºéšæœºç 
+  		//´´½¨Ëæ»úÂë
   		for ($i=0;$i<$_rnd_code;$i++) {
   			$_nmsg .= dechex(mt_rand(0,15));
   		}
 
-  		//ä¿å­˜åœ¨session
+  		//±£´æÔÚsession
   		$_SESSION['code'] = $_nmsg;
 
-  		//åˆ›å»ºä¸€å¼ å›¾åƒ
+  		//´´½¨Ò»ÕÅÍ¼Ïñ
   		$_img = imagecreatetruecolor($_width,$_height);
 
-  		//ç™½è‰²
+  		//°×É«
   		$_white = imagecolorallocate($_img,255,255,255);
 
-  		//å¡«å……
+  		//Ìî³ä
   		imagefill($_img,0,0,$_white);
 
   		if ($_flag) {
-  			//é»‘è‰²,è¾¹æ¡†
+  			//ºÚÉ«,±ß¿ò
   			$_black = imagecolorallocate($_img,0,0,0);
   			imagerectangle($_img,0,0,$_width-1,$_height-1,$_black);
   		}
 
-  		//éšå³ç”»å‡º6ä¸ªçº¿æ¡
+  		//Ëæ¼´»­³ö6¸öÏßÌõ
   		for ($i=0;$i<6;$i++) {
   			$_rnd_color = imagecolorallocate($_img,mt_rand(0,255),mt_rand(0,255),mt_rand(0,255));
   			imageline($_img,mt_rand(0,$_width),mt_rand(0,$_height),mt_rand(0,$_width),mt_rand(0,$_height),$_rnd_color);
   		}
 
-  		//éšå³é›ªèŠ±
+  		//Ëæ¼´Ñ©»¨
   		for ($i=0;$i<100;$i++) {
   			$_rnd_color = imagecolorallocate($_img,mt_rand(200,255),mt_rand(200,255),mt_rand(200,255));
   			imagestring($_img,1,mt_rand(1,$_width),mt_rand(1,$_height),'*',$_rnd_color);
   		}
 
-  		//è¾“å‡ºéªŒè¯ç 
+  		//Êä³öÑéÖ¤Âë
   		for ($i=0;$i<strlen($_SESSION['code']);$i++) {
   			$_rnd_color = imagecolorallocate($_img,mt_rand(0,100),mt_rand(0,150),mt_rand(0,200));
   			imagestring($_img,5,$i*$_width/$_rnd_code+mt_rand(1,10),mt_rand(1,$_height/2),$_SESSION['code'][$i],$_rnd_color);
   		}
 
-  		//è¾“å‡ºå›¾åƒ
-  		header('Content-Type: image/png');
+  		//Êä³öÍ¼Ïñ
+  		header('Content-type: image/x-png');
   		imagepng($_img);
 
-  		//é”€æ¯
+  		//Ïú»Ù
   		imagedestroy($_img);
  }
 
 
-//é”€æ¯session å°±æ˜¯åˆ é™¤
+//Ïú»Ùsession ¾ÍÊÇÉ¾³ı
 function _session_destroy(){
 
 	  session_destroy();
 
 }
 
-//åˆ é™¤cookie    å°±æ˜¯é€€å‡º
+//É¾³ıcookie    ¾ÍÊÇÍË³ö
 function  _unsetcookie(){
 	setcookie('username','');
 	_session_destroy();
@@ -207,18 +212,18 @@ function  _unsetcookie(){
 }
 
 
-//ç™»å½•çŠ¶æ€çš„åˆ¤æ–­
+//µÇÂ¼×´Ì¬µÄÅĞ¶Ï
 function  _login_state(){
 	if(isset($_COOKIE['username'])){
-		artdialog_back('ç™»å½•çŠ¶æ€æ— æ³•è¿›è¡Œæœ¬æ“ä½œ');
+		artdialog_back('µÇÂ¼×´Ì¬ÎŞ·¨½øĞĞ±¾²Ù×÷');
 
 	}
 
 }
 
-//åˆ†é¡µæ¨¡å—
+//·ÖÒ³Ä£¿é
 function _page($_sql,$_size) {
-	//å°†é‡Œé¢çš„æ‰€æœ‰å˜é‡å–å‡ºæ¥ï¼Œå¤–éƒ¨å¯ä»¥è®¿é—®
+	//½«ÀïÃæµÄËùÓĞ±äÁ¿È¡³öÀ´£¬Íâ²¿¿ÉÒÔ·ÃÎÊ
 	global $_page,$_pagesize,$_pagenum,$_pageabsolute,$_num;
 	if (isset($_GET['page'])) {
 		$_page = $_GET['page'];
@@ -245,9 +250,9 @@ function _page($_sql,$_size) {
 
 
 /**
- * _pagingåˆ†é¡µå‡½æ•°
+ * _paging·ÖÒ³º¯Êı
  * @param $_type
- * @return è¿”å›åˆ†é¡µ
+ * @return ·µ»Ø·ÖÒ³
  */
 function _paging($_type,$info) {
 	global $_page,$_pageabsolute,$_num;
@@ -266,21 +271,21 @@ function _paging($_type,$info) {
 	} elseif ($_type == 2) {
 		echo '<div id="page_text">';
 		echo '<ul>';
-		echo '<li>'.$_page.'/'.$_pageabsolute.'é¡µ | </li>';
-		echo '<li>å…±æœ‰<strong>'.$_num.'</strong>'.$info.' | </li>';
+		echo '<li>'.$_page.'/'.$_pageabsolute.'Ò³ | </li>';
+		echo '<li>¹²ÓĞ<strong>'.$_num.'</strong>'.$info.' | </li>';
 		if ($_page == 1) {
-			echo '<li>é¦–é¡µ | </li>';
-			echo '<li>ä¸Šä¸€é¡µ | </li>';
+			echo '<li>Ê×Ò³ | </li>';
+			echo '<li>ÉÏÒ»Ò³ | </li>';
 		} else {
-			echo '<li><a href="'.script.'.php">é¦–é¡µ</a> | </li>';
-			echo '<li><a href="'.script.'.php?page='.($_page-1).'">ä¸Šä¸€é¡µ</a> | </li>';
+			echo '<li><a href="'.script.'.php">Ê×Ò³</a> | </li>';
+			echo '<li><a href="'.script.'.php?page='.($_page-1).'">ÉÏÒ»Ò³</a> | </li>';
 		}
 		if ($_page == $_pageabsolute) {
-			echo '<li>ä¸‹ä¸€é¡µ | </li>';
-			echo '<li>å°¾é¡µ</li>';
+			echo '<li>ÏÂÒ»Ò³ | </li>';
+			echo '<li>Î²Ò³</li>';
 		} else {
-			echo '<li><a href="'.script.'.php?page='.($_page+1).'">ä¸‹ä¸€é¡µ</a> | </li>';
-			echo '<li><a href="'.script.'.php?page='.$_pageabsolute.'">å°¾é¡µ</a></li>';
+			echo '<li><a href="'.script.'.php?page='.($_page+1).'">ÏÂÒ»Ò³</a> | </li>';
+			echo '<li><a href="'.script.'.php?page='.$_pageabsolute.'">Î²Ò³</a></li>';
 		}
 		echo '</ul>';
 		echo '</div>';
@@ -289,25 +294,32 @@ function _paging($_type,$info) {
 
 
 
-//æ£€æŸ¥å‘é€textereaæ–‡ä»¶é‡Œçš„å†…å®¹
+//¼ì²é·¢ËÍtextereaÎÄ¼şÀïµÄÄÚÈİ
 function  _check_content($_string){
 
 	if (mb_strlen($_string,'utf-8') < 5 || mb_strlen($_string,'utf-8') >200 ) {
 
-		       artdialog_back('å‘é€å†…å®¹ä¸å¾—å°äº5ä½æˆ–å¤§äº200ä½');
+		       artdialog_back('·¢ËÍÄÚÈİ²»µÃĞ¡ÓÚ5Î»»ò´óÓÚ200Î»');
 	}
 	return     _mysql_string($_string);
 }
 
 
 
-//é™åˆ¶å†…å®¹æ˜¾ç¤ºé¡µé¢çš„å­—æ•°
+//ÏŞÖÆÄÚÈİÏÔÊ¾Ò³ÃæµÄ×ÖÊı
 function _title($_string) {
-	if (mb_strlen($_string,'utf-8') >25) {
-	 	$_string = mb_substr($_string,0,210,'utf-8');
+	if (mb_strlen($_string,'utf-8') > 25) {
+	 	$_string = mb_substr(strip_tags($_string),0,210,'utf-8');
 	 	return  $_string.'...';
 	}
 	return $_string;
 }
 
+function _content($_string,$_len) {
+	if (mb_strlen($_string,'utf-8') > $_len) {
+		$_string = mb_substr(strip_tags($_string),0,$_len,'utf-8');
+		return  $_string.'...';
+	}
+	return $_string;
+}
 ?>

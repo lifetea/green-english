@@ -1,7 +1,8 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html  xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html">
+<html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<?php require 'setLan.php'; ?>
 <title>History|Development|side channel blower|regenerative blower_GREENCO</title>
 <meta name="keywords" content="Greenco history,about Greenco,side channel blower,regenerative blower,Greenco blower,GREENCO,Zhejiang Greenco" />
 <meta name="description"content="Regenerative Blowers,Side Channel Blowers Manufacturer - GREENCO. 2RB,3RB & 4RB Series Side Channel Blowers, The pressure upto 150Kpa, volume flow upto 2500m3/h, Power range from 200w to 25Kw." />
@@ -76,19 +77,10 @@ $(function(){
        <img src="image/about_banner.png" style="margin:8px 0 0 8px;border:1px solid #999;"/>
        <div class="left">
 			<?php require 'inc/about-left.php';?>
-             <h2 style="margin-top:26px;background:#666 url(image/search_top.png) no-repeat 0 2px;padding-left:18px;width:230px;">Search Product</h2>
-                 <form mehtod="post"  action="?">
-                      <p>1:Select a Graph:<select><option>Pressure</option><option>Vacuum</option></select></p>
-                      <p>2:Air Flow(e.g.120):</p>
-                      <p><input type="text" class="text"/><select><option>m³/h</option><option>m³/min</option></select></p>
-                      <p>3:Pressure(e.g.200):</p>
-                      <p><input type="text" class="text"/><select><option>mbar</option><option>pa</option></select></p>
-                      <p><input type="image" src="image/search.gif"/></dd></p>
-
-                 </form>
+			<?php require 'inc/search-left.php';?>
        </div>
        <div class="right">
-             <h5>History<span style="margin-left:540px;font-weight:500;font-size:13px;"><a href="index.php">Home</a> > <a href="History.php">History</a></span></h5>
+             <h5><?php echo _('History');?><span style="margin-left:490px;font-weight:500;font-size:13px;"><a href="index.php"><?php echo _('Home');?></a> > <a href="History.php"><?php echo _('History');?></a></span></h5>
             	<p class="d" style="margin-top:10px;"><strong>2001年</strong> 台州格凌电气有限公司成立。</p>
 				<p class="d"><strong>2002年</strong> 三月，第一台高压风机2RB710成功研发。8月，公司新厂搬到泽国镇丹崖工业区。</p>
 				<p class="d"><strong>2003年</strong> 七月，研发了2RB810系列。</p>

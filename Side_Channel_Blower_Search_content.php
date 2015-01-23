@@ -2,6 +2,7 @@
 //让这个常量存在就能调用
 define('feifa',ture);
 //引入公共文件
+require 'setLan.php';
 require 'inc/common.php';
 //自定义函数，判断字符串里是否包含一个字母
 function checkstr($str,$need){

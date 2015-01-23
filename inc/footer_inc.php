@@ -6,7 +6,7 @@ $(function(){
 </script>
 <!-- 搴曢儴鐗堟潈 -->
 <div id="copyright" style="height:160px;clear:both;margin-top:-10px;background:#222 url(images/footer_bg.png) repeat-x;">
-  <div class="container" style="position:relative;">
+  <div class="container <?php echo _('greenco-footer')?>" style="position:relative;">
     <div class="copyright">
               <ul style="margin:-10px 0 0  10px;float:left;">
                   <li style="font-weight:600;list-style:none;color:#bbb;"><?php echo _('About Greenco')?></li>
@@ -16,7 +16,7 @@ $(function(){
                   <li><a rel="nofollow" href="Video.php"><?php echo _('Video')?></a></li>
                   <li><a rel="nofollow" href="Equipments.php"><?php echo _('Equipments')?></a></li>
               </ul>
-			  <ul style="margin:-10px 0 0  85px;float:left;">
+			  <ul>
                   <li style="font-weight:600;list-style:none;color:#bbb;"><?php echo _('Products')?></li>
                   <li><a rel="nofollow" href="Side_Channel_Blower_2RB_Single_Stage.php"><?php echo _('2RB Series Side Channel Blower')?></a></li>
                   <li><a rel="nofollow" href="Side_Channel_Blower_3RB_Single_Stage.php"><?php echo _('3RB Series Side Channel Blower')?></a></li>
@@ -25,20 +25,20 @@ $(function(){
 				  <li><a rel="nofollow" href="Belt_Drive_Air_Blower_2RB_Single_Stage.php"><?php echo _('Belt Drive Air Blower')?></a></li>
                   <li><a rel="nofollow" href="Liquid_Ring_Vacuum_Pump_2LV7.php"><?php echo _('Liquid Ring Vacuum Pump')?></a></li>
               </ul>
-			  <ul style="margin:-10px 0 0  85px;float:left;">
+			  <ul>
                   <li style="font-weight:600;list-style:none;color:#bbb;"><?php echo _('Accessories')?></li>
                   <li><a rel="nofollow" href="Silencer.php"><?php echo _('Silencer')?></a></li>
                   <li><a rel="nofollow" href="Relief_Valve.php"><?php echo _('Relief Valve')?></a></li>
-                  <li><a rel="nofollow" href="Inlet Vacuum Filter.php"><?php echo _('Inlet Vacuum Filter')?></a></li>
+                  <li><a rel="nofollow" href="Inlet_Vacuum_Filter.php"><?php echo _('Inlet Vacuum Filter')?></a></li>
               </ul>
-			  <ul style="margin:-10px 0 0  85px;float:left;">
+			  <ul>
                   <li style="font-weight:600;list-style:none;color:#bbb;"><?php echo _('Downloads')?></li>
                   <li><a rel="nofollow" href="upfile/side channel blower Complete Catalog.pdf"><?php echo _('Complete Catalog')?></a></li>
                   <li><a rel="nofollow" href="upfile/Side channel blower Relief_Valve 2BX4.pdf"><?php echo _('Accessories')?></a></li>
                   <li><a rel="nofollow" href="upfile/Liqudi Ring Vacuum Pump 2LV7 series.pdf"><?php echo _('Liquid Ring Vacuum Pump')?></a></li>
                   <li><a rel="nofollow" href="javascript:;"><?php echo _('Electric Motor')?></a></li>
               </ul>
-              <ul style="margin:-10px 0 0  85px;float:left;">
+              <ul>
                   <li style="font-weight:600;list-style:none;color:#bbb;"><?php echo _('News')?></li>
                   <li><a rel="nofollow" href="news_company.php"><?php echo _('Enterprise news')?></a></li>
                   <li><a rel="nofollow" href="news_Industry.php"><?php echo _('Industry news')?></a></li>

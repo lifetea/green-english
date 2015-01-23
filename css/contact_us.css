@@ -18,6 +18,7 @@ a:hover{
 	border-bottom:none;
 	position:relative;
 	height:750px;
+	margin-bottom: 9px;
 }
 #contact_info{
 	position:absolute;

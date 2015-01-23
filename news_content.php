@@ -1,18 +1,26 @@
 ﻿<?php
 //让这个常量存在就能调用
-define('feifa',ture);
+@define('feifa',ture);
 //引入公共文件
+
+require 'setLan.php';
 require 'inc/common.php';
-$_result=mysql_query("select id,time,title,content  from english_news  where id={$_GET['id']} ");
+if($lan == "zh_CN"){
+	$_result=mysql_query("select id,time,title,content  from chinese_news  where id={$_GET['id']} ");
+	
+}else{
+	$_result=mysql_query("select id,time,title,content  from english_news  where id={$_GET['id']} ");
+// 	$_result=mysql_query("select id,time,title,content  from english_news where 1=1 order by time desc limit $_pagenum,$_pagesize ");
+}
 $_rows=mysql_fetch_array($_result);
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html  xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>News|blower news|side channel blower news</title>
-<meta name="description" content="GREENCO_The world leader manufacturer in side channle blower,regenerative blower,ring blower,air blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications." />
-<meta name="keywords" content="News,Blower news,side channel blower news,Industry News,GREENCO" />
+<title><?php echo _('News|blower news|side channel blower news') ?></title>
+<meta name="keywords" content="<?php echo _('News,Blower news,side channel blower news,Industry News,GREENCO')?>" />
+<meta name="description" content="<?php echo _('GREENCO_The world leader manufacturer in side channle blower,regenerative blower,ring blower,air blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications.') ?>" />
 <script src="js/menu.js" type="text/javascript"></script>
 <link href="css/main.css" media="screen" rel="stylesheet" type="text/css" />
 <link href="favicon.ico" rel="shortcut icon" />
@@ -90,18 +98,18 @@ $_rows=mysql_fetch_array($_result);
 <!-- 应用内容 -->
 <div id="Side_Channel_Blower_2RB_Single_Stage_all" >
    <div id="Side_Channel_Blower_2RB_Single_Stage">
-       <img src="image/news_banner.jpg" style="margin:10px 0 0 10px;border:1px solid #bbb;" alt="Greenco side channel blower news"/>
+       <img src="image/<?php echo _('news_banner.jpg'); ?>" style="margin:10px 0 0 10px;border:1px solid #bbb;" alt="Greenco side channel blower news"/>
        <div class="left">
-             <h2 style="margin-top:5px;font-family:tahoma;">NEWS</h2>
+             <h2 style="margin-top:5px;font-family:tahoma;"><?php echo _('NEWS');?></h2>
                  <ul>
-	                  <li style="margin-top:-2px;"><a href="news_company.php">Company news</a></li>
-	                  <li><a href="news_Industry.php">Industry news</a></li>
+	                  <li style="margin-top:-2px;"><a href="news_company.php"><?php echo _('Company News');?></a></li>
+	                  <li><a href="news_Industry.php"><?php echo _('Industry news');?></a></li>
                   </ul>
 
        </div>
        <div class="right">
        <h4 style="margin-top:13px;color:#1a3d77;font-size:14px;font-family:tahoma;"><?php  echo $_rows['title'];?></h4>
-       <p style="text-indent:0px;border-bottom:1px solid #bbb;height:30px;line-height:30px;"><strong>Author:</strong>greenco    <SPAN style="float:right;"><?php echo $_rows['time'];?></SPAN></p>
+       <p style="text-indent:0px;border-bottom:1px solid #bbb;height:30px;line-height:30px;"><strong><?php echo _('Author');?>:</strong>greenco<SPAN style="float:right;"><?php echo $_rows['time'];?></SPAN></p>
        <?php echo $_rows['content'];?>
        </div>
    </div>

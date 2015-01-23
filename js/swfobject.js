@@ -776,15 +776,3 @@ var swfobject = function() {
 	};
 }();
 
-$(function(){
-    var cacheBuster = "?t=" + Date.parse(new Date());
-var flashvars = {};
-flashvars.xml =  "config.xml";
-var params = {};
-params.allowscriptaccess = "always";
-params.allownetworking = "all";
-params.wmode = "Transparent";
-var attributes = {};
-attributes.id = "slider";
-swfobject.embedSWF("cu3er.swf"+cacheBuster, "cu3er_swf", "980", "300", "9.0.124", "expressInstall.swf", flashvars, params);
-})

@@ -1,10 +1,13 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html  xmlns="http://www.w3.org/1999/xhtml">
+﻿<?php
+require 'setLan.php';
+?>
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>2RB Single Stage Side Channel Blower</title>
-<meta name="description" content="Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco." />
-<meta name="keywords" content="Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO" />
+<title><?php echo _('2RB Single Stage Side Channel Blower'); ?></title>
+<meta name="description" content="<?php echo _('Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.'); ?>" />
+<meta name="keywords" content="<?php echo _('Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO'); ?>" />
 <script src="js/menu.js" type="text/javascript"></script>
 <link href="css/main.css" media="screen" rel="stylesheet" type="text/css" />
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>
@@ -78,7 +81,7 @@
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
 	   <?php require 'inc/prod-left.php';?>
        <div class="right">
-             <h5><i>2RB Single Stage</i> ▪ Side Channel Blower</h5>
+             <h5><i>2RB <?php echo _('Single Stage');?></i><?php echo _(' ▪ Side Channel Blower');?></h5>
              <div  id="mypage" class="mypagination"><a href="Side_Channel_Blower_2RB_Single_Stage_table.php?series=010" target="_blank"><img  src="product_image/2RB/2RB010.jpg"/></a><h4><a href="Side_Channel_Blower_2RB_Single_Stage_table.php?series=010" target="_blank">2RB 010</a></h4></div>
 		     <div  id="mypage" class="mypagination"><a href="Side_Channel_Blower_2RB_Single_Stage_table.php?series=110" target="_blank"><img  src="product_image/2RB/2RB110.jpg" /></a><h4><a href="Side_Channel_Blower_2RB_Single_Stage_table.php?series=110" target="_blank">2RB 110</a></h4></div>
              <div  id="mypage" class="mypagination"><a href="Side_Channel_Blower_2RB_Single_Stage_table.php?series=210" target="_blank"><img  src="product_image/2RB/2RB310.jpg"/></a><h4><a href="Side_Channel_Blower_2RB_Single_Stage_table.php?series=210" target="_blank">2RB 210</a></h4></div>

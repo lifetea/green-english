@@ -1,5 +1,5 @@
 ﻿<?php
-
+require 'setLan.php';
 //让这个常量存在就能调用
 @define('feifa',ture);
 //引入公共文件
@@ -86,10 +86,10 @@ $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacu
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
        <?php require 'inc/prod-left.php';?>
        <div class="right">
-             <h5><i>3RB <?php echo  $_GET['series'];?> Series Ordering Data and Performance Data</i> ▪ Side Channel Blower
+             <h5><i>3RB <?php echo  $_GET['series'];?> <?php echo _('Series Ordering Data and Performance Data');?></i> ▪ <?php echo _('Side Channel Blower');?>
              </h5>
              <table  cellspacing="0" cellpadding="0" id="data">
-                 <tr class="one"><td>Order No.</td><td style="width:100px;">Fre-quency</td><td style="width:65px;">Output</td><td>Maximum Airflow</td><td>Maximum Vacuum</td><td style="width:150px;">Maximum Pressure</td></tr>
+                 <?php require 'inc/date-hd.php';?>
                  <tr class="two"><td>一</td><td style="width:100px;">Hz</td><td style="width:65px;">Kw</td><td>m³/h</td><td>mbar</td><td style="width:150px;">mbar</td></tr>
 				 <?php
 				  $temp = mysql_num_rows($_result);
@@ -111,8 +111,8 @@ $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacu
 				   } 
 				 ?>>
                  
-                 	<a href="upfile/3RB_series/side channel blower 3rb <?php echo substr($_GET['series'],0,5)?>.pdf" target="_blank" >
-                 		Download Side Channel Blower 3RB<?php echo substr($_GET['series'],0,5)?> Series(PDF-<?php $type=$_GET['series'];$filename ='upfile/3RB_Series/side channel blower 3RB '.$type.'.PDF'; echo floor(filesize($filename)/1024);?>KB)
+                 	<a href="<?php echo _('upfile');?>/3RB_series/side channel blower 3rb <?php echo substr($_GET['series'],0,5)?>.pdf" target="_blank" >
+                 		<?php echo _('Download');?> Side Channel Blower 3RB<?php echo substr($_GET['series'],0,5)?> Series(PDF-<?php $type=$_GET['series'];$filename ='upfile/3RB_Series/side channel blower 3RB '.$type.'.PDF'; echo floor(filesize($filename)/1024);?>KB)
                  		</a>
                  		</h3>
        </div>

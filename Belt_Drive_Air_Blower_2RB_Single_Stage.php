@@ -1,10 +1,12 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html  xmlns="http://www.w3.org/1999/xhtml">
+﻿
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>2RB Single Stage Belt Drive Air Blower</title>
-<meta name="description" content="Belt Drive Air Blower,Side channel blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco." />
-<meta name="keywords" content="Belt Drive Air Blower,Side channel blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO" />
+<?php require 'setLan.php';?>
+<title><?php echo _('2RB Single Stage Belt Drive Air Blower'); ?></title>
+<meta name="description" content="<?php echo _('Belt Drive Air Blower,Side channel blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.'); ?>" />
+<meta name="keywords" content="<?php echo _('Belt Drive Air Blower,Side channel blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO'); ?>" />
 <script src="js/menu.js" type="text/javascript"></script>
 <link  type="text/css" rel="stylesheet" href="css/main.css"/>
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>
@@ -78,7 +80,7 @@
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
 		<?php require 'inc/prod-left.php';?>
        <div class="right">
-             <h5><i>2RB Single Stage Belt Drive</i> ▪  Air Blower</h5>
+             <h5><i>2RB<?php echo _(' Single Stage Belt Drive');?></i> <?php echo _('▪  Air Blower');?></h5>
              <div  id="mypage" class="mypagination"><a href="upfile/Belt_drive/Side Channel Blower Belt drive 2RB213.pdf" target="_blank"><img  src="product_image/Belt_Drive/2RB 213-1HY99.jpg"/></a><h4><a href="upfile/Belt_drive/Side Channel Blower Belt drive 2RB213.pdf" target="_blank">2RB 213-1HY99</a></h4></div>
 		     <div  id="mypage" class="mypagination"><a href="upfile/Belt_drive/Side Channel Blower Belt drive 2RB233.pdf" target="_blank"><img  src="product_image/Belt_Drive/2RB 213-1HY99.jpg"/></a><h4><a href="upfile/Belt_drive/Side Channel Blower Belt drive 2RB233.pdf" target="_blank">2RB 233-1HY99</a></h4></div>
 		     <div  id="mypage" class="mypagination"><a href="upfile/Belt_drive/Side Channel Blower Belt drive 2RB413.pdf" target="_blank"><img  src="product_image/Belt_Drive/2RB 213-1HY99.jpg"/></a><h4><a href="upfile/Belt_drive/Side Channel Blower Belt drive 2RB413.pdf" target="_blank">2RB 413-1HY99</a></h4></div>

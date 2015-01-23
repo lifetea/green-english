@@ -1,10 +1,17 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html  xmlns="http://www.w3.org/1999/xhtml">
+﻿
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>Greenco factory|CNC|Equipments|workshop|advanced machines</title>
-<meta name="keywords" content="CNC,Die casting,CNC equipment,LGMazak,Brother CNC,side channel blower,regenerative blower,air blower,GREENCO" />
-<meta name="description"content="CNC,Die casting,CNC equipment,LGMazak,Brother CNC,side channel blower,regenerative blower,air blower,GREENCO" />
+<?php require 'setLan.php';?>
+<?php
+if($lan == "zh_CN"){
+	 require 'seo/cn/Equipments.php';
+}else{
+	 require 'seo/en/Equipments.php';
+}
+
+ ?>
 <script src="js/menu.js" type="text/javascript"></script>
 <link  type="text/css" rel="stylesheet" href="css/main.css"/>
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>
@@ -46,7 +53,7 @@ $(function(){
   	h1,h2,h3,h4,h5,h6{font-weight:600;}
   	.dropdown{border:1px solid #ccc;}
    #Equipments _all{background:#ccc;}
-  	#Equipments {height:1120px;width:1000px;margin:0 auto;background:#fff;border:1px solid #999;border-top:none;box-shadow:0px 5px 7px 5px #ccc;}
+  	#Equipments {height:1330px;width:1000px;margin:0 auto;background:#fff;border:1px solid #999;border-top:none;box-shadow:0px 5px 7px 5px #ccc;}
     #Equipments  .left{float:left;width:265px;margin:5px 0 0 10px;padding-bottom:60px;}
   	#Equipments  .left H2{text-indent:8px;background:#666;font-size:14px;font-weight:600;width:250px;height:32px;color:#fff;line-height:32px;border:1px solid  #555;}
   	#Equipments  .left ul{margin-top:8px;list-style:none;}
@@ -57,7 +64,7 @@ $(function(){
   	#Equipments  .left select{margin-left:8px;border-radius:0px;}
 	#Equipments  .right{height:860px;float:left;width:700px;border-left:1px solid #ccc;padding:0 0 30px 15px;}
     #Equipments  .right h5{margin-top:10px;border-bottom:1px solid #ccc;height:30px;line-height:30px;color:#1b347e;}
-	#Equipments  .right p{padding:3px;line-height:21px;text-indent:20px;}
+	#Equipments  .right p{padding:3px;line-height:21px;text-indent:20px;text-align: center;}
  	#Equipments  .right img{width:250px;height:150px;border:1px solid #999;border-bottom:2px solid #666;}
     #Equipments  .right img:hover{filter:alpha(opacity=90);opacity=0.9;}
   	#Equipments .right .Equipments_image{float:left;margin:25px 0 0 90px;}
@@ -80,27 +87,20 @@ $(function(){
        <img src="image/about_banner.png" style="margin:8px 0 0 8px;border:1px solid #999;"/>
        <div class="left">
 			<?php require 'inc/about-left.php';?>
-             <h2 style="margin-top:26px;background:#666 url(image/search_top.png) no-repeat 0 2px;padding-left:18px;width:230px;">Search Product</h2>
-                 <form mehtod="post"  action="?">
-                      <p>1:Select a Graph:<select><option>Pressure</option><option>Vacuum</option></select></p>
-                      <p>2:Air Flow(e.g.120):</p>
-                      <p><input type="text" class="text"/><select><option>m³/h</option><option>m³/min</option></select></p>
-                      <p>3:Pressure(e.g.200):</p>
-                      <p><input type="text" class="text"/><select><option>mbar</option><option>pa</option></select></p>
-                      <p><input type="image" src="image/search.gif"/></dd></p>
-
-                 </form>
+			<?php require 'inc/search-left.php';?>
        </div>
        <div class="right">
-             <h5>Equipments<span style="margin-left:480px;font-weight:500;font-size:13px;"><a href="index.php">Home</a> > <a href="Equipments.php">Equipments</a></span></h5>
-					<div class="Equipments_image" id="Equipments_image1"><a class="fancybox" href="image/jifang1.jpg" data-fancybox-group="gallery" title="<strong>Sparepart Warehouse</strong>"><img src="image/jifang1_sub.jpg" alt="Sparepart Warehouse GREENCO Side Channel Blower Equipments" /><p><a href="#">Sparepart Warehouse</a></p></a></div>
-					<div class="Equipments_image" ><a class="fancybox" href="image/jifang2.jpg" data-fancybox-group="gallery" title="<strong>Precision Production Line</strong>"><img src="image/jifang2_sub.jpg" alt="Precision Production Line GREENCO Side Channel Blower Equipments" /><p><a href="#">Precision Production Line</a></p></a></div>
-					<div class="Equipments_image" id="Equipments_image1"><a class="fancybox" href="image/jifang3.jpg" data-fancybox-group="gallery" title="<strong>Die Casting Workshop</strong>"><img src="image/jifang3_sub.jpg" alt="Die Casting Workshop GREENCO Side Channel Blower Equipments" /><p><a href="#">Die Casting Workshop</a></p></a></div>
-                    <div class="Equipments_image"><a class="fancybox" href="image/jifang4.jpg" data-fancybox-group="gallery" title="<strong>Assembling Line</strong>"><img src="image/jifang4_sub.jpg" alt="Assembling Line GREENCO Side Channel Blower Equipments" /><p><a href="#">Assembling Line</a></p></a></div>
-					<div class="Equipments_image" id="Equipments_image1"><a class="fancybox" href="image/jifang5.jpg" data-fancybox-group="gallery" title="<strong>Q&C Department</strong>"><img src="image/jifang5_sub.jpg" alt="Q&C Department GREENCO Side Channel Blower Equipments" /><p><a href="#">Q&C Department</a></p></a></div>
-				    <div class="Equipments_image"><a class="fancybox" href="image/jifang6.jpg" data-fancybox-group="gallery" title="<strong>Packing Line</strong>"><img src="image/jifang6_sub.jpg" alt="Packing Line GREENCO Side Channel Blower Equipments" /><p><a href="#">Packing Line</a></p></a></div>
-				    <div class="Equipments_image" id="Equipments_image1"><a class="fancybox" href="image/jifang7.jpg" data-fancybox-group="gallery" title="<strong>Shipping</strong>"><img src="image/jifang7_sub.jpg" alt="Shipping GREENCO Side Channel Blower Equipments" /><p><a href="#">Shipping</a></p></a></div>
-					<div class="Equipments_image"><a class="fancybox" href="image/jifang8.jpg" data-fancybox-group="gallery" title="<strong>Outgoing Inspection</strong>"><img src="image/jifang8_sub.jpg" alt="Outgoing Inspection GREENCO Side Channel Blower Equipments" /><p><a href="#">Outgoing Inspection</a></p></a></div>
+             <h5><?php echo _('Equipments');?><span style="margin-left:440px;font-weight:500;font-size:13px;"><a href="index.php"><?php echo _('Home');?></a> > <a href="Equipments.php"><?php echo _('Equipments');?></a></span></h5>
+					<div class="Equipments_image" id="Equipments_image1"><a class="fancybox" href="image/jifang1.jpg" data-fancybox-group="gallery" title="<strong>Sparepart Warehouse</strong>"><img src="image/jifang1_sub.jpg" alt="Sparepart Warehouse GREENCO Side Channel Blower Equipments" /><p><a href="#"><?php echo _('Sparepart Warehouse');?></a></p></a></div>
+					<div class="Equipments_image" ><a class="fancybox" href="image/jifang2.jpg" data-fancybox-group="gallery" title="<strong>Precision Production Line</strong>"><img src="image/jifang2_sub.jpg" alt="Precision Production Line GREENCO Side Channel Blower Equipments" /><p><a href="#"><?php echo _('Precision Production Line');?></a></p></a></div>
+					<div class="Equipments_image" id="Equipments_image1"><a class="fancybox" href="image/jifang3.jpg" data-fancybox-group="gallery" title="<strong>Die Casting Workshop</strong>"><img src="image/jifang3_sub.jpg" alt="Die Casting Workshop GREENCO Side Channel Blower Equipments" /><p><a href="#"><?php echo _('Die Casting Workshop');?></a></p></a></div>
+                    <div class="Equipments_image"><a class="fancybox" href="image/jifang4.jpg" data-fancybox-group="gallery" title="<strong>Assembling Line</strong>"><img src="image/jifang4_sub.jpg" alt="Assembling Line GREENCO Side Channel Blower Equipments" /><p><a href="#"><?php echo _('Assembling Line');?></a></p></a></div>
+					<div class="Equipments_image" id="Equipments_image1"><a class="fancybox" href="image/jifang5.jpg" data-fancybox-group="gallery" title="<strong>Carl Zeiss CMM</strong>"><img src="image/jifang5_sub.jpg" alt="Q&C Department GREENCO Side Channel Blower Equipments" /><p><a href="#"><?php echo _('Carl Zeiss CMM');?></a></p></a></div>
+				    <div class="Equipments_image"><a class="fancybox" href="image/jifang6.jpg" data-fancybox-group="gallery" title="<strong>Packing Line</strong>"><img src="image/jifang6_sub.jpg" alt="Packing Line GREENCO Side Channel Blower Equipments" /><p><a href="#"><?php echo _('Packing Line');?></a></p></a></div>
+				    <div class="Equipments_image" id="Equipments_image1"><a class="fancybox" href="image/jifang7.jpg" data-fancybox-group="gallery" title="<strong>Shipping</strong>"><img src="image/jifang7_sub.jpg" alt="Shipping GREENCO Side Channel Blower Equipments" /><p><a href="#"><?php echo _('Shipping');?></a></p></a></div>
+					<div class="Equipments_image"><a class="fancybox" href="image/jifang10.jpg" data-fancybox-group="gallery" title="<strong>Outgoing Inspection</strong>"><img src="image/jifang8_sub.jpg" alt="Outgoing Inspection GREENCO Side Channel Blower Equipments" /><p><a href="#"><?php echo _('Outgoing Inspection');?></a></p></a></div>
+					<div class="Equipments_image" id="Equipments_image1"><a class="fancybox" href="image/jifang11.jpg" data-fancybox-group="gallery" title="<strong>AUTO motor winding</strong>"><img src="image/jifang11_sub.jpg" alt="AUTO motor winding GREENCO Side Channel Blower Equipments" /><p><a href="#"><?php echo _('AUTO motor winding');?></a></p></a></div>
+					<div class="Equipments_image"><a class="fancybox" href="image/jifang10.jpg" data-fancybox-group="gallery" title="<strong>SCHNEEBERGER Grinder</strong>"><img src="image/jifang10_sub.jpg" alt="SCHNEEBERGER Grinder GREENCO Side Channel Blower Equipments" /><p><a href="#"><?php echo _('SCHNEEBERGER Grinder');?></a></p></a></div>
        </div>
    </div>
 </div>

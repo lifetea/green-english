@@ -1,0 +1,1 @@
+<tr class="one"><td><?php echo _('Order No');?>.</td><td style="width:100px;"><?php echo _('Fre-quency');?></td><td style="width:65px;"><?php echo _('Output');?></td><td><?php echo _('Maximum Airflow');?></td><td><?php echo _('Maximum Vacuum');?></td><td style="width:150px;"><?php echo _('Maximum Pressure');?></td></tr>

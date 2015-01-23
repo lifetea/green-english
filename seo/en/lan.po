@@ -1,0 +1,1404 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-01-20 16:43+0800\n"
+"PO-Revision-Date: 2015-01-20 16:50+0800\n"
+"Last-Translator: LiSongYang <494886251@qq.com>\n"
+"Language-Team: LANG1UAGE <LL1@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: index.php:13 index.php:10
+msgid ""
+"GREENCO-Side Channel Blower|Ring blower|Regenerative blower|Air blower|"
+"Vacuum pump"
+msgstr "旋涡气泵_漩涡气泵_高压风机_浙江格凌实业有限公司"
+
+#: index.php:14 index.php:11
+msgid ""
+"GREENCO_The world leader manufacturer in side channel blower,regenerative "
+"blower,ring blower,air blower in China,side channel pumps can be used as "
+"vacuum pumps or compressors and are a highly efficient dry running "
+"technology for numerous applications."
+msgstr ""
+"浙江格凌实业有限公司是一家专业从事空气流体设备的国家高新技术企业,形成了漩涡式"
+"气泵为主,其他空气流体设备（真空泵和压缩机）为辅，集研发、生产、销售、服务于一"
+"体的发展格局,公司已经成为中国乃至全球漩涡气泵与高压风机领域的领导者。http://"
+"chinese.greenco.cn/"
+
+#: index.php:15 index.php:12
+msgid ""
+"side channel blower,ring blower,regenerative blower,air blower,vortex blower,"
+"vacuum pump,industrial blowers,high pressure blowers,double stage blower,"
+"three stage multistage blowers,2RB,3RB,4RB series,"
+msgstr ""
+"高压风机,高压鼓风机,漩涡气泵,旋涡气泵,真空泵,2RB系列高压风机,4RB系列高压风机"
+
+#: inc/header_inc.php:34 inc/about-left.php:3 inc/header_inc.php:36
+#: inc/header_inc.php:33
+msgid "About us"
+msgstr "关于格凌"
+
+#: inc/header_inc.php:37 inc/footer_inc.php:12 inc/about-left.php:1
+#: inc/header_inc.php:39 inc/header_inc.php:36
+msgid "About Greenco"
+msgstr "关于格凌"
+
+#: inc/header_inc.php:38 inc/footer_inc.php:13 inc/about-left.php:4
+#: Certification.php:95 Certification.php:91 inc/header_inc.php:40
+#: inc/header_inc.php:37
+msgid "Certification"
+msgstr "质量认证证书"
+
+#: inc/header_inc.php:39 inc/footer_inc.php:14 inc/about-left.php:5
+#: honour.php:56 inc/header_inc.php:41 inc/header_inc.php:38
+msgid "Honour"
+msgstr "企业荣誉"
+
+#: inc/header_inc.php:40 inc/footer_inc.php:15 inc/about-left.php:6
+#: History.php:82 inc/header_inc.php:42 inc/header_inc.php:39
+msgid "History"
+msgstr "发展历程"
+
+#: inc/header_inc.php:41 inc/footer_inc.php:16 inc/about-left.php:7
+#: inc/header_inc.php:43 inc/header_inc.php:40
+msgid "Video"
+msgstr "视频中心"
+
+#: inc/header_inc.php:42 inc/footer_inc.php:17 inc/about-left.php:8
+#: Equipments.php:86 Equipments.php:90 Equipments.php:92 Equipments.php:91
+#: inc/header_inc.php:44 inc/header_inc.php:41
+msgid "Equipments"
+msgstr "生产设备展示"
+
+#: inc/header_inc.php:47 inc/footer_inc.php:20 inc/header_inc.php:49
+#: inc/header_inc.php:46
+msgid "Products"
+msgstr "产品展示"
+
+#: inc/header_inc.php:51 inc/prod-left.php:4 inc/header_inc.php:53
+#: inc/header_inc.php:50 Side_Channel_Blower_2RB_Single_Stage.php:10
+msgid "2RB Single Stage Side Channel Blower"
+msgstr "高压风机 2RB系列单段"
+
+#: inc/header_inc.php:52 inc/prod-left.php:5 inc/header_inc.php:54
+#: inc/header_inc.php:51 Side_Channel_Blower_2RB_Double_Stage.php:10
+msgid "2RB Double Stage Side Channel Blower"
+msgstr "高压风机 2RB系列双段"
+
+#: inc/header_inc.php:55 inc/prod-left.php:6 inc/header_inc.php:57
+#: inc/header_inc.php:54
+msgid "3RB Single Stage Side Channel Blower"
+msgstr "高压鼓风机 3RB系列单段"
+
+#: inc/header_inc.php:59 inc/prod-left.php:7 inc/header_inc.php:61
+#: inc/header_inc.php:58
+msgid "3RB Double Stage Side Channel Blower"
+msgstr "高压鼓风机 3RB系列双段"
+
+#: inc/header_inc.php:63 inc/prod-left.php:8 inc/header_inc.php:65
+#: inc/header_inc.php:62
+msgid "3RB Three Stage Side Channel Blower"
+msgstr "高压鼓风机 3RB系列三段"
+
+#: inc/header_inc.php:65 inc/prod-left.php:9 inc/header_inc.php:67
+#: inc/header_inc.php:64
+msgid "4RB Single Stage Side Channel Blower"
+msgstr "旋涡气泵 4RB系列单段"
+
+#: inc/header_inc.php:66 inc/prod-left.php:10 inc/header_inc.php:68
+#: inc/header_inc.php:65
+msgid "4RB Double Stage Side Channel Blower"
+msgstr "旋涡气泵 4RB系列双段"
+
+#: inc/header_inc.php:67 inc/prod-left.php:11 inc/header_inc.php:69
+#: inc/header_inc.php:66
+msgid "4RB Three Stage Side Channel Blower"
+msgstr "旋涡气泵 4RB系列三段"
+
+#: inc/header_inc.php:68 inc/prod-left.php:12 inc/header_inc.php:70
+#: inc/header_inc.php:67 Belt_Drive_Air_Blower_2RB_Single_Stage.php:10
+msgid "2RB Single Stage Belt Drive Air Blower"
+msgstr "气环风机 2RB单段皮带式"
+
+#: inc/header_inc.php:69 inc/prod-left.php:13 inc/header_inc.php:71
+#: inc/header_inc.php:68 Belt_Drive_Air_Blower_2RB_Double_Stage.php:10
+msgid "2RB Double Stage Belt Drive Air Blower"
+msgstr "气环风机 2RB双段皮带式"
+
+#: inc/header_inc.php:70 inc/prod-left.php:14 inc/header_inc.php:72
+#: inc/header_inc.php:69
+msgid "IE2 Single Stage Regenerative Blower"
+msgstr "漩涡风机 IE2 2RB系列单段"
+
+#: inc/header_inc.php:71 inc/prod-left.php:15 inc/header_inc.php:73
+#: inc/header_inc.php:70
+msgid "IE2 Double Stage Regenerative Blower"
+msgstr "漩涡风机 IE2 2RB系列双段"
+
+#: inc/header_inc.php:72 download.php:106 inc/prod-left.php:16
+#: Download.php:111 inc/header_inc.php:74 inc/header_inc.php:71
+msgid "Cover Suction Ring Blower"
+msgstr "吸顶式旋涡风机"
+
+#: inc/header_inc.php:73 inc/footer_inc.php:26 inc/footer_inc.php:38
+#: download.php:112 inc/prod-left.php:24 Download.php:117
+#: inc/header_inc.php:75 inc/header_inc.php:72
+msgid "Liquid Ring Vacuum Pump"
+msgstr "液环真空泵"
+
+#: inc/header_inc.php:74 inc/footer_inc.php:30 inc/prod-left.php:20
+#: Silencer.php:93 Silencer.php:94 Silencer.php:95 Silencer.php:96
+#: Silencer.php:97 inc/header_inc.php:76 inc/header_inc.php:73
+msgid "Silencer"
+msgstr "消音器"
+
+#: inc/header_inc.php:75 inc/footer_inc.php:31 inc/prod-left.php:22
+#: Relief_Valve.php:83 Relief_Valve.php:84 Relief_Valve.php:85
+#: Relief_Valve.php:86 Relief_Valve.php:87 Relief_Valve.php:88
+#: Relief_Valve.php:89 inc/header_inc.php:77 inc/header_inc.php:74
+msgid "Relief Valve"
+msgstr "释压伐"
+
+#: inc/header_inc.php:76 inc/footer_inc.php:32 inc/prod-left.php:21
+#: inc/header_inc.php:78 inc/header_inc.php:75
+msgid "Inlet Vacuum Filter"
+msgstr "过滤器"
+
+#: inc/footer_inc.php:21
+msgid "2RB Series Side Channel Blower"
+msgstr "高压风机 2RB 系列"
+
+#: inc/footer_inc.php:22
+msgid "3RB Series Side Channel Blower"
+msgstr "漩涡气泵 3RB 系列"
+
+#: inc/footer_inc.php:23
+msgid "4RB Series Side Channel Blower"
+msgstr "漩涡气泵 4RB 系列"
+
+#: inc/footer_inc.php:24
+msgid "IE2 Series Regenerative Blower"
+msgstr "气环风机IE2"
+
+#: inc/footer_inc.php:25
+msgid "Belt Drive Air Blower"
+msgstr "皮带传动风机"
+
+#: inc/footer_inc.php:29 inc/footer_inc.php:37 inc/prod-left.php:18
+msgid "Accessories"
+msgstr "漩涡气泵配件"
+
+#: inc/footer_inc.php:35 inc/header_inc.php:95 inc/header_inc.php:97
+#: inc/header_inc.php:94
+msgid "Downloads"
+msgstr "下载中心"
+
+#: inc/footer_inc.php:36
+msgid "Complete Catalog"
+msgstr "格凌目录书"
+
+#: inc/footer_inc.php:39
+msgid "Electric Motor"
+msgstr "电机"
+
+#: inc/footer_inc.php:42
+msgid "News"
+msgstr "新闻中心"
+
+#: inc/footer_inc.php:43
+msgid "Enterprise news"
+msgstr "企业动态"
+
+#: inc/footer_inc.php:44 inc/header_inc.php:89 inc/news-left.php:5
+#: inc/search-left.php:5 news_content.php:108 inc/header_inc.php:91
+#: inc/header_inc.php:88
+msgid "Industry news"
+msgstr "行业新闻"
+
+#: inc/footer_inc.php:45 inc/header_inc.php:98 Support.php:112
+#: inc/header_inc.php:100 inc/header_inc.php:97
+msgid "Support"
+msgstr "技术支持"
+
+#: inc/footer_inc.php:46
+msgid "Sitemap"
+msgstr "网站地图"
+
+#: inc/header_inc.php:31 Certification.php:95 honour.php:56 honour.php:58
+#: History.php:82 Equipments.php:86 Certification.php:91 Equipments.php:91
+#: inc/header_inc.php:33 inc/header_inc.php:30
+msgid "Home"
+msgstr "网站首页"
+
+#: inc/header_inc.php:81 inc/header_inc.php:83 inc/header_inc.php:80
+msgid "Applications"
+msgstr "产品应用"
+
+#: inc/header_inc.php:84 inc/header_inc.php:86 inc/header_inc.php:83
+msgid "News & Information"
+msgstr "新闻中心"
+
+#: inc/header_inc.php:88 inc/news-left.php:4 inc/search-left.php:4
+#: inc/header_inc.php:90 inc/header_inc.php:87
+msgid "Company news"
+msgstr "企业动态"
+
+#: inc/header_inc.php:101 inc/header_inc.php:103 inc/header_inc.php:100
+msgid "Contact us"
+msgstr "联系我们"
+
+#: inc/header_inc.php:108 inc/header_inc.php:110 inc/header_inc.php:107
+msgid "Search"
+msgstr "搜索"
+
+#: download.php:5 Download.php:10
+msgid ""
+"Download side channel blower performance curves,data sheet,technical data "
+"for pressure and vacuum_GREENCO"
+msgstr ""
+"高压风机资料下载|漩涡气泵资料下载|真空泵资料下载|电动机资料下载_浙江格凌实业"
+"有限公司"
+
+#: download.php:6 Download.php:11
+msgid ""
+"side channel blower download,regenerative blower,Ring Blower catalogue,Air "
+"blower manual,blower dimensions,regenerative blower,vacuum pump,motors,"
+"performance curves,technical data,blower curves"
+msgstr ""
+"高压风机资料下载,高压风机参数下载,高压风机说明文档下载,高压风机使用手册下载,"
+"高压风机应用下载,高瑞风机安装尺寸图下载,高瑞高压风机,高压风机产品,高压鼓风机"
+
+#: download.php:7 Download.php:12
+msgid ""
+"Downlod Greenco side channel blower,regenerative blower,Ring blower "
+"technical data,Air blower performance curves,catalogue & manual.Full range "
+"of products,the pressure upto 150Kpa,volume flow upto 2500m3/h,power range "
+"from 200w to 25kw"
+msgstr ""
+"浙江格凌实业有限公司专业研发、生产、销售格凌高压风机、高压鼓风机、真空泵13年."
+"拥有40多项高压风机核心专利技术.格凌高压鼓风机,漩涡气泵,中德美合资,全球产销量"
+"第一.成为国内用户群最大的高压鼓风机生产和服务商,全球已销售100多个国家以上."
+
+#: download.php:37 Download.php:42
+msgid "Complete Catalog (2RB,4RB and Belt Drive)"
+msgstr "格凌目录书 (2RB,4RB 和 皮带式)"
+
+#: download.php:42 Download.php:47
+msgid "Overview 2RB Series"
+msgstr "2RB 系列总览"
+
+#: download.php:44 download.php:51 Download.php:49 Download.php:56
+msgid "1AC Pressure Operation"
+msgstr "单相 压力操作"
+
+#: download.php:44 download.php:51 Download.php:49 Download.php:56
+msgid "3AC Pressure Operation"
+msgstr "三相 压力操作"
+
+#: download.php:45 download.php:52 Download.php:50 Download.php:57
+msgid "1AC Vacuum Operation"
+msgstr "单相 真空操作"
+
+#: download.php:45 download.php:52 Download.php:50 Download.php:57
+msgid "3AC Vacuum Operation"
+msgstr "三相 真空操作"
+
+#: download.php:49 Download.php:54
+msgid "Overview 4RB Series"
+msgstr "4RB 系列总览"
+
+#: download.php:60 Download.php:65
+msgid "Side Channel Blower PDF Data Sheets"
+msgstr "旋涡气泵 PDF 数据表"
+
+#: download.php:63 Download.php:68
+msgid "2RB Series Data Sheets(incl. IE1 and IE2 models)"
+msgstr "2RB 系列数据表(包括 IE1 和 IE2 等型号)"
+
+#: download.php:86 Download.php:91
+msgid "2RB Series Belt Drive Data Sheets"
+msgstr "2RB 皮带式系列数据表"
+
+#: download.php:98 Download.php:103
+msgid "4RB Series Data Sheets"
+msgstr "4RB 系列数据表"
+
+#: inc/news-left.php:2 inc/search-left.php:2 news_content.php:105
+msgid "NEWS"
+msgstr "新闻中心"
+
+#: news_Company.php:96 news_content.php:107
+msgid "Company News"
+msgstr "企业新闻"
+
+#: news_Industry.php:96 news_Industry.php:113 news_Industry.php:114
+msgid "Industry News"
+msgstr "行业新闻"
+
+#: application.php:10
+msgid ""
+"Applications of Side channel blower|Blower applications|Vacuum application|"
+"Pressure application"
+msgstr ""
+"高压风机行业应用|漩涡气泵行业应用|高压鼓风机应用案例_浙江格凌实业有限公司"
+
+#: application.php:11
+msgid ""
+"Applications,Blower applications,Vacuum application,Pressure application,"
+"Side channel blower,regenerative blower,air blower"
+msgstr ""
+"格凌高压风机漩涡气泵广泛用于灌装机械、医院传送系统、燃烧降氧机、卷烟滤嘴成型"
+"机、雾化干燥机、丝网印刷机、照相制版机、注塑机、自动上料烘干机、液体灌装机、"
+"粉末灌装机、电焊设备、电影机械、纸张运送、干洗衣服、清洁用途、空气除尘、干"
+"瓶、气体传送、送料、收集、中央集尘环境保护、丝网印刷、电镀、除尘、食品、包"
+"装、灌装、玻璃制品、气流输送等相关行业和机械。"
+
+#: application.php:12
+msgid ""
+"Regenerative Blowers,Air blower,Ring blower,Side Channel Blowers "
+"Manufacturer - GREENCO. 2RB,3RB & 4RB Series Side Channel Blowers, The "
+"pressure upto 150Kpa, volume flow upto 2500m3/h, Power range from 200w to "
+"25Kw"
+msgstr ""
+"高压风机应用,漩涡气泵应用案例,气环式风机成功案例,旋涡风机应用|高压鼓风机应用,"
+"高压风机案例,高压鼓风机应用案例 - GREENCO. 格凌 2RB,3RB 4RB 系列旋涡风机，高"
+"压鼓风机压力可达150Kpa, 风量最高2500m3/h,应用广泛"
+
+#: application.php:59
+msgid "Side Channel Blower Applications"
+msgstr "漩涡气泵行业应用"
+
+#: application.php:60
+msgid ""
+"Side channel blowers have been widely used in the environmental water "
+"treatment. For example, in the aeration of sewage, ring blowers can provide "
+"oxy that the aerobe need in the activated sludge. Also, blowers can provide "
+"the conditions which make the sewage and activated sludge mixed sufficiently "
+"to dissolve all kinds of organic matters in the water. Then, the sewage "
+"water can be purified. Besides the above, ring blowers can also be used to "
+"mix the plating bath fluid and can be used in the aquaculture industry as "
+"well in the printer industry."
+msgstr ""
+"漩涡气泵已经普遍运用在环保水处理，如对污水曝气，用以满足活性污泥中的好氧微生"
+"物所需要的氧量以及污水与活性污泥充分接触混合的条件，从而降解水中的各类有机质"
+"达到污水净化的目的，还能起到搅拌的作用，还有电镀槽液搅拌、水产养殖，都是起到"
+"相同的作用。"
+
+#: application.php:64
+msgid "Punch collector"
+msgstr "物料收集应用"
+
+#: application.php:68
+msgid "Sewing machine"
+msgstr "缝制设备应用"
+
+#: application.php:72
+msgid "Transfer"
+msgstr "物料输送应用"
+
+#: application.php:76
+msgid "Paper scrap"
+msgstr "切纸机应用"
+
+#: application.php:80
+msgid "Waste gasses"
+msgstr "废气收集应用"
+
+#: application.php:84
+msgid "Med suction"
+msgstr "医疗抽吸应用"
+
+#: application.php:88
+msgid "Paper dryer"
+msgstr "纸张干燥应用"
+
+#: application.php:92
+msgid "Paper feeding machine"
+msgstr "纸张供给应用"
+
+#: application.php:96
+msgid "Paper holder"
+msgstr "纸张夹持应用"
+
+#: application.php:100
+msgid "Vacuum transfer"
+msgstr "真空输送应用"
+
+#: application.php:104
+msgid "Powder transfer"
+msgstr "粉末输送应用"
+
+#: application.php:108
+msgid "Collector"
+msgstr "收集器应用"
+
+#: application.php:112
+msgid "Sediment"
+msgstr "污水曝气"
+
+#: application.php:116
+msgid "Ventilation"
+msgstr "隧道工程通风"
+
+#: application.php:120
+msgid "Hopper Loader"
+msgstr "贮液槽应用 "
+
+#: application.php:124
+msgid "Textile"
+msgstr "自动织布机应用 "
+
+#: application.php:128
+msgid "Bottling"
+msgstr "灌装机械应用"
+
+#: application.php:132
+msgid "Electro facing"
+msgstr "电镀池搅拌应用"
+
+#: application.php:136
+msgid "Dryer"
+msgstr "烘干器设备应用"
+
+#: application.php:140
+msgid "Eliminator"
+msgstr "木工机械应用"
+
+#: application.php:144
+msgid "Evaporator"
+msgstr "蒸发器应用 "
+
+#: application.php:148
+msgid "Sock Knitting"
+msgstr "短袜织布设备应用"
+
+#: application.php:152
+msgid "Pool & Psa"
+msgstr "温泉浴池曝气"
+
+#: inc/prod-left.php:2 Side_Channel_Blower_2RB_Single_Stage_table.php:91
+msgid "Side Channel Blower"
+msgstr "漩涡气泵系列"
+
+#: inc/prod-left.php:26
+msgid "2LV7 Series"
+msgstr "2LV7 系列"
+
+#: inc/prod-left.php:27
+msgid "2LV5 Series"
+msgstr "2LV5 系列"
+
+#: inc/prod-left.php:29 inc/search-left.php:1
+msgid "Search Product"
+msgstr "搜索产品"
+
+#: inc/prod-left.php:32
+msgid ""
+"Search a suitable product for your use, on the basis of air flow and "
+"pressure."
+msgstr "根据以下的压力和真空值来查询合适您的产品"
+
+#: inc/prod-left.php:33 inc/search-left.php:3
+#: Side_Channel_Blower_2RB_single_Stage_content.php:113
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:113
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:113
+#: Cover_Suction_Ring_Blower_content.php:111
+msgid "Pressure"
+msgstr "压力"
+
+#: inc/prod-left.php:33 inc/search-left.php:3
+#: Side_Channel_Blower_2RB_single_Stage_content.php:115
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:115
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:115
+#: Cover_Suction_Ring_Blower_content.php:113
+msgid "Vacuum"
+msgstr "真空"
+
+#: about_us.php:68
+msgid "ABOUT US"
+msgstr "关于格凌"
+
+#: about_us.php:69
+msgid ""
+"Zhejiang Greenco Industry Co., Ltd,established in 2001 and located in the "
+"famous \"China Small Compressors Agglomeration City\"--Zeguo Town, Wenling "
+"City, is one of China’s high and new tech enterprises who is specialized in "
+"making air fluid equipments (compressors and vacuum pumps). With more than "
+"ten years’ development, the company has become a professional manufacturer "
+"who is mainly committed to producing side channel blowers plus other kinds "
+"of air fluid equipments (vacuum pumps and compressors), forming the complete "
+"structure merging with R&D, production, sales and services. The Company has "
+"become the No.1 manufacturer in China and the leading manufacturer in the "
+"world in the industry of side channel blowers."
+msgstr ""
+"浙江格凌实业有限公司（以下简称公司）创建于2001年，座落于有“中国小型空压机之"
+"乡”之称的温岭市泽国镇，是一家专业从事空气流体设备）（压缩、真空）的国家高新技"
+"术企业，通过十多年的发展，公司形成了漩涡式气泵为主，其他空气流体设备（真空泵"
+"和压缩机）为辅，集研发、生产、销售、服务于一体的发展格局，公司已经成为中国乃"
+"至全球漩涡气泵领域的领导者，并实现产量和销售全球第一。"
+
+#: about_us.php:71
+msgid "New Factory 1:Wenling Eastern Industrial Zone"
+msgstr "温岭东部新区新厂房"
+
+#: about_us.php:73
+msgid "New Factory 2:Shenqiao Zeguo"
+msgstr "泽国沈桥新厂房"
+
+#: about_us.php:74
+msgid ""
+"As of now, the Company with three factories and occupying more than 108,000 "
+"square meters, has powerful research and development techniques and advanced "
+"machining equipments---more than 300 production equipments, including 10 "
+"more die casting machines, 80 more advanced CNC machines which were directly "
+"imported from German and Japan, many kinds of high precision measurement "
+"instruments and devices,more than 70 testing equipments. The company always "
+"upholds the philosophy that it should have the integrated production and "
+"management, containing the whole process of design and development, tooling "
+"making, die casting, stamping, high precision machining, assembling and "
+"automatic spraying. What’s more, the Company newly builds a modernized "
+"automatic-spraying and electro-coating production line for spare parts. By "
+"using this production line, every part should be electro-coated and thus the "
+"quality of our products are able to be controlled very well and improved "
+"increasingly."
+msgstr ""
+"公司有三个厂房，总的占地面积108000余平方米，拥有强大的研发技术和先进的加工设"
+"备，各类生产设备300多台，其中10多台压铸机，80多台德国和日本进口的加工设备，各"
+"种精密检测仪器、检测设备、试验设备70余台。公司始终坚持集设计开发，模具制造、"
+"压铸、冲压、精密加工、装配、自动化喷漆一体化生产和管理，并新建一条现代化的零"
+"部件自动涂装电泳生产线，每个部件都经过电泳处理，从而使得产品质量能够更好控制"
+"和不断提升。"
+
+#: about_us.php:75
+msgid ""
+"The Company, the \"Star Enterprise\" in Zhejiang province, was rated as AA-"
+"rated \"Zhejiang Enterprise of Keeping Contract and Value Credit\" and "
+"\"Zhejiang High and New tech Enterprise\", \"The Center of High and New tech "
+"Development of Taizhou\", \"Wenling Key Industrial Enterprise\" and named as "
+"the pro-listed company. The company acquired the Certificate of ISO9001:2008 "
+"Quality System and the Certificate of ISO14001 Environment Management "
+"System. Ring blowers made in the Company are listed as Zhejiang key project "
+"of technical innovation by Zhejiang Economic and Trade Commission and have "
+"over 30 national invention and innovation patents. Leading the development "
+"of domestic air fluid equipments (compressors and vacuum pumps), the company "
+"has become the leader in this industry in China. Products in the Company "
+"rated as \"Taizhou Famous Mark\" and \"Zhejiang Famous Brand\" also acquired "
+"certificates like UL, CE, TUV, CCC, ROHS and are mainly exported to the "
+"developed countries in Europe and North America and are very popular among "
+"these customers."
+msgstr ""
+"公司是浙江省高新技术企业、浙江省AA级守合同重信用企业、浙江省诚信民营企业、温"
+"岭市明星企业，列为温岭上市后备企业，拥有省级企业技术中心。并通过了ISO9001："
+"2008质量体系认证，ISO9001：2008质量体系认证，ISO4001环境管理体系认证。公司生"
+"产的旋涡式气泵被省经贸委列为浙江省技术创新重点项目，拥有30多项国家发明和实用"
+"创新型专利。引领国内空气流体设备（压缩，真空）的发展，成为国内空气流体设备"
+"（压缩，真空）领域领导者。产品被评为浙江省著名商标、浙江名牌产品，并通过UL，"
+"CE，TUV，CCC，ROHS认证，主要出口欧美等发达国家，深欧美客户的青睐。"
+
+#: about_us.php:76
+msgid ""
+"With \"Continuous Creation and Keeping Excelsior\" set as Greenco’s "
+"benchmark and adhering to the business principle of \"Scientific Management, "
+"Brand Supremacy, Best Quality, Customer Satisfaction\", we always believe "
+"that customers are the source of our continuous success. Warmly welcome "
+"friends home and abroad to visit and instruct in our company. Your arrivals "
+"are the power of our growth and we will give you surprises. We sincerely "
+"would like to work with you together to get the win-win achievements and "
+"create a glory future."
+msgstr ""
+"“不断创新、精益求精”是格凌持续高速发展的标杆，始终坚持“科学管理，品牌至上，质"
+"量上乘，顾客满意”的经营方针，我们始终坚信，客户是公司取得持续成功的源泉。热诚"
+"欢迎海内外各界朋友到我们公司参观指导，您的到来是我们发展的动力，我们将呈现给"
+"您不一样的惊喜。我们愿与您真诚合作，携手共进，互利共赢，共创辉煌的明天。"
+
+#: Certification.php:5 Certification.php:10
+msgid "Certificate|Certifications|Quality System_GREENCO"
+msgstr "质量认证|产品认证|体系认证_浙江格凌实业有限公司"
+
+#: Certification.php:6 Certification.php:11 news_Industry.php:30
+#: news_Industry.php:31
+msgid ""
+"GREENCO_The world leader manufacturer in side channle blower,regenerative "
+"blower,ring blower in China,side channel pumps can be used as vacuum pumps "
+"or compressors and are a highly efficient dry running technology for "
+"numerous applications."
+msgstr ""
+"浙江格凌实业有限公司是一家专业从事空气流体设备）（压缩、真空）的国家高新技术"
+"企业，公司形成了以高压风机，漩涡气泵，旋涡风机，高压鼓风机为主，其他空气流体"
+"设备（真空泵和压缩机）为辅，集研发、生产、销售、服务于一体的发展格局，公司已"
+"经成为中国乃至全球真空和压缩领域的领导者."
+
+#: Certification.php:7 Certification.php:12
+msgid ""
+"Side channel blower,regenerative blower,air blower,certifications,"
+"ISO9001:2008,CE,UL,CCC,TUV,GS,GREENCO"
+msgstr ""
+"产品认证,风机认证,格凌质量体系,ISO9001:2008,CE认证,UL认证,CCC认证,TUV认证,GS"
+"认证,格凌,GREENCO"
+
+#: about_us.php:10
+msgid ""
+"About Greenco|Side channel blower|Regenerative blower|Air blower|Ring "
+"blower_Zhejiang Greenco Industry Co Ltd"
+msgstr ""
+"关于格凌|格凌实业|格凌风机|漩涡气泵|高压风机|高压鼓风机|旋涡风机|浙江格凌实业"
+"有限公司"
+
+#: about_us.php:11 Support.php:29
+msgid ""
+"GREENCO_The world leader manufacturer in side channel blower,regenerative "
+"blower,ring blower in China,side channel pumps can be used as vacuum pumps "
+"or compressors and are a highly efficient dry running technology for "
+"numerous applications."
+msgstr ""
+"浙江格凌实业有限公司是一家专业从事空气流体设备）（压缩、真空）的国家高新技术"
+"企业，公司形成了以高压风机，漩涡气泵，旋涡风机，高压鼓风机为主，其他空气流体"
+"设备（真空泵和压缩机）为辅，集研发、生产、销售、服务于一体的发展格局，公司已"
+"经成为中国乃至全球真空和压缩领域的领导者."
+
+#: about_us.php:12
+msgid ""
+"side channel blower,regenerative blower,vacuum pumps,air Blowers,50Hz,60Hz,"
+"Greenco"
+msgstr ""
+
+#: inc/search-left.php:3 inc/prod-left.php:33
+msgid "1:Select a Graph:"
+msgstr "1:选择压力方式:"
+
+#: inc/search-left.php:4 inc/prod-left.php:34
+msgid "2:Air Flow"
+msgstr "2:真空值"
+
+#: inc/search-left.php:6 inc/prod-left.php:36
+msgid "3:Pressure"
+msgstr "3:压力值"
+
+#: honour.php:5
+msgid "Honours|Greenco honour_GREENCO"
+msgstr "企业荣誉-浙江格凌实业有限公司"
+
+#: honour.php:6
+msgid ""
+"Honours,Greenco honour,side channel blower honour,High Tech,Famous brand,"
+"trademark,regenerative blower,air blower,GREENCO"
+msgstr ""
+
+#: honour.php:7
+msgid ""
+"Zhejiang Greenco Industry Co Ltd approved by ISO9001:2008 quality system，"
+"side channel blower approved by UL、CE、TUV、GS certifications,high quality "
+"& competitive price,export to more than 100 countries."
+msgstr ""
+
+#: honour.php:57
+msgid "Zhejiang Brand products"
+msgstr "浙江名牌产品"
+
+#: honour.php:59
+msgid "High and new tech enterprises"
+msgstr "浙江省高新技术企业"
+
+#: honour.php:60
+msgid "Enterprise technology center"
+msgstr "浙江省企业技术中心"
+
+#: honour.php:61
+msgid "The zhejiang province famous trademark"
+msgstr "浙江著名商标"
+
+#: honour.php:62
+msgid "R&D Center"
+msgstr "高新技术研究开发中心"
+
+#: honour.php:63
+msgid "AA Rated(Keep the contract heavy credit unit)"
+msgstr "守合同重信用单位"
+
+#: honour.php:64
+msgid "New mechanical and electrical products"
+msgstr "名优新机电产品"
+
+#: Video.php:92 Video.php:97
+msgid "Greenco Side Channel Blowers Video"
+msgstr "格凌漩涡气泵视频"
+
+#: Video.php:97 Video.php:102
+msgid "(Production workshop video)"
+msgstr "（企业宣传视频）"
+
+#: Equipments.php:87 Equipments.php:92
+msgid "Sparepart Warehouse"
+msgstr "零件仓库"
+
+#: Equipments.php:88 Equipments.php:93
+msgid "Precision Production Line"
+msgstr "生产设备展示"
+
+#: Equipments.php:89 Equipments.php:94
+msgid "Die Casting Workshop"
+msgstr "压铸车间"
+
+#: Equipments.php:91
+msgid "Q&C Department"
+msgstr "品质部"
+
+#: Equipments.php:93 Equipments.php:98
+msgid "Shipping"
+msgstr "发货区"
+
+#: Equipments.php:94 Equipments.php:99
+msgid "Outgoing Inspection"
+msgstr "出厂检测"
+
+#: Equipments.php:90 Equipments.php:95
+msgid "Assembling Line"
+msgstr "装配线"
+
+#: Equipments.php:92 Equipments.php:97
+msgid "Packing Line"
+msgstr "包装线"
+
+#: Certification.php:92
+msgid "ISO9001:2008"
+msgstr "CQC 认证证书"
+
+#: Certification.php:93
+msgid "CE-LVD"
+msgstr "CE 认证证书"
+
+#: Certification.php:94
+msgid "CE-EMC"
+msgstr "CE 认证证书"
+
+#: Certification.php:95
+msgid "ROHS"
+msgstr "ROHS 证书"
+
+#: Certification.php:96
+msgid "GSPC"
+msgstr "标准化证书"
+
+#: Certification.php:97
+msgid "Measurement"
+msgstr "质量管理证书"
+
+#: Certification.php:98
+msgid "Patent 1"
+msgstr "实用新型专利证书"
+
+#: Certification.php:99
+msgid "Patent 2"
+msgstr "实用新型专利证书"
+
+#: Certification.php:100
+msgid "Patent 3"
+msgstr "发明专利证书"
+
+#: Equipments.php:96
+msgid "Carl Zeiss CMM"
+msgstr "Carl Zeiss三坐标"
+
+#: Equipments.php:100
+msgid "AUTO motor winding"
+msgstr " 自动绕线机"
+
+#: Equipments.php:101
+msgid "SCHNEEBERGER Grinder"
+msgstr "SCHNEEBERGER 磨床"
+
+#: Side_Channel_Blower_2RB_Single_Stage.php:86
+#: Side_Channel_Blower_3RB_Single_Stage.php:42
+#: Side_Channel_Blower_4RB_Single_Stage.php:89
+msgid "Single Stage"
+msgstr " 单段 "
+
+#: Side_Channel_Blower_2RB_Single_Stage.php:86
+#: Side_Channel_Blower_2RB_Double_Stage.php:92
+#: Side_Channel_Blower_3RB_Single_Stage.php:42
+#: Side_Channel_Blower_3RB_Double_Stage.php:87
+#: Side_Channel_Blower_3RB_Three_Stage.php:87
+#: Side_Channel_Blower_4RB_Single_Stage.php:89
+#: Side_Channel_Blower_4RB_Double_Stage.php:87
+#: Side_Channel_Blower_4RB_Three_Stage.php:87
+msgid " ▪ Side Channel Blower"
+msgstr "▪旋涡气泵"
+
+#: Side_Channel_Blower_2RB_Double_Stage.php:92
+#: Side_Channel_Blower_3RB_Double_Stage.php:87
+#: Side_Channel_Blower_4RB_Double_Stage.php:87
+msgid "Double Stage"
+msgstr " 双段 "
+
+#: Side_Channel_Blower_3RB_Three_Stage.php:87
+#: Side_Channel_Blower_4RB_Three_Stage.php:87
+msgid "Three Stage"
+msgstr " 三段 "
+
+#: inc/3RB-desc.php:2
+msgid ""
+"Greenco classica with innovative technology for 3RB series side channel "
+"blower create high pressure,high vacuum and high airflow which can be "
+"replaced equivalent power of Roots blower,but Greenco side channel blowers "
+"are more advantages than roots blower:the materials are made by aluminum die "
+"casting,the weight is much lighter,the volume is even compacter.the lifetime "
+"is longer,low noise,oilless,free maintenance."
+msgstr ""
+"浙江格凌实业有限公司以独创的创新技术最新研发的3RB系列旋涡气泵，该系列比原来的"
+"2RB系列和4RB系列能够产生更高的压力，更高的真空和更大的风量。3RB系列旋涡气泵完"
+"全能够代替同等功率的罗茨鼓风机，并且比罗茨鼓风机有更大的优势：材料完全铝压"
+"铸，体积小重量更轻、无油，免维护、寿命更长、噪音比2RB和4RB系列更低，性价比更"
+"高。"
+
+#: Cover_Suction_Ring_Blower.php:87
+msgid "  Cover Suction Ring Blower"
+msgstr " 吸顶式高压风机"
+
+#: Cover_Suction_Ring_Blower.php:88
+msgid ""
+"  The cover suction series ring blower are designed for our specific "
+"customers. On the front cover, There is an inlet and an outlet, which make "
+"customers use their own products flexibly. The customers are not only able "
+"to use the inlet and outlet to suction and blow, but also are able to use "
+"the original inlet and outlet on the rear housing to suction and blow. Then "
+"it will reduce customers’ cost of product materials as well as decrease the "
+"freight cost due to the smaller volume of products. This design has been "
+"widely used on industrial vacuum cleaners, automatic hopper loaders and "
+"dental suction systems. As a result, Our professional OEM design has been "
+"appreciated by many of our customers because we help them win more markets. "
+msgstr ""
+"吸顶式风机系列是针对特定的客户专门开发的产品,该系列在前盖位置增加了一个进气孔"
+"和一个出气孔，使得客户可以根据自己的产品灵活使用,既可以使用前盖位置作为吸气和"
+"吹气,也可以使用现有的泵体位置吸气和吹气。这样就可以为客户节省产品的材料成本，"
+"也可以为客户由于体积变小而降低运输成本。该设计已经被广泛使用在工业吸尘器，自"
+"动供料系统和口腔抽吸系统上，为客户赢得了市场竞争，我们的专业定制性也获得很多"
+"客户的赞赏。"
+
+#: Cover_Suction_Ring_Blower.php:89
+msgid "  Application for cover suction series ring blower"
+msgstr " 吸顶式气泵应用"
+
+#: Cover_Suction_Ring_Blower.php:90
+msgid "Industrial vacuum cleaner"
+msgstr "工业吸尘器应用"
+
+#: Cover_Suction_Ring_Blower.php:91
+msgid "Automatic hopper loader system"
+msgstr "自动供料系统应用"
+
+#: Cover_Suction_Ring_Blower.php:92
+msgid "Dental suction system"
+msgstr "口腔抽吸系统应用"
+
+#: Cover_Suction_Ring_Blower.php:93
+msgid " Performance & Technical data"
+msgstr " 性能和技术参数"
+
+#: Belt_Drive_Air_Blower_2RB_Single_Stage.php:86
+msgid " Single Stage Belt Drive"
+msgstr " 单段 皮带式风机"
+
+#: Belt_Drive_Air_Blower_2RB_Single_Stage.php:86
+#: Belt_Drive_Air_Blower_2RB_Double_Stage.php:85
+#: Belt_Drive_Air_Blower_2RB_Double_Stage.php:86
+msgid "▪  Air Blower"
+msgstr " ▪  风机"
+
+#: Belt_Drive_Air_Blower_2RB_Double_Stage.php:85
+msgid "2RB Double Stage Belt Drive"
+msgstr "2RB 双段皮带式"
+
+#: IE2_Single_Stage_Regenerative_Blower.php:82
+msgid " Single Stage"
+msgstr " 单段"
+
+#: IE2_Single_Stage_Regenerative_Blower.php:82
+msgid " ▪ Regenerative Blower"
+msgstr " ▪ 旋涡气泵"
+
+#: IE2_Double_Stage_Regenerative_Blower.php:82
+msgid "  Double Stage"
+msgstr " 双段"
+
+#: IE2_Double_Stage_Regenerative_Blower.php:82
+msgid "  ▪ Regenerative Blower"
+msgstr "▪ 旋涡气泵"
+
+#: Silencer.php:92
+msgid "Silencer for Side Channel Blower"
+msgstr "消音器用于旋涡气泵"
+
+#: Inlet_Vacuum_Filter.php:87
+msgid "Inlet Vacuum Filter for Side Channel Blower"
+msgstr "过滤器用于旋涡气泵"
+
+#: Relief_Valve.php:82
+msgid "Relief Valve for Side Channel Blower"
+msgstr "释压伐用于旋涡气泵"
+
+#: Side_Channel_Blower_2RB_Single_Stage_table.php:91
+msgid "Series Ordering Data and Performance Data"
+msgstr " 系列  规格数据和性能参数  "
+
+#: Side_Channel_Blower_2RB_Single_Stage_table.php:93 inc/date-hd.php:1
+msgid "Order No"
+msgstr "产品型号"
+
+#: Side_Channel_Blower_2RB_Single_Stage_table.php:93 inc/date-hd.php:1
+msgid "Fre-quency"
+msgstr "频率"
+
+#: Side_Channel_Blower_2RB_Single_Stage_table.php:93 inc/date-hd.php:1
+msgid "Output"
+msgstr "输出功率"
+
+#: Side_Channel_Blower_2RB_Single_Stage_table.php:93 inc/date-hd.php:1
+msgid "Maximum Airflow"
+msgstr "最大流量"
+
+#: Side_Channel_Blower_2RB_Single_Stage_table.php:93 inc/date-hd.php:1
+msgid "Maximum Vacuum"
+msgstr "最高真空"
+
+#: Side_Channel_Blower_2RB_Single_Stage_table.php:93 inc/date-hd.php:1
+msgid "Maximum Pressure"
+msgstr "最高真空"
+
+#: Side_Channel_Blower_2RB_single_Stage_content.php:105
+#: Side_Channel_Blower_2RB_single_Stage_content.php:119
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:105
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:105
+#: Cover_Suction_Ring_Blower_content.php:103
+msgid "Technical Data"
+msgstr "技术参数"
+
+#: Side_Channel_Blower_2RB_single_Stage_content.php:107
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:107
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:107
+#: Cover_Suction_Ring_Blower_content.php:105
+msgid "Model"
+msgstr "型号"
+
+#: Side_Channel_Blower_2RB_single_Stage_content.php:108
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:108
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:108
+#: Cover_Suction_Ring_Blower_content.php:106
+msgid "Stage"
+msgstr "段数"
+
+#: Side_Channel_Blower_2RB_single_Stage_content.php:109
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:109
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:109
+#: Cover_Suction_Ring_Blower_content.php:107
+msgid "Freq"
+msgstr "频率"
+
+#: Side_Channel_Blower_2RB_single_Stage_content.php:110
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:110
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:110
+#: Cover_Suction_Ring_Blower_content.php:108
+msgid "Power"
+msgstr "功率"
+
+#: Side_Channel_Blower_2RB_single_Stage_content.php:111
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:111
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:111
+#: Cover_Suction_Ring_Blower_content.php:109
+msgid "Airflow"
+msgstr "流量"
+
+#: Side_Channel_Blower_2RB_single_Stage_content.php:112
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:112
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:112
+#: Cover_Suction_Ring_Blower_content.php:110
+msgid "TH.CL"
+msgstr "防水"
+
+#: Side_Channel_Blower_2RB_single_Stage_content.php:114
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:114
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:114
+#: Cover_Suction_Ring_Blower_content.php:112
+msgid "IN.CL"
+msgstr "防热"
+
+#: Side_Channel_Blower_2RB_single_Stage_content.php:116
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:116
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:116
+#: Cover_Suction_Ring_Blower_content.php:114
+msgid "N.weight"
+msgstr "重量"
+
+#: Side_Channel_Blower_2RB_single_Stage_content.php:117
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:117
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:117
+#: Cover_Suction_Ring_Blower_content.php:115
+msgid "Inlet/outlet"
+msgstr "进口/出口"
+
+#: Side_Channel_Blower_2RB_single_Stage_content.php:118
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:118
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:118
+#: Cover_Suction_Ring_Blower_content.php:116
+msgid "Sound"
+msgstr "噪音"
+
+#: Side_Channel_Blower_2RB_single_Stage_content.php:119
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:119
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:119
+#: Cover_Suction_Ring_Blower_content.php:117
+msgid "Dimension"
+msgstr "尺寸"
+
+# pdf路径
+#: Download.php:49
+msgid "upfile"
+msgstr "upfile/cn"
+
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:132
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:128
+msgid "Dimension for side channel blower"
+msgstr "漩涡气泵尺寸"
+
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:222
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:143
+msgid "Note:Model offerings and design parameters may change without notice."
+msgstr "注意：产品模型和设计参数可能会更改,不另行通知。"
+
+#: news_content.php:13 news_content.php:23
+msgid "News|blower news|side channel blower news"
+msgstr ""
+"新闻内容|格凌新闻|风机新闻|行业新闻|高压风机|漩涡气泵|真空泵|浙江格凌实业有限"
+"公司"
+
+#: news_content.php:14 news_content.php:25
+msgid ""
+"GREENCO_The world leader manufacturer in side channle blower,regenerative "
+"blower,ring blower,air blower in China,side channel pumps can be used as "
+"vacuum pumps or compressors and are a highly efficient dry running "
+"technology for numerous applications."
+msgstr ""
+"浙江格凌实业有限公司是一家专业从事空气流体设备）（压缩、真空）的国家高新技术"
+"企业，公司形成了以高压风机，漩涡气泵，旋涡风机，高压鼓风机为主，其他空气流体"
+"设备（真空泵和压缩机）为辅，集研发、生产、销售、服务于一体的发展格局，公司已"
+"经成为中国乃至全球真空和压缩领域的领导者."
+
+#: news_content.php:15 news_Industry.php:30 news_content.php:24
+msgid "News,Blower news,side channel blower news,Industry News,GREENCO"
+msgstr ""
+"行业新闻,风机新闻,高压风机,漩涡气泵,旋涡风机,高压鼓风机,气环风机,真空泵,浙江"
+"格凌实业有限公司"
+
+#: news_Industry.php:29
+msgid ""
+"GREENCO-Side Channel Blower|Regenerative Blower|Ring blower|Vacuum pump|"
+"Electric motor|Zhejiang GREENCO Industry Co Ltd"
+msgstr ""
+"高压风机,漩涡气泵,旋涡气泵,气环风机,漩涡风机,旋涡风机,气环风机,真空泵,单段,双"
+"段,三段,多段式2RB,3RB,4RB 系列,GREENCO，格凌，格凌风机，浙江格凌实业有限公司,"
+
+#: news_content.php:114
+msgid "Author"
+msgstr "作者"
+
+#: contact_us.php:5
+msgid ""
+"Contact us|Feedback|Contact Greenco|Online_Zhejiang Greenco Industry Co Ltd"
+msgstr "联系我们|联系格凌|反馈意见|在线联系_浙江格凌实业有限公司"
+
+#: contact_us.php:6
+msgid ""
+"Contact Us,Feedback,Contact Greenco,Greenco side channel blower,regenerative "
+"blower,air blower,GREENCO"
+msgstr ""
+"联系格凌,咨询,联系我们,0576-86428999 Greenco,格凌风机 格凌真空泵,高压风机,鼓"
+"风机,气泵,漩涡气泵"
+
+#: contact_us.php:70
+msgid "Contact Details"
+msgstr "联系方式"
+
+#: contact_us.php:71
+msgid "Zhejiang Greenco Industry Co.,Ltd"
+msgstr "浙江格凌实业邮箱公司"
+
+#: contact_us.php:72
+msgid "Add"
+msgstr "地址"
+
+#: contact_us.php:72
+msgid "Danya Industrial zone.zeguo.wenling zhejiang China."
+msgstr "浙江省温岭市泽国镇丹崖工业新区"
+
+#: contact_us.php:73
+msgid "Tel"
+msgstr "电话"
+
+#: contact_us.php:74
+msgid "Fax"
+msgstr "传真"
+
+#: contact_us.php:75 contact_us.php:87
+msgid "E-mail"
+msgstr "邮箱"
+
+#: contact_us.php:77
+msgid "Website"
+msgstr "网站"
+
+#: contact_us.php:80
+msgid "Your questions and comments"
+msgstr "疑问和留言"
+
+#: contact_us.php:81
+msgid ""
+"If you would like us to send you information by post or to make contact to "
+"advise on the specification of our products, please complete the form below."
+msgstr "如果希望我们在选型上给您建议，请完成以下表单发送给我们。"
+
+#: contact_us.php:84
+msgid "Name"
+msgstr "姓名"
+
+#: contact_us.php:85
+msgid "Company"
+msgstr "公司"
+
+#: contact_us.php:86
+msgid "Telephone"
+msgstr "电话"
+
+#: contact_us.php:88
+msgid "Comments"
+msgstr "留言"
+
+#: contact_us.php:89
+msgid "Code"
+msgstr "验证"
+
+#: contact_us.php:94
+msgid "SEND"
+msgstr "发送"
+
+#: contact_us.php:7
+msgid ""
+"Greenco is professional manufacturer of side channel blower,regenerative "
+"blower,air blower in China,contact us by 0086-576-86428999."
+msgstr ""
+"浙江格凌实业有限公司是一家专业从事空气流体设备）（压缩、真空）的国家高新技术"
+"企业，公司形成了以高压风机，漩涡气泵，旋涡风机，高压鼓风机为主，其他空气流体"
+"设备（真空泵和压缩机）为辅，集研发、生产、销售、服务于一体的发展格局，公司已"
+"经成为中国乃至全球真空和压缩领域的领导者."
+
+#: application.php:56
+msgid "application.jpg"
+msgstr "application-cn.jpg"
+
+#: Video.php:10
+msgid "Greenco Video|Product showroom|Blower video|side channel blower_GREENCO"
+msgstr "视频|格凌视频|视频展示|生产视频_浙江格凌实业有限公司"
+
+#: Video.php:11
+msgid "Greenco video,workshop,blower video,side channel blower_Greenco"
+msgstr ""
+"高压风机视频|漩涡气泵视频|格凌生产车间视频|GREENCO|生产现场视频_浙江格凌实业"
+"有限公司"
+
+#: Video.php:12 Side_Channel_Blower_2RB_Double_Stage.php:11
+#: Side_Channel_Blower_2RB_Single_Stage.php:11
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:17
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:17
+#: Cover_Suction_Ring_Blower_content.php:15
+msgid ""
+"Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF "
+"bearing high temperaturer grease,The world leader in manufacturer,export to "
+"more than 100 countries by Greenco."
+msgstr ""
+"浙江格凌实业有限公司专业研发、生产、销售格凌高压风机、高压鼓风机、真空泵十多"
+"年.拥有40多项高压风机核心专利技术和发明专利"
+
+#: Support.php:28
+msgid ""
+"Technical Support for Side Channel Blower|Regenerative Blower|Ring blower|"
+"Vacuum pump"
+msgstr ""
+"技术支持|技术参数|高压风机技术|漩涡气泵维护|气泵保养|旋涡风机|真空泵|浙江格凌"
+"实业有限公司"
+
+#: Support.php:30
+msgid ""
+"Technical Support of side channel blower,Regenerative blower,Ring blower,Air "
+"blower,vacuum pump,industrial blowers,high pressure blowers,double stage "
+"blower,three stage multistage blowers,2RB,3RB,4RB series,"
+msgstr ""
+"高压风机,漩涡气泵,旋涡气泵,气环风机,漩涡风机,旋涡风机,气环风机,真空泵,单段,双"
+"段,三段,多段式2RB,3RB,4RB 系列,GREENCO，格凌，格凌风机，浙江格凌实业有限公司,"
+
+#: Support.php:115
+msgid "Technical Support"
+msgstr "技术支持"
+
+#: news_Industry.php:111
+msgid "news_banner.jpg"
+msgstr "news_banner-cn.jpg"
+
+#: inc/header_inc.php:17 inc/header_inc.php:14
+msgid "logo.jpg"
+msgstr "logo-cn.jpg"
+
+#: inc/header_inc.php:20 inc/header_inc.php:17
+msgid "home7.png"
+msgstr "home7-cn.png"
+
+#: index.php:79
+msgid "home3.jpg"
+msgstr "home3-cn.jpg"
+
+#: inc/header_inc.php:27 inc/header_inc.php:30
+msgid "greenco-nav"
+msgstr "greenco-nav-cn"
+
+#: inc/header_inc.php:109
+msgid "Start Searching"
+msgstr "开始查询"
+
+#: inc/footer_inc.php:9
+msgid "greenco-footer"
+msgstr "greenco-footer-cn"
+
+#: Silencer_content.php:16
+msgid "Silencer|Blower Silencer|Side channel blower"
+msgstr "消音器|消音装置|高压风机|"
+
+#: Silencer_content.php:16
+msgid "Technical Data|Zhejiang GREENCO Industry Co Ltd"
+msgstr "技术参数|浙江格凌实业有限公司"
+
+#: Silencer_content.php:17 Silencer.php:11
+msgid ""
+"Silencers are used for the reduce in positive displacement air blowers and "
+"vacuum pumps."
+msgstr ""
+"格凌消音器用于降低或者减少高压风机,漩涡气泵,旋涡风机,真空泵的噪音,可以使用于"
+"真空或者压缩气体应用."
+
+#: Silencer_content.php:18 Silencer.php:12
+msgid ""
+"Silencer,Blower Silencer,Air Silencer,Side channel blower,Regenerative "
+"blower,Ring blower,Air blower,Vacuum pump,2BX4 series,GREENCO"
+msgstr ""
+"消音器,消音装置,降音装置,高压风机,漩涡气泵,旋涡风机,真空"
+"泵,2BX4,2RX4011,2RX4012,2RX4013,2RX4014,GREENCO 格凌,浙江格凌,格凌实业,浙江格"
+"凌实业有限公司"
+
+#: Silencer.php:10
+msgid "Side Channel Blower Silencer"
+msgstr "消音器|消音装置|高压风机|高压鼓风机|浙江格凌实业有限公司"
+
+#: Side_Channel_Blower_2RB_Double_Stage.php:12
+#: Side_Channel_Blower_2RB_Single_Stage.php:12
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:18
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:18
+msgid ""
+"Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,"
+"single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO"
+msgstr ""
+"高压风机,漩涡气泵,旋涡气泵,气环风机,漩涡风机,旋涡风机,气环风机,真空泵,单段,双"
+"段,三段,多段式2RB,3RB,4RB 系列,GREENCO，格凌，格凌风机，格凌高压风机."
+
+#: Side_Channel_Blower_2RB_Double_Stage_content.php:16
+msgid "Side channel blower"
+msgstr "高压风机|高压鼓风机"
+
+#: Side_Channel_Blower_3RB_Single_Stage_content.php:16
+msgid "Side channel blower|"
+msgstr ""
+
+#: Belt_Drive_Air_Blower_2RB_Double_Stage.php:11
+msgid ""
+"Belt Drive Air Blower,Ring blower with NSK,SKF bearing high temperaturer "
+"grease,The world leader in manufacturer,export to more than 100 countries by "
+"Greenco."
+msgstr ""
+"格凌高压风机,漩涡气泵,旋涡风机,旋涡气泵,气环风机,NSK,SFK耐高温轴承,低噪音，免"
+"维护，寿命长,高效节能环保，著名品牌，全球高压风机的生产基地，产销量全球第一."
+
+#: Belt_Drive_Air_Blower_2RB_Double_Stage.php:12
+msgid ""
+"Belt Drive Air Blower,Ring blower,Air blower,Vacuum pump,single stage,double "
+"stage,multi stage blower,2RB,3RB,4RB series,GREENCO"
+msgstr ""
+"压风机,漩涡气泵,旋涡气泵,气环风机,漩涡风机,旋涡风机,气环风机,皮带式，无电机，"
+"裸轴,单段,双段,三段,多段式2RB,3RB,4RB 系列,GREENCO，格凌，格凌风机，格凌高压"
+"风机."
+
+#: Belt_Drive_Air_Blower_2RB_Double_Stage.php:86
+msgid " Double Stage Belt Drive"
+msgstr "双段皮带式"
+
+#: Belt_Drive_Air_Blower_2RB_Single_Stage.php:11
+msgid ""
+"Belt Drive Air Blower,Side channel blower,Ring blower with NSK,SKF bearing "
+"high temperaturer grease,The world leader in manufacturer,export to more "
+"than 100 countries by Greenco."
+msgstr ""
+"格凌高压风机,漩涡气泵,旋涡风机,旋涡气泵,气环风机,NSK,SFK耐高温轴承,低噪音，免"
+"维护，寿命长,高效节能环保，著名品牌，全球高压风机的生产基地，产销量全球第一."
+
+#: Belt_Drive_Air_Blower_2RB_Single_Stage.php:12
+msgid ""
+"Belt Drive Air Blower,Side channel blower,Ring blower,Air blower,Vacuum pump,"
+"single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO"
+msgstr ""
+"压风机,漩涡气泵,旋涡气泵,气环风机,漩涡风机,旋涡风机,气环风机,皮带式，无电机，"
+"裸轴,单段,双段,三段,多段式2RB,3RB,4RB 系列,GREENCO，格凌，格凌风机，格凌高压"
+"风机."
+
+#: Cover_Suction_Ring_Blower.php:5
+msgid "Cover Suction Ring Blower|"
+msgstr "吸顶式旋涡风机|旋涡气泵"
+
+#: Cover_Suction_Ring_Blower.php:6
+msgid ""
+"Greenco Cover Suction Ring Blower,Side channel blower,Regenerative blower "
+"with NSK,SKF bearing high temperaturer grease,The world leader in "
+"manufacturer,export to more than 100 countries by Greenco."
+msgstr ""
+"格凌吸顶式高压风机,漩涡气泵,旋涡风机,旋涡气泵,气环风机,NSK,SFK耐高温轴承,低噪"
+"音，免维护，寿命长,高效节能环保，著名品牌，全球高压风机的生产基地，产销量全球"
+"第一."
+
+#: Cover_Suction_Ring_Blower.php:7
+msgid ""
+"Cover Suction Ring blower,Front suction Side channel blower,Regenerative "
+"blower,Air blower,Vacuum pump,single stage,double stage,multi stage "
+"blower,2RB,3RB,4RB series,GREENCO"
+msgstr ""
+"吸顶式，前吸式高压风机,漩涡气泵,旋涡气泵,气环风机,漩涡风机,旋涡风机,气环风机,"
+"真空泵,单段,双段,三段,多段式2RB,3RB,4RB 系列,GREENCO，格凌，格凌风机，格凌高"
+"压风机."
+
+#: Cover_Suction_Ring_Blower_content.php:14
+msgid "cover suction ring blower|"
+msgstr "吸顶式旋涡风机|旋涡气泵"
+
+#: Cover_Suction_Ring_Blower_content.php:16
+msgid ""
+"cover suction ring blower,Side channel blower,Regenerative blower,Ring "
+"blower,Air blower,Vacuum pump,single stage,double stage,multi stage "
+"blower,2RB,3RB,4RB series,GREENCO"
+msgstr ""
+"格凌吸顶式高压风机,漩涡气泵,旋涡风机,旋涡气泵,气环风机,NSK,SFK耐高温轴承,低噪"
+"音，免维护，寿命长,高效节能环保，著名品牌，全球高压风机的生产基地，产销量全球"
+"第一."

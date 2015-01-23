@@ -1,7 +1,7 @@
 ﻿<?php
-
+require 'setLan.php';
 //让这个常量存在就能调用
-define('feifa',ture);
+@define('feifa',ture);
 //引入公共文件
 require 'inc/common.php';
 $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacuum,maximum_pressure  from product where  type like '%4RB {$_GET['series']}%' ");
@@ -10,9 +10,9 @@ $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacu
 <html  xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>4RB <?php  echo $_GET['series'];?> Series Side channel blower</title>
-<meta name="description" content="Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco." />
-<meta name="keywords" content="Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO" />
+<title>4RB <?php  echo $_GET['series'];?> Series <?php echo _('Side channel blower'); ?></title>
+<meta name="description" content="<?php echo _('Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.')?>" />
+<meta name="keywords" content="<?php echo _('Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO')?>" />
 <script src="js/menu.js" type="text/javascript"></script>
 <link  type="text/css" rel="stylesheet" href="css/main.css"/>
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>
@@ -86,15 +86,15 @@ $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacu
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
        <?php require 'inc/prod-left.php';?>
        <div class="right">
-             <h5><i>4RB <?php echo  $_GET['series'];?> Series Ordering Data and Performance Data</i> ▪ Side Channel Blower</h5>
+             <h5><i>4RB <?php echo  $_GET['series'];?> <?php echo _('Series Ordering Data and Performance Data');?></i> ▪ <?php echo _('Side Channel Blower');?></h5>
              <table  cellspacing="0" cellpadding="0" id="data">
-                 <tr class="one"><td>Order No.</td><td style="width:100px;">Fre-quency</td><td style="width:65px;">Output</td><td>Maximum Airflow</td><td>Maximum Vacuum</td><td style="width:150px;">Maximum Pressure</td></tr>
+                 <?php require 'inc/date-hd.php';?>
                  <tr class="two"><td>一</td><td style="width:100px;">Hz</td><td style="width:65px;">Kw</td><td>m³/h</td><td>mbar</td><td style="width:150px;">mbar</td></tr>
                    <?php  while($_rows=mysql_fetch_array($_result)){?>
                             <tr class="content" onclick="window.location.href='Side_Channel_Blower_4RB_Single_Stage_content.php?series=<?php echo $_rows['type'];?>&output=<?php echo $_rows['output'];?>' "><td><strong style="font-size:12px;"> <a href="Side_Channel_Blower_4RB_single_Stage_content.php?series=<?php echo $_rows['type'];?>&output=<?php echo $_rows['output'];?>"><?php  echo $_rows['type'];?></a></strong></td><td style="width:100px;"><?php  echo $_rows['Fre_quency'];?></td><td style="width:65px;"><?php  echo $_rows['output'];?></td><td><?php  echo $_rows['maximum_airflow'];?></td><td><?php  echo $_rows['maximum_vacuum'];?></td><td><?php  echo $_rows['maximum_pressure'];?></td></tr>
                   <?php }?>
                 </table>
-                 <h3><a href="upfile/4RB_series/side channel blower 4rb<?php echo substr($_GET['series'],0,3)?>.pdf" target="_blank" >Download Side Channel Blower 4RB<?php echo substr($_GET['series'],0,3)?> Series(PDF-<?php $type=$_GET['series'];$filename ='upfile/4RB_Series/side channel blower 4RB'.$type.'.PDF'; echo floor(filesize($filename)/1024);?>KB)</a></h3>
+                 <h3><a href="<?php echo _('upfile')?>/4RB_series/side channel blower 4rb<?php echo substr($_GET['series'],0,3)?>.pdf" target="_blank" ><?php echo _('Download')?> Side Channel Blower 4RB<?php echo substr($_GET['series'],0,3)?> Series(PDF-<?php $type=$_GET['series'];$filename ='upfile/4RB_Series/side channel blower 4RB'.$type.'.PDF'; echo floor(filesize($filename)/1024);?>KB)</a></h3>
        </div>
    </div>
 </div>

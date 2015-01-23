@@ -1,11 +1,24 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html  xmlns="http://www.w3.org/1999/xhtml">
+﻿<?php
+require 'setLan.php';
+//让这个常量存在就能调用
+@define('feifa',ture);
+//引入公共文件
+require 'inc/common.php';
+
+?>
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>Relief Valve for Side Channel Blower</title>
-<meta name="description" content="The relief valve is used to adjust the pressure of side channel blower，it is installed on inlet or outlet of side channel blower,in order to protect the blower,the overload pressure will be released from relief valve." />
-<meta name="keywords" content="safety valve,security valve,pressure-relieving valve,vacuum relief valve,reducing valve for Ring blower,Air blower,Regenerative Blower" />
-<script src="js/menu.js" type="text/javascript"></script>
+<?php
+if($lan == "zh_CN"){
+   require 'seo/cn/Relief_Valve.php';
+}else{
+   require 'seo/en/Relief_Valve.php';
+}
+
+ ?>
+ <script src="js/menu.js" type="text/javascript"></script>
 <link  type="text/css" rel="stylesheet" href="css/main.css"/>
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>
 <link href="favicon.ico" rel="shortcut icon" />
@@ -29,7 +42,7 @@
   	h1,h2,h3,h4,h5,h6{font-weight:600;}
   	.dropdown{border:1px solid #ccc;}
     #Silencer_all{background:#ccc;}
-  	#Silencer{height:1140px;width:1000px;margin:0 auto;background:#fff;border:1px solid #999;border-top:none;box-shadow:0px 5px 7px 5px #ccc;}
+  	#Silencer{height:1410px;width:1000px;margin:0 auto;background:#fff;border:1px solid #999;border-top:none;box-shadow:0px 5px 7px 5px #ccc;}
     #Silencer .left{float:left;width:265px;margin:5px 0 0 10px;}
   	#Silencer .left H2{text-indent:10px;background:#666;font-size:14px;font-weight:600;width:250px;height:32px;color:#fff;line-height:32px;border:1px solid  #555;}
   	#Silencer .left ul{margin-top:8px;list-style:none;}
@@ -79,14 +92,14 @@
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
        <?php require 'inc/prod-left.php';?>
        <div class="right">
-             <h5>Relief Valve for Side Channel Blower </h5>
-             <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=RV-01" target="_blank"><img  src="image/Relief_Valve_RV.jpg" alt="side channel blower Relief Valve RV"/></a><h4><a href="Relief_valve_content.php?type=RV-01" target="_blank">Relief Valve RV-01</a></h4></div>
-             <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=RV-02" target="_blank"><img  src="image/Relief_Valve_RV.jpg" alt="side channel blower Relief Valve RV"/></a><h4><a href="Relief_valve_content.php?type=RV-02" target="_blank">Relief Valve RV-02</a></h4></div>
-             <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=2BX4 141" target="_blank"><img  src="image/Relief_Valve_2BX141.jpg" alt="side channel blower Relief Valve 2BX4-141"/></a><h4><a href="Relief_valve_content.php?type=2BX4 141" target="_blank">Relief Valve 2BX4-141</a></h4></div>
-             <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=2BX4 142" target="_blank"><img  src="image/Relief_Valve_2BX142.jpg" alt="side channel blower Relief Valve 2BX4-142"/></a><h4><a href="Relief_valve_content.php?type=2BX4 142" target="_blank">Relief Valve 2BX4-142</a></h4></div>
-             <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=2BX4 143" target="_blank"><img  src="image/Relief_Valve_2BX143.jpg" alt="side channel blower Relief Valve 2BX4-143"/></a><h4><a href="Relief_valve_content.php?type=2BX4 143" target="_blank">Relief Valve 2BX4-143</a></h4></div>
-             <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=2BX4 144" target="_blank"><img  src="image/Relief_Valve_2BX144.jpg" alt="side channel blower Relief Valve 2BX4-144"/></a><h4><a href="Relief_valve_content.php?type=2BX4 144" target="_blank">Relief Valve 2BX4-144</a></h4></div>
-             <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=2BX4 145" target="_blank"><img  src="image/Relief_Valve_2BX145.jpg" alt="side channel blower Relief Valve 2BX4-145"/></a><h4><a href="Relief_valve_content.php?type=2BX4 145" target="_blank">Relief Valve 2BX4-145</a></h4></div>
+             <h5><?php echo _('Relief Valve for Side Channel Blower')?> </h5>
+             <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=RV-01" target="_blank"><img  src="image/Relief_Valve_RV.jpg" alt="side channel blower Relief Valve RV"/></a><h4><a href="Relief_valve_content.php?type=RV-01" target="_blank"><?php echo _('Relief Valve')?> RV-01</a></h4></div>
+             <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=RV-02" target="_blank"><img  src="image/Relief_Valve_RV.jpg" alt="side channel blower Relief Valve RV"/></a><h4><a href="Relief_valve_content.php?type=RV-02" target="_blank"><?php echo _('Relief Valve')?> Valve RV-02</a></h4></div>
+             <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=2BX4 141" target="_blank"><img  src="image/Relief_Valve_2BX141.jpg" alt="side channel blower Relief Valve 2BX4-141"/></a><h4><a href="Relief_valve_content.php?type=2BX4 141" target="_blank"><?php echo _('Relief Valve')?> 2BX4-141</a></h4></div>
+             <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=2BX4 142" target="_blank"><img  src="image/Relief_Valve_2BX142.jpg" alt="side channel blower Relief Valve 2BX4-142"/></a><h4><a href="Relief_valve_content.php?type=2BX4 142" target="_blank"><?php echo _('Relief Valve')?> 2BX4-142</a></h4></div>
+             <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=2BX4 143" target="_blank"><img  src="image/Relief_Valve_2BX143.jpg" alt="side channel blower Relief Valve 2BX4-143"/></a><h4><a href="Relief_valve_content.php?type=2BX4 143" target="_blank"><?php echo _('Relief Valve')?> 2BX4-143</a></h4></div>
+             <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=2BX4 144" target="_blank"><img  src="image/Relief_Valve_2BX144.jpg" alt="side channel blower Relief Valve 2BX4-144"/></a><h4><a href="Relief_valve_content.php?type=2BX4 144" target="_blank"><?php echo _('Relief Valve')?> 2BX4-144</a></h4></div>
+             <div  id="mypage" class="mypagination"><a href="Relief_valve_content.php?type=2BX4 145" target="_blank"><img  src="image/Relief_Valve_2BX145.jpg" alt="side channel blower Relief Valve 2BX4-145"/></a><h4><a href="Relief_valve_content.php?type=2BX4 145" target="_blank"><?php echo _('Relief Valve')?> 2BX4-145</a></h4></div>
        </div>
    </div>
 </div>

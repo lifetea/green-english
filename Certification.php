@@ -1,10 +1,11 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html  xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>Certificate|Certifications|Quality System_GREENCO</title>
-<meta name="description" content="GREENCO_The world leader manufacturer in side channle blower,regenerative blower,ring blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications." />
-<meta name="keywords" content="Side channel blower,regenerative blower,air blower,certifications,ISO9001:2008,CE,UL,CCC,TUV,GS,GREENCO" />
+<?php require 'setLan.php';?>
+<title><?php echo _('Certificate|Certifications|Quality System_GREENCO');?></title>
+<meta name="description" content=" <?php echo _('GREENCO_The world leader manufacturer in side channle blower,regenerative blower,ring blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications.');?>" />
+<meta name="keywords" content=" <?php echo _('Side channel blower,regenerative blower,air blower,certifications,ISO9001:2008,CE,UL,CCC,TUV,GS,GREENCO');?>" />
 <script src="js/menu.js" type="text/javascript"></script>
 <link  type="text/css" rel="stylesheet" href="css/main.css"/>
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>
@@ -80,28 +81,19 @@ $(function(){
        <img src="image/about_banner.png" style="margin:8px 0 0 8px;border:1px solid #999;"/>
        <div class="left">
 			<?php require 'inc/about-left.php';?>
-             <h2 style="margin-top:26px;background:#666 url(image/search_top.png) no-repeat 0 2px;padding-left:18px;width:230px;">Search Product</h2>
-                 <form mehtod="post"  action="?">
-                      <p>1:Select a Graph:<select><option>Pressure</option><option>Vacuum</option></select></p>
-                      <p>2:Air Flow(e.g.120):</p>
-                      <p><input type="text" class="text"/><select><option>m³/h</option><option>m³/min</option></select></p>
-                      <p>3:Pressure(e.g.200):</p>
-                      <p><input type="text" class="text"/><select><option>mbar</option><option>pa</option></select></p>
-                      <p><input type="image" src="image/search.gif"/></dd></p>
-
-                 </form>
+			<?php require 'inc/search-left.php';?>
        </div>
        <div class="right">
-             <h5>Certification <span style="margin-left:460px;font-weight:500;font-size:13px;"><a href="index.php">Home</a> > <a href="Certification.php">Certification</a></span></h5>
-					<div class="Certification_image" style="margin-left:40px;"><a class="fancybox" href="image/zhiliangrenzheng4.jpg" data-fancybox-group="gallery" title="<strong>ISO9001:2008 Certification</strong>"><img src="image/zhiliangrenzheng4_sub.jpg" alt="ISO9001:2008 GREENCO Side Channel Blower Certification" /><p><a href="image/zhiliangrenzheng4.jpg" class="fancybox"  data-fancybox-group="gallery">ISO9001:2008</a></p></a></div>
-					<div class="Certification_image"><a class="fancybox" href="image/zhiliangrenzheng12.jpg" data-fancybox-group="gallery" title="<strong>CE-LVD Certification</strong>"><img src="image/zhiliangrenzheng12_sub.jpg" alt="CE-LVD GREENCO Side Channel Blower Certification" /><p><a href="image/zhiliangrenzheng12.jpg" class="fancybox"  data-fancybox-group="gallery">CE-LVD</a></p></a></div>
-					<div class="Certification_image"><a class="fancybox" href="image/zhiliangrenzheng10.png" data-fancybox-group="gallery" title="<strong>CE-EMC Certification</strong>"><img src="image/zhiliangrenzheng10_sub.png" alt="CE-EMC GREENCO Side Channel Blower Certification" /><p><a href="image/zhiliangrenzheng10.png" class="fancybox"  data-fancybox-group="gallery">CE-EMC</a></p></a></div>
-                    <div class="Certification_image"><a class="fancybox" href="image/zhiliangrenzheng5.jpg" data-fancybox-group="gallery" title="<strong>ROHS Certification</strong>"><img src="image/zhiliangrenzheng5_sub.jpg" alt="ROHS GREENCO Side Channel Blower Certification" /><p><a href="image/zhiliangrenzheng5.jpg" class="fancybox"  data-fancybox-group="gallery">ROHS</a></p></a></div>
-					<div class="Certification_image" style="margin-left:40px;"><a class="fancybox" href="image/zhiliangrenzheng3.jpg" data-fancybox-group="gallery" title="<strong>GSPC Certification</strong>"><img src="image/zhiliangrenzheng3_sub.jpg" alt="GSPC GREENCO Side Channel Blower Certification" /><p><a href="image/zhiliangrenzheng3.jpg" class="fancybox"  data-fancybox-group="gallery">GSPC</a></p></a></div>
-				    <div class="Certification_image"><a class="fancybox" href="image/zhiliangrenzheng2.jpg" data-fancybox-group="gallery" title="<strong>Measurement Certification</strong>"><img src="image/zhiliangrenzheng2_sub.jpg" alt="Measurement GREENCO Side Channel Blower Certification" /><p><a href="image/zhiliangrenzheng2.jpg" class="fancybox"  data-fancybox-group="gallery">Measurement</a></p></a></div>
-				    <div class="Certification_image"><a class="fancybox" href="image/zhiliangrenzheng6.jpg" data-fancybox-group="gallery" title="<strong>Patent 1 Certification</strong>"><img src="image/zhiliangrenzheng6_sub.jpg" alt="Patent GREENCO Side Channel Blower Certification" /><p><a href="image/zhiliangrenzheng6.jpg" class="fancybox"  data-fancybox-group="gallery">Patent 1</a></p></a></div>
-					<div class="Certification_image"><a class="fancybox" href="image/zhiliangrenzheng9.jpg" data-fancybox-group="gallery" title="<strong>Patent 2 Certification</strong>"><img src="image/zhiliangrenzheng9_sub.jpg" alt="Patent GREENCO Side Channel Blower Certification"  /><p><a href="image/zhiliangrenzheng9.jpg" class="fancybox"  data-fancybox-group="gallery">Patent 2</a></p></a></div>
-				    <div class="Certification_image" style="margin-left:40px;"><a class=" fancybox" href="image/zhiliangrenzheng11.jpg" data-fancybox-group="gallery" title="<strong>Patent 3 Certification</strong>"><img src="image/zhiliangrenzheng11_sub.jpg" alt="Patent GREENCO Side Channel Blower Certification" /><p><a href="image/zhiliangrenzheng11.jpg" class="fancybox"  data-fancybox-group="gallery">Patent 3</a></p></a></div>
+             <h5><?php echo _('Certification');?> <span style="margin-left:440px;font-weight:500;font-size:13px;"><a href="index.php"><?php echo _('Home');?></a> > <a href="Certification.php"><?php echo _('Certification');?></a></span></h5>
+					<div class="Certification_image" style="margin-left:40px;"><a class="fancybox" href="image/zhiliangrenzheng4.jpg" data-fancybox-group="gallery" title="<strong>ISO9001:2008 Certification</strong>"><img src="image/zhiliangrenzheng4_sub.jpg" alt="ISO9001:2008 GREENCO Side Channel Blower Certification" /><p><a href="image/zhiliangrenzheng4.jpg" class="fancybox"  data-fancybox-group="gallery"><?php echo _('ISO9001:2008');?></a></p></a></div>
+					<div class="Certification_image"><a class="fancybox" href="image/zhiliangrenzheng12.jpg" data-fancybox-group="gallery" title="<strong>CE-LVD Certification</strong>"><img src="image/zhiliangrenzheng12_sub.jpg" alt="CE-LVD GREENCO Side Channel Blower Certification" /><p><a href="image/zhiliangrenzheng12.jpg" class="fancybox"  data-fancybox-group="gallery"><?php echo _('CE-LVD');?></a></p></a></div>
+					<div class="Certification_image"><a class="fancybox" href="image/zhiliangrenzheng10.png" data-fancybox-group="gallery" title="<strong>CE-EMC Certification</strong>"><img src="image/zhiliangrenzheng10_sub.png" alt="CE-EMC GREENCO Side Channel Blower Certification" /><p><a href="image/zhiliangrenzheng10.png" class="fancybox"  data-fancybox-group="gallery"><?php echo _('CE-EMC');?></a></p></a></div>
+                    <div class="Certification_image"><a class="fancybox" href="image/zhiliangrenzheng5.jpg" data-fancybox-group="gallery" title="<strong>ROHS Certification</strong>"><img src="image/zhiliangrenzheng5_sub.jpg" alt="ROHS GREENCO Side Channel Blower Certification" /><p><a href="image/zhiliangrenzheng5.jpg" class="fancybox"  data-fancybox-group="gallery"><?php echo _('ROHS');?></a></p></a></div>
+					<div class="Certification_image" style="margin-left:40px;"><a class="fancybox" href="image/zhiliangrenzheng3.jpg" data-fancybox-group="gallery" title="<strong>GSPC Certification</strong>"><img src="image/zhiliangrenzheng3_sub.jpg" alt="GSPC GREENCO Side Channel Blower Certification" /><p><a href="image/zhiliangrenzheng3.jpg" class="fancybox"  data-fancybox-group="gallery"><?php echo _('GSPC');?></a></p></a></div>
+				    <div class="Certification_image"><a class="fancybox" href="image/zhiliangrenzheng2.jpg" data-fancybox-group="gallery" title="<strong>Measurement Certification</strong>"><img src="image/zhiliangrenzheng2_sub.jpg" alt="Measurement GREENCO Side Channel Blower Certification" /><p><a href="image/zhiliangrenzheng2.jpg" class="fancybox"  data-fancybox-group="gallery"><?php echo _('Measurement');?></a></p></a></div>
+				    <div class="Certification_image"><a class="fancybox" href="image/zhiliangrenzheng6.jpg" data-fancybox-group="gallery" title="<strong>Patent 1 Certification</strong>"><img src="image/zhiliangrenzheng6_sub.jpg" alt="Patent GREENCO Side Channel Blower Certification" /><p><a href="image/zhiliangrenzheng6.jpg" class="fancybox"  data-fancybox-group="gallery"><?php echo _('Patent 1');?></a></p></a></div>
+					<div class="Certification_image"><a class="fancybox" href="image/zhiliangrenzheng9.jpg" data-fancybox-group="gallery" title="<strong>Patent 2 Certification</strong>"><img src="image/zhiliangrenzheng9_sub.jpg" alt="Patent GREENCO Side Channel Blower Certification"  /><p><a href="image/zhiliangrenzheng9.jpg" class="fancybox"  data-fancybox-group="gallery"><?php echo _('Patent 2');?></a></p></a></div>
+				    <div class="Certification_image" style="margin-left:40px;"><a class=" fancybox" href="image/zhiliangrenzheng11.jpg" data-fancybox-group="gallery" title="<strong>Patent 3 Certification</strong>"><img src="image/zhiliangrenzheng11_sub.jpg" alt="Patent GREENCO Side Channel Blower Certification" /><p><a href="image/zhiliangrenzheng11.jpg" class="fancybox"  data-fancybox-group="gallery"><?php echo _('Patent 3');?></a></p></a></div>
        </div>
    </div>
 </div>

@@ -1,7 +1,7 @@
 ﻿<?php
-
+require 'setLan.php';
 //让这个常量存在就能调用
-define('feifa',ture);
+@define('feifa',ture);
 //引入公共文件
 require 'inc/common.php';
 $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,rated_voltage,rated_current,fator,oper  from liquid where  type like '%{$_GET['type']}%' ");
@@ -85,7 +85,7 @@ $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,rated_voltag
        <div class="right">
              <h5><i><?php echo  $_GET['type'];?> Series Ordering Data and Performance Data</i> ▪ Liquid Ring Vacuum Pump</h5>
              <table  cellspacing="0" cellpadding="0" id="data">
-                 <tr class="one"><td>Order No.</td><td style="width:100px;">Fre-quency</td><td style="width:65px;">Output</td><td>Maximum Airflow</td><td>Rated voltage</td><td style="width:150px;">Rated current</td></tr>
+                 <?php require 'inc/date-hd.php';?>
                  <tr class="two"><td>一</td><td style="width:100px;">Hz</td><td style="width:65px;">Kw</td><td>m³/h</td><td>V</td><td style="width:150px;">A</td></tr>
                    <?php  while($_rows=mysql_fetch_array($_result)){?>
                              <a href="Liquid_Ring_Vacuum_Pump_2LV7_content.php?series=<?php echo $_rows['type'];?>&output=<?php echo $_rows['output'];?>"><tr class="content" onclick="window.location.href='Liquid_Ring_Vacuum_Pump_2LV7_content.php?type=<?php echo $_rows['type'];?>& output=<?php echo $_rows['output'];?>' "><td><strong style="font-size:12px;"><?php  echo $_rows['type'];?></strong></td><td style="width:100px;"><?php  echo $_rows['Fre_quency'];?></td><td style="width:65px;"><?php  echo $_rows['output'];?></td><td><?php  echo $_rows['maximum_airflow'];?></td><td><?php  echo $_rows['rated_voltage'];?></td><td><?php  echo $_rows['rated_current'];?></td></tr></a>

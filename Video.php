@@ -1,10 +1,13 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<?php
+require 'setLan.php';
+?>
+<!DOCTYPE html">
 <html  xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>Greenco Video|Product showroom|Blower video|side channel blower_GREENCO</title>
-<meta name="keywords" content="Greenco video|workshop|blower video|side channel blower_Greenco" />
-<meta name="description"content="Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco." />
+<title><?php echo _('Greenco Video|Product showroom|Blower video|side channel blower_GREENCO');?></title>
+<meta name="keywords" content="<?php echo _('Greenco video,workshop,blower video,side channel blower_Greenco');?>" />
+<meta name="description"content="<?php echo _('Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.');?>" />
 <script src="js/menu.js" type="text/javascript"></script>
 <link  type="text/css" rel="stylesheet" href="css/main.css"/>
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>
@@ -86,24 +89,15 @@ $(function(){
        <img src="image/about_banner.png" style="margin:8px 0 0 8px;border:1px solid #999;"/>
        <div class="left">
 			<?php require 'inc/about-left.php';?>
-             <h2 style="margin-top:26px;background:#666 url(image/search_top.png) no-repeat 0 2px;padding-left:18px;width:230px;">Search Product</h2>
-                 <form mehtod="post"  action="?">
-                      <p>1:Select a Graph:<select><option>Pressure</option><option>Vacuum</option></select></p>
-                      <p>2:Air Flow(e.g.120):</p>
-                      <p><input type="text" class="text"/><select><option>m³/h</option><option>m³/min</option></select></p>
-                      <p>3:Pressure(e.g.200):</p>
-                      <p><input type="text" class="text"/><select><option>mbar</option><option>pa</option></select></p>
-                      <p><input type="image" src="image/search.gif"/></dd></p>
-
-                 </form>
+			<?php require 'inc/search-left.php';?>
        </div>
        <div class="right">
-             <h5 style="background:url(image/video.gif) no-repeat 178px 7px;padding-left:20px;font-size:14px;color:#1b347e;">Greenco Side Channel Blowers Video</h5>
+             <h5 style="background:url(image/video.gif) no-repeat 178px 7px;padding-left:20px;font-size:14px;color:#1b347e;"><?php echo _('Greenco Side Channel Blowers Video');?></h5>
              <div id="jwplayer" style="background: transparent !important; margin:20px 0 0  100px; width:450px; height:320px; overflow:hidden;padding:7px;border:1px solid #ccc;">
 	                 <div id="player"></div>
 
              </div>
-             <p style="text-indent:100px;height:50px;line-height:50px;">(Production workshop video)</p>
+             <p style="text-indent:100px;height:50px;line-height:50px;"><?php echo _('(Production workshop video)');?></p>
        </div>
    </div>
 </div>

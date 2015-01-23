@@ -1,10 +1,11 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html  xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>Cover Suction Ring Blower</title>
-<meta name="description" content="Greenco Cover Suction Ring Blower,Side channel blower,Regenerative blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco." />
-<meta name="keywords" content="Cover Suction Ring blower,Front suction Side channel blower,Regenerative blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO" />
+<?php require 'setLan.php'; ?>
+<title><?php echo _('Cover Suction Ring Blower|');?></title>
+<meta name="description" content="<?php echo _('Greenco Cover Suction Ring Blower,Side channel blower,Regenerative blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.');?>" />
+<meta name="keywords" content="<?php echo _('Cover Suction Ring blower,Front suction Side channel blower,Regenerative blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO');?>" />
 <script src="js/main.js" type="text/javascript"></script>
 <link  type="text/css" rel="stylesheet" href="css/main.css"/>
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>
@@ -84,13 +85,13 @@
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
        <?php require 'inc/prod-left.php';?>
        <div class="right">
-             <h5>Cover Suction Ring Blower</h5>
-             <p>The cover suction series ring blower are designed for our specific customers. On the front cover, There is an inlet and an outlet, which make customers use their own products flexibly. The customers are not only able to use the inlet and outlet to suction and blow, but also are able to use the original inlet and outlet on the rear housing to suction and blow. Then it will reduce customers’ cost of product materials as well as decrease the freight cost due to the smaller volume of products. This design has been widely used on industrial vacuum cleaners, automatic hopper loaders and dental suction systems. As a result, Our professional OEM design has been appreciated by many of our customers because we help them win more markets. </p>
-		     <h6>Application for cover suction series ring blower</h6>
-		     <div class="a1"><img src="product_image/2RB_B_Series/home9.png" style="margin:17px 0 0 10px;"/><h1>Industrial vacuum cleaner</h1></div>
-		     <div class="a1"><img src="product_image/2RB_B_Series/home8.png" style="margin:17px 0 0 50px;"/><h1 style="text-indent:47px;">Automatic hopper loader system</h1></div>
-		     <div class="a1"><img src="product_image/2RB_B_Series/home10.png" style="margin:17px 0 0 50px;"/><h1 style="text-indent:47px;">Dental suction system</h1></div>
-		     <h6 style="color:#444;font-family:Calibri,arial;font-size:16px;margin-bottom:15px;clear:both;">Performance & Technical data</h6>
+             <h5><?php echo _('  Cover Suction Ring Blower');?></h5>
+             <p><?php echo _('  The cover suction series ring blower are designed for our specific customers. On the front cover, There is an inlet and an outlet, which make customers use their own products flexibly. The customers are not only able to use the inlet and outlet to suction and blow, but also are able to use the original inlet and outlet on the rear housing to suction and blow. Then it will reduce customers’ cost of product materials as well as decrease the freight cost due to the smaller volume of products. This design has been widely used on industrial vacuum cleaners, automatic hopper loaders and dental suction systems. As a result, Our professional OEM design has been appreciated by many of our customers because we help them win more markets. ');?></p>
+		     <h6><?php echo _('  Application for cover suction series ring blower');?></h6>
+		     <div class="a1"><img src="product_image/2RB_B_Series/home9.png" style="margin:17px 0 0 10px;"/><h1><?php echo _('Industrial vacuum cleaner');?></h1></div>
+		     <div class="a1"><img src="product_image/2RB_B_Series/home8.png" style="margin:17px 0 0 50px;"/><h1 style="text-indent:47px;"><?php echo _('Automatic hopper loader system');?></h1></div>
+		     <div class="a1"><img src="product_image/2RB_B_Series/home10.png" style="margin:17px 0 0 50px;"/><h1 style="text-indent:47px;"><?php echo _('Dental suction system');?></h1></div>
+		     <h6 style="color:#444;font-family:Calibri,arial;font-size:16px;margin-bottom:15px;clear:both;"><?php echo _(' Performance & Technical data');?></h6>
 		     <div  id="mypage" class="mypagination"><a href="Cover_Suction_Ring_Blower_table.php?series=210" target="_blank"><img  src="product_image/2RB_B_Series/B_series.jpg"  alt="2RB 210 Cover Suction Ring Blower"/></a><h4><a href="Cover_Suction_Ring_Blower_table.php?series=210" target="_blank">2RB210 (B)</a></h4></div>
 		     <div  id="mypage" class="mypagination"><a href="Cover_Suction_Ring_Blower_table.php?series=410" target="_blank"><img  src="product_image/2RB_B_Series/B_series.jpg"  alt="2RB 410 Cover Suction Ring Blower"/></a><h4><a href="Cover_Suction_Ring_Blower_table.php?series=410" target="_blank">2RB410 (B)</a></h4></div>
 		     <div  id="mypage" class="mypagination"><a href="Cover_Suction_Ring_Blower_table.php?series=510" target="_blank"><img  src="product_image/2RB_B_Series/B_series.jpg"  alt="2RB 510 Cover Suction Ring Blower"/></a><h4><a href="Cover_Suction_Ring_Blower_table.php?series=510" target="_blank">2RB510 (B)</a></h4></div>

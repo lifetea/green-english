@@ -1,18 +1,33 @@
-﻿<?php
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
 
+
+<?php
+require 'setLan.php';
 //让这个常量存在就能调用
-define('feifa',ture);
+@define('feifa',ture);
 //引入公共文件
 require 'inc/common.php';
-$_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacuum,maximum_pressure  from IE2 where  type like '%2RB {$_GET['series']}%' ");
+$_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacuum,maximum_pressure  from ie2 where  type like '%2RB {$_GET['series']}%' ");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html  xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>2RB <?php  echo $_GET['series'];?> IE2 Series Regenerative Blower</title>
-<meta name="description" content="IE2 blower,EFF1 blower,IE3,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco." />
-<meta name="keywords" content="IE2,IE3,EFF1,EFF2,Side channel blower,Regenerative blower,Ring blower,single stage,double stage,multi stage blower,high efficiency blower,2RB,3RB,4RB series,GREENCO" />
+<?php
+if($lan == "zh_CN"){
+   require 'seo/cn/IE2_Double_Stage_Regenerative_Blower_table.php';
+}else{
+   require 'seo/en/IE2_Double_Stage_Regenerative_Blower_table.php';
+}
+
+ ?>
+
+<title>2RB <?php  echo $_GET['series'];?> IE2 Series <?php echo _('Regenerative Blower')?></title>
+<meta name="description" content="<?php echo _('IE2 blower,EFF1 blower,IE3,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.')?>" />
+<meta name="keywords" content="<?php echo _('IE2,IE3,EFF1,EFF2,Side channel blower,Regenerative blower,Ring blower,single stage,double stage,multi stage blower,high efficiency blower,2RB,3RB,4RB series,GREENCO')?>" />
 <script src="js/menu.js" type="text/javascript"></script>
 <link  type="text/css" rel="stylesheet" href="css/main.css"/>
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>
@@ -49,7 +64,7 @@ $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacu
   	h1,h2,h3,h4,h5,h6{font-weight:600;}
   	.dropdown{border:1px solid #ccc;}
     #Side_Channel_Blower_2RB_Single_Stage_all{background:#ccc;}
-  	#Side_Channel_Blower_2RB_Single_Stage{height:1200px;width:1000px;margin:0 auto;background:#fff;border:1px solid #999;border-top:none;box-shadow:0px 5px 7px 5px #ccc;}
+  	#Side_Channel_Blower_2RB_Single_Stage{height:1410px;width:1000px;margin:0 auto;background:#fff;border:1px solid #999;border-top:none;box-shadow:0px 5px 7px 5px #ccc;}
     #Side_Channel_Blower_2RB_Single_Stage .left{float:left;width:265px;margin:5px 0 0 10px;}
   	#Side_Channel_Blower_2RB_Single_Stage .left H2{text-indent:10px;background:#666;font-size:14px;font-weight:600;width:250px;height:32px;color:#fff;line-height:32px;border:1px solid  #555;}
   	#Side_Channel_Blower_2RB_Single_Stage .left ul{margin-top:8px;list-style:none;}
@@ -84,17 +99,17 @@ $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacu
 <div id="Side_Channel_Blower_2RB_Single_Stage_all" >
    <div id="Side_Channel_Blower_2RB_Single_Stage">
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
-       <?php require 'inc/prod-left.php';?>
+      <?php require 'inc/prod-left.php';?>
        <div class="right">
-             <h5><i>2RB <?php echo  $_GET['series'];?> IE2 Series Ordering Data and Performance Data</i> ▪ Side Channel Blower</h5>
+             <h5><i>2RB <?php echo  $_GET['series'];?> IE2 <?php echo _('Series Ordering Data and Performance Data');?></i> ▪ <?php echo _('Side Channel Blower');?></h5>
              <table  cellspacing="0" cellpadding="0" id="data">
-                 <tr class="one"><td>Order No.</td><td style="width:100px;">Fre-quency</td><td style="width:65px;">Output</td><td>Maximum Airflow</td><td>Maximum Vacuum</td><td style="width:150px;">Maximum Pressure</td></tr>
+                 <?php require 'inc/date-hd.php';?>
                  <tr class="two"><td>一</td><td style="width:100px;">Hz</td><td style="width:65px;">Kw</td><td>m³/h</td><td>mbar</td><td style="width:150px;">mbar</td></tr>
                    <?php  while($_rows=mysql_fetch_array($_result)){?>
                              <tr class="content" onclick="window.location.href='IE2_Double_Stage_Regenerative_Blower_content.php?series=<?php echo $_rows['type'];?>&output=<?php echo $_rows['output'];?>' "><td><strong style="font-size:12px;"><a href="IE2_Double_stage_Regenerative_Blower_content.php?series=<?php echo $_rows['type'];?>&output=<?php echo $_rows['output'];?>"><?php  echo $_rows['type'];?></a></strong></td><td style="width:100px;"><?php  echo $_rows['Fre_quency'];?></td><td style="width:65px;"><?php  echo $_rows['output'];?></td><td><?php  echo $_rows['maximum_airflow'];?></td><td><?php  echo $_rows['maximum_vacuum'];?></td><td><?php  echo $_rows['maximum_pressure'];?></td></tr>
                   <?php }?>
                 </table>
-                 <h3><a href="upfile/IE2_series/Side channel blower 2rb<?php echo substr($_GET['series'],0,3)?>-IE2.pdf" target="_blank" >Download Side Channel Blower 2RB<?php echo substr($_GET['series'],0,3)?> Series(PDF-<?php $type=$_GET['series'];$filename ='upfile/IE2_Series/side channel blower 2RB'.$type.'-IE2.PDF'; echo floor(filesize($filename)/1024);?>KB)</a></h3>
+                 <h3><a href="<?php echo _('upfile')?>/IE2_series/Side channel blower 2rb<?php echo substr($_GET['series'],0,3)?>-IE2.pdf" target="_blank" >Download Side Channel Blower 2RB<?php echo substr($_GET['series'],0,3)?> Series(PDF-<?php $type=$_GET['series'];$filename ='upfile/IE2_Series/side channel blower 2RB'.$type.'-IE2.PDF'; echo floor(filesize($filename)/1024);?>KB)</a></h3>
        </div>
    </div>
 </div>

@@ -1,7 +1,7 @@
 ﻿<?php
 //让这个常量存在就能调用
 define('feifa',ture);
-//引入公共文件
+require 'setLan.php';
 require 'inc/common.php';
 $_result=mysql_query("select type,Fre_quency,output,maximum_airflow,rated_voltage,rated_current,fator,oper,Dimension,sound,weight,Inlet_outlet,A,A1,A2,B,C,D,E,F,G,H,I,J,K,L,M  from liquid where  type like '%{$_GET['type']}%' and output={$_GET['output']} ");
 $_rows=mysql_fetch_array($_result);

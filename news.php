@@ -1,9 +1,12 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+﻿<?php 
+require 'setLan.php';
+?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html  xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>GREENCO-Side Channel Blower|Regenerative Blower|Ring blower|Vacuum pump|Electric motor|Zhejiang GREENCO Industry Co Ltd</title>
-<meta name="description" content="GREENCO_The world leader manufacturer in side channle blower,regenerative blower,ring blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications." />
+<title><?php echo _('GREENCO-Side Channel Blower|Regenerative Blower|Ring blower|Vacuum pump|Electric motor|Zhejiang GREENCO Industry Co Ltd')?></title>
+<meta name="keywords" content="<?php echo _('News,Blower news,side channel blower news,Industry News,GREENCO')?>" />
+<meta name="description" content="<?php echo _('GREENCO_The world leader manufacturer in side channle blower,regenerative blower,ring blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications.')?>" />
 <script src="js/menu.js" type="text/javascript"></script>
 <link href="css/main.css" media="screen" rel="stylesheet" type="text/css" />
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>

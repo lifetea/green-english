@@ -2,14 +2,26 @@
 //让这个常量存在就能调用
 define('feifa',ture);
 //引入公共文件
+require 'setLan.php';
 require 'inc/common.php';
-$_result=mysql_query("select id,time,title,content  from english_news  where id={$_GET['id']} ");
+if($lan == "zh_CN"){
+	$_result=mysql_query("select id,time,title,content  from chinese_news  where id={$_GET['id']} ");
+}else{
+	$_result=mysql_query("select id,time,title,content  from english_news  where id={$_GET['id']} ");
+}
 $_rows=mysql_fetch_array($_result);
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html  xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<?php
+if($lan == "zh_CN"){
+   require 'seo/cn/support_content.php';
+}else{
+   require 'seo/en/support_content.php';
+}
+ ?>
 <title>Technical Support for Side Channel Blower|Regenerative Blower|Ring blower|Vacuum pump</title>
 <meta name="description" content="GREENCO_The world leader manufacturer in side channle blower,regenerative blower,ring blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications." />
 <meta name="keywords" content="Technical Support of side channle blower,Regenerative blower,Ring blower,Air blower,vacuum pump,industrial blowers,high pressure blowers,double stage blower,three stage multistage blowers,2RB,3RB,4RB series," />
@@ -87,15 +99,15 @@ $_rows=mysql_fetch_array($_result);
    <div id="Side_Channel_Blower_2RB_Single_Stage">
        <img src="image/support.jpg" style="margin:10px 0 0 10px;border:1px solid #bbb;" alt="Technical Support of side channel blower"/>
        <div class="left">
-             <h2 style="margin-top:5px;font-family:tahoma;">Support</h2>
+             <h2 style="margin-top:5px;font-family:tahoma;"><?php echo _('Support');?></h2>
                  <ul>
-	                  <li style="margin-top:-2px;"><a href="support.php">Technical Support</a></li>
+	                  <li style="margin-top:-2px;"><a href="support.php"><?php echo _('Technical Support');?></a></li>
                   </ul>
 
        </div>
        <div class="right">
 		       <h4 style="margin-top:13px;color:#1a3d77;font-size:15px;font-family:microsoft yahei;"><?php  echo $_rows['title'];?></h4>
-		       <p style="text-indent:0px;height:30px;line-height:30px;border-bottom:1px solid #bbb;">Author:Greenco  |  Date:<?php echo $_rows['time'];?><span style="float:right;"><img src="image/fanhui.png" onclick="history.back(-1)"  id="back"/></span></p>
+		       <p style="text-indent:0px;height:30px;line-height:30px;border-bottom:1px solid #bbb;"><?php echo _('Author');?>:Greenco  |  Date:<?php echo $_rows['time'];?><span style="float:right;"><img src="image/fanhui.png" onclick="history.back(-1)"  id="back"/></span></p>
 		       <?php echo $_rows['content'];?>
        </div>
    </div>

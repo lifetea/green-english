@@ -1,0 +1,3 @@
+             <p style="text-indent: 2em;	line-height: 1.6;	font-size: 13px;	padding: 0 1.8em 1.5em;	text-align: justify;">
+             <?php echo _('Greenco classica with innovative technology for 3RB series side channel blower create high pressure,high vacuum and high airflow which can be replaced equivalent power of Roots blower,but Greenco side channel blowers are more advantages than roots blower:the materials are made by aluminum die casting,the weight is much lighter,the volume is even compacter.the lifetime is longer,low noise,oilless,free maintenance.');?>
+             </p>

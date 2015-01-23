@@ -1,14 +1,8 @@
-<?php
-$domain = 'lan';
-bindtextdomain($domain, dirname(__FILE__).'\language');
-bind_textdomain_codeset($domain, 'UTF-8');
-textdomain($domain);
-require 'inc/setLan.php';
-?>
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<?php require 'setLan.php';?>
 <title><?php echo _('GREENCO-Side Channel Blower|Ring blower|Regenerative blower|Air blower|Vacuum pump') ?></title>
 <meta name="description" content=" <?php echo _('GREENCO_The world leader manufacturer in side channel blower,regenerative blower,ring blower,air blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications.')?>" />
 <meta name="keywords" content=" <?php echo _('side channel blower,ring blower,regenerative blower,air blower,vortex blower,vacuum pump,industrial blowers,high pressure blowers,double stage blower,three stage multistage blowers,2RB,3RB,4RB series,')?>" />
@@ -75,10 +69,10 @@ $(function(){
    		<img src="image/bg_tien.png"  style="margin-top:-5px;"/>
    		<div id="wrap">
 	   	<!--3D slider��Ӱend-->
-			<a class="slider-item" href="Cover_Suction_Ring_Blower.php"  style="left:0px"><img src="image/home1.jpg"/></a>
+			<a class="slider-item" href="http://www.greenco.cn/news_content.php?id=14"  style="left:0px"><img src="image/exhibition-en.jpg"/></a>
 			<a class="slider-item" href="about_us.php" style="left:344px;"><img src="image/home2.jpg"/></a>
 			<a class="slider-item" href="Side_Channel_Blower_3RB_Single_Stage.php" style="left:688px;"><img src="image/home4.jpg" /></a>
-			<a class="slider-item" href="Download.php" style="left:1032px;"><img src="image/home3.jpg" /></a>
+			<a class="slider-item" href="Download.php" style="left:1032px;"><img src="image/<?php echo _('home3.jpg'); ?>" /></a>
 			<a id="prev" href="javascript:void(0)" style="left:0x;top:90px;"><img src="image/prev.jpg" /></a>
 			<a id="next" href="javascript:void(0)" style="left:978px;top:90px;"><img src="image/next.jpg" /></a>
 		</div>
@@ -163,6 +157,28 @@ $(function(){
 
 
 	slider.start();
+</script>
+<script type="text/javascript">
+	$(function(){
+	    var cacheBuster = "?t=" + Date.parse(new Date());
+	var flashvars = {};
+	<?php
+	if($lan == "zh_CN"){
+		echo 'flashvars.xml =  "config-cn.xml"';
+	}else{
+		echo 'flashvars.xml =  "config.xml"';
+	}
+	?>
+	
+	var params = {};
+	params.allowscriptaccess = "always";
+	params.allownetworking = "all";
+	params.wmode = "Transparent";
+	var attributes = {};
+	attributes.id = "slider";
+	swfobject.embedSWF("cu3er.swf"+cacheBuster, "cu3er_swf", "980", "300", "9.0.124", "expressInstall.swf", flashvars, params);
+	})
+
 </script>
 <?php require 'inc/footer_inc.php';?>
 

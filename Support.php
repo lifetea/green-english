@@ -1,17 +1,28 @@
 ﻿<?php
 //让这个常量存在就能调用
-define('feifa',ture);
+@define('feifa',ture);
 //引入公共文件
+
+require 'setLan.php';
 require 'inc/common.php';
-$_result=mysql_query("select id,time,title,content  from english_news where type='support' order by time desc");
+global $_pagenum;//从第几条开始
+global $_pagesize;//每页显示几条
+if($lan == "zh_CN"){
+	_page("SELECT id  FROM chinese_news", 15);//5表示每页显示几条
+	$_result=mysql_query("select id,title,time,content from chinese_news  where  type='支持' order by time desc limit $_pagenum,$_pagesize");
+}else{
+	_page("SELECT id  FROM english_news", 15);//5表示每页显示几条
+	$_result=mysql_query("select id,time,title,content  from english_news where type='support' order by time desc limit $_pagenum,$_pagesize");
+}
+
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html  xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>Technical Support for Side Channel Blower|Regenerative Blower|Ring blower|Vacuum pump</title>
-<meta name="description" content="GREENCO_The world leader manufacturer in side channel blower,regenerative blower,ring blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications." />
-<meta name="keywords" content="Technical Support of side channel blower,Regenerative blower,Ring blower,Air blower,vacuum pump,industrial blowers,high pressure blowers,double stage blower,three stage multistage blowers,2RB,3RB,4RB series," />
+<title><?php echo _('Technical Support for Side Channel Blower|Regenerative Blower|Ring blower|Vacuum pump');?></title>
+<meta name="description" content="<?php echo _('GREENCO_The world leader manufacturer in side channel blower,regenerative blower,ring blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications.')?>" />
+<meta name="keywords" content="<?php echo _('Technical Support of side channel blower,Regenerative blower,Ring blower,Air blower,vacuum pump,industrial blowers,high pressure blowers,double stage blower,three stage multistage blowers,2RB,3RB,4RB series,')?>" />
 <script src="js/menu.js" type="text/javascript"></script>
 <link href="css/main.css" media="screen" rel="stylesheet" type="text/css" />
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>
@@ -93,19 +104,30 @@ $_result=mysql_query("select id,time,title,content  from english_news where type
    <div id="Side_Channel_Blower_2RB_Single_Stage">
        <img src="image/support.jpg" style="margin:10px 0 0 10px;border:1px solid #bbb;" alt="Greenco side channel blower news"/>
        <div class="left">
-             <h2 style="margin-top:8px;font-family:tahoma;">Support</h2>
+             <h2 style="margin-top:8px;font-family:tahoma;"><?php echo _('Support');?></h2>
                  <ul>
 
-	                  <li style="margin-top:-2px;"><a href="Support.php">Technical Support</a></li>
+	                  <li style="margin-top:-2px;"><a href="Support.php"><?php echo _('Technical Support');?></a></li>
 
                   </ul>
 
        </div>
        <div class="right">
-       <h4 style="margin:15px 0 10px 0;height:30px;line-height:30px;color:#eee;text-indent:5px;font-size:14px;font-family:tahoma;background:#666;">Technical Support</h4>
+       <h4 style="margin:15px 0 10px 0;height:30px;line-height:30px;color:#eee;text-indent:5px;font-size:14px;font-family:tahoma;background:#666;"><?php echo _('Technical Support');?></h4>
        <ul>
        <?php  while($_rows=mysql_fetch_array($_result)){?>
-            <li class="mypagination"><p></p><p><strong><a href="support_content.php?id=<?php echo $_rows['id'];?>"><?php echo $_rows['title'];?></a></strong></p><p><?php echo strip_tags(_title($_rows['content']));?></p><p class="more"><?php echo $_rows['time'];?></p></li>
+            <li class="mypagination"><p></p><p><strong><a href="support_content.php?id=<?php echo $_rows['id'];?>"><?php echo $_rows['title'];?></a></strong></p>
+            	<p>
+<?php 
+            if($lan == "zh_CN"){
+            	echo _content($_rows['content'],100);
+            }else{
+            	echo _content($_rows['content'],200);
+            }
+            		?>
+
+            	</p>
+            	<p class="more"><?php echo $_rows['time'];?></p></li>
        <?php }?>
        </ul>
        <div  id="page_text"></div>

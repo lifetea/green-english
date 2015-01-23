@@ -1,10 +1,13 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html  xmlns="http://www.w3.org/1999/xhtml">
+﻿<?php
+require 'setLan.php';
+?>
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>Side Channel Blower Silencer</title>
-<meta name="description" content="Silencers are used for the reduce in positive displacement air blowers and vacuum pumps." />
-<meta name="keywords" content="Silencer,Blower Silencer,Air Silencer,Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,2BX4 series,GREENCO" />
+<title><?php echo _('Side Channel Blower Silencer'); ?></title>
+<meta name="description" content="<?php echo _('Silencers are used for the reduce in positive displacement air blowers and vacuum pumps.'); ?>" />
+<meta name="keywords" content="<?php echo _('Silencer,Blower Silencer,Air Silencer,Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,2BX4 series,GREENCO'); ?>" />
 <script src="js/menu.js" type="text/javascript"></script>
 <link  type="text/css" rel="stylesheet" href="css/main.css"/>
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>
@@ -84,12 +87,12 @@
        <img src="image/product_banner.png" style="margin:10px 0 0 10px;"/>
 		<?php require 'inc/prod-left.php';?>
        <div class="right">
-             <h5>Silencer for Side Channel Blower</h5>
-             <div  id="mypage" class="mypagination"><a href="silencer_content.php?type=2BX4 011" target="_blank"><img  src="image/Silencer.png" alt="Side channel blower silencer 2BX4-011"/></a><h4><a href="silencer_content.php?type=2BX4 011" target="_blank">Silencer 2BX4-011</a></h4></div>
-             <div  id="mypage" class="mypagination"><a href="silencer_content.php?type=2BX4 012" target="_blank"><img  src="image/Silencer.png" alt="Side channel blower silencer 2BX4-012"/></a><h4><a href="silencer_content.php?type=2BX4 012" target="_blank">Silencer 2BX4-012</a></h4></div>
-             <div  id="mypage" class="mypagination"><a href="silencer_content.php?type=2BX4 013" target="_blank"><img  src="image/Silencer.png" alt="Side channel blower silencer 2BX4-013"/></a><h4><a href="silencer_content.php?type=2BX4 013" target="_blank">Silencer 2BX4-013</a></h4></div>
-             <div  id="mypage" class="mypagination"><a href="silencer_content.php?type=2BX4 014" target="_blank"><img  src="image/Silencer.png" alt="Side channel blower silencer 2BX4-014"/></a><h4><a href="silencer_content.php?type=2BX4 014" target="_blank">Silencer 2BX4-014</a></h4></div>
-             <div  id="mypage" class="mypagination"><a href="silencer_content.php?type=2BX4 015" target="_blank"><img  src="image/Silencer.png" alt="Side channel blower silencer 2BX4-015"/></a><h4><a href="silencer_content.php?type=2BX4 015" target="_blank">Silencer 2BX4-015</a></h4></div>
+             <h5><?php echo _('Silencer for Side Channel Blower');?></h5>
+             <div  id="mypage" class="mypagination"><a href="silencer_content.php?type=2BX4 011" target="_blank"><img  src="image/Silencer.png" alt="Side channel blower silencer 2BX4-011"/></a><h4><a href="silencer_content.php?type=2BX4 011" target="_blank"><?php echo _('Silencer');?> 2BX4-011</a></h4></div>
+             <div  id="mypage" class="mypagination"><a href="silencer_content.php?type=2BX4 012" target="_blank"><img  src="image/Silencer.png" alt="Side channel blower silencer 2BX4-012"/></a><h4><a href="silencer_content.php?type=2BX4 012" target="_blank"><?php echo _('Silencer');?> 2BX4-012</a></h4></div>
+             <div  id="mypage" class="mypagination"><a href="silencer_content.php?type=2BX4 013" target="_blank"><img  src="image/Silencer.png" alt="Side channel blower silencer 2BX4-013"/></a><h4><a href="silencer_content.php?type=2BX4 013" target="_blank"><?php echo _('Silencer');?> 2BX4-013</a></h4></div>
+             <div  id="mypage" class="mypagination"><a href="silencer_content.php?type=2BX4 014" target="_blank"><img  src="image/Silencer.png" alt="Side channel blower silencer 2BX4-014"/></a><h4><a href="silencer_content.php?type=2BX4 014" target="_blank"><?php echo _('Silencer');?> 2BX4-014</a></h4></div>
+             <div  id="mypage" class="mypagination"><a href="silencer_content.php?type=2BX4 015" target="_blank"><img  src="image/Silencer.png" alt="Side channel blower silencer 2BX4-015"/></a><h4><a href="silencer_content.php?type=2BX4 015" target="_blank"><?php echo _('Silencer');?> 2BX4-015</a></h4></div>
        </div>
    </div>
 </div>
