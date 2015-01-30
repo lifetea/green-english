@@ -63,23 +63,18 @@ $(function(){
        <div id="cu3er_swf"></div>
   </div>
 
-   <!--������ҪͼƬ-->
    <div id="sildeContainer">
-   	<!--3D slider��Ӱ-->
    		<img src="image/bg_tien.png"  style="margin-top:-5px;"/>
    		<div id="wrap">
-	   	<!--3D slider��Ӱend-->
-			<a class="slider-item" href="http://www.greenco.cn/news_content.php?id=14"  style="left:0px"><img src="image/exhibition-en.jpg"/></a>
-			<a class="slider-item" href="about_us.php" style="left:344px;"><img src="image/home2.jpg"/></a>
-			<a class="slider-item" href="Side_Channel_Blower_3RB_Single_Stage.php" style="left:688px;"><img src="image/home4.jpg" /></a>
+			<a class="slider-item" href="http://www.greenco.cn/news_content.php?id=14"  style="left:0px"><img src="<?php echo _('image');?>/exhibition.jpg"/></a>
+			<a class="slider-item" href="about_us.php" style="left:344px;"><img src="<?php echo _('image');?>/home2.jpg"/></a>
+			<a class="slider-item" href="Side_Channel_Blower_3RB_Single_Stage.php" style="left:688px;"><img src="<?php echo _('image');?>/home4.jpg" /></a>
 			<a class="slider-item" href="Download.php" style="left:1032px;"><img src="image/<?php echo _('home3.jpg'); ?>" /></a>
 			<a id="prev" href="javascript:void(0)" style="left:0x;top:90px;"><img src="image/prev.jpg" /></a>
 			<a id="next" href="javascript:void(0)" style="left:978px;top:90px;"><img src="image/next.jpg" /></a>
 		</div>
    </div>
-   <!--������ҪͼƬend-->
 </div>
-<!-- ��ҳ����end -->
 <script type="text/javascript">
 
 

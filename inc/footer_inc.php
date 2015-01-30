@@ -4,7 +4,6 @@ $(function(){
 })
 
 </script>
-<!-- 搴曢儴鐗堟潈 -->
 <div id="copyright" style="height:160px;clear:both;margin-top:-10px;background:#222 url(images/footer_bg.png) repeat-x;">
   <div class="container <?php echo _('greenco-footer')?>" style="position:relative;">
     <div class="copyright">
@@ -12,7 +11,6 @@ $(function(){
                   <li style="font-weight:600;list-style:none;color:#bbb;"><?php echo _('About Greenco')?></li>
                   <li><a rel="nofollow" href="Certification.php"><?php echo _('Certification')?></a></li>
                   <li><a rel="nofollow" href="Honour.php"><?php echo _('Honour')?></a></li>
-                  <li><a rel="nofollow" href="History.php"><?php echo _('History')?></a></li>
                   <li><a rel="nofollow" href="Video.php"><?php echo _('Video')?></a></li>
                   <li><a rel="nofollow" href="Equipments.php"><?php echo _('Equipments')?></a></li>
               </ul>
@@ -23,7 +21,9 @@ $(function(){
                   <li><a rel="nofollow" href="Side_Channel_Blower_4RB_Single_Stage.php"><?php echo _('4RB Series Side Channel Blower')?></a></li>
 				  <li><a rel="nofollow" href="IE2_Single_Stage_Regenerative_Blower.php"><?php echo _('IE2 Series Regenerative Blower')?></a></li>
 				  <li><a rel="nofollow" href="Belt_Drive_Air_Blower_2RB_Single_Stage.php"><?php echo _('Belt Drive Air Blower')?></a></li>
+				  <!-- 
                   <li><a rel="nofollow" href="Liquid_Ring_Vacuum_Pump_2LV7.php"><?php echo _('Liquid Ring Vacuum Pump')?></a></li>
+              	  -->
               </ul>
 			  <ul>
                   <li style="font-weight:600;list-style:none;color:#bbb;"><?php echo _('Accessories')?></li>

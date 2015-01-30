@@ -5,12 +5,12 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 12\n"
+"Project-Id-Version: 22\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-21 09:52+0800\n"
-"PO-Revision-Date: 2015-01-21 09:53+0800\n"
-"Last-Translator: LiSongYang <494886251@qq.com>\n"
-"Language-Team: LANG1UAGE <L1L@li.org>\n"
+"POT-Creation-Date: 2015-01-23 14:21+0800\n"
+"PO-Revision-Date: 2015-01-23 14:22+0800\n"
+"Last-Translator: LSY <494886251@qq.com>\n"
+"Language-Team: LAN22GUAGE <LL22@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,13 +19,13 @@ msgstr ""
 "X-Generator: Poedit 1.7.3\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: index.php:13 index.php:10
+#: index.php:13 index.php:10 index.php:6
 msgid ""
 "GREENCO-Side Channel Blower|Ring blower|Regenerative blower|Air blower|"
 "Vacuum pump"
 msgstr "旋涡气泵_漩涡气泵_高压风机_浙江格凌实业有限公司"
 
-#: index.php:14 index.php:11
+#: index.php:14 index.php:11 index.php:7
 msgid ""
 "GREENCO_The world leader manufacturer in side channel blower,regenerative "
 "blower,ring blower,air blower in China,side channel pumps can be used as "
@@ -37,7 +37,7 @@ msgstr ""
 "体的发展格局,公司已经成为中国乃至全球漩涡气泵与高压风机领域的领导者。http://"
 "chinese.greenco.cn/"
 
-#: index.php:15 index.php:12
+#: index.php:15 index.php:12 index.php:8
 msgid ""
 "side channel blower,ring blower,regenerative blower,air blower,vortex blower,"
 "vacuum pump,industrial blowers,high pressure blowers,double stage blower,"
@@ -1261,7 +1261,7 @@ msgstr "logo-cn.jpg"
 msgid "home7.png"
 msgstr "home7-cn.png"
 
-#: index.php:79
+#: index.php:79 index.php:72
 msgid "home3.jpg"
 msgstr "home3-cn.jpg"
 
@@ -1407,3 +1407,11 @@ msgstr ""
 #: Side_Channel_Blower_2RB_Single_Stage_table.php:99
 msgid "Download"
 msgstr "下载"
+
+#: index.php:70
+msgid "home2.jpg"
+msgstr "home2-cn.jpg"
+
+#: index.php:70
+msgid "image"
+msgstr "image/cn"

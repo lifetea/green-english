@@ -1,9 +1,9 @@
-﻿
+﻿<?php require 'setLan.php';?>
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<?php require 'setLan.php';?>
+
 <?php
 if($lan == "zh_CN"){
 	 require 'seo/cn/Equipments.php';
@@ -53,7 +53,7 @@ $(function(){
   	h1,h2,h3,h4,h5,h6{font-weight:600;}
   	.dropdown{border:1px solid #ccc;}
    #Equipments _all{background:#ccc;}
-  	#Equipments {height:1330px;width:1000px;margin:0 auto;background:#fff;border:1px solid #999;border-top:none;box-shadow:0px 5px 7px 5px #ccc;}
+  	#Equipments {height:1410px;width:1000px;margin:0 auto;background:#fff;border:1px solid #999;border-top:none;box-shadow:0px 5px 7px 5px #ccc;}
     #Equipments  .left{float:left;width:265px;margin:5px 0 0 10px;padding-bottom:60px;}
   	#Equipments  .left H2{text-indent:8px;background:#666;font-size:14px;font-weight:600;width:250px;height:32px;color:#fff;line-height:32px;border:1px solid  #555;}
   	#Equipments  .left ul{margin-top:8px;list-style:none;}
