@@ -2975,29 +2975,6 @@ input[type=checkbox].wordy-checkbox {
 }
 
 
-.progressWrapper {
-	background: #fff;
-	border: 1px solid #d0d0d0;
-	margin-bottom: 5px;
-	position: relative
-}
-
-.progressWrapper:last-child {
-	margin-bottom: 0
-}
-
-.progressContainer {
-	min-height: 40px
-}
-
-.progressBarWrapper {
-	position: absolute;
-	height: 100%;
-	top: 0;
-	width: 100%;
-	z-index: 1
-}
-
 .contentWrapper {
 	padding: 7px 7px 7px 10px;
 	position: relative;
