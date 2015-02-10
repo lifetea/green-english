@@ -5,7 +5,7 @@ bind_textdomain_codeset($domain, 'UTF-8');
 textdomain($domain);
 switch ($_SERVER['HTTP_HOST']){
 	case 'www.greenco.com.cn' :
-		bindtextdomain($domain, dirname(__FILE__).'/language');
+		bindtextdomain($domain, dirname(__FILE__).'/lan');
 			putenv('LANG=zh_CN');
 			setlocale(LC_MESSAGES, 'zh_CN.utf8');
 			$lan="zh_CN";
