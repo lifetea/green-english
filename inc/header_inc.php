@@ -33,7 +33,7 @@ body{
 </style>
 <div class="container" style="width:1000px;margin:0 auto;position:relative;height:115px;">
 
-<a rel="nofollow" href="http://www.greenco.cn">
+<a rel="nofollow" href="index.php">
 <img src="image/<?php echo _('logo.jpg'); ?>" wmode="transparent" width="330" height="92" style="margin-top:10px;"/>
 </a>
 <img src="image/home6.png" style="position:absolute;top:50px;right:-10px;"/>
@@ -50,7 +50,7 @@ body{
 <nav role="navigation" class="<?php echo _('greenco-nav')?> clearfix">
   <ul class="main-nav"  >
       <li style="margin-left:10px;">
-        <a href="http://www.greenco.com.cn" ><?php echo _('Home')?></a>
+        <a href="index.php" ><?php echo _('Home')?></a>
       </li>
         <li>
           <a href="about_us.php"><?php echo _('About us')?></a>

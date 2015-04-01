@@ -2,7 +2,14 @@
 <html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<?php require 'setLan.php'; ?>
+<?php 
+	require 'setLan.php'; 
+	//引入公共文件
+	@define('feifa',ture);
+	require 'inc/common.php';
+	$_result=mysql_query("select tel,name from salers where  status='true' ");
+	$num_rows= mysql_num_rows($_result);
+?>
 <title><?php echo _('Contact us|Feedback|Contact Greenco|Online_Zhejiang Greenco Industry Co Ltd');?></title>
 <meta name="keywords" content="<?php echo _('Contact Us,Feedback,Contact Greenco,Greenco side channel blower,regenerative blower,air blower,GREENCO')?>" />
 <meta name="description"content="<?php echo _('Greenco is professional manufacturer of side channel blower,regenerative blower,air blower in China,contact us by 0086-576-86428999.');?>" />
@@ -27,7 +34,7 @@
 </style>
 <script>
 $(function(){
-	$('.phone').eq(<?php echo rand(0, 7)?>).css('display','block');
+	$('.phone').eq(<?php echo rand(0, $num_rows-1)?>).css('display','block');
 })
 </script>
 </head>
@@ -79,15 +86,10 @@ if(isset($_POST['submit'])){
              <p class="h2"><?php echo _('Add');?>: <?php echo _('Danya Industrial zone.zeguo.wenling zhejiang China.');?></p>
 				<?php
 				if($lan == "zh_CN"){
-		            	   echo '<p class="phone">电话：0576-86422753   卢先生</p>'.
-					            	'<p class="phone">电话：0576-86465357   梁先生</p>'.
-					                '<p class="phone">电话：0576-86402632   李先生</p>'.
-					                '<p class="phone">电话：0576-86465350   叶先生</p>'.
-					                '<p class="phone">电话：0576-86402630   陈小姐</p>'.
-					                '<p class="phone">电话：0576-86465326   俞先生</p>'.
-					                '<p class="phone">电话：0576-86422796   胡先生 </p>'.
-					                '<p class="phone">电话：0576-86465362   李先生</p>'.
-		            	   			'<p>传真: 0086-576-86409555</p>';
+                   	while($_rows=mysql_fetch_array($_result)){
+	                   	 echo '<p class="phone">电话：'.$_rows['tel'].'  '.$_rows['name'].'</p>';
+	                }
+				           echo '<p>传真: 0086-576-86409555</p>';
 				}else{
 				         echo  '<p>Tel: 0086-576-86428999</p><p>Fax: 0086-576-86409555</p>';
 				}
@@ -111,7 +113,7 @@ if(isset($_POST['submit'])){
 		              <tr><td><?php echo _('E-mail');?>:</td><td style="text-align:left;"><input name="email" type="text"/></td></tr>
 		              <tr><td style="position:absolute;top:275px;"><?php echo _('Comments');?>:</td><td style="text-align:left;"><textarea name="content"></textarea></td></tr>
 		              <tr><td style="position:absolute;top:338px;">*<?php echo _('Code');?>:</td><td style="text-align:left;">
-			               <img src="code.php"  id="code"   style="cursor: pointer;border:1px solid #999;padding:2px;"/>
+			               <img src="Code/index"  id="code"   style="cursor: pointer;border:1px solid #999;padding:2px;"/>
 			               <input type="text"  name="code" class="inputxt"  style="width:70px;margin-left:15px;top: -14px;"  />
 		               </td>
 		               </tr>
