@@ -50,7 +50,7 @@ body{
 <nav role="navigation" class="<?php echo _('greenco-nav')?> clearfix">
   <ul class="main-nav"  >
       <li style="margin-left:10px;">
-        <a href="http://www.greenco.com.cn" ><?php echo _('Home')?></a>
+        <a href="index.php" ><?php echo _('Home')?></a>
       </li>
         <li>
           <a href="about_us.php"><?php echo _('About us')?></a>
