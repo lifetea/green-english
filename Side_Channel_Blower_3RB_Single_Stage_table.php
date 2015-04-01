@@ -4,7 +4,7 @@ require 'setLan.php';
 @define('feifa',ture);
 //引入公共文件
 require 'inc/common.php';
-$_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacuum,maximum_pressure  from product where  type like '%3RB {$_GET['series']}%' ");
+$_result=mysql_query("select type,Fre_quency,output,maximum_airflow,maximum_vacuum,maximum_pressure  from product where  type like '%3RB {$_GET['series']}%' order by id ASC ");
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html  xmlns="http://www.w3.org/1999/xhtml">

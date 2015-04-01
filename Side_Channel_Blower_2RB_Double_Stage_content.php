@@ -103,7 +103,7 @@ Shadowbox.init({
                 <h4><?php echo $_rows['type'];?> <?php echo _('Technical Data');?></h4>
                 <table style="font-size:12px;">
                 <tr><td><strong><?php echo _('Model');?>: </strong><span><?php echo $_rows['type'];?></span></td>
-                <td><strong><?php echo _('Stage');?>:</strong> <span>Double</span></td><td>
+                <td><strong><?php echo _('Stage');?>:</strong> <span><?php echo _('Double');?></span></td><td>
                 <tr><td><strong><?php echo _('Freq');?>:</strong> <span><?php echo $_rows['Fre_quency'];?></span> (Hz)</td>
                 <td><strong><?php echo _('Power');?>:</strong> <span><?php echo $_rows['output'];?></span> (Kw)</td><td>
                 <tr><td><strong><?php echo _('Airflow');?>:</strong> <span><?php echo $_rows['maximum_airflow'];?></span> (m³/h)</td>

@@ -99,12 +99,15 @@ require 'setLan.php';
 			    	 <a href="Side_Channel_Blower_3RB_Double_Stage_table.php?series=550-2">3RB 550</a>
 			     </h4>
 		     </div>
-		     <!--  
-		     <div  id="mypage" class="mypagination"><a href="Side_Channel_Blower_3RB_Double_Stage_table.php?series=420" target="_blank"><img  src="product_image/4RB/4RB420.jpg"  /></a><h4><a href="Side_Channel_Blower_4RB_Double_Stage_table.php?series=420" target="_blank">4RB 420</a></h4></div>
-		     <div  id="mypage" class="mypagination"><a href="Side_Channel_Blower_3RB_Double_Stage_table.php?series=520" target="_blank"><img  src="product_image/4RB/4RB520.jpg"/></a><h4><a href="Side_Channel_Blower_4RB_Double_Stage_table.php?series=520" target="_blank">4RB 520</a></h4></div>
-		     <div  id="mypage" class="mypagination"><a href="Side_Channel_Blower_3RB_Double_Stage_table.php?series=620" target="_blank"><img  src="product_image/4RB/4RB620.jpg" /></a><h4><a href="Side_Channel_Blower_4RB_Double_Stage_table.php?series=620" target="_blank">4RB 620</a></h4></div>
-	        -->
-	        
+			<div  id="mypage" class="mypagination">
+			     <a href="Side_Channel_Blower_3RB_Double_Stage_table.php?series=750-2">
+			     <img  src="product_image/3RB/3RB350-2.jpg" />
+			     </a>
+			     <h4>
+			    	 <a href="Side_Channel_Blower_3RB_Double_Stage_table.php?series=750-2">3RB 750</a>
+			     </h4>
+		     </div>
+		     
 	         <div  id="page_text"></div>
        </div>
    </div>

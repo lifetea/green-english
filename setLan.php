@@ -10,11 +10,18 @@ switch ($_SERVER['HTTP_HOST']){
 			setlocale(LC_MESSAGES, 'zh_CN.utf8');
 			$lan="zh_CN";
 			break;
+	case '121.40.103.99' :
+		bindtextdomain($domain, dirname(__FILE__).'/lan');
+		putenv('LANG=zh_CN');
+		setlocale(LC_MESSAGES, 'zh_CN.utf8');
+		$lan="zh_CN";
+	break;
 	case '127.0.0.1' : 
 	putenv('LANG=en_US'); 
 	setlocale(LC_ALL, 'en_US'); 
 	break;
-	case '192.168.1.2' :
+	case '192.168.1.42' :
+		bindtextdomain($domain, dirname(__FILE__).'/lan');
 		putenv('LANG=zh_CN');
 		setlocale(LC_ALL, 'zh_CN'); 
 		$lan="zh_CN";

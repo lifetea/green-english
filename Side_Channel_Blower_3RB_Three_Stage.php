@@ -86,6 +86,7 @@ require 'setLan.php';
 			<?php require 'inc/3RB-desc.php';?>
              <div  id="mypage" class="mypagination"><a href="Side_Channel_Blower_3RB_Three_Stage_table.php?series=350-3" target="_blank"><img  src="product_image/3RB/3RB350-3.jpg"/></a><h4><a href="Side_Channel_Blower_3RB_Three_Stage_table.php?series=350-3" target="_blank">3RB 350</a></h4></div>
               <div  id="mypage" class="mypagination"><a href="Side_Channel_Blower_3RB_Three_Stage_table.php?series=550-3"><img  src="product_image/3RB/3RB350-3.jpg"/></a><h4><a href="Side_Channel_Blower_3RB_Three_Stage_table.php?series=550-3">3RB 550</a></h4></div>
+              <div  id="mypage" class="mypagination"><a href="Side_Channel_Blower_3RB_Three_Stage_table.php?series=750-3"><img  src="product_image/3RB/3RB350-3.jpg"/></a><h4><a href="Side_Channel_Blower_3RB_Three_Stage_table.php?series=750-3">3RB 750</a></h4></div>
 	         <div  id="page_text"></div>
        </div>
    </div>

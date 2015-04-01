@@ -5,12 +5,12 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: 22\n"
+"Project-Id-Version: cn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-01-23 14:21+0800\n"
-"PO-Revision-Date: 2015-01-23 14:22+0800\n"
+"POT-Creation-Date: 2015-03-04 11:13+0800\n"
+"PO-Revision-Date: 2015-04-01 12:43+0800\n"
 "Last-Translator: LSY <494886251@qq.com>\n"
-"Language-Team: LAN22GUAGE <LL22@li.org>\n"
+"Language-Team: LANGU1AGE <LL1@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -103,7 +103,7 @@ msgid "3RB Single Stage Side Channel Blower"
 msgstr "高压鼓风机 3RB系列单段"
 
 #: inc/header_inc.php:59 inc/prod-left.php:7 inc/header_inc.php:61
-#: inc/header_inc.php:58
+#: inc/header_inc.php:58 Side_Channel_Blower_3RB_Double_Stage.php:8
 msgid "3RB Double Stage Side Channel Blower"
 msgstr "高压鼓风机 3RB系列双段"
 
@@ -515,6 +515,9 @@ msgstr "根据以下的压力和真空值来查询合适您的产品"
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:113
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:113
 #: Cover_Suction_Ring_Blower_content.php:111
+#: Side_Channel_Blower_3RB_single_Stage_content.php:111
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:111
+#: Side_Channel_Blower_3RB_three_Stage_content.php:111
 msgid "Pressure"
 msgstr "压力"
 
@@ -523,6 +526,9 @@ msgstr "压力"
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:115
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:115
 #: Cover_Suction_Ring_Blower_content.php:113
+#: Side_Channel_Blower_3RB_single_Stage_content.php:113
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:113
+#: Side_Channel_Blower_3RB_three_Stage_content.php:113
 msgid "Vacuum"
 msgstr "真空"
 
@@ -833,12 +839,14 @@ msgstr " 单段 "
 #: Side_Channel_Blower_4RB_Single_Stage.php:89
 #: Side_Channel_Blower_4RB_Double_Stage.php:87
 #: Side_Channel_Blower_4RB_Three_Stage.php:87
+#: Side_Channel_Blower_3RB_Double_Stage.php:85
 msgid " ▪ Side Channel Blower"
 msgstr "▪旋涡气泵"
 
 #: Side_Channel_Blower_2RB_Double_Stage.php:92
 #: Side_Channel_Blower_3RB_Double_Stage.php:87
 #: Side_Channel_Blower_4RB_Double_Stage.php:87
+#: Side_Channel_Blower_3RB_Double_Stage.php:85
 msgid "Double Stage"
 msgstr " 双段 "
 
@@ -974,13 +982,16 @@ msgstr "最高真空"
 
 #: Side_Channel_Blower_2RB_Single_Stage_table.php:93 inc/date-hd.php:1
 msgid "Maximum Pressure"
-msgstr "最高真空"
+msgstr "最高压力"
 
 #: Side_Channel_Blower_2RB_single_Stage_content.php:105
 #: Side_Channel_Blower_2RB_single_Stage_content.php:119
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:105
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:105
 #: Cover_Suction_Ring_Blower_content.php:103
+#: Side_Channel_Blower_3RB_single_Stage_content.php:103
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:103
+#: Side_Channel_Blower_3RB_three_Stage_content.php:103
 msgid "Technical Data"
 msgstr "技术参数"
 
@@ -988,6 +999,9 @@ msgstr "技术参数"
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:107
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:107
 #: Cover_Suction_Ring_Blower_content.php:105
+#: Side_Channel_Blower_3RB_single_Stage_content.php:105
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:105
+#: Side_Channel_Blower_3RB_three_Stage_content.php:105
 msgid "Model"
 msgstr "型号"
 
@@ -995,6 +1009,9 @@ msgstr "型号"
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:108
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:108
 #: Cover_Suction_Ring_Blower_content.php:106
+#: Side_Channel_Blower_3RB_single_Stage_content.php:106
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:106
+#: Side_Channel_Blower_3RB_three_Stage_content.php:106
 msgid "Stage"
 msgstr "段数"
 
@@ -1002,6 +1019,9 @@ msgstr "段数"
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:109
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:109
 #: Cover_Suction_Ring_Blower_content.php:107
+#: Side_Channel_Blower_3RB_single_Stage_content.php:107
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:107
+#: Side_Channel_Blower_3RB_three_Stage_content.php:107
 msgid "Freq"
 msgstr "频率"
 
@@ -1009,6 +1029,9 @@ msgstr "频率"
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:110
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:110
 #: Cover_Suction_Ring_Blower_content.php:108
+#: Side_Channel_Blower_3RB_single_Stage_content.php:108
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:108
+#: Side_Channel_Blower_3RB_three_Stage_content.php:108
 msgid "Power"
 msgstr "功率"
 
@@ -1016,6 +1039,9 @@ msgstr "功率"
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:111
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:111
 #: Cover_Suction_Ring_Blower_content.php:109
+#: Side_Channel_Blower_3RB_single_Stage_content.php:109
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:109
+#: Side_Channel_Blower_3RB_three_Stage_content.php:109
 msgid "Airflow"
 msgstr "流量"
 
@@ -1023,20 +1049,29 @@ msgstr "流量"
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:112
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:112
 #: Cover_Suction_Ring_Blower_content.php:110
+#: Side_Channel_Blower_3RB_single_Stage_content.php:110
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:110
+#: Side_Channel_Blower_3RB_three_Stage_content.php:110
 msgid "TH.CL"
-msgstr "防水"
+msgstr "保护等级"
 
 #: Side_Channel_Blower_2RB_single_Stage_content.php:114
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:114
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:114
 #: Cover_Suction_Ring_Blower_content.php:112
+#: Side_Channel_Blower_3RB_single_Stage_content.php:112
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:112
+#: Side_Channel_Blower_3RB_three_Stage_content.php:112
 msgid "IN.CL"
-msgstr "防热"
+msgstr "绝缘等级"
 
 #: Side_Channel_Blower_2RB_single_Stage_content.php:116
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:116
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:116
 #: Cover_Suction_Ring_Blower_content.php:114
+#: Side_Channel_Blower_3RB_single_Stage_content.php:114
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:114
+#: Side_Channel_Blower_3RB_three_Stage_content.php:114
 msgid "N.weight"
 msgstr "重量"
 
@@ -1044,6 +1079,9 @@ msgstr "重量"
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:117
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:117
 #: Cover_Suction_Ring_Blower_content.php:115
+#: Side_Channel_Blower_3RB_single_Stage_content.php:115
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:115
+#: Side_Channel_Blower_3RB_three_Stage_content.php:115
 msgid "Inlet/outlet"
 msgstr "进口/出口"
 
@@ -1051,6 +1089,9 @@ msgstr "进口/出口"
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:118
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:118
 #: Cover_Suction_Ring_Blower_content.php:116
+#: Side_Channel_Blower_3RB_single_Stage_content.php:116
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:116
+#: Side_Channel_Blower_3RB_three_Stage_content.php:116
 msgid "Sound"
 msgstr "噪音"
 
@@ -1058,6 +1099,9 @@ msgstr "噪音"
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:119
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:119
 #: Cover_Suction_Ring_Blower_content.php:117
+#: Side_Channel_Blower_3RB_single_Stage_content.php:117
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:117
+#: Side_Channel_Blower_3RB_three_Stage_content.php:117
 msgid "Dimension"
 msgstr "尺寸"
 
@@ -1068,11 +1112,17 @@ msgstr "upfile/cn"
 
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:132
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:128
+#: Side_Channel_Blower_3RB_single_Stage_content.php:126
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:125
+#: Side_Channel_Blower_3RB_three_Stage_content.php:125
 msgid "Dimension for side channel blower"
 msgstr "漩涡气泵尺寸"
 
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:222
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:143
+#: Side_Channel_Blower_3RB_single_Stage_content.php:141
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:140
+#: Side_Channel_Blower_3RB_three_Stage_content.php:140
 msgid "Note:Model offerings and design parameters may change without notice."
 msgstr "注意：产品模型和设计参数可能会更改,不另行通知。"
 
@@ -1131,7 +1181,7 @@ msgstr "联系方式"
 
 #: contact_us.php:71
 msgid "Zhejiang Greenco Industry Co.,Ltd"
-msgstr "浙江格凌实业邮箱公司"
+msgstr "浙江格凌实业有限公司"
 
 #: contact_us.php:72
 msgid "Add"
@@ -1220,6 +1270,10 @@ msgstr ""
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:17
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:17
 #: Cover_Suction_Ring_Blower_content.php:15
+#: Side_Channel_Blower_3RB_Double_Stage.php:9
+#: Side_Channel_Blower_3RB_single_Stage_content.php:15
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:15
+#: Side_Channel_Blower_3RB_three_Stage_content.php:15
 msgid ""
 "Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF "
 "bearing high temperaturer grease,The world leader in manufacturer,export to "
@@ -1310,6 +1364,10 @@ msgstr "消音器|消音装置|高压风机|高压鼓风机|浙江格凌实业�
 #: Side_Channel_Blower_2RB_Single_Stage.php:12
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:18
 #: Side_Channel_Blower_3RB_Single_Stage_content.php:18
+#: Side_Channel_Blower_3RB_Double_Stage.php:10
+#: Side_Channel_Blower_3RB_single_Stage_content.php:16
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:16
+#: Side_Channel_Blower_3RB_three_Stage_content.php:16
 msgid ""
 "Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,"
 "single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO"
@@ -1319,6 +1377,9 @@ msgstr ""
 
 #: Side_Channel_Blower_2RB_Double_Stage_content.php:16
 #: Side_Channel_Blower_2RB_Single_Stage_table.php:15
+#: Side_Channel_Blower_3RB_single_Stage_content.php:14
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:14
+#: Side_Channel_Blower_3RB_three_Stage_content.php:14
 msgid "Side channel blower"
 msgstr "高压风机|高压鼓风机"
 
@@ -1415,3 +1476,15 @@ msgstr "home2-cn.jpg"
 #: index.php:70
 msgid "image"
 msgstr "image/cn"
+
+#: Side_Channel_Blower_3RB_single_Stage_content.php:106
+msgid "Single"
+msgstr "单段"
+
+#: Side_Channel_Blower_3RB_Double_Stage_content.php:106
+msgid "Double"
+msgstr "双段"
+
+#: Side_Channel_Blower_3RB_three_Stage_content.php:106
+msgid "Three"
+msgstr "三段"
