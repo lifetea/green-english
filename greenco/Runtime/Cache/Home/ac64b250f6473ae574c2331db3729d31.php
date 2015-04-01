@@ -64,10 +64,9 @@ $(function(){
    <div id="sildeContainer">
    		<img src="image/bg_tien.png"  style="margin-top:-5px;"/>
    		<div id="wrap">
-			<a class="slider-item" href="http://www.greenco.cn/news_content.php?id=14"  style="left:0px"><img src="<?php echo _('image');?>/exhibition.jpg"/></a>
-			<a class="slider-item" href="about_us.php" style="left:344px;"><img src="<?php echo _('image');?>/home2.jpg"/></a>
-			<a class="slider-item" href="Side_Channel_Blower_3RB_Single_Stage.php" style="left:688px;"><img src="<?php echo _('image');?>/home4.jpg" /></a>
-			<a class="slider-item" href="Download.php" style="left:1032px;"><img src="image/<?php echo _('home3.jpg'); ?>" /></a>
+			<a class="slider-item" href="about_us.php" style="left:0px;"><img src="<?php echo _('image');?>/home2.jpg"/></a>
+			<a class="slider-item" href="Side_Channel_Blower_3RB_Single_Stage.php" style="left:344px;"><img src="<?php echo _('image');?>/home4.jpg" /></a>
+			<a class="slider-item" href="Download.php" style="left:688px;"><img src="image/<?php echo _('home3.jpg'); ?>" /></a>
 			<a id="prev" href="javascript:void(0)" style="left:0x;top:90px;"><img src="image/prev.jpg" /></a>
 			<a id="next" href="javascript:void(0)" style="left:978px;top:90px;"><img src="image/next.jpg" /></a>
 		</div>
@@ -146,10 +145,10 @@ $(function(){
 		slider.prev();
 	})
 	
-	$("#wrap").hover(slider.pause,slider.start);
+	//$("#wrap").hover(slider.pause,slider.start);
 
 
-	slider.start();
+	//slider.start();
 </script>
 <script type="text/javascript">
 	$(function(){
