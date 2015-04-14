@@ -509,11 +509,6 @@ nav[role=navigation] .search-container button[type=submit]:active {
 	padding-top: 35px
 }
 
-#copyright .container {
-	width: 1040px;
-	margin: 0 auto
-}
-
 #copyright a {
 	color: #cda869;
 	text-decoration: none
@@ -549,10 +544,6 @@ nav[role=navigation] .search-container button[type=submit]:active {
 	width: 105px
 }
 
-.container {
-	margin: 0 auto;
-	width: 984px
-}
 
 .clear {
 	clear: both;

@@ -3,171 +3,44 @@
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
 <?php require 'setLan.php';?>
-<title><?php echo _('GREENCO-Side Channel Blower|Ring blower|Regenerative blower|Air blower|Vacuum pump') ?></title>
-<meta name="description" content=" <?php echo _('GREENCO_The world leader manufacturer in side channel blower,regenerative blower,ring blower,air blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications.')?>" />
-<meta name="keywords" content=" <?php echo _('side channel blower,ring blower,regenerative blower,air blower,vortex blower,vacuum pump,industrial blowers,high pressure blowers,double stage blower,three stage multistage blowers,2RB,3RB,4RB series,')?>" />
-<script src="js/jquery-1.7.2.js"></script>
-<script src="js/swfobject.js"></script>
-<script>
-$(function(){
-    $(" div.dropdown ul li a").css('color','#444');
-
-	$("ul.main-nav li a").hover(
-	 function(){
-	        $(this).css('background','#666');
-	 },
-	 	 function(){
-	        $(this).css('background','#333');
-	 }
-	 );
-
-	 $(" div.dropdown ul li a").hover(
-	 function(){
-	        $(this).css('background','#fff').css('text-decoration','underline').css('color','#222');
-	 },
-	 	 function(){
-	        $(this).css('background','#fff').css('text-decoration','none').css('color','#444');
-	 }
-	 )
-
-})
-
-</script>
-<link  rel="stylesheet"  type="text/css"  href="css/main.css"   />
-<link href="favicon.ico" rel="shortcut icon" />
-<style>
-  	.info-nav li a{margin-left:5px;color:#333;}
-  	.info-nav li a:hover{margin-left:5px;}
-  	.dropdown{border:1px solid #ccc;}
-	ul.main-nav li{margin-left:12px;}
-	ul.main-nav li a{font-size:13px;}
-  	ul.main-nav li a:hover{background:#555;}
-	#copyright a{color:#999;font-variant:normal;}
-	#copyright p a{font-variant:normal; color:#888;}
-	#copyright p{font-variant:normal;}
-    #copyright ul li{margin-top:5px;}
-    #sildeContainer{position:relative;width:1000px;margin:0 auto 10px;height: 201px;overflow:hidden}
-    #sildeContainer a{position:absolute;}
-    #sildeContainer .slider-item img{border:1px solid #999;top:2em;}
-</style>
+<title><?php echo (L("INDEX_TITLE")); ?></title>
+<meta name="keywords" content="<?php echo (L("INDEX_KEYWORDS")); ?>" />
+<meta name="description" content="<?php echo (L("INDEX_DESCRIPTION")); ?>" />
+<?php require 'inc/css.inc';?>
+<link href="favicon.ico" rel="shortcut icon"/>
 </head>
 <body >
 
 <?php require 'inc/header_inc.php';?>
 
-<div id="content" style="margin-top:-8px;">
-  <div class="container" style="width:980px;border:1px solid #ccc;padding:10px;background:#fff;">
-       <!-- 3DͼƬslider-->
-       <div id="cu3er_swf"></div>
+<div class="container">
+  <div class="flash-wrap">
+       <div id="cu3erSwf"></div>
   </div>
-
    <div id="sildeContainer">
-   		<img src="image/bg_tien.png"  style="margin-top:-5px;"/>
-   		<div id="wrap">
-			<a class="slider-item" href="about_us.php" style="left:0px;"><img src="<?php echo _('image');?>/home2.jpg"/></a>
-			<a class="slider-item" href="Side_Channel_Blower_3RB_Single_Stage.php" style="left:344px;"><img src="<?php echo _('image');?>/home4.jpg" /></a>
-			<a class="slider-item" href="Download.php" style="left:688px;"><img src="image/<?php echo _('home3.jpg'); ?>" /></a>
-			<a id="prev" href="javascript:void(0)" style="left:0x;top:90px;"><img src="image/prev.jpg" /></a>
-			<a id="next" href="javascript:void(0)" style="left:978px;top:90px;"><img src="image/next.jpg" /></a>
+   		<img class="flash-shadow" src="<?php echo (C("IMG_ROOT")); ?>/bg_shadow.png"/>
+   		<div id="sliderWrap">
+			<a class="slider-item first" href="about_us.php" >
+				<img src="<?php echo (L("SRC_LAN")); ?>/home2.jpg"/>
+			</a>
+			<a class="slider-item second" href="Side_Channel_Blower_3RB_Single_Stage.php" >
+				<img src="<?php echo (L("SRC_LAN")); ?>/home4.jpg" />
+			</a>
+			<a class="slider-item last"  href="Download.php">
+				<img src="<?php echo (L("SRC_LAN")); ?>/home3.jpg" />
+			</a>
+			<a id="prev" href="javascript:void(0)">
+				<img src="<?php echo (C("IMG_ROOT")); ?>/prev.jpg" />
+			</a>
+			<a id="next" href="javascript:void(0)">
+				<img src="<?php echo (C("IMG_ROOT")); ?>/next.jpg" />
+			</a>
 		</div>
    </div>
 </div>
-<script type="text/javascript">
-
-
-	var  slider = {};
-
-
-	slider.sync = true;
-// 	var sliders = $("#sildeContainer .slider-item");
-	
-	var fun = function(callback,choose){
-		var sliders = $("#sildeContainer .slider-item");
-		var k = 0,len = sliders.length;
-		var f = !!choose ? 1 : -1;
-		if(slider.sync != true){
-			return false;
-		}
-		slider.sync = false;
-		for(var i = 0;i<len; i++){
-			var left = parseInt(sliders[i].style.left);
-			$(sliders[i]).animate({left:(left-344*f)+"px"},"slow",function(){
-				if(parseInt(this.style.left) < 0){
-					this.style.left = ((len-1*f)*312+(len-1*f)*32)+"px";
-					slider.sync = true;
-				}
-				if(parseInt(this.style.left)> (len-1)*344){
-					this.style.left = 0 +"px";
-					//$(this).animate({left:0+"px"},"slow")
-					slider.sync = true;
-				}
-			});
-
-		}
-	}
-
-	slider.timer = null;
-
-	slider.createTimer = function(){
-		slider.timer = setInterval(function(){
-			fun(null,true);
-		},2500);
-	};
-
-	slider.clearTimer = function(){
-		clearInterval(slider.timer);
-	};
-
-	
-	slider.next = function(){
-		fun(null,true);
-	};
-
-	slider.prev = function(){
-		fun(null,false);
-	};
-
-	
-
-	slider.pause = function(){
-		slider.clearTimer();
-	};
-
-	slider.start = function(){
-		slider.createTimer();
-	};
-
-	$("#next").click(function(){
-		slider.next();
-	})
-	
-	$("#prev").click(function(){
-		slider.prev();
-	})
-	
-	//$("#wrap").hover(slider.pause,slider.start);
-
-
-	//slider.start();
-</script>
-<script type="text/javascript">
-	$(function(){
-	    var cacheBuster = "?t=" + Date.parse(new Date());
-	var flashvars = {};
-	<?php
- if($lan == "zh_CN"){ echo 'flashvars.xml =  "config-cn.xml"'; }else{ echo 'flashvars.xml =  "config.xml"'; } ?>
-	
-	var params = {};
-	params.allowscriptaccess = "always";
-	params.allownetworking = "all";
-	params.wmode = "Transparent";
-	var attributes = {};
-	attributes.id = "slider";
-	swfobject.embedSWF("cu3er.swf"+cacheBuster, "cu3er_swf", "980", "300", "9.0.124", "expressInstall.swf", flashvars, params);
-	})
-
-</script>
+<input id="swfConfig" type="hidden"  value="<?php echo (L("SRC_LAN")); ?>/config.xml">
 <?php require 'inc/footer_inc.php';?>
-
+<script src="<?php echo (C("JS_ROOT")); ?>/swfobject.js"></script>
+<script src="<?php echo (C("JS_ROOT")); ?>/index.js"></script>
 </body>
 </html>

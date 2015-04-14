@@ -1,10 +1,4 @@
-<script>
-$(function(){
-	$('#copyright img').css('position','absolute').css('top','106px').css('left','460px');
-})
-
-</script>
-<div id="copyright" style="height:160px;clear:both;margin-top:-10px;background:#222 url(images/footer_bg.png) repeat-x;">
+<div id="copyright" style="height:196px;clear:both;background:#222 url(images/footer_bg.png) repeat-x;">
   <div class="container <?php echo _('greenco-footer')?>" style="position:relative;">
     <div class="copyright">
               <ul style="margin:-10px 0 0  10px;float:left;">
@@ -60,3 +54,13 @@ $(function(){
   </div>
 </div>
 <!-- 搴曢儴鐗堟潈end -->
+<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script>
+$(function(){
+	$('#copyright img').css('position','absolute').css('top','106px').css('left','460px');
+})
+
+</script>

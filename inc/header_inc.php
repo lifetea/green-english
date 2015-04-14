@@ -1,12 +1,6 @@
  <style>
-.lang-select{
-	position: absolute;
-	top: 10px;
-	right: 10px;
-}
-body{
-  background:#eee;
-}
+
+
 .greenco-nav-cn ul.main-nav li {
   margin-left: 20px;
 }

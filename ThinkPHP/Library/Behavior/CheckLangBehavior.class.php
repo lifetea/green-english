@@ -52,7 +52,20 @@ class CheckLangBehavior {
             }
         }
         // 定义当前语言
-        define('LANG_SET',strtolower($langSet));
+        $domain = $_SERVER['HTTP_HOST'];
+        if($domain == 'www.greenco.com.cn'){
+        	define('LANG_SET',strtolower('zh-cn'));
+        }elseif ($domain == 'www.greenco.cn'){
+        	define('LANG_SET',strtolower('en-us'));
+        }elseif ($domain == 'localhost'){
+        	define('LANG_SET',strtolower('es'));//西班牙
+        }elseif ($domain == '127.0.0.1'){
+        	define('LANG_SET',strtolower('en-us'));//英文
+        }elseif ($domain == '192.168.1.42'){
+        	define('LANG_SET',strtolower('zh-cn'));//中文
+        }else{
+	        define('LANG_SET',strtolower($langSet));
+        }
 
         // 读取框架语言包
         $file   =   THINK_PATH.'Lang/'.LANG_SET.'.php';

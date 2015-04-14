@@ -75,3 +75,10 @@ ul.main-nav li a{font-size:13px;}
  	#copyright a{color:#999;font-variant:normal;}
 #copyright p{font-variant:normal;}
    #copyright ul li{margin-top:5px;}
+   
+   
+/*index.php*/
+	.flash-wrap {width:1000px;height:326px;border:1px solid #ccc;padding:10px;background:#fff;margin:1em auto 0;}
+    #sildeContainer{position:relative;width:1000px;margin:0 auto 10px;height: 201px;overflow:hidden}
+    #sildeContainer a{position:absolute;}
+    #sildeContainer .slider-item img{border:1px solid #999;top:2em;}
