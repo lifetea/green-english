@@ -775,4 +775,3 @@ var swfobject = function() {
 		}
 	};
 }();
-

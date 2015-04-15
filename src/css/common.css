@@ -2,6 +2,8 @@
 /*common*/
 body{
   background:#eee;
+  font-family:Tahoma,Geneva,sans-serif;
+  font-size:13px;
 }
 
 .lang-select,.trademark{
@@ -104,7 +106,7 @@ ul.main-nav li a{font-size:13px;}
  /*header.inc*/   
    .header{height:115px;margin:0 auto;}
    .btn-search{min-width: 38px;height: 32px;border-bottom-left-radius: 0;border-top-left-radius: 0;margin-left: -4px;}
-   #searchBox{border-bottom-right-radius: 0;border-top-right-radius: 0;width:90px;}
+   #searchBox{border-bottom-right-radius: 0;border-top-right-radius: 0;}
 /*index.php*/
 	.flash-wrap {width:1000px;height:326px;border:1px solid #ccc;padding:10px;background:#fff;margin:1em auto 0;}
 	.flash-shadow{margin-top:-5px;}
