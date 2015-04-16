@@ -8,7 +8,7 @@
 <meta name="description"content="{$Think.lang.DOWNLOAD_DESCRIPTION}" />
 <?php require 'inc/css.inc';?>
 <link href="favicon.ico" rel="shortcut icon" />
-
+</head>
 <include file="../Public/header" />
 
 <!-- 下载内容 -->
@@ -20,31 +20,33 @@
 			         		<a href="upfile/side channel blower Complete Catalog.pdf" style="font-size:13px;font-weight:600;" id="catalog" target="_blank"><?php echo _('Complete Catalog (2RB,4RB and Belt Drive)');?> </a>
 			         </p>
 			
-				<div>
-						<div class="overview">
-						<div style="float:left;margin:70px 30px 40px 21px;" id="overview1">
-						<h4 style="background:url(image/arrow04.gif) no-repeat 5px 12px;padding-left:6px;"><?php echo _('Overview 2RB Series');?></h4>
-						<table>
-						<tr class="one"><td><a href="<?php echo _('upfile');?>/overview_2rb/side channel blower 2RB_1AC_pressure_selection_diagram.pdf" target="_blank">2RB <?php echo _('1AC Pressure Operation');?></a></td>
-						<td><a href="<?php echo _('upfile');?>/overview_2rb/side channel blower 2RB_3AC_Pressure_selection_diagram.pdf" target="_blank">2RB <?php echo _('3AC Pressure Operation');?></a></td></tr>
-						<tr class="one"><td><a href="<?php echo _('upfile');?>/overview_2rb/side channel blower 2RB_1AC_Vacuum_selection_diagram.pdf" target="_blank">2RB <?php echo _('1AC Vacuum Operation');?></a></td>
-						<td><a href="<?php echo _('upfile');?>/overview_2rb/side channel blower 2RB_3AC_Vacuum_selection_diagram.pdf" target="_blank">2RB <?php echo _('3AC Vacuum Operation');?></a></td></tr>
-						</table>
-						</div>
-						<div style="float:left;margin:70px 30px 40px  30px;" id="overview1">
-						<h4 style="background:url(image/arrow04.gif) no-repeat 5px 12px;padding-left:6px;"><?php echo _('Overview 4RB Series');?></h4>
-						<table>
-						<tr class="one"><td><a href="<?php echo _('upfile');?>/overview_4rb/side channel blower 4RB_1AC_pressure_selection_diagram.pdf" target="_blank">4RB <?php echo _('1AC Pressure Operation')?></a></td>
-						<td><a href="<?php echo _('upfile');?>/overview_4rb/side channel blower 4RB_3AC_Pressure_selection_diagram.pdf" target="_blank">4RB <?php echo _('3AC Pressure Operation')?></a></td></tr>
-						<tr class="one"><td><a href="<?php echo _('upfile');?>/overview_4rb/side channel blower 4RB_1AC_Vacuum_selection_diagram.pdf" target="_blank">4RB <?php echo _('1AC Vacuum Operation')?></a></td>
-						<td><a href="<?php echo _('upfile');?>/overview_4rb/side channel blower 4RB_3AC_Vacuum_selection_diagram.pdf" target="_blank">4RB <?php echo _('3AC Vacuum Operation')?></a></td></tr>
-						      </table>
-						      </div>
-						</div>
+						<div class="row">
+							<div class="col-md-4">
+								<h5 style="background:url(image/arrow04.gif) no-repeat 5px 12px;padding-left:6px;"><?php echo _('Overview 2RB Series');?></h5>
+								<div class="row">
+									<a class="col-md-6" href="<?php echo _('upfile');?>/overview_2rb/side channel blower 2RB_1AC_pressure_selection_diagram.pdf" target="_blank">2RB <?php echo _('1AC Pressure Operation');?></a>
+									<a class="col-md-6" href="<?php echo _('upfile');?>/overview_2rb/side channel blower 2RB_3AC_Pressure_selection_diagram.pdf" target="_blank">2RB <?php echo _('3AC Pressure Operation');?></a>							
+								</div>
+								<div class="row">
+									<a class="col-md-6"  href="<?php echo _('upfile');?>/overview_2rb/side channel blower 2RB_1AC_Vacuum_selection_diagram.pdf" target="_blank">2RB <?php echo _('1AC Vacuum Operation');?></a>
+									<a class="col-md-6"  href="<?php echo _('upfile');?>/overview_2rb/side channel blower 2RB_3AC_Vacuum_selection_diagram.pdf" target="_blank">2RB <?php echo _('3AC Vacuum Operation');?></a>					
+								</div>
+							</div>
+							<div class="col-md-4">
+								<h5 style="background:url(image/arrow04.gif) no-repeat 5px 12px;padding-left:6px;"><?php echo _('Overview 4RB Series');?></h5>
+								<div class="row">
+									<a class="col-md-6" href="<?php echo _('upfile');?>/overview_4rb/side channel blower 4RB_1AC_pressure_selection_diagram.pdf" target="_blank">4RB <?php echo _('1AC Pressure Operation')?></a>
+									<a class="col-md-6" href="<?php echo _('upfile');?>/overview_4rb/side channel blower 4RB_3AC_Pressure_selection_diagram.pdf" target="_blank">4RB <?php echo _('3AC Pressure Operation')?></a>				
+								</div>
+								<div class="row">
+									<a class="col-md-6" href="<?php echo _('upfile');?>/overview_4rb/side channel blower 4RB_1AC_Vacuum_selection_diagram.pdf" target="_blank">4RB <?php echo _('1AC Vacuum Operation')?></a>
+									<a class="col-md-6" href="<?php echo _('upfile');?>/overview_4rb/side channel blower 4RB_3AC_Vacuum_selection_diagram.pdf" target="_blank">4RB <?php echo _('3AC Vacuum Operation')?></a>			
+								</div>							
+					      	</div>
+					      </div>
+
 				
 				
-				
-				</div>
 			         <H3 style="color:#eee;clear:both;background:#666;border:1px solid #555;text-indent:5px;"><?php echo _('Side Channel Blower PDF Data Sheets');?></H3>
 			         <div>
 			         <div class="left" style="margin-bottom:30px;">
