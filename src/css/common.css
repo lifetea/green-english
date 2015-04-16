@@ -5,23 +5,10 @@ body{
   font-family:Tahoma,Geneva,sans-serif;
   font-size:13px;
 }
-
 .lang-select,.trademark{
 	padding-top: 0.8em;
-}/*
-
-.greenco-nav-cn ul.main-nav li {
-  margin-left: 20px;
-}
-.greenco-footer ul{
-  margin: -10px 0 0 85px;
-  float:left;
 }
 
-.greenco-footer-cn ul{
-  margin: -10px 0 0 150px;
-  float:left;
-}*/
 .clearfix:after {
     content: ".";
     display: block;
@@ -36,50 +23,6 @@ body{
 .3rb-info{
 	color:red !important;
 }
-
- 	.info-nav li a{margin-left:5px;color:#333;}
- 	.info-nav li a:hover{margin-left:5px;}
-ul.main-nav li{margin-left:12px;}
-ul.main-nav li a{font-size:13px;}
- 	ul.main-nav li a:hover{background:#555;}
- 	h1,h2,h3,h4,h5,h6{font-weight:600;}
-   #Side_Channel_Blower_2RB_Single_Stage_all{background:#ccc;}
- 	#Side_Channel_Blower_2RB_Single_Stage{height:1200px;width:1000px;margin:0 auto;background:#fff;border:1px solid #999;border-top:none;box-shadow:0px 5px 7px 5px #ccc;}
-   #Side_Channel_Blower_2RB_Single_Stage .left{float:left;width:265px;margin:5px 0 0 10px;}
- 	#Side_Channel_Blower_2RB_Single_Stage .left H2{text-indent:10px;background:#666;font-size:14px;font-weight:600;width:250px;height:32px;color:#fff;line-height:32px;border:1px solid  #555;}
- 	#Side_Channel_Blower_2RB_Single_Stage .left ul{margin-top:8px;list-style:none;}
- 	#Side_Channel_Blower_2RB_Single_Stage .left ul li {margin-top:13px;background:url(image/jiantou.png) no-repeat 0 2px;padding-left:18px;}
-   #Side_Channel_Blower_2RB_Single_Stage .left form p{margin-top:10px;width:240px;padding-left:10px;}
- 	#Side_Channel_Blower_2RB_Single_Stage .left ul li  a{color:#333;}
- 	#Side_Channel_Blower_2RB_Single_Stage .left .text{border-radius:0px;}
- 	#Side_Channel_Blower_2RB_Single_Stage .left select{margin-left:8px;border-radius:0px;}
- 	#Side_Channel_Blower_2RB_Single_Stage .right{height:880px;float:left;width:700px;border-left:1px solid #ccc;padding:0 0 30px 15px;}
- 	#Side_Channel_Blower_2RB_Single_Stage .right h5{color:#444;font-weight:600;font-size:14px;margin-top:10px;text-align:center;height:25px;line-height:25px;margin-bottom:10px;}
- 	#Side_Channel_Blower_2RB_Single_Stage .right  #mypage{float:left;margin:0 0 20px 22px;}
- 	#Side_Channel_Blower_2RB_Single_Stage .right  #mypage img{border:1px solid #bbb;}
- 	#Side_Channel_Blower_2RB_Single_Stage .right  #mypage img:hover{filter:alpha(opacity=90);opacity=0.9;}
- 	#Side_Channel_Blower_2RB_Single_Stage .right h4 a{font-size:13px;color:#333;display:block;width:200px;text-indent:50px;height:20px;line-height:20px;font-weight:500;background:url(image/arrow04.gif) no-repeat 48px 6px;padding-left:10px;}
-
- 	
- 	    #Side_Channel_Blower_2RB_Double_Stage_all{background:#ccc;}
- 	#Side_Channel_Blower_2RB_Double_Stage{height:1200px;width:1000px;margin:0 auto;background:#fff;border:1px solid #999;border-top:none;box-shadow:0px 5px 7px 5px #ccc;}
-   #Side_Channel_Blower_2RB_Double_Stage .left{float:left;width:265px;margin:5px 0 0 10px;}
- 	#Side_Channel_Blower_2RB_Double_Stage .left H2{text-indent:10px;background:#666;font-size:14px;font-weight:600;width:250px;height:32px;color:#fff;line-height:32px;border:1px solid  #555;}
- 	#Side_Channel_Blower_2RB_Double_Stage .left ul{margin-top:8px;list-style:none;}
- 	#Side_Channel_Blower_2RB_Double_Stage .left ul li {margin-top:13px;background:url(image/jiantou.png) no-repeat 0 2px;padding-left:18px;}
-   #Side_Channel_Blower_2RB_Double_Stage .left form p{margin-top:10px;width:240px;padding-left:10px;}
- 	#Side_Channel_Blower_2RB_Double_Stage .left ul li  a{color:#333;}
- 	#Side_Channel_Blower_2RB_Double_Stage .left .text{border-radius:0px;}
- 	#Side_Channel_Blower_2RB_Double_Stage .left select{margin-left:8px;border-radius:0px;}
-#Side_Channel_Blower_2RB_Double_Stage .right{height:890px;float:left;width:700px;border-left:1px solid #ccc;padding:0 0 30px 15px;}
- 	#Side_Channel_Blower_2RB_Double_Stage .right h5{color:#444;font-weight:600;font-size:14px;margin-top:10px;text-align:center;height:25px;line-height:25px;margin-bottom:10px;}
- 	#Side_Channel_Blower_2RB_Double_Stage .right  #mypage{float:left;margin:0 0 20px 22px;}
- 	#Side_Channel_Blower_2RB_Double_Stage .right  #mypage img{border:1px solid #bbb;}
- 	#Side_Channel_Blower_2RB_Double_Stage .right  #mypage img:hover{border:1px solid #777;}
- 	#Side_Channel_Blower_2RB_Double_Stage .right h4 a{font-size:13px;color:#333;display:block;width:200px;text-indent:60px;height:20px;line-height:20px;font-weight:500;background:url(image/arrow04.gif) no-repeat 60px 6px;padding-left:10px;}
- 	
-
- 	
  	/*文字分页*/
 #page_text{
 	clear:both;
@@ -102,11 +45,22 @@ ul.main-nav li a{font-size:13px;}
  	#copyright a{color:#999;font-variant:normal;}
 #copyright p{font-variant:normal;}
    #copyright ul li{margin-top:5px;}
-   
- /*header.inc*/   
+  /*common*/
+  .container-fluid.content{background: #ccc;padding-bottom:1em;} 
+ /*header  footer*/ 
+ 	.header .logo img{width:330px;height:92px;margin-top:10px;}  
    .header{height:115px;margin:0 auto;}
-   .btn-search{min-width: 38px;height: 32px;border-bottom-left-radius: 0;border-top-left-radius: 0;margin-left: -4px;}
-   #searchBox{border-bottom-right-radius: 0;border-top-right-radius: 0;}
+   .nav .dropdown-menu{font-size:13px}
+   .btn-search{min-width: 38px;height: 34px;border-bottom-left-radius: 0;border-top-left-radius: 0;margin-left: -4px;}
+   #searchBox{border-bottom-right-radius: 0;border-top-right-radius: 0;width:120px;}
+   .footer{padding:2em 0;}
+   .footer ul>li{margin-top:4px;}
+   .footer .item{margin-right:108px;}
+   .footer .item-title{font-weight:600;list-style:none;color:#bbb;}
+   .green-en .footer .item{margin-right:50px}
+   .footer .last{margin-right:0}
+   .footer  a , .footer  span{color:#999}
+   @media (min-width:1200px){.navbar-nav>li{margin-right: 1.5em;} #searchBox{width:auto;}}
 /*index.php*/
 	.flash-wrap {width:1000px;height:326px;border:1px solid #ccc;padding:10px;background:#fff;margin:1em auto 0;}
 	.flash-shadow{margin-top:-5px;}
@@ -118,5 +72,14 @@ ul.main-nav li a{font-size:13px;}
     #sildeContainer .slider-item img{border:1px solid #999;top:2em;}
     #prev{left:0x;top:90px;}
     #next{left:978px;top:90px;}
-
-    
+/*download*/
+    .download{margin: 0 auto;
+background: #fafafa;
+border: 1px solid #999;
+border-top: none;
+border-bottom: none;
+}
+.download a{color:#333;}
+.download-img{
+	width:100%;margin:10px auto;border:1px solid #666;
+}

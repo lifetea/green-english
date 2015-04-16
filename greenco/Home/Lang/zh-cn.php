@@ -6,7 +6,8 @@ return array(
 		'INDEX_DESCRIPTION'=>'高压风机,高压鼓风机,漩涡气泵,旋涡气泵,真空泵,2RB系列高压风机,4RB系列高压风机',
 		'SRC_LAN'=>'src/cn',
 		'welcome'=>'中文', 
-		//Header 页面
+		//Header Footer 页面
+		'HEADER_BODY_CLASS'=>'green-zh',
 		'HEADER_HOME'=>'网站首页',
 		'HEADER_ABOUT_US'=>'关于我们',
 		'HEADER_ABOUT_GREENCO'=>'关于格凌',
@@ -32,7 +33,7 @@ return array(
 		'HEADER_RELIEF_VALUE'=>"释压伐",
 		'HEADER_FILTER'=>"过滤器",
 		'HEADER_APPLICATIONS'=>"产品应用",
-		'HEADER_NEWS_SUPPORT'=>"新闻中心",
+		'HEADER_NEWS_CENTER'=>"新闻中心",
 		'HEADER_COMPANY_NEWS'=>"企业动态",
 		'HEADER_INDUSTRY_NEWS'=>"行业新闻",
 		'HEADER_SUPPORT'=> "技术支持",
@@ -40,6 +41,13 @@ return array(
 		'HEADER_CONTACT_US'=>"联系我们",
 		'HEADER_JOIN_US'=>"加入我们",
 		'HEADER_SEARCH'=>'搜索',
-		
+		'FOOTER_ACCESSORIES'=>'漩涡气泵配件',
+		'FOOTER_CATALOG'=>'格凌目录书',
+		'FOOTER_MOTOR'=>'电机',
+		'FOOTER_SITEMAP'=>'网址地图',
+		//Download 页面
+		'DOWNLOAD_TITLE'=>'高压风机资料下载|漩涡气泵资料下载|真空泵资料下载|电动机资料下载_浙江格凌实业有限公司',
+		'DOWNLOAD_KEYWORDS'=>'高压风机资料下载,高压风机参数下载,高压风机说明文档下载,高压风机使用手册下载,高压风机应用下载,高瑞风机安装尺寸图下载,高瑞高压风机,高压风机产品,高压鼓风机',
+		'DOWNLOAD_DESCRIPTION'=>'浙江格凌实业有限公司专业研发、生产、销售格凌高压风机、高压鼓风机、真空泵13年.拥有40多项高压风机核心专利技术.格凌高压鼓风机,漩涡气泵,中德美合资,全球产销量第一.成为国内用户群最大的高压鼓风机生产和服务商,全球已销售100多个国家以上.',
 );
 ?>

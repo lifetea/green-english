@@ -1,30 +1,52 @@
-<div class="container header row" >
-	<div class="col-md-4">
-		<a rel="nofollow" href="index.php">
-			<img src="{$Think.lang.SRC_LAN}/logo.jpg" wmode="transparent" width="330" height="92" style="margin-top:10px;"/>
-		</a>
-	</div>
-	<div class="col-md-4 trademark">
-		<img src="image/<?php echo _('home7.png'); ?>"/>
-	</div>
-	<div class="col-md-4">
-		<div class="row">
-			<div class="col-md-7"></div>
-			<div class="lang-select col-md-5">
-			   <a href="http://www.greenco.com.cn"  target="_blank" ><img src="image/china.png" class="language_china" title="中文" alt="中文"/></a>
-			   <a href="http://www.greenco.cn"  rel='nofollow' ><img src="image/english.png" class="language_english" title="English" alt="英文"/></a>
-			   <a href="http://spanish.greenco.cn"  target="_blank" ><img src="image/spanish.png" class="language_english" title="Spanish" alt="西班牙"/></a>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-1"></div>
-			<div class="lang-select col-md-4">
-				<img src="image/home6.png" style=""/>
-			</div>
-		</div>		
-	</div>
-</div>
+ <style>
+.lang-select{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+body{
+  background:#eee;
+}
+.greenco-nav-cn ul.main-nav li {
+  margin-left: 20px;
+}
+.greenco-footer ul{
+  margin: -10px 0 0 85px;
+  float:left;
+}
 
+.greenco-footer-cn ul{
+  margin: -10px 0 0 150px;
+  float:left;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.clearfix { * +height:
+    1%;
+}
+</style>
+<div class="container" style="width:1000px;margin:0 auto;position:relative;height:115px;">
+
+<a rel="nofollow" href="http://www.greenco.cn">
+<img src="image/<?php echo _('logo.jpg'); ?>" wmode="transparent" width="330" height="92" style="margin-top:10px;"/>
+</a>
+<img src="image/home6.png" style="position:absolute;top:50px;right:-10px;"/>
+<img src="image/<?php echo _('home7.png'); ?>" style="position:absolute;top:8px;left:340px;"/>
+<div class="lang-select">
+   <a href="http://www.greenco.com.cn"  target="_blank" ><img src="image/china.png" class="language_china" title="中文" alt="中文"/></a>
+   <a href="http://www.greenco.cn"  rel='nofollow' ><img src="image/english.png" class="language_english" title="English" alt="英文"/></a>
+   <a href="http://spanish.greenco.cn"  target="_blank" ><img src="image/spanish.png" class="language_english" title="Spanish" alt="西班牙"/></a>
+</div>
+</div>
+<!-- 澶撮儴end -->
+
+<!-- 瀵艰埅 -->
 <nav role="navigation" class="<?php echo _('greenco-nav')?> clearfix">
   <ul class="main-nav"  >
       <li style="margin-left:10px;">

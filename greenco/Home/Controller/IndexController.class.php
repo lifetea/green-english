@@ -6,4 +6,12 @@ class IndexController extends Controller {
 //     	print  L('add_user_error');　
         $this->display();
     }
+    public function about_us(){
+    	//     	print  L('add_user_error');　
+    	$this->display();
+    }
+    public function download(){
+    	//     	print  L('add_user_error');　
+    	$this->display();
+    }
 }
