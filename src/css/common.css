@@ -73,13 +73,29 @@ body{
     #prev{left:0x;top:90px;}
     #next{left:978px;top:90px;}
 /*download*/
-    .download{margin: 0 auto;
-background: #fafafa;
-border: 1px solid #999;
-border-top: none;
-border-bottom: none;
-}
-.download a{color:#333;}
-.download-img{
-	width:100%;margin:10px auto;border:1px solid #666;
-}
+	.download{margin: 0 auto;background: #fafafa;border: 1px solid #999;border-top: none;padding-bottom: 2em;}
+	.download a{color:#333;}
+	.download-img{
+		width:100%;margin:10px auto;border:1px solid #666;
+	}
+	.download .line{
+		border-bottom: 1px solid #666;line-height: 2em;
+		margin-right:1em;
+	}
+	.download h5{
+			line-height: 34px;
+			color: #333;
+			font-size: 13px;
+			font-weight: 600;
+	}
+	.download h3{
+		color: #333;
+		font-size: 14px;
+		height: 30px;
+		line-height: 30px;
+		text-indent:1em;
+		color: #eee;
+		background: #666;
+		border: 1px solid #555;
+		font-weight: 600;
+	}

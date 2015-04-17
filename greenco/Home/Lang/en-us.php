@@ -49,5 +49,13 @@ return array(
 		'DOWNLOAD_TITLE'=>'Download side channel blower performance curves,data sheet,technical data for pressure and vacuum_GREENCO',
 		'DOWNLOAD_KEYWORDS'=>'side channel blower download,regenerative blower,Ring Blower catalogue,Air blower manual,blower dimensions,regenerative blower,vacuum pump,motors,performance curves,technical data,blower curves',
 		'DOWNLOAD_DESCRIPTION'=>'Downlod Greenco side channel blower,regenerative blower,Ring blower technical data,Air blower performance curves,catalogue & manual.Full range of products,the pressure upto 150Kpa,volume flow upto 2500m3/h,power range from 200w to 25kw',
+		'DOWNLOAD_COMPLETE_CATALOG'=>'Complete Catalog',
+		'DOWNLOAD_2RB_4RB_BELT'=>'2RB,4RB and Belt Drive',
+		'DOWNLOAD_2RB_SERIES'=>'Overview 2RB Series',
+		'DOWNLOAD_4RB_SERIES'=>'Overview 4RB Series',
+		'DOWNLOAD_DATA_SHEETS'=>'Side Channel Blower PDF Data Sheets',
+		'DOWNLOAD_2RB_DATA_SHEETS'=>'2RB Series Data Sheets(incl. IE1 and IE2 models',
+		'DOWNLOAD_COVER_SUCTION_DATA_SHEETS'=>'Cover Suction Ring Blower',
+		
 );
 ?>

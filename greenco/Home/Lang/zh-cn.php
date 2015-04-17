@@ -49,5 +49,15 @@ return array(
 		'DOWNLOAD_TITLE'=>'高压风机资料下载|漩涡气泵资料下载|真空泵资料下载|电动机资料下载_浙江格凌实业有限公司',
 		'DOWNLOAD_KEYWORDS'=>'高压风机资料下载,高压风机参数下载,高压风机说明文档下载,高压风机使用手册下载,高压风机应用下载,高瑞风机安装尺寸图下载,高瑞高压风机,高压风机产品,高压鼓风机',
 		'DOWNLOAD_DESCRIPTION'=>'浙江格凌实业有限公司专业研发、生产、销售格凌高压风机、高压鼓风机、真空泵13年.拥有40多项高压风机核心专利技术.格凌高压鼓风机,漩涡气泵,中德美合资,全球产销量第一.成为国内用户群最大的高压鼓风机生产和服务商,全球已销售100多个国家以上.',
+		'DOWNLOAD_COMPLETE_CATALOG'=>'格凌完整目录书',
+		'DOWNLOAD_2RB_4RB_BELT'=>'2RB,4RB和皮带式',
+		'DOWNLOAD_2RB_SERIES'=>'2RB 系列总览',
+		'DOWNLOAD_4RB_SERIES'=>'4RB 系列总览',
+		'DOWNLOAD_DATA_SHEETS'=>'旋涡气泵 PDF 数据表',		
+		'DOWNLOAD_2RB_DATA_SHEETS'=>'2RB 系列数据表(包括 IE1 和 IE2 等型号)',
+		'DOWNLOAD_COVER_SUCTION_DATA_SHEETS'=>'吸顶式旋涡风机',
+		
+		
+		
 );
 ?>
