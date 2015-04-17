@@ -1235,3 +1235,160 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
 
+[ 2015-04-17T21:38:25+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011301s ]
+
+[ 2015-04-17T21:38:25+08:00 ] 127.0.0.1 /SRC_LAN/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001008s ]
+
+[ 2015-04-17T21:38:25+08:00 ] 127.0.0.1 /SRC_LAN/home7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000955s ]
+
+[ 2015-04-17T21:38:25+08:00 ] 127.0.0.1 /SRC_LAN/home4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+
+[ 2015-04-17T21:38:25+08:00 ] 127.0.0.1 /SRC_LAN/home3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+
+[ 2015-04-17T21:38:25+08:00 ] 127.0.0.1 /SRC_LAN/home2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+
+[ 2015-04-17T21:38:27+08:00 ] 127.0.0.1 /SRC_LAN/config.xml?t=1429277907046
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+ERR: 非法操作:SRC_LAN
+
+[ 2015-04-17T21:40:05+08:00 ] 192.168.1.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000845s ]
+
+[ 2015-04-17T21:40:06+08:00 ] 192.168.1.42 /font.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+ERR: 非法操作:font.swf
+
+[ 2015-04-17T21:40:08+08:00 ] 192.168.1.42 /Download.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2015-04-17T21:49:58+08:00 ] 192.168.1.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+
+[ 2015-04-17T21:49:58+08:00 ] 192.168.1.42 /font.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+ERR: 非法操作:font.swf
+
+[ 2015-04-17T21:50:01+08:00 ] 192.168.1.42 /Download.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+
+[ 2015-04-17T22:01:49+08:00 ] 192.168.1.42 /Download.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+
+[ 2015-04-17T22:02:18+08:00 ] 192.168.1.42 /Download.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000967s ]
+
+[ 2015-04-17T22:02:24+08:00 ] 192.168.1.42 /Code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001792s ]
+ERR: 非法操作:Code
+
+[ 2015-04-17T22:02:25+08:00 ] 192.168.1.42 /Code/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001667s ]
+ERR: 非法操作:Code
+
+[ 2015-04-17T22:02:40+08:00 ] 192.168.1.42 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+
+[ 2015-04-17T22:02:40+08:00 ] 192.168.1.42 /font.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+ERR: 非法操作:font.swf
+
+[ 2015-04-17T22:03:04+08:00 ] 192.168.1.42 /about_us.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+
+[ 2015-04-17T22:03:09+08:00 ] 192.168.1.42 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000786s ]
+
+[ 2015-04-17T22:03:09+08:00 ] 192.168.1.42 /font.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+ERR: 非法操作:font.swf
+
+[ 2015-04-17T22:03:11+08:00 ] 192.168.1.42 /Download.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000576s ]
+
+[ 2015-04-17T22:03:56+08:00 ] 192.168.1.42 /Download.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000764s ]
+
+[ 2015-04-17T22:04:47+08:00 ] 192.168.1.42 /Download.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000626s ]
+
+[ 2015-04-17T22:07:14+08:00 ] 192.168.1.42 /Download.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+
+[ 2015-04-17T22:07:20+08:00 ] 192.168.1.42 /Download.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000918s ]
+
+[ 2015-04-17T22:09:05+08:00 ] 192.168.1.42 /Download.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+
+[ 2015-04-17T22:09:36+08:00 ] 192.168.1.42 /Download.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+
+[ 2015-04-17T22:10:41+08:00 ] 192.168.1.42 /Download.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000907s ]
+

@@ -55,9 +55,12 @@ return array(
 		'DOWNLOAD_4RB_SERIES'=>'4RB 系列总览',
 		'DOWNLOAD_DATA_SHEETS'=>'旋涡气泵 PDF 数据表',		
 		'DOWNLOAD_2RB_DATA_SHEETS'=>'2RB 系列数据表(包括 IE1 和 IE2 等型号)',
-		'DOWNLOAD_COVER_SUCTION_DATA_SHEETS'=>'吸顶式旋涡风机',
-		
-		
+		'DOWNLOAD_COVER_SUCTION_DATA_SHEETS'=>'吸顶式旋涡风机数据表',
+		'DOWNLOAD_2RB_BELT_DATA_SHEETS'=>'2RB 皮带式系列数据表',
+		'DOWNLOAD_3RB_DATA_SHEETS'=>'3RB 系列数据表',
+		'DOWNLOAD_4RB_DATA_SHEETS'=>'4RB 系列数据表',
+		'DOWNLOAD_PRESSURE_OPERATION'=>'压力操作',
+		'DOWNLOAD_VACUUM__OPERATION'=>'真空操作',
 		
 );
 ?>

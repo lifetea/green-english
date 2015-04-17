@@ -63,6 +63,8 @@ class CheckLangBehavior {
         	define('LANG_SET',strtolower('en-us'));//英文
         }elseif ($domain == '192.168.1.42'){
         	define('LANG_SET',strtolower('zh-cn'));//中文
+        }elseif ($domain == '192.168.1.42'){
+        	define('LANG_SET',strtolower('zh-cn'));//中文        	
         }else{
 	        define('LANG_SET',strtolower($langSet));
         }

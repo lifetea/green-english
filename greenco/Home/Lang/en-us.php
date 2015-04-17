@@ -55,7 +55,13 @@ return array(
 		'DOWNLOAD_4RB_SERIES'=>'Overview 4RB Series',
 		'DOWNLOAD_DATA_SHEETS'=>'Side Channel Blower PDF Data Sheets',
 		'DOWNLOAD_2RB_DATA_SHEETS'=>'2RB Series Data Sheets(incl. IE1 and IE2 models',
-		'DOWNLOAD_COVER_SUCTION_DATA_SHEETS'=>'Cover Suction Ring Blower',
+		'DOWNLOAD_COVER_SUCTION_DATA_SHEETS'=>'Cover Suction Ring Blower Date Sheets',
+		'DOWNLOAD_2RB_BELT_DATA_SHEETS'=>'2RB Series Belt Drive Data Sheets',
+		'DOWNLOAD_3RB_DATA_SHEETS'=>'3RB Series Data Sheets',
+		'DOWNLOAD_4RB_DATA_SHEETS'=>'4RB Series Data Sheets',
+		'DOWNLOAD_COVER_PRESSURE_OPERATION'=>'Pressure Operation',
+		'DOWNLOAD_COVER_VACUUM__OPERATION'=>'Vacuum Operation',
+		
 		
 );
 ?>
