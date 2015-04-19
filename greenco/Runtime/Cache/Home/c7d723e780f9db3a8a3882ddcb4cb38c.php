@@ -1,15 +1,14 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
 <html>
-		<head>
-				<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-				<?php require 'setLan.php';?>
-				<title><?php echo (L("INDEX_TITLE")); ?></title>
-				<meta name="keywords" content="<?php echo (L("INDEX_KEYWORDS")); ?>" />
-				<meta name="description" content="<?php echo (L("INDEX_DESCRIPTION")); ?>" />
-				<?php require 'inc/css.inc';?>
-				<link href="favicon.ico" rel="shortcut icon"/>
-		</head>
-				<body class="<?php echo (L("HEADER_BODY_CLASS")); ?>">
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<?php  require 'setLan.php'; @define('feifa',ture); require 'inc/common.php'; $_result=mysql_query("select tel,name from salers where  status='true' "); $num_rows= mysql_num_rows($_result); ?>
+<title><?php echo (L("CONTACT_TITLE")); ?></title>
+<meta name="keywords" content="<?php echo (L("CONTACT_KEYWORDS")); ?>" />
+<meta name="description"content="<?php echo (L("CONTACT_DESCRIPTION")); ?>" />
+<?php require 'inc/css.inc';?>
+<link href="favicon.ico" rel="shortcut icon" />
+<body class="<?php echo (L("HEADER_BODY_CLASS")); ?>">
 		<div class="container header row" >
 			<div class="col-xs-4">
 				<a class="logo" rel="nofollow" href="index.php">
@@ -148,7 +147,7 @@
 										<a rel="nofollow" href="Download.php"><?php echo (L("HEADER_DOWNLOADS")); ?></a>
 								</li>
 								<li>
-										<a rel="nofollow" href="contact"><?php echo (L("HEADER_CONTACT_US")); ?></a>
+										<a rel="nofollow" href="Contact_us.php"><?php echo (L("HEADER_CONTACT_US")); ?></a>
 								</li>
 								<li>
 										<a rel="nofollow" href="#"><?php echo (L("HEADER_JOIN_US")); ?></a>
@@ -162,36 +161,67 @@
 				</div><!-- /.container-fluid -->
 		</nav>
 
-				<div class="container-fluid content">
-						<div class="container">
-						  <div class="flash-wrap">
-						       <div id="cu3erSwf"></div>
-						  </div>
-						   <div id="sildeContainer">
-						   		<img class="flash-shadow" src="<?php echo (C("IMG_ROOT")); ?>/bg_shadow.png"/>
-						   		<div id="sliderWrap">
-									<a class="slider-item first" href="about_us.php" >
-										<img src="<?php echo (L("SRC_LAN")); ?>/home2.jpg"/>
-									</a>
-									<a class="slider-item second" href="Side_Channel_Blower_3RB_Single_Stage.php" >
-										<img src="<?php echo (L("SRC_LAN")); ?>/home4.jpg" />
-									</a>
-									<a class="slider-item last"  href="Download.php">
-										<img src="<?php echo (L("SRC_LAN")); ?>/home3.jpg" />
-									</a>
-									<a id="prev" href="javascript:void(0)">
-										<img src="<?php echo (C("IMG_ROOT")); ?>/prev.jpg" />
-									</a>
-									<a id="next" href="javascript:void(0)">
-										<img src="<?php echo (C("IMG_ROOT")); ?>/next.jpg" />
-									</a>
-								</div>
-						   </div>
-						</div>
+<?php
+if(isset($_POST['submit'])){ require("email.php"); $mail = new PHPMailer(); $mail->IsSMTP(); $mail->Host="smtp.qq.com"; $mail->SMTPAuth = true; $mail->Username = "494886251@qq.com"; $mail->Password = "woyaokuaile"; $mail->From ='494886251@qq.com'; $mail->FromName = trim($_POST['name']); $mail->AddAddress("greenco@greenco.cn","浙江格凌实业有限公司"); $mail->AddReplyTo(trim($_POST['email']), trim($_POST['name'])); $mail->WordWrap = 50; $mail->IsHTML(true); $mail->CharSet="utf-8"; $mail->Subject = "网站客户留言信息"; $mail->Body = '<p>留言人：'.trim($_POST['name']).'</p>'.'<p>公司名称：'.trim($_POST['company']).'</p>'.'<p>联系电话：'.trim($_POST['phone']).'</p>'.'<p>邮箱地址：'.trim($_POST['email']).'</p>'.'<p>留言内容：'.trim($_POST['content']).'</p>'; $mail->AltBody = "邮件正文不支持HTML格式"; if(!$mail->Send()) { echo "信息未发送成功，请重新填写！"; exit(); } else { $url = "contact_us.php"; echo "<script language='javascript' type='text/javascript'>"; echo "alert('恭喜,信息已发送成功,请耐心等待,我们会尽快回复您！');window.location.href='$url'"; echo "</script>"; } } ?>
+
+<!-- 下载内容 -->
+<div class="container-fuild">
+    <div class="container contact">
+	    <div class="row">
+	    	<div class="col-md-6">
+				<p class="h1"><?php echo (L("CONTACT_DETAILS")); ?></p>
+				<p style="font-weight:600;font-size:18px;color:#333;font-family:tahoma;">
+					<?php echo (L("CONTACT_GREENCO_COLTD")); ?>
+				</p>
+				<p class="h2"><?php echo _('Add');?>: <?php echo _('Danya Industrial zone.zeguo.wenling zhejiang China.');?></p>
+				<?php
+ if($lan == "zh_CN"){ while($_rows=mysql_fetch_array($_result)){ echo '<p class="phone">电话：'.$_rows['tel'].'  '.$_rows['name'].'</p>'; } echo '<p>传真: 0086-576-86409555</p>'; }else{ echo '<p>Tel: 0086-576-86428999</p><p>Fax: 0086-576-86409555</p>'; } ?>            	
 				
-				</div>
-				<input id="swfConfig" type="hidden"  value="<?php echo (L("SRC_LAN")); ?>/config.xml">
-				<div class="container-fluid navbar-inverse footer">
+				<p><?php echo _('E-mail');?>: greenco@greenco.cn</a></p>
+				<p>MSN: greenco.cn@hotmail.com</p>
+				<p><?php echo _('Website');?>: http://www.greenco.cn</p>
+	    	
+	    	</div>
+	    	<div class="col-md-6">
+ 			   <img style="margin:2em auto;width:70%" src="images/contact_us.jpg"/>
+	    	</div>
+	    </div>
+	    <div class="row">
+		    <div class="col-md-6">
+				    <?php  include 'map.php';?>
+		    </div>
+		    <div class="col-md-6">
+			     <div id="feedback_info">
+			          <p class="h1"><?php echo _('Your questions and comments');?></p>
+			          <p><?php echo _('If you would like us to send you information by post or to make contact to advise on the specification of our products, please complete the form below.');?> </p>
+		              <form method="post"  action="contact_us.php">
+			              <table>
+				              <tr><td><?php echo _('Name');?>:</td><td style="text-align:left;"><input name="name" type="text"/></td></tr>
+				              <tr><td><?php echo _('Company');?>:</td><td style="text-align:left;"><input name="company" type="text"/></td></tr>
+				              <tr><td><?php echo _('Telephone');?>:</td>
+				              <td style="text-align:left;"><input name="phone" type="text"/></td></tr>
+				              <tr><td><?php echo _('E-mail');?>:</td><td style="text-align:left;"><input name="email" type="text"/></td></tr>
+				              <tr><td><?php echo _('Comments');?>:</td><td style="text-align:left;">
+				              <textarea name="content" class="form-control" rows="3" placeholder="Textarea"></textarea>
+				              </td></tr>
+				              <tr><td>*<?php echo _('Code');?>:</td><td style="text-align:left;">
+					               <img src="Code/index"  id="code"   style="cursor: pointer;border:1px solid #999;padding:2px;"/>
+					               <input type="text"  name="code" class="inputxt"  style="width:70px;margin-left:15px;top: -14px;"  />
+				               </td>
+				               </tr>
+			                  <tr><td><input type="submit"  name="submit" value="<?php echo _('SEND');?>" id="submit"/></td></tr>
+			              </table>
+		              </form>
+			    </div>
+		    </div>		    
+	    </div>
+
+    </div>
+</div>
+<!-- 下载内容end -->
+        
+
+<div class="container-fluid navbar-inverse footer">
 	<div class="container" >
 			<ul class="pull-left item">
 				<li class="item-title" ><?php echo (L("HEADER_ABOUT_GREENCO")); ?></li>
@@ -244,7 +274,10 @@
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-				<script src="<?php echo (C("JS_ROOT")); ?>/swfobject.js"></script>
-				<script src="<?php echo (C("JS_ROOT")); ?>/index.js"></script>
-		</body>
+<script>
+$(function(){
+	$('.phone').eq(<?php echo rand(0, $num_rows-1)?>).css('display','block');
+})
+</script>
+</body>
 </html>

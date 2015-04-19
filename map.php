@@ -21,11 +21,9 @@
     .iw_poi_title {color:#1b2f69;font-size:13px;font-weight:bold;overflow:hidden;padding-right:13px;}
     .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:-4px;white-space:-moz-pre-wrap;word-wrap:break-word;}
 	#dituContent {
-		width: 490px;
-		height: 420px;
-		position: absolute;
-		top: 300px;
-		left: 10px;
+		width: 90%;
+		margin:0 auto;
+		height: 400px;
 		border: 1px solid #666;
 	}
 </style>

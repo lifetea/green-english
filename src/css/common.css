@@ -5,6 +5,7 @@ body{
   font-family:Tahoma,Geneva,sans-serif;
   font-size:13px;
 }
+.hide{display:none}
 .lang-select,.trademark{
 	padding-top: 0.8em;
 }
@@ -99,3 +100,23 @@ body{
 		border: 1px solid #555;
 		font-weight: 600;
 	}
+/*contact*/
+.contact{
+	background:white;
+	border: 1px solid #999;
+	padding:2em;
+}
+.contact .detail{
+	margin-left:2em;
+}
+.contact .detail p{
+	line-height:180%;
+}
+.contact .detail h3{
+	color: #1e448c;
+	font-family: Tahoma;
+	font-weight: 600;
+	text-indent: 0px;
+	height: 30px;
+	line-height: 30px;
+}

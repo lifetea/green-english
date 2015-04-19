@@ -5,7 +5,7 @@ return array(
 		'INDEX_KEYWORDS'=>'GREENCO_The world leader manufacturer in side channel blower,regenerative blower,ring blower,air blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications.',
 		'INDEX_DESCRIPTION'=>'side channel blower,ring blower,regenerative blower,air blower,vortex blower,vacuum pump,industrial blowers,high pressure blowers,double stage blower,three stage multistage blowers,2RB,3RB,4RB series',
 		'SRC_LAN'=>'src/en',
-		'welcome'=>'英语',
+		'LAN'=>'en-us',
 		//Header Footer 页面
 		'HEADER_BODY_CLASS'=>'green-en',
 		'HEADER_HOME'=>'Home',
@@ -61,7 +61,26 @@ return array(
 		'DOWNLOAD_4RB_DATA_SHEETS'=>'4RB Series Data Sheets',
 		'DOWNLOAD_COVER_PRESSURE_OPERATION'=>'Pressure Operation',
 		'DOWNLOAD_COVER_VACUUM__OPERATION'=>'Vacuum Operation',
-		
-		
+
+		//Contact_us 页面
+		'CONTACT_TITLE'=>'Contact us|Feedback|Contact Greenco|Online_Zhejiang Greenco Industry Co Ltd',
+		'CONTACT_KEYWORDS'=>'Contact Us,Feedback,Contact Greenco,Greenco side channel blower,regenerative blower,air blower,GREENCO',
+		'CONTACT_DESCRIPTION'=>'Greenco is professional manufacturer of side channel blower,regenerative blower,air blower in China,contact us by 0086-576-86428999.',
+		'CONTACT_DETAILS'=>'Contact Details',
+		'CONTACT_GREENCO_COLTD'=>'Zhejiang Greenco Industry Co.,Ltd',
+		'CONTACT_ADD'=>'ADD',
+		'CONTACT_ADDRESS'=>'Danya Industrial zone.zeguo.wenling zhejiang China.',
+		'CONTACT_TELEPHONE'=>'Tel',
+		'CONTACT_FAX'=>'Fax',
+		'CONTACT_FAX_NO'=>'0086-576-86409555',
+		'CONTACT_WEBSITE'=>'Website',
+		'CONTACT_Q&C'=>'Your questions and comments',
+		'CONTACT_SUGGEST'=>'If you would like us to send you information by post or to make contact to advise on the specification of our products, please complete the form below.',
+		'CONTACT_COMPANY'=>'Company',
+		'CONTACT_NAME'=>'Name',
+		'CONTACT_EMAIL'=>'E-mail',
+		'CONTACT_COMMENTS'=>'Comments',
+		'CONTACT_CODE'=>'CODE',
+		'CONTACT_SEND'=>'Send',
 );
 ?>

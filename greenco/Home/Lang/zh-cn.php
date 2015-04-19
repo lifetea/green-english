@@ -5,7 +5,7 @@ return array(
 		'INDEX_KEYWORDS'=>' 浙江格凌实业有限公司是一家专业从事空气流体设备的国家高新技术企业,形成了漩涡式气泵为主,其他空气流体设备（真空泵和压缩机）为辅，集研发、生产、销售、服务于一体的发展格局,公司已经成为中国乃至全球漩涡气泵与高压风机领域的领导者。http://chinese.greenco.cn/',
 		'INDEX_DESCRIPTION'=>'高压风机,高压鼓风机,漩涡气泵,旋涡气泵,真空泵,2RB系列高压风机,4RB系列高压风机',
 		'SRC_LAN'=>'src/cn',
-		'welcome'=>'中文', 
+		'LAN'=>'zh-cn', 
 		//Header Footer 页面
 		'HEADER_BODY_CLASS'=>'green-zh',
 		'HEADER_HOME'=>'网站首页',
@@ -62,5 +62,25 @@ return array(
 		'DOWNLOAD_PRESSURE_OPERATION'=>'压力操作',
 		'DOWNLOAD_VACUUM__OPERATION'=>'真空操作',
 		
+		//Contact_us 页面
+		'CONTACT_TITLE'=>'联系我们|联系格凌|反馈意见|在线联系_浙江格凌实业有限公司',
+		'CONTACT_KEYWORDS'=>'联系格凌,咨询,联系我们,0576-86428999 Greenco,格凌风机 格凌真空泵,高压风机,鼓风机,气泵,漩涡气泵',
+		'CONTACT_DESCRIPTION'=>'浙江格凌实业有限公司是一家专业从事空气流体设备）（压缩、真空）的国家高新技术企业，公司形成了以高压风机，漩涡气泵，旋涡风机，高压鼓风机为主，其他空气流体设备（真空泵和压缩机）为辅，集研发、生产、销售、服务于一体的发展格局，公司已经成为中国乃至全球真空和压缩领域的领导者.',
+		'CONTACT_DETAILS'=>'联系方式',
+		'CONTACT_GREENCO_COLTD'=>'浙江格凌实业有限公司',
+		'CONTACT_ADD'=>'地址',
+		'CONTACT_ADDRESS'=>'浙江省温岭市泽国镇丹崖工业新区',
+		'CONTACT_TELEPHONE'=>'电话',
+		'CONTACT_FAX'=>'传真',
+		'CONTACT_FAX_NO'=>'0086-576-86409555',
+		'CONTACT_WEBSITE'=>'官网',
+		'CONTACT_Q&C'=>'疑问和留言',
+		'CONTACT_SUGGEST'=>'如果希望我们在选型上给您建议，请完成以下表单发送给我们。',
+		'CONTACT_NAME'=>'姓名',
+		'CONTACT_COMPANY'=>'公司',
+		'CONTACT_EMAIL'=>'邮箱',
+		'CONTACT_COMMENTS'=>'留言',
+		'CONTACT_CODE'=>'验证',
+		'CONTACT_SEND'=>'发送',
 );
 ?>

@@ -8,5 +8,6 @@
   RewriteRule ^(.*)$ index.php/Home/Index/$1 [QSA,PT,L]
   RewriteRule ^about_us.php$ about_us
   RewriteRule ^Download.php$ download
+  RewriteRule ^Contact_us.php$ contact_us
 
 </IfModule>

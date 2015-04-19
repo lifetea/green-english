@@ -23,9 +23,6 @@
 	#dituContent {
 		width: 490px;
 		height: 420px;
-		position: absolute;
-		top: 300px;
-		left: 10px;
 		border: 1px solid #666;
 	}
 </style>

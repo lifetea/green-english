@@ -1,15 +1,13 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
 <html>
-		<head>
-				<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-				<?php require 'setLan.php';?>
-				<title><?php echo (L("INDEX_TITLE")); ?></title>
-				<meta name="keywords" content="<?php echo (L("INDEX_KEYWORDS")); ?>" />
-				<meta name="description" content="<?php echo (L("INDEX_DESCRIPTION")); ?>" />
-				<?php require 'inc/css.inc';?>
-				<link href="favicon.ico" rel="shortcut icon"/>
-		</head>
-				<body class="<?php echo (L("HEADER_BODY_CLASS")); ?>">
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title><?php echo (L("CONTACT_TITLE")); ?></title>
+<meta name="keywords" content="<?php echo (L("CONTACT_KEYWORDS")); ?>" />
+<meta name="description"content="<?php echo (L("CONTACT_DESCRIPTION")); ?>" />
+<?php require 'inc/css.inc';?>
+<link href="favicon.ico" rel="shortcut icon" />
+<body class="<?php echo (L("HEADER_BODY_CLASS")); ?>">
 		<div class="container header row" >
 			<div class="col-xs-4">
 				<a class="logo" rel="nofollow" href="index.php">
@@ -162,36 +160,107 @@
 				</div><!-- /.container-fluid -->
 		</nav>
 
-				<div class="container-fluid content">
-						<div class="container">
-						  <div class="flash-wrap">
-						       <div id="cu3erSwf"></div>
+
+<!-- 下载内容 -->
+<div class="container-fuild">
+    <div class="container contact">
+	    <div class="row">
+	    	<div class="col-md-6">
+		    	<div class="detail">
+					<h3><?php echo (L("CONTACT_DETAILS")); ?></h3>
+					<p style="font-weight:600;font-size:18px;color:#333;font-family:tahoma;">
+						<?php echo (L("CONTACT_GREENCO_COLTD")); ?>
+					</p>
+					<p>
+						 <span><?php echo (L("CONTACT_ADD")); ?>:</span>
+						 <?php echo (L("CONTACT_ADDRESS")); ?>
+					</p>
+					<?php if(L("LAN")=='zh-cn'): if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p class="phone hide">
+								<span><?php echo (L("CONTACT_TELEPHONE")); ?>:</span>
+								<?php echo ($vo["tel"]); ?> <?php echo ($vo["name"]); ?>
+							</p><?php endforeach; endif; else: echo "" ;endif; ?>										
+					<?php else: ?>
+						<p>Tel: 0086-576-86428999</p><?php endif; ?>
+					<p>
+						<span><?php echo (L("CONTACT_FAX")); ?>:</span>
+						<?php echo (L("CONTACT_FAX_NO")); ?>
+					</p>
+					<p><?php echo (L("CONTACT_EMAIL")); ?>: greenco@greenco.cn</p>
+					<p>MSN: greenco.cn@hotmail.com</p>
+					<p><?php echo (L("CONTACT_WEBSITE")); ?>: http://www.greenco.cn</p>
+		    	</div>	
+	    	</div>
+	    	<div class="col-md-6">
+ 			   <img style="margin:0 auto;width:70%" src="images/contact_us.jpg"/>
+	    	</div>
+	    </div>
+	    <div class="row">
+		    <div class="col-md-6">
+				    <?php  include 'map.php';?>
+		    </div>
+		    <div class="col-md-5">
+			     <div id="feedback_info">
+					<p style="font-weight:600;font-size:18px;color:#333;font-family:tahoma;">
+							<?php echo (L("CONTACT_Q&C")); ?>
+					</p>
+					<p>
+						<?php echo (L("CONTACT_SUGGEST")); ?>
+					</p>
+		              <form method="post" class="form-horizontal"  action="contact_us.php">
+						  <div class="form-group">
+						    <label class="col-sm-2 control-label"><?php echo (L("CONTACT_NAME")); ?>:</label>
+						    <div class="col-sm-10">
+						    	<input type="text" class="form-control" name="name" placeholder="<?php echo (L("CONTACT_NAME")); ?>">
+						    </div>
 						  </div>
-						   <div id="sildeContainer">
-						   		<img class="flash-shadow" src="<?php echo (C("IMG_ROOT")); ?>/bg_shadow.png"/>
-						   		<div id="sliderWrap">
-									<a class="slider-item first" href="about_us.php" >
-										<img src="<?php echo (L("SRC_LAN")); ?>/home2.jpg"/>
-									</a>
-									<a class="slider-item second" href="Side_Channel_Blower_3RB_Single_Stage.php" >
-										<img src="<?php echo (L("SRC_LAN")); ?>/home4.jpg" />
-									</a>
-									<a class="slider-item last"  href="Download.php">
-										<img src="<?php echo (L("SRC_LAN")); ?>/home3.jpg" />
-									</a>
-									<a id="prev" href="javascript:void(0)">
-										<img src="<?php echo (C("IMG_ROOT")); ?>/prev.jpg" />
-									</a>
-									<a id="next" href="javascript:void(0)">
-										<img src="<?php echo (C("IMG_ROOT")); ?>/next.jpg" />
-									</a>
-								</div>
-						   </div>
-						</div>
-				
-				</div>
-				<input id="swfConfig" type="hidden"  value="<?php echo (L("SRC_LAN")); ?>/config.xml">
-				<div class="container-fluid navbar-inverse footer">
+						  <div class="form-group">
+						  	<label class="col-sm-2 control-label"><?php echo (L("CONTACT_COMPANY")); ?>:</label>
+						    <div class="col-sm-10">
+							    <input type="text" name="company" class="form-control" id="exampleInputPassword1" placeholder=<?php echo (L("CONTACT_COMPANY")); ?>>
+						    </div>
+						  </div>
+						  <div class="form-group">
+						  	<label class="col-sm-2 control-label"><?php echo (L("CONTACT_TELEPHONE")); ?>:</label>
+						    <div class="col-sm-10">
+							    <input type="text" name="phone" class="form-control" id="exampleInputPassword1" placeholder="<?php echo (L("CONTACT_TELEPHONE")); ?>">
+						    </div>						  
+						  </div>						  
+						  <div class="form-group">
+						  	<label class="col-sm-2 control-label"><?php echo (L("CONTACT_EMAIL")); ?>:</label>
+						    <div class="col-sm-10">
+							    <input type="email" name="email" class="form-control" id="exampleInputPassword1" placeholder="<?php echo (L("CONTACT_EMAIL")); ?>">
+						    </div>	
+						  </div>
+						  <div class="form-group">
+						  	<label class="col-sm-2 control-label"><?php echo (L("CONTACT_COMMENTS")); ?>:</label>
+						    <div class="col-sm-10">
+							    <textarea name="content" class="form-control" rows="3" placeholder="<?php echo (L("CONTACT_COMMENTS")); ?>"></textarea>
+						    </div>	
+						  </div>
+						  <div class="form-group">
+						  	<label class="col-sm-2 control-label">*<?php echo (L("CONTACT_CODE")); ?>:</label>
+						    <div class="col-sm-6">
+						    	<img src="Code"  id="code" class="pull-left"  style="cursor: pointer;border:1px solid #999;padding:2px;"/>
+						    	<input type="text" style="width:100px;margin-left:6px" name="code" class="form-control pull-left"/>
+						    </div>
+						    <div class="col-sm-4">
+						    	<button type="submit" id="submit" class="btn btn-default pull-right"><?php echo (L("CONTACT_SEND")); ?></button>
+						    </div>						    
+						  </div>						  
+						  					               :
+					               
+						  
+		              </form>
+			    </div>
+		    </div>		    
+	    </div>
+
+    </div>
+</div>
+<!-- 下载内容end -->
+        
+
+<div class="container-fluid navbar-inverse footer">
 	<div class="container" >
 			<ul class="pull-left item">
 				<li class="item-title" ><?php echo (L("HEADER_ABOUT_GREENCO")); ?></li>
@@ -244,7 +313,12 @@
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-				<script src="<?php echo (C("JS_ROOT")); ?>/swfobject.js"></script>
-				<script src="<?php echo (C("JS_ROOT")); ?>/index.js"></script>
-		</body>
+<script>
+$(function(){
+	var count = $('.phone').length;
+	var i = Math.floor(Math.random()*count);
+	$('.phone').eq(i).removeClass('hide');
+})
+</script>
+</body>
 </html>

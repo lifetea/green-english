@@ -14,4 +14,23 @@ class IndexController extends Controller {
     	//     	print  L('add_user_error');　
     	$this->display();
     }
+    public function contact(){
+    	//     	print  L('add_user_error');　
+    	$list = S('list');
+    	if (!$list) {
+    		$salers = M("salers");
+    		$list = $salers->where("status ='true'")->select();
+    		S('list', $list, 7000);
+    	}
+    	$this->assign('list',$list);
+    	$this->display();
+    }
+    public function code(){
+    	//     	print  L('add_user_error');　
+    	$Verify = new \Think\Verify();
+    	$Verify->fontSize = 12;
+    	$Verify->length   = 4;
+    	$Verify->useNoise = false;
+		$Verify->entry();
+    }    
 }
