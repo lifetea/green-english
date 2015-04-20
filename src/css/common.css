@@ -120,3 +120,13 @@ body{
 	height: 30px;
 	line-height: 30px;
 }
+.support{
+	margin: 0 auto;
+  background: white;
+  border: 1px solid #999;
+  border-top: none;
+  padding-bottom: 2em;
+}
+.support a{
+	color: #555;
+}

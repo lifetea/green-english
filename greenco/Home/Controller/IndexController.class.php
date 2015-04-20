@@ -16,11 +16,11 @@ class IndexController extends Controller {
     }
     public function contact(){
     	//     	print  L('add_user_error');　
-    	$list = S('list');
+    	$list = S('contact-data');
     	if (!$list) {
     		$salers = M("salers");
     		$list = $salers->where("status ='true'")->select();
-    		S('list', $list, 7000);
+    		S('contact-data', $list, 7000);
     	}
     	$this->assign('list',$list);
     	$this->display();
@@ -32,5 +32,15 @@ class IndexController extends Controller {
     	$Verify->length   = 4;
     	$Verify->useNoise = false;
 		$Verify->entry();
-    }    
+    }
+    public function support(){
+    	//$list = S('support-data');
+    	//if (!$list) {
+    		$news = M("news");
+    		$list = $news->where("type ='support' and lan='zh-cn'")->select();
+    		//S('support-data', $list, 7000);
+    	//}
+    	$this->assign('list',$list);
+    	$this->display();
+    }        
 }
