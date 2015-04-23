@@ -1,7 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class IndexController extends Controller {
+class NewsController extends Controller {
     public function index(){
 //     	print  L('add_user_error');　
         $this->display();
@@ -75,17 +75,6 @@ class IndexController extends Controller {
     	$this->assign('list',$list);
     	$this->display();
     }
-    public function news_content(){
-//     	$list = S("industry-data-".L('LAN'));
-//     	if (!$list) {/
-    	   
-    		$news = M("news");
-    		$list = $news->where("id =". I('get.id'))->find();
-//     		S("industry-data-".L('LAN'), $list, 7000);
-//     	}
-    	$this->assign('list',$list);
-    	$this->display();
-    }    
   private  function _content($_string,$_len) {
     	if (mb_strlen($_string,'utf-8') > $_len) {
     		$_string = mb_substr(strip_tags($_string),0,$_len,'utf-8');

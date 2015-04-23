@@ -82,5 +82,31 @@ return array(
 		'CONTACT_COMMENTS'=>'Comments',
 		'CONTACT_CODE'=>'CODE',
 		'CONTACT_SEND'=>'Send',
+
+
+		//supprot 页面	
+		'SUPPORT_INDEX'=>'Technical Support for Side Channel Blower|Regenerative Blower|Ring blower|Vacuum pump',
+		'SUPPORT_DESCRIPTION'=>'GREENCO_The world leader manufacturer in side channel blower,regenerative blower,ring blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications.',
+	    'SUPPORT_KEYWORDS'=>'Technical Support of side channel blower,Regenerative blower,Ring blower,Air blower,vacuum pump,industrial blowers,high pressure blowers,double stage blower,three stage multistage blowers,2RB,3RB,4RB series',
+		'SUPPORT_DETAIL'=>'Detail',
+		
+		//company 页面
+		'COMPANY_INDEX'=>'GREENCO-Side Channel Blower|Regenerative Blower|Ring blower|Vacuum pump|Electric motor|Zhejiang GREENCO Industry Co Ltd',
+		'COMPANY_KEYWORDS'=>'News,Blower news,side channel blower news,Industry News,GREENCO',
+		'COMPANY_DESCRIPTION'=>'GREENCO_The world leader manufacturer in side channle blower,regenerative blower,ring blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications.',
+				
+		//industry 页面
+		'INDUSTRY_INDEX'=>'GREENCO-Side Channel Blower|Regenerative Blower|Ring blower|Vacuum pump|Electric motor|Zhejiang GREENCO Industry Co Ltd',
+		'INDUSTRY_DESCRIPTION'=>'News,Blower news,side channel blower news,Industry News,GREENCO',
+		'INDUSTRY_KEYWORDS'=>'GREENCO_The world leader manufacturer in side channle blower,regenerative blower,ring blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications.',
+		
+		//news content 页面
+		'NEW_CONTENT_INDEX'=>'News|blower news|side channel blower news',
+		'NEW_CONTENT_DESCRIPTION'=>'News,Blower news,side channel blower news,Industry News,GREENCO',
+		'NEW_CONTENT_KEYWORDS'=>'GREENCO_The world leader manufacturer in side channle blower,regenerative blower,ring blower,air blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications',
+		
+		
+		
+		
 );
 ?>

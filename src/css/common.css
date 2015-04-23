@@ -120,13 +120,18 @@ body{
 	height: 30px;
 	line-height: 30px;
 }
-.support{
-	margin: 0 auto;
+.support ,.news{
+  margin: 0 auto;
   background: white;
   border: 1px solid #999;
   border-top: none;
-  padding-bottom: 2em;
 }
-.support a{
+.support a ,.news a{
 	color: #555;
+}
+.support .mypagination ,.news .mypagination{
+	border-bottom: 1px solid #ccc;
+}
+.support ul li p ,.news ul li p{
+	line-height:30px;
 }

@@ -1,3 +1,0 @@
-<title>GREENCO-Side Channel Blower|Ring blower|Regenerative blower|Air blower|Vacuum pump</title>
-<meta name="description" content="GREENCO_The world leader manufacturer in side channel blower,regenerative blower,ring blower,air blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications." />
-<meta name="keywords" content="side channel blower,ring blower,regenerative blower,air blower,vortex blower,vacuum pump,industrial blowers,high pressure blowers,double stage blower,three stage multistage blowers,2RB,3RB,4RB series," />

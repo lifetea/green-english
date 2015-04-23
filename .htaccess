@@ -9,5 +9,8 @@
   RewriteRule ^about_us.php$ about_us
   RewriteRule ^Download.php$ download
   RewriteRule ^Contact_us.php$ contact_us
+  RewriteRule ^Support.php$ support
+  RewriteRule ^news_Company.php$ company
+  RewriteRule ^news_Industry.php$ industry
 
 </IfModule>
