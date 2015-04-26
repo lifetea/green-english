@@ -7,6 +7,7 @@
 <meta name="description"content="<?php echo (L("CONTACT_DESCRIPTION")); ?>" />
 <?php require 'inc/css.inc';?>
 <link href="favicon.ico" rel="shortcut icon" />
+</head>
 <body class="<?php echo (L("HEADER_BODY_CLASS")); ?>">
 		<div class="container header row" >
 			<div class="col-xs-4">
@@ -128,7 +129,7 @@
 								        </ul>
 								      </li>        
 								 <li>
-								        <a href="application.php"><?php echo (L("HEADER_APPLICATIONS")); ?></a>
+								        <a href="application"><?php echo (L("HEADER_APPLICATIONS")); ?></a>
 								  </li>
 								  
 								 <li class="dropdown">
@@ -168,7 +169,7 @@
 	    	<div class="col-md-6">
 		    	<div class="detail">
 					<h3><?php echo (L("CONTACT_DETAILS")); ?></h3>
-					<p style="font-weight:600;font-size:18px;color:#333;font-family:tahoma;">
+					<p class="title-1">
 						<?php echo (L("CONTACT_GREENCO_COLTD")); ?>
 					</p>
 					<p>
@@ -200,7 +201,7 @@
 		    </div>
 		    <div class="col-md-5">
 			     <div id="feedback_info">
-					<p style="font-weight:600;font-size:18px;color:#333;font-family:tahoma;">
+					<p class="title-1">
 							<?php echo (L("CONTACT_Q&C")); ?>
 					</p>
 					<p>
@@ -303,9 +304,7 @@
 						  </script>
 				</span>
 		</p>
-		</div>	
-	</div>
-</div>
+	</div>	
 <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>

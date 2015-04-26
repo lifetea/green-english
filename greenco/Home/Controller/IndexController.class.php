@@ -97,6 +97,9 @@ class IndexController extends Controller {
 //     	$this->assign('list',$list);
     	$this->display();
     }
+    public function certification(){
+    	$this->display();
+    }    
     
     
   private  function _content($_string,$_len) {

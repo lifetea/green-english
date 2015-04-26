@@ -1,14 +1,15 @@
-<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
-<html  xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title><?php echo (L("SUPPORT_INDEX")); ?></title>
-<meta name="description" content="<?php echo (L("SUPPORT_DESCRIPTION")); ?>" />
-<meta name="keywords" content="<?php echo (L("SUPPORT_KEYWORDS")); ?>" />
-<link href="favicon.ico" rel="shortcut icon" />
-<?php require 'inc/css.inc';?>
-</head>
-<body class="<?php echo (L("HEADER_BODY_CLASS")); ?>">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+		<head>
+				<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+				<?php require 'setLan.php';?>
+				<title><?php echo (L("INDEX_TITLE")); ?></title>
+				<meta name="keywords" content="<?php echo (L("INDEX_KEYWORDS")); ?>" />
+				<meta name="description" content="<?php echo (L("INDEX_DESCRIPTION")); ?>" />
+				<?php require 'inc/css.inc';?>
+				<link href="favicon.ico" rel="shortcut icon"/>
+		</head>
+				<body class="<?php echo (L("HEADER_BODY_CLASS")); ?>">
 		<div class="container header row" >
 			<div class="col-xs-4">
 				<a class="logo" rel="nofollow" href="index.php">
@@ -161,46 +162,36 @@
 				</div><!-- /.container-fluid -->
 		</nav>
 
-
-
-<!-- 应用内容 -->
-<div class="container-fuild">
-   <div class="container support">
-       <img src="<?php echo (L("SRC_LAN")); ?>/support.jpg" style="width:100%;margin:1em auto 0;border:1px solid #bbb;" alt="Greenco side channel blower news"/>
-       <div class="row">
-	       <div class="col-md-3">
-	             <h3 style="font-family:tahoma;  text-indent: 10px; background: #666; font-size: 14px;  font-weight: 600;height: 32px;color: #fff;line-height: 32px;border: 1px solid #555;"><?php echo (L("HEADER_NEWS_CENTER")); ?></h3>
-	                 <ul>
-		                  <li style="margin-top:-2px;"><a href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
-		                  <li><a href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>	
-		                  <li style="margin-top:-2px;"><a href="support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
-	                  </ul>
-	       </div>
-	       <div class="col-md-9" style="border-left: 1px solid #ccc;">
-	       <h3 style="color:#eee;text-indent:5px;font-size:14px;font-family:tahoma;font-family:tahoma;  text-indent: 10px; background: #666; font-size: 14px;  font-weight: 600; ;height: 32px;color: #fff;line-height: 32px;border: 1px solid #555; "><?php echo (L("HEADER_SUPPORT")); ?></h3>
-	       <ul>
-       		<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="mypagination">
-							<p></p>
-							<p>
-									<strong>
-											<a href="support_content.php?id=<?php echo ($vo["id"]); ?> "><?php echo ($vo["title"]); ?></a>
-									</strong>
-							</p>
-			            	<p><?php echo ($vo["content"]); ?></p>
-			            	<p class="row">
-				            	<span class="more col-md-2"><?php echo ($vo["time"]); ?></span>
-			            	    <a class="more col-md-1 col-md-offset-9"  href="support_content.php?id=<?php echo ($vo["id"]); ?> "><?php echo (L("SUPPORT_DETAIL")); ?></a>
-			            	</p>
-			           </li><?php endforeach; endif; else: echo "" ;endif; ?>		       
-	       </ul>
-	       <div  id="page_text"></div>
-	       </div>
-       </div>
-   </div>
-</div>
-<!-- 应用内容end -->
-
-<div class="container-fluid navbar-inverse footer">
+				<div class="container-fluid content">
+						<div class="container">
+						  <div class="flash-wrap">
+						       <div id="cu3erSwf"></div>
+						  </div>
+						   <div id="sildeContainer">
+						   		<img class="flash-shadow" src="<?php echo (C("IMG_ROOT")); ?>/bg_shadow.png"/>
+						   		<div id="sliderWrap">
+									<a class="slider-item first" href="about_us.php" >
+										<img src="<?php echo (L("SRC_LAN")); ?>/home2.jpg"/>
+									</a>
+									<a class="slider-item second" href="Side_Channel_Blower_3RB_Single_Stage.php" >
+										<img src="<?php echo (L("SRC_LAN")); ?>/home4.jpg" />
+									</a>
+									<a class="slider-item last"  href="Download.php">
+										<img src="<?php echo (L("SRC_LAN")); ?>/home3.jpg" />
+									</a>
+									<a id="prev" href="javascript:void(0)">
+										<img src="<?php echo (C("IMG_ROOT")); ?>/prev.jpg" />
+									</a>
+									<a id="next" href="javascript:void(0)">
+										<img src="<?php echo (C("IMG_ROOT")); ?>/next.jpg" />
+									</a>
+								</div>
+						   </div>
+						</div>
+				
+				</div>
+				<input id="swfConfig" type="hidden"  value="<?php echo (L("SRC_LAN")); ?>/config.xml">
+				<div class="container-fluid navbar-inverse footer">
 	<div class="container" >
 			<ul class="pull-left item">
 				<li class="item-title" ><?php echo (L("HEADER_ABOUT_GREENCO")); ?></li>
@@ -251,14 +242,7 @@
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-<script src="js/jquery.quickpaginate.js" type="text/javascript" ></script>
-<script type="text/javascript">
-	$(function(){
-		$(".mypagination").quickpaginate({
-			perpage: 6,//每页显示条数,
-			pager : $("#page_text") //div的ID
-		})
-	})
-</script>
-</body>
+				<script src="<?php echo (C("JS_ROOT")); ?>/swfobject.js"></script>
+				<script src="<?php echo (C("JS_ROOT")); ?>/index.js"></script>
+		</body>
 </html>

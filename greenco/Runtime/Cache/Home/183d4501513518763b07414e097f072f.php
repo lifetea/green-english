@@ -1,12 +1,14 @@
 <?php if (!defined('THINK_PATH')) exit();?>﻿
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
 <?php require 'setLan.php'; ?>
-<title><?php echo _('About Greenco|Side channel blower|Regenerative blower|Air blower|Ring blower_Zhejiang Greenco Industry Co Ltd');?></title>
-<meta name="description" content="<?php echo _('GREENCO_The world leader manufacturer in side channel blower,regenerative blower,ring blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications.');?>" />
-<meta name="keywords" content=" <?php echo _('GREENCO-Side Channel Blower|Regenerative Blower|Ring blower|Vacuum pump|Electric motor|Zhejiang GREENCO Industry Co Ltd');?>" />
+<title><?php echo _('Applications of Side channel blower|Blower applications|Vacuum application|Pressure application');?></title>
+<meta name="keywords"
+	content="<?php echo _('Applications,Blower applications,Vacuum application,Pressure application,Side channel blower,regenerative blower,air blower');?>" />
+<meta name="description"
+	content="<?php echo _('Regenerative Blowers,Air blower,Ring blower,Side Channel Blowers Manufacturer - GREENCO. 2RB,3RB & 4RB Series Side Channel Blowers, The pressure upto 150Kpa, volume flow upto 2500m3/h, Power range from 200w to 25Kw');?>" />
 <link href="favicon.ico" rel="shortcut icon" />
 <?php require 'inc/css.inc';?>
 </head>
@@ -167,10 +169,12 @@
 
 <!-- 应用内容 -->
 <div class="container-fuild">
-   <div class="container about">
-       <img src="image/about_banner.png" style="margin:1em auto;width:100%;border:1px solid #999;"/>
-       <div class="row">
-	       
+	<div class="container application">
+		<img src="image/<?php echo _('application.jpg');?>"
+			style="margin: 1em auto 0; width: 100%"
+			alt="side channel blower application image" />
+		<div class="row">
+			
 <div class="col-md-3">
 	<h3 class="head-1">
 		<?php echo _('Side Channel Blower')?>
@@ -271,28 +275,332 @@
 
 	</form>
 </div>
-	       <div class="col-md-9">
-	             <h3 class="title-1"><?php echo _('ABOUT US');?></h3>
-	             <p style="margin-top:2px;"><?php echo _('Zhejiang Greenco Industry Co., Ltd,established in 2001 and located in the famous "China Small Compressors Agglomeration City"--Zeguo Town, Wenling City, is one of China’s high and new tech enterprises who is specialized in making air fluid equipments (compressors and vacuum pumps). With more than ten years’ development, the company has become a professional manufacturer who is mainly committed to producing side channel blowers plus other kinds of air fluid equipments (vacuum pumps and compressors), forming the complete structure merging with R&D, production, sales and services. The Company has become the No.1 manufacturer in China and the leading manufacturer in the world in the industry of side channel blowers.');?></p>
-	             <div class="row" style="margin:5px 0  5px 0;text-align: center;">
-	             <div class="col-md-6"><img style="width:100%" src="image/about_us_image2.jpg"/>
-		             <p style="font-weight:600;font-size:12px;">
-		             <?php echo _('New Factory 1:Wenling Eastern Industrial Zone');?></p>
-	             </div>
-	             <div class="col-md-6"><img src="image/about_us_image1.jpg" style="width:100%"/>
-	             <p style="font-weight:600;font-size:12px;"><?php echo _('New Factory 2:Shenqiao Zeguo');?></p></div>
-	             
-	             </div>
-	             <p style="clear:both;"><?php echo _('As of now, the Company with three factories and occupying more than 108,000 square meters, has powerful research and development techniques and advanced machining equipments---more than 300 production equipments, including 10 more die casting machines, 80 more advanced CNC machines which were directly imported from German and Japan, many kinds of high precision measurement instruments and devices,more than 70 testing equipments. The company always upholds the philosophy that it should have the integrated production and management, containing the whole process of design and development, tooling making, die casting, stamping, high precision machining, assembling and automatic spraying. What’s more, the Company newly builds a modernized automatic-spraying and electro-coating production line for spare parts. By using this production line, every part should be electro-coated and thus the quality of our products are able to be controlled very well and improved increasingly.');?></p>
-	             <p><?php echo _('The Company, the "Star Enterprise" in Zhejiang province, was rated as AA-rated "Zhejiang Enterprise of Keeping Contract and Value Credit" and "Zhejiang High and New tech Enterprise", "The Center of High and New tech Development of Taizhou", "Wenling Key Industrial Enterprise" and named as the pro-listed company. The company acquired the Certificate of ISO9001:2008 Quality System and the Certificate of ISO14001 Environment Management System. Ring blowers made in the Company are listed as Zhejiang key project of technical innovation by Zhejiang Economic and Trade Commission and have over 30 national invention and innovation patents. Leading the development of domestic air fluid equipments (compressors and vacuum pumps), the company has become the leader in this industry in China. Products in the Company rated as "Taizhou Famous Mark" and "Zhejiang Famous Brand" also acquired certificates like UL, CE, TUV, CCC, ROHS and are mainly exported to the developed countries in Europe and North America and are very popular among these customers.');?></p>
-	             <p><?php echo _('With "Continuous Creation and Keeping Excelsior" set as Greenco’s benchmark and adhering to the business principle of "Scientific Management, Brand Supremacy, Best Quality, Customer Satisfaction", we always believe that customers are the source of our continuous success. Warmly welcome friends home and abroad to visit and instruct in our company. Your arrivals are the power of our growth and we will give you surprises. We sincerely would like to work with you together to get the win-win achievements and create a glory future.');?></p>
-	       </div>
-       </div>
-   </div>
+			<div class="col-md-9">
+				<h3 class="title-1">
+					<?php echo _('Side Channel Blower Applications');?>
+				</h3>
+				<p style="margin:1em auto;">
+					<?php echo _('Side channel blowers have been widely used in the environmental water treatment. For example, in the aeration of sewage, ring blowers can provide oxy that the aerobe need in the activated sludge. Also, blowers can provide the conditions which make the sewage and activated sludge mixed sufficiently to dissolve all kinds of organic matters in the water. Then, the sewage water can be purified. Besides the above, ring blowers can also be used to mix the plating bath fluid and can be used in the aquaculture industry as well in the printer industry.');?>
+				</p>
+				<div class="row app-list">
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Punch collector"
+								rel="swfs/punchcollector.swf" class="flash"><img
+								src="swfs/punchcollector.png"
+								alt="side channel blower punch collector application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Punch collector" rel="swfs/punchcollector.swf" class="flash link-1" id="align">
+								<?php echo _('Punch collector');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Sewing machine"
+								rel="swfs/sewingmachine.swf" class="flash"><img
+								src="swfs/sewingmachine.png"
+								alt="side channel blower sewing machine application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Sewing machine"
+								rel="swfs/sewingmachine.swf" class="flash link-1" id="align">
+								<?php echo _('Sewing machine');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Transfer" rel="swfs/transfer.swf"
+								class="flash"><img src="swfs/transfer.png"
+								alt="side channel blower transfer application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Transfer" rel="swfs/transfer.swf"
+								class="flash link-1" id="align">
+								<?php echo _('Transfer');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Paper scrap"
+								rel="swfs/paperscrap.swf" class="flash"><img
+								src="swfs/paperscrap.png"
+								alt="side channel blower paper scrap application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Paper scrap"
+								rel="swfs/paperscrap.swf" class="flash link-1" id="align">
+								<?php echo _('Paper scrap');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Waste gasses"
+								rel="swfs/wastegasses.swf" class="flash"><img
+								src="swfs/wastegasses.png"
+								alt="side channel blower waste gasses application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Waste gasses"
+								rel="swfs/wastegasses.swf" class="flash link-1" id="align">
+								<?php echo _('Waste gasses');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Med suction"
+								rel="swfs/medsuction.swf" class="flash"><img
+								src="swfs/medsuction.png"
+								alt="side channel blower med suction application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Med suction"
+								rel="swfs/medsuction.swf" class="flash link-1" id="align">
+								<?php echo _('Med suction');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Paper dryer"
+								rel="swfs/paperdryer.swf" class="flash"><img
+								src="swfs/paperdryer.png"
+								alt="side channel blower paper dryer application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Paper dryer"
+								rel="swfs/paperdryer.swf" class="flash link-1" id="align">
+								<?php echo _('Paper dryer');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Paper feeding machine"
+								rel="swfs/paperfeedingmachine.swf" class="flash"><img
+								src="swfs/paperfeedingmachine.png"
+								alt="side channel blower paper feeding machine application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Paper feeding machine"
+								rel="swfs/paperfeedingmachine.swf" class="flash link-1" id="align">
+								<?php echo _('Paper feeding machine');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Paper holder"
+								rel="swfs/paperholder.swf" class="flash"><img
+								src="swfs/paperholder.png"
+								alt="side channel blower paper holder application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Paper holder"
+								rel="swfs/paperholder.swf" class="flash link-1" id="align">
+								<?php echo _('Paper holder');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Vacuum transfer"
+								rel="swfs/vacuumtransfer.swf" class="flash"><img
+								src="swfs/vacuumtransfer.png"
+								alt="side channel blower vacuum transfer application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Vacuum transfer"
+								rel="swfs/vacuumtransfer.swf" class="flash link-1" id="align">
+								<?php echo _('Vacuum transfer');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Powder transfer"
+								rel="swfs/powdertransfer.swf" class="flash link-1"><img
+								src="swfs/powdertransfer.png"
+								alt="side channel blower powder transfer application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Powder transfer"
+								rel="swfs/powdertransfer.swf" class="flash link-1" id="align">
+								<?php echo _('Powder transfer');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Collector" rel="swfs/collector.swf"
+								class="flash"><img src="swfs/collector.png"
+								alt="side channel blower Collector application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Collector" rel="swfs/collector.swf"
+								class="flash link-1" id="align">
+								<?php echo _('Collector');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Sediment" rel="swfs/sediment2.swf"
+								class="flash"><img src="swfs/sediment2.png"
+								alt="side channel blower Sediment application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Sediment" rel="swfs/sediment2.swf"
+								class="flash link-1" id="align">
+								<?php echo _('Sediment');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Ventilation" rel="swfs/tunnels.swf"
+								class="flash"><img src="swfs/tunnels.png"
+								alt="side channel blower Ventilation application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Ventilation" rel="swfs/tunnels.swf"
+								class="flash link-1" id="align">
+								<?php echo _('Ventilation');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Textile" rel="swfs/autoloom.swf"
+								class="flash"><img src="swfs/autoloom.png"
+								alt="side channel blower Textile application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Textile" rel="swfs/autoloom.swf"
+								class="flash link-1" id="align">
+								<?php echo _('Textile');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Bottling" rel="swfs/bottling.swf"
+								class="flash"><img src="swfs/bottling.png"
+								alt="side channel blower Bottling application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Bottling" rel="swfs/bottling.swf"
+								class="flash link-1" id="align">
+								<?php echo _('Bottling');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Electro facing"
+								rel="swfs/circulator.swf" class="flash"><img
+								src="swfs/circulator.png"
+								alt="side channel blower Electro facing application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Electro facing"
+								rel="swfs/circulator.swf" class="flash link-1" id="align">
+								<?php echo _('Electro facing');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Dryer" rel="swfs/dryer.swf"
+								class="flash"><img src="swfs/dryer.png"
+								alt="side channel blower Dryer application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Dryer" rel="swfs/dryer.swf"
+								class="flash link-1" id="align">
+								<?php echo _('Dryer');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Eliminator"
+								rel="swfs/eliminator.swf" class="flash"><img
+								src="swfs/eliminator.png"
+								alt="side channel blower Eliminator application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Eliminator"
+								rel="swfs/eliminator.swf" class="flash link-1" id="align">
+								<?php echo _('Eliminator');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Evaporator"
+								rel="swfs/evaporator.swf" class="flash"><img
+								src="swfs/evaporator.png"
+								alt="side channel blower Evaporator application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Evaporator"
+								rel="swfs/evaporator.swf" class="flash link-1" id="align">
+								<?php echo _('Evaporator');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Sock Knitting"
+								rel="swfs/sockloom.swf" class="flash"><img
+								src="swfs/sockloom.png"
+								alt="side channel blower Sock Knitting application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Sock Knitting"
+								rel="swfs/sockloom.swf" class="flash link-1" id="align">
+								<?php echo _('Sock Knitting');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Pool & Psa" rel="swfs/jacuzzi.swf"
+								class="flash"><img src="swfs/jacuzzi.png"
+								alt="side channel blower Pool & Psa application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Pool & Psa" rel="swfs/jacuzzi.swf"
+								class="flash link-1" id="align">
+								<?php echo _('Pool & Psa');?>
+							</a>
+						</dd>
+					</dl>
+					<dl class="col-md-4">
+						<dd>
+							<a href="javascript:;" name="Hopper Loader" rel="swfs/hopper.swf"
+								class="flash"><img src="swfs/hopper.png"
+								alt="side channel blower Hopper Loader application" /></a>
+						</dd>
+						<dd>
+							<a href="javascript:;" name="Hopper Loader" rel="swfs/hopper.swf"
+								class="flash link-1" id="align">
+								<?php echo _('Hopper Loader');?>
+							</a>
+						</dd>
+					</dl>					
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 <!-- 应用内容end -->
-
-
 <div class="container-fluid navbar-inverse footer">
 	<div class="container" >
 			<ul class="pull-left item">
@@ -343,6 +651,7 @@
 <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
 
 </body>
 </html>

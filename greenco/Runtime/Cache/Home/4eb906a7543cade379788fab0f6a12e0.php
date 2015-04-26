@@ -129,7 +129,7 @@
 								        </ul>
 								      </li>        
 								 <li>
-								        <a href="application.php"><?php echo (L("HEADER_APPLICATIONS")); ?></a>
+								        <a href="application"><?php echo (L("HEADER_APPLICATIONS")); ?></a>
 								  </li>
 								  
 								 <li class="dropdown">
@@ -169,7 +169,7 @@
        <img src="<?php echo (L("SRC_LAN")); ?>/news_banner.jpg" style="width:100%;margin:1em auto 0;border:1px solid #bbb;" alt="Greenco side channel blower news"/>
        <div class="row">
 	       <div class="col-md-3">
-	             <h3 style="font-family:tahoma;  text-indent: 10px; background: #666; font-size: 14px;  font-weight: 600;height: 32px;color: #fff;line-height: 32px;border: 1px solid #555;"><?php echo (L("HEADER_NEWS_CENTER")); ?></h3>
+	             <h3 class="head-1"><?php echo (L("HEADER_NEWS_CENTER")); ?></h3>
 	                 <ul>
 		                  <li style="margin-top:-2px;"><a href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
 		                  <li><a href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>	
@@ -177,7 +177,7 @@
 	                  </ul>
 	       </div>
 	       <div class="col-md-9" style="border-left: 1px solid #ccc;">
-	       <h3 style="color:#eee;text-indent:5px;font-size:14px;font-family:tahoma;font-family:tahoma;  text-indent: 10px; background: #666; font-size: 14px;  font-weight: 600; ;height: 32px;color: #fff;line-height: 32px;border: 1px solid #555; "><?php echo (L("HEADER_INDUSTRY_NEWS")); ?>R</h3>
+	       <h3 class="head-1"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></h3>
 	       <ul>
        		<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="mypagination">
 							<p></p>
@@ -246,9 +246,7 @@
 						  </script>
 				</span>
 		</p>
-		</div>	
-	</div>
-</div>
+	</div>	
 <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>

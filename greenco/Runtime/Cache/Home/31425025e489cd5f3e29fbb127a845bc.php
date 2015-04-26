@@ -129,7 +129,7 @@
 								        </ul>
 								      </li>        
 								 <li>
-								        <a href="application.php"><?php echo (L("HEADER_APPLICATIONS")); ?></a>
+								        <a href="application"><?php echo (L("HEADER_APPLICATIONS")); ?></a>
 								  </li>
 								  
 								 <li class="dropdown">
@@ -246,9 +246,7 @@
 						  </script>
 				</span>
 		</p>
-		</div>	
-	</div>
-</div>
+	</div>	
 <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
