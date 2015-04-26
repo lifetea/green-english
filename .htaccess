@@ -12,5 +12,5 @@
   RewriteRule ^Support.php$ support
   RewriteRule ^news_Company.php$ company
   RewriteRule ^news_Industry.php$ industry
-
+  RewriteRule ^Video.php$ video
 </IfModule>

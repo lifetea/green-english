@@ -1,0 +1,55 @@
+﻿<?php
+require 'setLan.php';
+?>
+<!DOCTYPE html">
+<html  xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title><?php echo _('Greenco Video|Product showroom|Blower video|side channel blower_GREENCO');?></title>
+<meta name="keywords" content="<?php echo _('Greenco video,workshop,blower video,side channel blower_Greenco');?>" />
+<meta name="description"content="<?php echo _('Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.');?>" />
+<link href="favicon.ico" rel="shortcut icon" />
+<?php require 'inc/css.inc';?>
+</head>
+<include file="../Public/header" />
+
+
+<!-- 视频内容 -->
+<div class="container-fuild">
+   <div class="container about row" id="video">
+       <img src="image/about_banner.png" style="width:100%;margin:1em auto;border:1px solid #999;"/>
+       <div class="col-md-3">
+			<include file="../Public/about-nav" />
+       </div>
+       <div class="col-md-9">
+             <h5 style="background:url(image/video.gif) no-repeat 178px 7px;padding-left:20px;font-size:14px;color:#1b347e;"><?php echo _('Greenco Side Channel Blowers Video');?></h5>
+             <div id="jwplayer" style="background: transparent !important; margin:20px 0 0  100px; width:450px; height:320px; overflow:hidden;padding:7px;border:1px solid #ccc;">
+	                 <div id="player"></div>
+
+             </div>
+             <p style="text-indent:100px;height:50px;line-height:50px;"><?php echo _('(Production workshop video)');?></p>
+       </div>
+   </div>
+</div>
+<!-- 视频内容end -->
+
+<include file="../Public/footer" />
+
+<script type="text/javascript" src="src/video/jwplayer.js"></script>
+<script>
+$(function(){
+	//点击图片放大
+
+	jwplayer("player").setup({
+		  skin: "src/video/glow.zip",//皮肤地址
+		  flashplayer: "src/video/player.swf",
+		  image: "src/video/bg.jpg",//开始的图片
+		  width: 450,//宽度
+		  height:320,//高度
+		  levels: [{file: "src/video/greenco.flv"}]//视频路径
+		})
+})
+</script>
+</body>
+</html>
+

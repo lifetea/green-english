@@ -54,10 +54,10 @@
 							            				<a rel="nofollow" href="about_us.php"><?php echo (L("HEADER_ABOUT_GREENCO")); ?></a>
 						            			</li>
 									            <li>
-									            		<a rel="nofollow" href="Certification.php"><?php echo (L("HEADER_CERTIFICATION")); ?></a>
+									            		<a rel="nofollow" href="certification"><?php echo (L("HEADER_CERTIFICATION")); ?></a>
 								            	</li>
 									            <li>
-									            		<a rel="nofollow" href="Honour.php"><?php echo (L("HEADER_HONOUR")); ?></a>
+									            		<a rel="nofollow" href="honour"><?php echo (L("HEADER_HONOUR")); ?></a>
 								            	</li>
 									            <li>
 									            		<a rel="nofollow" href="Video.php"><?php echo (L("HEADER_VIDEO")); ?></a>
