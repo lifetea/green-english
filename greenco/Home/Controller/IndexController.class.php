@@ -100,7 +100,9 @@ class IndexController extends Controller {
     public function certification(){
     	$this->display();
     }    
-    
+    public function honour(){
+    	$this->display();
+    }   
     
   private  function _content($_string,$_len) {
     	if (mb_strlen($_string,'utf-8') > $_len) {

@@ -52,7 +52,7 @@
 							            				<a rel="nofollow" href="about_us.php"><?php echo (L("HEADER_ABOUT_GREENCO")); ?></a>
 						            			</li>
 									            <li>
-									            		<a rel="nofollow" href="Certification.php"><?php echo (L("HEADER_CERTIFICATION")); ?></a>
+									            		<a rel="nofollow" href="Certification"><?php echo (L("HEADER_CERTIFICATION")); ?></a>
 								            	</li>
 									            <li>
 									            		<a rel="nofollow" href="Honour.php"><?php echo (L("HEADER_HONOUR")); ?></a>
@@ -171,6 +171,7 @@
        <img src="image/about_banner.png" style="margin:1em auto;width:100%;border:1px solid #999;"/>
        <div class="row">
 	       
+
 <div class="col-md-3">
 	<h3 class="head-1">
 		<?php echo _('Side Channel Blower')?>

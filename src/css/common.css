@@ -148,4 +148,4 @@ body{
 /*application*/
 .app-list dl img{width:98%;margin:0 auto;border: 1px dashed #888;}
 .app-list dl{text-align:center}
-.cert-list img{width:100%;height:100%;  border: 1px solid #999;}
+.cert-list img{width:100%;height:240px;  border: 1px solid #999;}

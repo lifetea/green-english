@@ -51,7 +51,7 @@
 							            				<a rel="nofollow" href="about_us.php"><?php echo (L("HEADER_ABOUT_GREENCO")); ?></a>
 						            			</li>
 									            <li>
-									            		<a rel="nofollow" href="Certification.php"><?php echo (L("HEADER_CERTIFICATION")); ?></a>
+									            		<a rel="nofollow" href="certification"><?php echo (L("HEADER_CERTIFICATION")); ?></a>
 								            	</li>
 									            <li>
 									            		<a rel="nofollow" href="Honour.php"><?php echo (L("HEADER_HONOUR")); ?></a>
@@ -196,8 +196,7 @@
 			<div class="col-md-9 row cert-list">
 				<h5>
 					<?php echo _('Certification');?>
-					<span
-						style="margin-left: 440px; font-weight: 500; font-size: 13px;"><a
+					<span class="pull-right"><a
 						href="index.php">
 							<?php echo _('Home');?>
 					</a> > <a href="Certification.php">
