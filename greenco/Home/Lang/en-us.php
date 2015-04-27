@@ -6,7 +6,7 @@ return array(
 		'INDEX_DESCRIPTION'=>'side channel blower,ring blower,regenerative blower,air blower,vortex blower,vacuum pump,industrial blowers,high pressure blowers,double stage blower,three stage multistage blowers,2RB,3RB,4RB series',
 		'SRC_LAN'=>'src/en',
 		'LAN'=>'en-us',
-		//Header Footer 页面
+		//Header Footer  *-nav页面
 		'HEADER_BODY_CLASS'=>'green-en',
 		'HEADER_HOME'=>'Home',
 		'HEADER_ABOUT_US'=>'About us',
@@ -45,6 +45,7 @@ return array(
 		'FOOTER_CATALOG'=>'Complete Catalog',
 		'FOOTER_MOTOR'=>'Electric Motor',
 		'FOOTER_SITEMAP'=>'sitemap',
+		'NAV_SEARCH_PRODUCT'=>'Search Product',
 		//Download 页面
 		'DOWNLOAD_TITLE'=>'Download side channel blower performance curves,data sheet,technical data for pressure and vacuum_GREENCO',
 		'DOWNLOAD_KEYWORDS'=>'side channel blower download,regenerative blower,Ring Blower catalogue,Air blower manual,blower dimensions,regenerative blower,vacuum pump,motors,performance curves,technical data,blower curves',
@@ -105,8 +106,31 @@ return array(
 		'NEW_CONTENT_DESCRIPTION'=>'News,Blower news,side channel blower news,Industry News,GREENCO',
 		'NEW_CONTENT_KEYWORDS'=>'GREENCO_The world leader manufacturer in side channle blower,regenerative blower,ring blower,air blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications',
 		
-		
-		
-		
+		//about 页面
+		'ABOUT_FACTORY_DONGXINQU'=>'New Factory 1:Wenling Eastern Industrial Zone',
+		'ABOUT_FACTORY_SHENQIAO'=>'New Factory 2:Shenqiao Zeguo',		
+		'ABOUT_CONTENT_1'=>'Zhejiang Greenco Industry Co., Ltd,established in 2001 and located in the famous "China Small Compressors Agglomeration City"--Zeguo Town, Wenling City, is one of China’s high and new tech enterprises who is specialized in making air fluid equipments (compressors and vacuum pumps). With more than ten years’ development, the company has become a professional manufacturer who is mainly committed to producing side channel blowers plus other kinds of air fluid equipments (vacuum pumps and compressors), forming the complete structure merging with R&D, production, sales and services. The Company has become the No.1 manufacturer in China and the leading manufacturer in the world in the industry of side channel blowers.',
+		'ABOUT_CONTENT_2'=>'As of now, the Company with three factories and occupying more than 108,000 square meters, has powerful research and development techniques and advanced machining equipments---more than 300 production equipments, including 10 more die casting machines, 80 more advanced CNC machines which were directly imported from German and Japan, many kinds of high precision measurement instruments and devices,more than 70 testing equipments. The company always upholds the philosophy that it should have the integrated production and management, containing the whole process of design and development, tooling making, die casting, stamping, high precision machining, assembling and automatic spraying. What’s more, the Company newly builds a modernized automatic-spraying and electro-coating production line for spare parts. By using this production line, every part should be electro-coated and thus the quality of our products are able to be controlled very well and improved increasingly.',
+		'ABOUT_CONTENT_3'=>'The Company, the "Star Enterprise" in Zhejiang province, was rated as AA-rated "Zhejiang Enterprise of Keeping Contract and Value Credit" and "Zhejiang High and New tech Enterprise", "The Center of High and New tech Development of Taizhou", "Wenling Key Industrial Enterprise" and named as the pro-listed company. The company acquired the Certificate of ISO9001:2008 Quality System and the Certificate of ISO14001 Environment Management System. Ring blowers made in the Company are listed as Zhejiang key project of technical innovation by Zhejiang Economic and Trade Commission and have over 30 national invention and innovation patents. Leading the development of domestic air fluid equipments (compressors and vacuum pumps), the company has become the leader in this industry in China. Products in the Company rated as "Taizhou Famous Mark" and "Zhejiang Famous Brand" also acquired certificates like UL, CE, TUV, CCC, ROHS and are mainly exported to the developed countries in Europe and North America and are very popular among these customers.',
+		'ABOUT_CONTENT_4'=>'With "Continuous Creation and Keeping Excelsior" set as Greenco’s benchmark and adhering to the business principle of "Scientific Management, Brand Supremacy, Best Quality, Customer Satisfaction", we always believe that customers are the source of our continuous success. Warmly welcome friends home and abroad to visit and instruct in our company. Your arrivals are the power of our growth and we will give you surprises. We sincerely would like to work with you together to get the win-win achievements and create a glory future.',
+		'ABOUT_US_TITLE'=>'About Greenco|Side channel blower|Regenerative blower|Air blower|Ring blower_Zhejiang Greenco Industry Co Ltd',
+		'ABOUT_US_KEYWORDS'=>'GREENCO-Side Channel Blower|Regenerative Blower|Ring blower|Vacuum pump|Electric motor|Zhejiang GREENCO Industry Co Ltd',
+		'ABOUT_US_DESCRIPTION'=>'GREENCO_The world leader manufacturer in side channel blower,regenerative blower,ring blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications',
+		'CERTIFICATE_TITLE'=>'Certificate|Certifications|Quality System_GREENCO',
+		'CERTIFICATE_KEYWORDS'=>'Side channel blower,regenerative blower,air blower,certifications,ISO9001:2008,CE,UL,CCC,TUV,GS,GREENCO',
+		'CERTIFICATE_DESCRIPTION'=>'GREENCO_The world leader manufacturer in side channle blower,regenerative blower,ring blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications',
+		'CERTIFICATE_ISO9001'=>'ISO9001:2008',
+		'CERTIFICATE_CE_LVD'=>'CE-LVD',
+		'CERTIFICATE_CE_EMC'=>'CE-EMC',
+		'CERTIFICATE_ROHS'=>'ROHS',
+		'CERTIFICATE_GSPC'=>'GSPC',
+		'CERTIFICATE_MEASUREMENT'=>'Measurement',		
+		'CERTIFICATE_PATENT_1'=>'Patent 1',
+		'CERTIFICATE_PATENT_2'=>'Patent 2',
+		'CERTIFICATE_PATENT_3'=>'Patent 3',
+		'HONOUR_TITLE'=>'Honours|Greenco honour_GREENCO',
+		'HONOUR_KEYWORDS'=>'Honours,Greenco honour,side channel blower honour,High Tech,Famous brand,trademark,regenerative blower,air blower,GREENCO',
+		'HONOUR_DESCRIPTION'=>'Zhejiang Greenco Industry Co Ltd approved by ISO9001:2008 quality system，side channel blower approved by UL、CE、TUV、GS certifications,high quality & competitive price,export to more than 100 countries',
+				
 );
 ?>

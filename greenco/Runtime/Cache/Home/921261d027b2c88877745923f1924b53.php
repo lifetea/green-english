@@ -1,12 +1,13 @@
 <?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
-<html  xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title><?php echo (L("SUPPORT_INDEX")); ?></title>
-<meta name="description" content="<?php echo (L("SUPPORT_DESCRIPTION")); ?>" />
-<meta name="keywords" content="<?php echo (L("SUPPORT_KEYWORDS")); ?>" />
+<title><?php echo (L("CERTIFICATE_TITLE")); ?></title>
+<meta name="keywords" content="<?php echo (L("CERTIFICATE_KEYWORDS")); ?>" />
+<meta name="description" content="<?php echo (L("CERTIFICATE_DESCRIPTION")); ?>" />
 <link href="favicon.ico" rel="shortcut icon" />
-<?php require 'inc/css.inc';?>
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link href="src/css/common.css" rel="stylesheet">
 </head>
 <body class="<?php echo (L("HEADER_BODY_CLASS")); ?>">
 		<div class="container header row" >
@@ -162,43 +163,155 @@
 		</nav>
 
 
-
-<!-- 应用内容 -->
+<!-- 质量认证内容 -->
 <div class="container-fuild">
-   <div class="container support">
-       <img src="<?php echo (L("SRC_LAN")); ?>/support.jpg" style="width:100%;margin:1em auto 0;border:1px solid #bbb;" alt="Greenco side channel blower news"/>
-       <div class="row">
-	       <div class="col-md-3">
-	             <h3 style="font-family:tahoma;  text-indent: 10px; background: #666; font-size: 14px;  font-weight: 600;height: 32px;color: #fff;line-height: 32px;border: 1px solid #555;"><?php echo (L("HEADER_NEWS_CENTER")); ?></h3>
-	                 <ul>
-		                  <li style="margin-top:-2px;"><a href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
-		                  <li><a href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>	
-		                  <li style="margin-top:-2px;"><a href="support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
-	                  </ul>
-	       </div>
-	       <div class="col-md-9" style="border-left: 1px solid #ccc;">
-	       <h3 style="color:#eee;text-indent:5px;font-size:14px;font-family:tahoma;font-family:tahoma;  text-indent: 10px; background: #666; font-size: 14px;  font-weight: 600; ;height: 32px;color: #fff;line-height: 32px;border: 1px solid #555; "><?php echo (L("HEADER_SUPPORT")); ?></h3>
-	       <ul>
-       		<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="mypagination">
-							<p></p>
+	<div class="container about">
+		<img src="image/about_banner.png"	class="banner"  />
+		<div class="row">
+			<div class="col-md-3">
+				<h3 class="head-1"><?php echo (L("HEADER_ABOUT_GREENCO")); ?></h3>
+<ul class="about-nav">
+		<li>
+				<a class="link-3" href="about_us"><?php echo (L("HEADER_ABOUT_US")); ?></a>
+		</li>
+		<li>
+				<a class="link-3" href="certification"><?php echo (L("HEADER_CERTIFICATION")); ?></a>
+		</li>
+		<li>
+				<a class="link-3" href="honour"><?php echo (L("HEADER_HONOUR")); ?></a>
+		<li>
+				<a class="link-3" href="video"><?php echo (L("HEADER_VIDEO")); ?></a>
+		</li>
+		<li>
+				<a class="link-3" href="equipments"><?php echo (L("HEADER_EQUIPMENTS")); ?></a>
+		</li>
+</ul>
+<h3 class="head-1" style="margin-top:26px;background:#666 url(image/search_top.png) no-repeat 0 2px;padding-left:18px;"><?php echo (L("NAV_SEARCH_PRODUCT")); ?></h3>
+<form mehtod="post"  action="?">
+     <p>
+     		<span>
+		     		<?php echo _('1:Select a Graph:');?>
+     		</span>
+     		<select>
+     				<option><?php echo _('Pressure');?></option>
+     				<option><?php echo _('Vacuum');?></option>
+     		</select>
+     </p>
+		<p>
+				<span>
+						<?php echo _('2:Air Flow');?>(e.g.120):
+				</span>
+		</p>
+<p><input type="text" class="text"/><select><option>m³/h</option><option>m³/min</option></select></p>
+<p><?php echo _('3:Pressure');?>(e.g.200):</p>
+     <p><input type="text" class="text"/><select><option>mbar</option><option>pa</option></select></p>
+     <p><input type="image" src="image/search.gif"/></dd></p>
+
+</form>     
+			</div>
+			<div class="col-md-9  split">
+					<div class="clearfix line">
+							<span class="title-1"><?php echo (L("HEADER_CERTIFICATION")); ?></span>
+							<div class="pull-right">
+								 <a href="index.php" class="link-1">	<?php echo (L("HEADER_HOME")); ?></a>
+								 <span>></span>
+								 <a href="certification" class="link-1"><?php echo (L("HEADER_CERTIFICATION")); ?></a>
+							 </div>
+					 </div>
+				<div class="row cert-list">
+						<div class="col-md-3">
+							<a class="pic-item"  href="javascript:void(0)" data="image/zhiliangrenzheng4.jpg"	title="<strong>ISO9001:2008 Certification</strong>">
+								<img src="image/zhiliangrenzheng4_sub.jpg"	alt="ISO9001:2008 GREENCO Side Channel Blower Certification" />
+								<p>
+										<a href="javascript:void(0)" class="link-1"><?php echo (L("CERTIFICATE_ISO9001")); ?></a>
+								</p>
+							</a>
+						</div>
+						<div class="col-md-3">
+							<a class="pic-item"  href="javascript:void(0)"	data="image/zhiliangrenzheng12.jpg" 	title="<strong>CE-LVD Certification</strong>">
+								<img	src="image/zhiliangrenzheng12_sub.jpg"		alt="CE-LVD GREENCO Side Channel Blower Certification" />
 							<p>
-									<strong>
-											<a href="support_content.php?id=<?php echo ($vo["id"]); ?> "><?php echo ($vo["title"]); ?></a>
-									</strong>
+									<a href="javascript:void(0)" class=" link-1" ><?php echo (L("CERTIFICATE_CE_LVD")); ?></a>
+								</p></a>
+						</div>
+						<div class="col-md-3">
+							<a class="pic-item" href="javascript:void(0)" 	data="image/zhiliangrenzheng10.png" 	title="<strong>CE-EMC Certification</strong>">
+								<img	src="image/zhiliangrenzheng10_sub.png"		alt="CE-EMC GREENCO Side Channel Blower Certification" />
+							<p>
+							<a href="javascript:void(0)" class=" link-1" data-pic-item-group="gallery"><?php echo (L("CERTIFICATE_CE_EMC")); ?></a>
+								</p></a>
+						</div>
+						<div class="col-md-3">
+							<a class="pic-item" href="javascript:void(0)" 	data="image/zhiliangrenzheng5.jpg" title="<strong>ROHS Certification</strong>">
+									<img src="image/zhiliangrenzheng5_sub.jpg"	alt="ROHS GREENCO Side Channel Blower Certification" />
+									<p>
+											<a href="javascript:void(0)" class=" link-1"><?php echo (L("CERTIFICATE_ROHS")); ?></a>
+									</p>
+							</a>
+						</div>
+						<div class="col-md-3">
+							<a class="pic-item" href="javascript:void(0)"	data="image/zhiliangrenzheng3.jpg"	title="<strong>GSPC Certification</strong>">
+							<img src="image/zhiliangrenzheng3_sub.jpg" alt="GSPC GREENCO Side Channel Blower Certification" />
+							<p>
+									<a href="javascript:void(0)" class=" link-1"><?php echo (L("CERTIFICATE_GSPC")); ?></a>
 							</p>
-			            	<p><?php echo ($vo["content"]); ?></p>
-			            	<p class="row">
-				            	<span class="more col-md-2"><?php echo ($vo["time"]); ?></span>
-			            	    <a class="more col-md-1 col-md-offset-9"  href="support_content.php?id=<?php echo ($vo["id"]); ?> "><?php echo (L("SUPPORT_DETAIL")); ?></a>
-			            	</p>
-			           </li><?php endforeach; endif; else: echo "" ;endif; ?>		       
-	       </ul>
-	       <div  id="page_text"></div>
-	       </div>
-       </div>
-   </div>
+						</a>
+						</div>
+						<div class="col-md-3">
+							<a class="pic-item"  href="javascript:void(0)"  data="image/zhiliangrenzheng2.jpg"	title="<strong>Measurement Certification</strong>">
+								<img src="image/zhiliangrenzheng2_sub.jpg"	alt="Measurement GREENCO Side Channel Blower Certification" />
+							<p>
+									<a href="javascript:void(0)" class=" link-1"	><?php echo (L("CERTIFICATE_MEASUREMENT")); ?></a>
+							</p>
+							</a>
+						</div>
+						<div class="col-md-3">
+							<a class="pic-item" href="javascript:void(0)" data="image/zhiliangrenzheng6.jpg"	title="<strong>Patent 1 Certification</strong>">
+									<img	src="image/zhiliangrenzheng6_sub.jpg"	alt="Patent GREENCO Side Channel Blower Certification" />
+									<p>
+											<a href="javascript:void(0)" class="pic-item link-1"><?php echo (L("CERTIFICATE_PATENT_1")); ?></a>
+									</p>
+							</a>
+						</div>
+						<div class="col-md-3">
+							<a class="pic-item" href="javascript:void(0)"  data="image/zhiliangrenzheng9.jpg"  title="<strong>Patent 2 Certification</strong>">
+									<img src="image/zhiliangrenzheng9_sub.jpg" alt="Patent GREENCO Side Channel Blower Certification" />
+									<p>
+											<a href="javascript:void(0)" class="pic-item link-1"><?php echo (L("CERTIFICATE_PATENT_2")); ?></a>
+									</p>
+							</a>
+						</div>
+						<div class="col-md-3">
+							<a class=" pic-item" href="javascript:void(0)"  data="image/zhiliangrenzheng11.jpg" 	title="<strong>Patent 3 Certification</strong>">
+									<img src="image/zhiliangrenzheng11_sub.jpg" 	alt="Patent GREENCO Side Channel Blower Certification" />
+									<p>
+											<a href="javascript:void(0)" class="link-1" ><?php echo (L("CERTIFICATE_PATENT_3")); ?></a>
+									</p>
+							</a>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
-<!-- 应用内容end -->
+
+<div id="myModal" class="modal fade">
+		<div class="modal-dialog">
+			  <div class="modal-content">
+					    <div class="modal-header">
+					      		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					      		<h4 class="modal-title">&nbsp;</h4>
+					    </div>
+					    <div class="modal-body">
+					      		<img id="mypic" style="width:100%" src="image/zhiliangrenzheng11.jpg" />
+					    </div>
+					    		<div class="modal-footer">
+					    </div>
+			  </div>
+		</div>
+</div>
+<!-- 质量认证end -->
+
 
 <div class="container-fluid navbar-inverse footer">
 		<div class="container">
@@ -251,14 +364,15 @@
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-<script src="js/jquery.quickpaginate.js" type="text/javascript" ></script>
 <script type="text/javascript">
-	$(function(){
-		$(".mypagination").quickpaginate({
-			perpage: 6,//每页显示条数,
-			pager : $("#page_text") //div的ID
-		})
-	})
+		$(".pic-item").click(function(){
+			//console.log("111")
+			var data = $(this).attr("data");
+			$("#mypic").attr("src",data);
+			//console.log($(this).attr("data"));
+			$('#myModal').modal();
+		});
+		
 </script>
 </body>
 </html>

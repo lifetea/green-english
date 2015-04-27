@@ -2,159 +2,137 @@
 <html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<?php require 'setLan.php';?>
-<title><?php echo _('Certificate|Certifications|Quality System_GREENCO');?></title>
-<meta name="description" content=" <?php echo _('GREENCO_The world leader manufacturer in side channle blower,regenerative blower,ring blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications.');?>" />
-<meta name="keywords" content=" <?php echo _('Side channel blower,regenerative blower,air blower,certifications,ISO9001:2008,CE,UL,CCC,TUV,GS,GREENCO');?>" />
+<title>{$Think.lang.CERTIFICATE_TITLE}</title>
+<meta name="keywords" content="{$Think.lang.CERTIFICATE_KEYWORDS}" />
+<meta name="description" content="{$Think.lang.CERTIFICATE_DESCRIPTION}" />
 <link href="favicon.ico" rel="shortcut icon" />
-<?php require 'inc/css.inc';?>
+<include file="../Public/css" />
 </head>
 <include file="../Public/header" />
 
 <!-- 质量认证内容 -->
 <div class="container-fuild">
 	<div class="container about">
-		<img src="image/about_banner.png"
-			style="width: 100%; margin: 1em auto; border: 1px solid #999;" />
+		<img src="image/about_banner.png"	class="banner"  />
 		<div class="row">
 			<div class="col-md-3">
 				<include file="../Public/about-nav" />
 			</div>
-			<div class="col-md-9 row cert-list">
-				<h5>
-					<?php echo _('Certification');?>
-					<span class="pull-right"><a
-						href="index.php" class="link-1">
-							<?php echo _('Home');?>
-					</a> > <a href="certification" class="link-1">
-							<?php echo _('Certification');?>
-					</a></span>
-				</h5>
-				<div class="col-md-3">
-					<a class="fancybox" href="image/zhiliangrenzheng4.jpg"
-						data-fancybox-group="gallery"
-						title="<strong>ISO9001:2008 Certification</strong>"><img
-						src="image/zhiliangrenzheng4_sub.jpg"
-						alt="ISO9001:2008 GREENCO Side Channel Blower Certification" />
-					<p>
-							<a href="image/zhiliangrenzheng4.jpg" class="fancybox link-1"
-								data-fancybox-group="gallery">
-								<?php echo _('ISO9001:2008');?>
+			<div class="col-md-9  split">
+					<div class="clearfix line">
+							<span class="title-1">{$Think.lang.HEADER_CERTIFICATION}</span>
+							<div class="pull-right">
+								 <a href="index.php" class="link-1">	{$Think.lang.HEADER_HOME}</a>
+								 <span>></span>
+								 <a href="certification" class="link-1">{$Think.lang.HEADER_CERTIFICATION}</a>
+							 </div>
+					 </div>
+				<div class="row cert-list">
+						<div class="col-md-3">
+							<a class="pic-item"  href="javascript:void(0)" data="image/zhiliangrenzheng4.jpg"	title="<strong>ISO9001:2008 Certification</strong>">
+								<img src="image/zhiliangrenzheng4_sub.jpg"	alt="ISO9001:2008 GREENCO Side Channel Blower Certification" />
+								<p>
+										<a href="javascript:void(0)" class="link-1">{$Think.lang.CERTIFICATE_ISO9001}</a>
+								</p>
 							</a>
-						</p></a>
-				</div>
-				<div class="col-md-3">
-					<a class="fancybox" href="image/zhiliangrenzheng12.jpg"
-						data-fancybox-group="gallery"
-						title="<strong>CE-LVD Certification</strong>"><img
-						src="image/zhiliangrenzheng12_sub.jpg"
-						alt="CE-LVD GREENCO Side Channel Blower Certification" />
-					<p>
-							<a href="image/zhiliangrenzheng12.jpg" class="fancybox link-1"
-								data-fancybox-group="gallery">
-								<?php echo _('CE-LVD');?>
+						</div>
+						<div class="col-md-3">
+							<a class="pic-item"  href="javascript:void(0)"	data="image/zhiliangrenzheng12.jpg" 	title="<strong>CE-LVD Certification</strong>">
+								<img	src="image/zhiliangrenzheng12_sub.jpg"		alt="CE-LVD GREENCO Side Channel Blower Certification" />
+							<p>
+									<a href="javascript:void(0)" class=" link-1" >{$Think.lang.CERTIFICATE_CE_LVD}</a>
+								</p></a>
+						</div>
+						<div class="col-md-3">
+							<a class="pic-item" href="javascript:void(0)" 	data="image/zhiliangrenzheng10.png" 	title="<strong>CE-EMC Certification</strong>">
+								<img	src="image/zhiliangrenzheng10_sub.png"		alt="CE-EMC GREENCO Side Channel Blower Certification" />
+							<p>
+							<a href="javascript:void(0)" class=" link-1" data-pic-item-group="gallery">{$Think.lang.CERTIFICATE_CE_EMC}</a>
+								</p></a>
+						</div>
+						<div class="col-md-3">
+							<a class="pic-item" href="javascript:void(0)" 	data="image/zhiliangrenzheng5.jpg" title="<strong>ROHS Certification</strong>">
+									<img src="image/zhiliangrenzheng5_sub.jpg"	alt="ROHS GREENCO Side Channel Blower Certification" />
+									<p>
+											<a href="javascript:void(0)" class=" link-1">{$Think.lang.CERTIFICATE_ROHS}</a>
+									</p>
 							</a>
-						</p></a>
-				</div>
-				<div class="col-md-3">
-					<a class="fancybox" href="image/zhiliangrenzheng10.png"
-						data-fancybox-group="gallery"
-						title="<strong>CE-EMC Certification</strong>"><img
-						src="image/zhiliangrenzheng10_sub.png"
-						alt="CE-EMC GREENCO Side Channel Blower Certification" />
-					<p>
-							<a href="image/zhiliangrenzheng10.png" class="fancybox link-1"
-								data-fancybox-group="gallery">
-								<?php echo _('CE-EMC');?>
+						</div>
+						<div class="col-md-3">
+							<a class="pic-item" href="javascript:void(0)"	data="image/zhiliangrenzheng3.jpg"	title="<strong>GSPC Certification</strong>">
+							<img src="image/zhiliangrenzheng3_sub.jpg" alt="GSPC GREENCO Side Channel Blower Certification" />
+							<p>
+									<a href="javascript:void(0)" class=" link-1">{$Think.lang.CERTIFICATE_GSPC}</a>
+							</p>
+						</a>
+						</div>
+						<div class="col-md-3">
+							<a class="pic-item"  href="javascript:void(0)"  data="image/zhiliangrenzheng2.jpg"	title="<strong>Measurement Certification</strong>">
+								<img src="image/zhiliangrenzheng2_sub.jpg"	alt="Measurement GREENCO Side Channel Blower Certification" />
+							<p>
+									<a href="javascript:void(0)" class=" link-1"	>{$Think.lang.CERTIFICATE_MEASUREMENT}</a>
+							</p>
 							</a>
-						</p></a>
-				</div>
-				<div class="col-md-3">
-					<a class="fancybox" href="image/zhiliangrenzheng5.jpg"
-						data-fancybox-group="gallery"
-						title="<strong>ROHS Certification</strong>"><img
-						src="image/zhiliangrenzheng5_sub.jpg"
-						alt="ROHS GREENCO Side Channel Blower Certification" />
-					<p>
-							<a href="image/zhiliangrenzheng5.jpg" class="fancybox link-1"
-								data-fancybox-group="gallery">
-								<?php echo _('ROHS');?>
+						</div>
+						<div class="col-md-3">
+							<a class="pic-item" href="javascript:void(0)" data="image/zhiliangrenzheng6.jpg"	title="<strong>Patent 1 Certification</strong>">
+									<img	src="image/zhiliangrenzheng6_sub.jpg"	alt="Patent GREENCO Side Channel Blower Certification" />
+									<p>
+											<a href="javascript:void(0)" class="pic-item link-1">{$Think.lang.CERTIFICATE_PATENT_1}</a>
+									</p>
 							</a>
-						</p></a>
-				</div>
-				<div class="col-md-3">
-					<a class="fancybox" href="image/zhiliangrenzheng3.jpg"
-						data-fancybox-group="gallery"
-						title="<strong>GSPC Certification</strong>"><img
-						src="image/zhiliangrenzheng3_sub.jpg"
-						alt="GSPC GREENCO Side Channel Blower Certification" />
-					<p>
-							<a href="image/zhiliangrenzheng3.jpg" class="fancybox link-1"
-								data-fancybox-group="gallery">
-								<?php echo _('GSPC');?>
+						</div>
+						<div class="col-md-3">
+							<a class="pic-item" href="javascript:void(0)"  data="image/zhiliangrenzheng9.jpg"  title="<strong>Patent 2 Certification</strong>">
+									<img src="image/zhiliangrenzheng9_sub.jpg" alt="Patent GREENCO Side Channel Blower Certification" />
+									<p>
+											<a href="javascript:void(0)" class="pic-item link-1">{$Think.lang.CERTIFICATE_PATENT_2}</a>
+									</p>
 							</a>
-						</p></a>
-				</div>
-				<div class="col-md-3">
-					<a class="fancybox" href="image/zhiliangrenzheng2.jpg"
-						data-fancybox-group="gallery"
-						title="<strong>Measurement Certification</strong>"><img
-						src="image/zhiliangrenzheng2_sub.jpg"
-						alt="Measurement GREENCO Side Channel Blower Certification" />
-					<p>
-							<a href="image/zhiliangrenzheng2.jpg" class="fancybox link-1"
-								data-fancybox-group="gallery">
-								<?php echo _('Measurement');?>
+						</div>
+						<div class="col-md-3">
+							<a class=" pic-item" href="javascript:void(0)"  data="image/zhiliangrenzheng11.jpg" 	title="<strong>Patent 3 Certification</strong>">
+									<img src="image/zhiliangrenzheng11_sub.jpg" 	alt="Patent GREENCO Side Channel Blower Certification" />
+									<p>
+											<a href="javascript:void(0)" class="link-1" >{$Think.lang.CERTIFICATE_PATENT_3}</a>
+									</p>
 							</a>
-						</p></a>
-				</div>
-				<div class="col-md-3">
-					<a class="fancybox" href="image/zhiliangrenzheng6.jpg"
-						data-fancybox-group="gallery"
-						title="<strong>Patent 1 Certification</strong>"><img
-						src="image/zhiliangrenzheng6_sub.jpg"
-						alt="Patent GREENCO Side Channel Blower Certification" />
-					<p>
-							<a href="image/zhiliangrenzheng6.jpg" class="fancybox link-1"
-								data-fancybox-group="gallery">
-								<?php echo _('Patent 1');?>
-							</a>
-						</p></a>
-				</div>
-				<div class="col-md-3">
-					<a class="fancybox" href="image/zhiliangrenzheng9.jpg"
-						data-fancybox-group="gallery"
-						title="<strong>Patent 2 Certification</strong>"><img
-						src="image/zhiliangrenzheng9_sub.jpg"
-						alt="Patent GREENCO Side Channel Blower Certification" />
-					<p>
-							<a href="image/zhiliangrenzheng9.jpg" class="fancybox link-1"
-								data-fancybox-group="gallery">
-								<?php echo _('Patent 2');?>
-							</a>
-						</p></a>
-				</div>
-				<div class="col-md-3">
-					<a class=" fancybox" href="image/zhiliangrenzheng11.jpg"
-						data-fancybox-group="gallery"
-						title="<strong>Patent 3 Certification</strong>"><img
-						src="image/zhiliangrenzheng11_sub.jpg"
-						alt="Patent GREENCO Side Channel Blower Certification" />
-					<p>
-							<a href="image/zhiliangrenzheng11.jpg" class="fancybox link-1"
-								data-fancybox-group="gallery">
-								<?php echo _('Patent 3');?>
-							</a>
-						</p></a>
+						</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+<div id="myModal" class="modal fade">
+		<div class="modal-dialog">
+			  <div class="modal-content">
+					    <div class="modal-header">
+					      		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					      		<h4 class="modal-title">&nbsp;</h4>
+					    </div>
+					    <div class="modal-body">
+					      		<img id="mypic" style="width:100%" src="image/zhiliangrenzheng11.jpg" />
+					    </div>
+					    		<div class="modal-footer">
+					    </div>
+			  </div>
+		</div>
+</div>
 <!-- 质量认证end -->
 
 
 <include file="../Public/footer" />
+<script type="text/javascript">
+		$(".pic-item").click(function(){
+			//console.log("111")
+			var data = $(this).attr("data");
+			$("#mypic").attr("src",data);
+			//console.log($(this).attr("data"));
+			$('#myModal').modal();
+		});
+		
+</script>
 </body>
 </html>
 

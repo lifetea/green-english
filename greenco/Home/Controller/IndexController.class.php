@@ -105,7 +105,10 @@ class IndexController extends Controller {
     }   
     public function video(){
     	$this->display();
-    }   
+    }
+    public function equipments(){
+    	$this->display();
+    }       
   private  function _content($_string,$_len) {
     	if (mb_strlen($_string,'utf-8') > $_len) {
     		$_string = mb_substr(strip_tags($_string),0,$_len,'utf-8');

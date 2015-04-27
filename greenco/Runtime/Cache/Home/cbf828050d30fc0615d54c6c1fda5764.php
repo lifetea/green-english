@@ -1,11 +1,11 @@
-<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html">
 <html  xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title><?php echo (L("SUPPORT_INDEX")); ?></title>
-<meta name="description" content="<?php echo (L("SUPPORT_DESCRIPTION")); ?>" />
-<meta name="keywords" content="<?php echo (L("SUPPORT_KEYWORDS")); ?>" />
-<link href="favicon.ico" rel="shortcut icon" />
+<?php require 'setLan.php'; ?>
+<title><?php echo _('Honours|Greenco honour_GREENCO');?></title>
+<meta name="keywords" content="<?php echo _('Honours,Greenco honour,side channel blower honour,High Tech,Famous brand,trademark,regenerative blower,air blower,GREENCO');?>" />
+<meta name="description"content="<?php echo _('Zhejiang Greenco Industry Co Ltd approved by ISO9001:2008 quality system，side channel blower approved by UL、CE、TUV、GS certifications,high quality & competitive price,export to more than 100 countries.');?>" />
 <?php require 'inc/css.inc';?>
 </head>
 <body class="<?php echo (L("HEADER_BODY_CLASS")); ?>">
@@ -47,19 +47,19 @@
 								    	</a>
 								    	<ul class="dropdown-menu" role="menu">
 									            <li>
-							            				<a rel="nofollow" href="about_us"><?php echo (L("HEADER_ABOUT_GREENCO")); ?></a>
+							            				<a rel="nofollow" href="about_us.php"><?php echo (L("HEADER_ABOUT_GREENCO")); ?></a>
 						            			</li>
 									            <li>
 									            		<a rel="nofollow" href="certification"><?php echo (L("HEADER_CERTIFICATION")); ?></a>
 								            	</li>
 									            <li>
-									            		<a rel="nofollow" href="honour"><?php echo (L("HEADER_HONOUR")); ?></a>
+									            		<a rel="nofollow" href="Honour.php"><?php echo (L("HEADER_HONOUR")); ?></a>
 								            	</li>
 									            <li>
-									            		<a rel="nofollow" href="video.php"><?php echo (L("HEADER_VIDEO")); ?></a>
+									            		<a rel="nofollow" href="Video.php"><?php echo (L("HEADER_VIDEO")); ?></a>
 							            		</li>
 									            <li>
-									            		<a rel="nofollow" href="equipments"><?php echo (L("HEADER_EQUIPMENTS")); ?></a>
+									            		<a rel="nofollow" href="Equipments.php"><?php echo (L("HEADER_EQUIPMENTS")); ?></a>
 							            		</li>
 									    </ul>
 								  </li>
@@ -161,55 +161,41 @@
 				</div><!-- /.container-fluid -->
 		</nav>
 
+<?php require 'inc/header_inc.php';?>
 
-
-<!-- 应用内容 -->
-<div class="container-fuild">
-   <div class="container support">
-       <img src="<?php echo (L("SRC_LAN")); ?>/support.jpg" style="width:100%;margin:1em auto 0;border:1px solid #bbb;" alt="Greenco side channel blower news"/>
-       <div class="row">
-	       <div class="col-md-3">
-	             <h3 style="font-family:tahoma;  text-indent: 10px; background: #666; font-size: 14px;  font-weight: 600;height: 32px;color: #fff;line-height: 32px;border: 1px solid #555;"><?php echo (L("HEADER_NEWS_CENTER")); ?></h3>
-	                 <ul>
-		                  <li style="margin-top:-2px;"><a href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
-		                  <li><a href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>	
-		                  <li style="margin-top:-2px;"><a href="support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
-	                  </ul>
-	       </div>
-	       <div class="col-md-9" style="border-left: 1px solid #ccc;">
-	       <h3 style="color:#eee;text-indent:5px;font-size:14px;font-family:tahoma;font-family:tahoma;  text-indent: 10px; background: #666; font-size: 14px;  font-weight: 600; ;height: 32px;color: #fff;line-height: 32px;border: 1px solid #555; "><?php echo (L("HEADER_SUPPORT")); ?></h3>
-	       <ul>
-       		<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="mypagination">
-							<p></p>
-							<p>
-									<strong>
-											<a href="support_content.php?id=<?php echo ($vo["id"]); ?> "><?php echo ($vo["title"]); ?></a>
-									</strong>
-							</p>
-			            	<p><?php echo ($vo["content"]); ?></p>
-			            	<p class="row">
-				            	<span class="more col-md-2"><?php echo ($vo["time"]); ?></span>
-			            	    <a class="more col-md-1 col-md-offset-9"  href="support_content.php?id=<?php echo ($vo["id"]); ?> "><?php echo (L("SUPPORT_DETAIL")); ?></a>
-			            	</p>
-			           </li><?php endforeach; endif; else: echo "" ;endif; ?>		       
-	       </ul>
-	       <div  id="page_text"></div>
-	       </div>
+<!-- 荣誉内容start -->
+<div id="Honour _all" >
+   <div id="Honour">
+       <img src="image/about_banner.png" style="margin:8px 0 0 8px;border:1px solid #999;"/>
+       <div class="left">
+		     <?php require 'inc/about-left.php';?>
+			<?php require 'inc/search-left.php';?>
+       </div>
+       <div class="right">
+             <h5><?php echo _('Honour');?> <span style="margin-left:500px;font-weight:500;font-size:13px;"><a href="index.php"><?php echo _('Home');?></a> > <a href="Honour.php"><?php echo _('Honour');?></a></span></h5>
+					<div style="margin-left:50px;"><img src="image/Honour1.jpg" alt="Zhejiang Brand products"  /><p><?php echo _('Zhejiang Brand products');?></p></a></div>
+					<div  style="margin-left:190px;"><img src="image/Honour2.jpg" alt="Beautiful  taxpayers'"  /><p><?php echo _('Home');?></p></a></div>
+					<div style="margin-left:10px;"><img src="image/Honour7.jpg" alt="High and new tech enterprises"  /><p><?php echo _('High and new tech enterprises');?></p></a></div>
+					<div style="margin-left:80px;"><img src="image/Honour3.jpg" alt="Enterprise technology center"  /><p><?php echo _('Enterprise technology center');?></p></a></div>
+       		        <div style="margin-left:10px;"><img src="image/Honour6.jpg" alt="The zhejiang province famous trademark"  /><p><?php echo _('The zhejiang province famous trademark');?></p></a></div>
+       		        <div style="margin-left:90px;"><img src="image/Honour8.jpg" alt="R&D Center"  /><p><?php echo _('R&D Center');?></p></a></div>
+       		        <div style="margin-left:10px;"><img src="image/Honour4.jpg" alt="AA Rated(Keep the contract heavy credit unit)"  /><p><?php echo _('AA Rated(Keep the contract heavy credit unit)');?></p></a></div>
+       		        <div style="margin-left:100px;"><img src="image/Honour5.jpg" alt="New mechanical and electrical products"  /><p><?php echo _('New mechanical and electrical products');?></p></a></div>
        </div>
    </div>
 </div>
-<!-- 应用内容end -->
+<!-- 荣誉内容end -->
 
 <div class="container-fluid navbar-inverse footer">
-		<div class="container">
-			<ul class=" col-md-2 " >
+	<div class="container" >
+			<ul class="pull-left item">
 				<li class="item-title" ><?php echo (L("HEADER_ABOUT_GREENCO")); ?></li>
 				<li><a rel="nofollow" href="Certification.php"><?php echo (L("HEADER_CERTIFICATION")); ?></a></li>
 				<li><a rel="nofollow" href="Honour.php"><?php echo (L("HEADER_HONOUR")); ?></a></li>
 				<li><a rel="nofollow" href="Video.php"><?php echo (L("HEADER_VIDEO")); ?></a></li>
 				<li><a rel="nofollow" href="Equipments.php"><?php echo (L("HEADER_EQUIPMENTS")); ?></a></li>
 			</ul>
-			<ul class="col-md-3 ">
+			<ul class="pull-left item">
 				<li class="item-title" ><?php echo (L("HEADER_PRODUCTS")); ?></li>
 				<li><a rel="nofollow" href="Side_Channel_Blower_2RB_Single_Stage.php"><?php echo (L("HEADER_2RB_SINGLE")); ?></a></li>
 				<li><a rel="nofollow" href="Side_Channel_Blower_3RB_Single_Stage.php"><?php echo (L("HEADER_3RB_SINGLE")); ?></a></li>
@@ -217,26 +203,26 @@
 				<li><a rel="nofollow" href="IE2_Single_Stage_Regenerative_Blower.php"><?php echo (L("HEADER_2RB_SINGLE_REGENERATIVE")); ?></a></li>
 				<li><a rel="nofollow" href="Belt_Drive_Air_Blower_2RB_Single_Stage.php"><?php echo (L("HEADER_2RB_SINGLE_BELT")); ?></a></li>
 			</ul>
-			<ul class="col-md-2 ">
+			<ul class="pull-left item">
 				<li class="item-title" ><?php echo (L("FOOTER_ACCESSORIES")); ?></li>
 				<li><a rel="nofollow" href="Silencer.php"><?php echo (L("HEADER_SILENCER")); ?></a></li>
 				<li><a rel="nofollow" href="Relief_Valve.php"><?php echo (L("HEADER_RELIEF_VALUE")); ?></a></li>
 				<li><a rel="nofollow" href="Inlet_Vacuum_Filter.php"><?php echo (L("HEADER_FILTER")); ?></a></li>
 			</ul>
-			<ul class="col-md-3">
+			<ul class="pull-left item">
 					<li class="item-title" ><?php echo (L("HEADER_DOWNLOADS")); ?></li>
 					<li><a rel="nofollow" href="upfile/side channel blower Complete Catalog.pdf"><?php echo (L("FOOTER_CATALOG")); ?></a></li>
 					<li><a rel="nofollow" href="upfile/Side channel blower Relief_Valve 2BX4.pdf"><?php echo (L("FOOTER_ACCESSORIES")); ?></a></li>
 					<li><a rel="nofollow" href="javascript:;"><?php echo (L("HEADER_FILTER")); ?></a></li>
 			</ul>
-			<ul class="col-md-2  last">
+			<ul class="pull-left item last">
 					<li class="item-title"><?php echo (L("HEADER_NEWS_CENTER")); ?></li>
 					<li><a rel="nofollow" href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
 					<li><a rel="nofollow" href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
 					<li><a rel="nofollow" href="support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
 					<li><a rel="nofollow" href="sitemap.xml"><?php echo (L("FOOTER_SITEMAP")); ?></a></li>
 			</ul>
-		</div>
+	      </div>
 		<p class="col-md-offset-6">
 				<span>©2002-2013 Copyright Greenco. All Rights Reserved 浙ICP备12000939号-1
 						 <script type="text/javascript">
@@ -246,19 +232,10 @@
 						  </script>
 				</span>
 		</p>
-</div>		
+	</div>	
 <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-<script src="js/jquery.quickpaginate.js" type="text/javascript" ></script>
-<script type="text/javascript">
-	$(function(){
-		$(".mypagination").quickpaginate({
-			perpage: 6,//每页显示条数,
-			pager : $("#page_text") //div的ID
-		})
-	})
-</script>
 </body>
 </html>

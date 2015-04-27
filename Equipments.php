@@ -4,14 +4,6 @@
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
 
-<?php
-if($lan == "zh_CN"){
-	 require 'seo/cn/Equipments.php';
-}else{
-	 require 'seo/en/Equipments.php';
-}
-
- ?>
 <script src="js/menu.js" type="text/javascript"></script>
 <link  type="text/css" rel="stylesheet" href="css/main.css"/>
 <link rel="stylesheet"  type="text/css"  href="uniform/css/uniform.default.css"/>

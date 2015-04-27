@@ -1,19 +1,36 @@
-<h3 class="head-1"><?php echo _('About Greenco')?></h3>
-<ul>
-<li style="margin-top:-2px;"><a href="about_us.php"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><?php echo _('About us')?></a></li>
-<li><a href="Certification.php"><?php echo _('Certification')?></a></li>
-<li><a href="Honour.php"><?php echo _('Honour')?></a></li>
-<!-- 
-<li><a href="History.php"><?php echo _('History')?></a></li>
--->
-
-<li><a href="Video.php"><?php echo _('Video')?></a></li>
-<li><a href="Equipments.php"><?php echo _('Equipments')?></a></li>
+<h3 class="head-1">{$Think.lang.HEADER_ABOUT_GREENCO}</h3>
+<ul class="about-nav">
+		<li>
+				<a class="link-3" href="about_us">{$Think.lang.HEADER_ABOUT_US}</a>
+		</li>
+		<li>
+				<a class="link-3" href="certification">{$Think.lang.HEADER_CERTIFICATION}</a>
+		</li>
+		<li>
+				<a class="link-3" href="honour">{$Think.lang.HEADER_HONOUR}</a>
+		<li>
+				<a class="link-3" href="video">{$Think.lang.HEADER_VIDEO}</a>
+		</li>
+		<li>
+				<a class="link-3" href="equipments">{$Think.lang.HEADER_EQUIPMENTS}</a>
+		</li>
 </ul>
-<h3 class="head-1" style="margin-top:26px;background:#666 url(image/search_top.png) no-repeat 0 2px;padding-left:18px;"><?php echo _('Search Product');?></h3>
+<h3 class="head-1" style="margin-top:26px;background:#666 url(image/search_top.png) no-repeat 0 2px;padding-left:18px;">{$Think.lang.NAV_SEARCH_PRODUCT}</h3>
 <form mehtod="post"  action="?">
-     <p><?php echo _('1:Select a Graph:');?><select><option><?php echo _('Pressure');?></option><option><?php echo _('Vacuum');?></option></select></p>
-<p><?php echo _('2:Air Flow');?>(e.g.120):</p>
+     <p>
+     		<span>
+		     		<?php echo _('1:Select a Graph:');?>
+     		</span>
+     		<select>
+     				<option><?php echo _('Pressure');?></option>
+     				<option><?php echo _('Vacuum');?></option>
+     		</select>
+     </p>
+		<p>
+				<span>
+						<?php echo _('2:Air Flow');?>(e.g.120):
+				</span>
+		</p>
 <p><input type="text" class="text"/><select><option>m³/h</option><option>m³/min</option></select></p>
 <p><?php echo _('3:Pressure');?>(e.g.200):</p>
      <p><input type="text" class="text"/><select><option>mbar</option><option>pa</option></select></p>

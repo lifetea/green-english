@@ -48,7 +48,7 @@
 								    	</a>
 								    	<ul class="dropdown-menu" role="menu">
 									            <li>
-							            				<a rel="nofollow" href="about_us.php"><?php echo (L("HEADER_ABOUT_GREENCO")); ?></a>
+							            				<a rel="nofollow" href="about_us"><?php echo (L("HEADER_ABOUT_GREENCO")); ?></a>
 						            			</li>
 									            <li>
 									            		<a rel="nofollow" href="certification"><?php echo (L("HEADER_CERTIFICATION")); ?></a>
@@ -57,10 +57,10 @@
 									            		<a rel="nofollow" href="honour"><?php echo (L("HEADER_HONOUR")); ?></a>
 								            	</li>
 									            <li>
-									            		<a rel="nofollow" href="Video.php"><?php echo (L("HEADER_VIDEO")); ?></a>
+									            		<a rel="nofollow" href="video.php"><?php echo (L("HEADER_VIDEO")); ?></a>
 							            		</li>
 									            <li>
-									            		<a rel="nofollow" href="Equipments.php"><?php echo (L("HEADER_EQUIPMENTS")); ?></a>
+									            		<a rel="nofollow" href="equipments"><?php echo (L("HEADER_EQUIPMENTS")); ?></a>
 							            		</li>
 									    </ul>
 								  </li>
@@ -192,15 +192,15 @@
 				</div>
 				<input id="swfConfig" type="hidden"  value="<?php echo (L("SRC_LAN")); ?>/config.xml">
 				<div class="container-fluid navbar-inverse footer">
-	<div class="container" >
-			<ul class="pull-left item">
+		<div class="container">
+			<ul class=" col-md-2 " >
 				<li class="item-title" ><?php echo (L("HEADER_ABOUT_GREENCO")); ?></li>
 				<li><a rel="nofollow" href="Certification.php"><?php echo (L("HEADER_CERTIFICATION")); ?></a></li>
 				<li><a rel="nofollow" href="Honour.php"><?php echo (L("HEADER_HONOUR")); ?></a></li>
 				<li><a rel="nofollow" href="Video.php"><?php echo (L("HEADER_VIDEO")); ?></a></li>
 				<li><a rel="nofollow" href="Equipments.php"><?php echo (L("HEADER_EQUIPMENTS")); ?></a></li>
 			</ul>
-			<ul class="pull-left item">
+			<ul class="col-md-3 ">
 				<li class="item-title" ><?php echo (L("HEADER_PRODUCTS")); ?></li>
 				<li><a rel="nofollow" href="Side_Channel_Blower_2RB_Single_Stage.php"><?php echo (L("HEADER_2RB_SINGLE")); ?></a></li>
 				<li><a rel="nofollow" href="Side_Channel_Blower_3RB_Single_Stage.php"><?php echo (L("HEADER_3RB_SINGLE")); ?></a></li>
@@ -208,26 +208,26 @@
 				<li><a rel="nofollow" href="IE2_Single_Stage_Regenerative_Blower.php"><?php echo (L("HEADER_2RB_SINGLE_REGENERATIVE")); ?></a></li>
 				<li><a rel="nofollow" href="Belt_Drive_Air_Blower_2RB_Single_Stage.php"><?php echo (L("HEADER_2RB_SINGLE_BELT")); ?></a></li>
 			</ul>
-			<ul class="pull-left item">
+			<ul class="col-md-2 ">
 				<li class="item-title" ><?php echo (L("FOOTER_ACCESSORIES")); ?></li>
 				<li><a rel="nofollow" href="Silencer.php"><?php echo (L("HEADER_SILENCER")); ?></a></li>
 				<li><a rel="nofollow" href="Relief_Valve.php"><?php echo (L("HEADER_RELIEF_VALUE")); ?></a></li>
 				<li><a rel="nofollow" href="Inlet_Vacuum_Filter.php"><?php echo (L("HEADER_FILTER")); ?></a></li>
 			</ul>
-			<ul class="pull-left item">
+			<ul class="col-md-3">
 					<li class="item-title" ><?php echo (L("HEADER_DOWNLOADS")); ?></li>
 					<li><a rel="nofollow" href="upfile/side channel blower Complete Catalog.pdf"><?php echo (L("FOOTER_CATALOG")); ?></a></li>
 					<li><a rel="nofollow" href="upfile/Side channel blower Relief_Valve 2BX4.pdf"><?php echo (L("FOOTER_ACCESSORIES")); ?></a></li>
 					<li><a rel="nofollow" href="javascript:;"><?php echo (L("HEADER_FILTER")); ?></a></li>
 			</ul>
-			<ul class="pull-left item last">
+			<ul class="col-md-2  last">
 					<li class="item-title"><?php echo (L("HEADER_NEWS_CENTER")); ?></li>
 					<li><a rel="nofollow" href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
 					<li><a rel="nofollow" href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
 					<li><a rel="nofollow" href="support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
 					<li><a rel="nofollow" href="sitemap.xml"><?php echo (L("FOOTER_SITEMAP")); ?></a></li>
 			</ul>
-	      </div>
+		</div>
 		<p class="col-md-offset-6">
 				<span>©2002-2013 Copyright Greenco. All Rights Reserved 浙ICP备12000939号-1
 						 <script type="text/javascript">
@@ -237,7 +237,7 @@
 						  </script>
 				</span>
 		</p>
-	</div>	
+</div>		
 <script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>

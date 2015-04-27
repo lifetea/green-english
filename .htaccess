@@ -13,4 +13,7 @@
   RewriteRule ^news_Company.php$ company
   RewriteRule ^news_Industry.php$ industry
   RewriteRule ^Video.php$ video
+  RewriteRule ^Certification.php$ certification
+  RewriteRule ^Equipments.php$ equipments
+  
 </IfModule>

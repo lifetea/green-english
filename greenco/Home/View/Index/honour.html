@@ -1,13 +1,10 @@
 ﻿<!DOCTYPE html">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<?php require 'setLan.php'; ?>
-<title><?php echo _('Honours|Greenco honour_GREENCO');?></title>
-<meta name="keywords"
-	content="<?php echo _('Honours,Greenco honour,side channel blower honour,High Tech,Famous brand,trademark,regenerative blower,air blower,GREENCO');?>" />
-<meta name="description"
-	content="<?php echo _('Zhejiang Greenco Industry Co Ltd approved by ISO9001:2008 quality system，side channel blower approved by UL、CE、TUV、GS certifications,high quality & competitive price,export to more than 100 countries.');?>" />
+<title>{$Think.lang.HONOUR_TITLE}</title>
+<meta name="keywords"	content="{$Think.lang.HONOUR_KEYWORDS}" />
+<meta name="description"	content="{$Think.lang.HONOUR_DESCRIPTION}" />
 <?php require 'inc/css.inc';?>
 </head>
 <include file="../Public/header" />
@@ -15,81 +12,80 @@
 <!-- 荣誉内容start -->
 <div class="container-fuild">
 	<div class="container about">
-		<img src="image/about_banner.png"
-			style="width: 100%; margin: 1em auto; border: 1px solid #999;" />
+		<img src="image/about_banner.png" style="width: 100%; margin: 1em auto; border: 1px solid #999;" />
 		<div class="row">
 			<div class="col-md-3">
 				<include file="../Public/about-nav" />
 			</div>
-			<div class="col-md-9 row honour-list">
-				<h5>
-					<?php echo _('Honour');?>
-					<span class="pull-right" style="font-weight: 500; font-size: 13px;">
-					<a class="link-1" href="index">
-							<?php echo _('Home');?>
-					</a> > <a class="link-1" href="honour">
-							<?php echo _('Honour');?>
-					</a></span>
-				</h5>
-				<div class="col-md-6">
-					<img src="image/Honour1.jpg" alt="Zhejiang Brand products" />
-					<p>
-						<?php echo _('Zhejiang Brand products');?>
-					</p>
-					</a>
-				</div>
-				<div class="col-md-6">
-					<img src="image/Honour2.jpg" alt="Beautiful  taxpayers'" />
-					<p>
-						<?php echo _('Home');?>
-					</p>
-					</a>
-				</div>
-				<div class="col-md-6">
-					<img src="image/Honour7.jpg" alt="High and new tech enterprises" />
-					<p>
-						<?php echo _('High and new tech enterprises');?>
-					</p>
-					</a>
-				</div>
-				<div class="col-md-6">
-					<img src="image/Honour3.jpg" alt="Enterprise technology center" />
-					<p>
-						<?php echo _('Enterprise technology center');?>
-					</p>
-					</a>
-				</div>
-				<div class="col-md-6">
-					<img src="image/Honour6.jpg"
-						alt="The zhejiang province famous trademark" />
-					<p>
-						<?php echo _('The zhejiang province famous trademark');?>
-					</p>
-					</a>
-				</div>
-				<div class="col-md-6">
-					<img src="image/Honour8.jpg" alt="R&D Center" />
-					<p>
-						<?php echo _('R&D Center');?>
-					</p>
-					</a>
-				</div>
-				<div class="col-md-6">
-					<img src="image/Honour4.jpg"
-						alt="AA Rated(Keep the contract heavy credit unit)" />
-					<p>
-						<?php echo _('AA Rated(Keep the contract heavy credit unit)');?>
-					</p>
-					</a>
-				</div>
-				<div class="col-md-6">
-					<img src="image/Honour5.jpg"
-						alt="New mechanical and electrical products" />
-					<p>
-						<?php echo _('New mechanical and electrical products');?>
-					</p>
-					</a>
-				</div>
+			<div class="col-md-9 row split">
+					<div class="clearfix line">
+							<span class="title-1">{$Think.lang.HEADER_HONOUR}</span>
+							<div class="pull-right">
+								 <a href="index.php" class="link-1">	{$Think.lang.HEADER_HOME}</a>
+								 <span>></span>
+								 <a href="certification" class="link-1">{$Think.lang.HEADER_HONOUR}</a>
+							 </div>
+					 </div>		
+				 <div class="honour-list">
+						<div class="col-md-6">
+							<img src="image/Honour1.jpg" alt="Zhejiang Brand products" />
+							<p>
+								<a class="link-1"><?php echo _('Zhejiang Brand products');?></a>
+							</p>
+							
+						</div>
+						<div class="col-md-6">
+							<img src="image/Honour2.jpg" alt="Beautiful  taxpayers'" />
+							<p>
+								<a class="link-1"><?php echo _('Home');?></a>
+							</p>
+							
+						</div>
+						<div class="col-md-6">
+							<img src="image/Honour7.jpg" alt="High and new tech enterprises" />
+							<p>
+									<a class="link-1"><?php echo _('High and new tech enterprises');?></a>
+							</p>
+							
+						</div>
+						<div class="col-md-6">
+							<img src="image/Honour3.jpg" alt="Enterprise technology center" />
+							<p>
+								<a class="link-1"><?php echo _('Enterprise technology center');?></a>
+							</p>
+							
+						</div>
+						<div class="col-md-6">
+							<img src="image/Honour6.jpg"
+								alt="The zhejiang province famous trademark" />
+							<p>
+								<a><?php echo _('The zhejiang province famous trademark');?></a>
+							</p>
+						</div>
+						<div class="col-md-6">
+							<img src="image/Honour8.jpg" alt="R&D Center" />
+							<p>
+								<a class="link-1"><?php echo _('R&D Center');?></a>
+							</p>
+							
+						</div>
+						<div class="col-md-6">
+							<img src="image/Honour4.jpg"
+								alt="AA Rated(Keep the contract heavy credit unit)" />
+							<p>
+									<a class="link-1"><?php echo _('AA Rated(Keep the contract heavy credit unit)');?></a>
+							</p>
+							
+						</div>
+						<div class="col-md-6">
+							<img src="image/Honour5.jpg"
+								alt="New mechanical and electrical products" />
+							<p>
+									<a class="link-1"><?php echo _('New mechanical and electrical products');?></a>
+							</p>
+							
+						</div>
+				</div>	
 			</div>
 		</div>
 

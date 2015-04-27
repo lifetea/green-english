@@ -5,13 +5,21 @@ body{
   font-family:Tahoma,Geneva,sans-serif;
   font-size:13px;
 }
+ul{padding:0;list-style:none}
 .hide{display:none}
-.link-1{line-height:30px;color:#1d2d56;}
+.link-1{color:#1d2d56;line-height:30px;}
 .link-2{color: #333;}
-
+.link-3{color:#1d2d56;}
 .head-1{color:#eee;text-indent:5px;font-size:14px;font-family:tahoma;font-family:tahoma;  text-indent: 10px; background: #666; font-size: 14px;  font-weight: 600; ;height: 32px;color: #fff;line-height: 32px;border: 1px solid #555; }
 .text-1{font-weight:600;font-size:12px;line-height:200%;}
+.text-2{line-height: 21px;text-indent: 2em;text-align: justify;}
 .title-1{font-weight:600;font-size:18px;color:#333;font-family:tahoma;}
+.title-2{	color: #1e448c;font-weight: 600;	line-height: 30px;}
+.split{border-left: 1px solid #ccc;}
+.line{	  border-bottom: 1px solid #ccc;}
+
+
+.banner{margin:1em auto;width:100%;border:1px solid #999;}
 
 .lang-select,.trademark{
 	padding-top: 0.8em;
@@ -63,9 +71,10 @@ body{
    #searchBox{border-bottom-right-radius: 0;border-top-right-radius: 0;width:120px;}
    .footer{padding:2em 0;}
    .footer ul>li{margin-top:4px;}
-   .footer .item{margin-right:108px;}
+   .footer .item{#margin-right:108px;}
    .footer .item-title{font-weight:600;list-style:none;color:#bbb;}
    .green-en .footer .item{margin-right:50px}
+    .footer .f{margin-left:14%}
    .footer .last{margin-right:0}
    .footer  a , .footer  span{color:#999}
    @media (min-width:1200px){.navbar-nav>li{margin-right: 1.5em;} #searchBox{width:auto;}}
@@ -119,19 +128,12 @@ body{
 .contact .detail p{
 	line-height:180%;
 }
-.contact .detail h3{
-	color: #1e448c;
-	font-family: Tahoma;
-	font-weight: 600;
-	text-indent: 0px;
-	height: 30px;
-	line-height: 30px;
-}
 .support ,.news,.application,.about{
   margin: 0 auto;
   background: white;
   border: 1px solid #999;
   border-top: none;
+  padding-bottom:1em;
 }
 .support a ,.news a{
 	color: #555;
@@ -147,6 +149,9 @@ body{
 }
 /*application*/
 .app-list dl img{width:98%;margin:0 auto;border: 1px dashed #888;}
-.app-list dl,.cert-list p,.honour-list p{text-align:center}
-.honour-list img{}
-.cert-list img{width:100%;height:240px;  border: 1px solid #999;}
+.app-list dl,.cert-list div,.honour-list div{text-align:center}
+.eq-list a{text-align:center}
+.cert-list,.honour-list{margin-top: 1em;}
+.cert-list img{width:12em;height:16em;  border: 1px solid #999;vertical-align:middle}
+..eq-list img {width:100%}
+.about-nav li{margin-top: 13px;background: url(../img/arrow.png) no-repeat 0 2px;padding-left: 18px;}
