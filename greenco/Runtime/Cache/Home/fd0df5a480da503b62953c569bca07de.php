@@ -7,7 +7,7 @@
 <meta name="description" content="<?php echo (L("ABOUT_US_DESCRIPTION")); ?>" />
 <link href="favicon.ico" rel="shortcut icon" />
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
-<link href="src/css/common.css" rel="stylesheet">
+<link href="<?php echo (C("SRC_ROOT")); ?>/src/css/common.css" rel="stylesheet">
 </head>
 <body class="<?php echo (L("HEADER_BODY_CLASS")); ?>">
 		<div class="container header row" >
@@ -48,19 +48,19 @@
 								    	</a>
 								    	<ul class="dropdown-menu" role="menu">
 									            <li>
-							            				<a rel="nofollow" href="about_us"><?php echo (L("HEADER_ABOUT_GREENCO")); ?></a>
+							            				<a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/about_us"><?php echo (L("HEADER_ABOUT_GREENCO")); ?></a>
 						            			</li>
 									            <li>
-									            		<a rel="nofollow" href="certification"><?php echo (L("HEADER_CERTIFICATION")); ?></a>
+									            		<a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/certification"><?php echo (L("HEADER_CERTIFICATION")); ?></a>
 								            	</li>
 									            <li>
-									            		<a rel="nofollow" href="honour"><?php echo (L("HEADER_HONOUR")); ?></a>
+									            		<a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/honour"><?php echo (L("HEADER_HONOUR")); ?></a>
 								            	</li>
 									            <li>
-									            		<a rel="nofollow" href="video.php"><?php echo (L("HEADER_VIDEO")); ?></a>
+									            		<a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/video.php"><?php echo (L("HEADER_VIDEO")); ?></a>
 							            		</li>
 									            <li>
-									            		<a rel="nofollow" href="equipments"><?php echo (L("HEADER_EQUIPMENTS")); ?></a>
+									            		<a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/equipments"><?php echo (L("HEADER_EQUIPMENTS")); ?></a>
 							            		</li>
 									    </ul>
 								  </li>
@@ -80,15 +80,15 @@
 							            	</li>
 											<li class="divider">
 											<li>
-													<img class="pull-right" src="image/new.gif">
+													<img class="pull-right" src="<?php echo (C("IMG_ROOT")); ?>/new.gif">
 													<a href="Side_Channel_Blower_3RB_Single_Stage.php"><?php echo (L("HEADER_3RB_SINGLE")); ?></a>
 									 	 	</li>
 											<li>
-													<img class="pull-right" src="image/new.gif">
+													<img class="pull-right" src="<?php echo (C("IMG_ROOT")); ?>/new.gif">
 													<a href="Side_Channel_Blower_3RB_Double_Stage.php"><?php echo (L("HEADER_3RB_DOUBLE")); ?></a>
 											</li>
 											<li>
-											 		<img class="pull-right" src="image/new.gif">
+											 		<img class="pull-right" src="<?php echo (C("IMG_ROOT")); ?>/new.gif">
 													<a href="Side_Channel_Blower_3RB_Three_Stage.php"><?php echo (L("HEADER_3RB_THREE")); ?></a>
 											</li>
 											<li class="divider">                  
@@ -167,7 +167,7 @@
 <!-- 应用内容 -->
 <div class="container-fuild">
    <div class="container about">
-       <img src="image/about_banner.png"  class="banner" />
+       <img src="<?php echo (C("IMG_ROOT")); ?>/about_banner.png"  class="banner" />
        <div class="row">
        		<div class="col-md-3">
 		       		<h3 class="head-1"><?php echo (L("HEADER_ABOUT_GREENCO")); ?></h3>
@@ -187,7 +187,9 @@
 				<a class="link-3" href="equipments"><?php echo (L("HEADER_EQUIPMENTS")); ?></a>
 		</li>
 </ul>
-<h3 class="head-1" style="margin-top:26px;background:#666 url(image/search_top.png) no-repeat 0 2px;padding-left:18px;"><?php echo (L("NAV_SEARCH_PRODUCT")); ?></h3>
+<h3 class="head-1" style=""><?php echo (L("NAV_SEARCH_PRODUCT")); ?>
+		<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+</h3>
 <form class="search-bar">
 		<div class="form-group">
 				<label for="inputEmail3" class="control-label col-ms-6"><?php echo _('1:Select a Graph:');?></label>
@@ -237,11 +239,11 @@
 	             <div class="content">
 			             <p class="text-2"><?php echo (L("ABOUT_CONTENT_1")); ?></p>
 			             <div class="row" style="margin:5px 0  5px 0;text-align: center;">
-			             <div class="col-md-6"><img style="width:100%" src="image/about_us_image2.jpg"/>
+			             <div class="col-md-6"><img style="width:100%" src="<?php echo (C("IMG_ROOT")); ?>/about_us_image2.jpg"/>
 				             <p class="text-1"><?php echo (L("ABOUT_FACTORY_DONGXINQU")); ?></p>
 			             </div>
 			             <div class="col-md-6">
-				             <img src="image/about_us_image1.jpg" style="width:100%"/>
+				             <img src="<?php echo (C("IMG_ROOT")); ?>/about_us_image1.jpg" style="width:100%"/>
 				             <p class="text-1"><?php echo (L("ABOUT_FACTORY_SHENQIAO")); ?></p>
 			             </div>
 			             

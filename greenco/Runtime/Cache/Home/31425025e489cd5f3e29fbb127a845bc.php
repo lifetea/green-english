@@ -166,15 +166,16 @@
 <!-- 应用内容 -->
 <div class="container-fuild">
    <div class="container support">
-       <img src="<?php echo (L("SRC_LAN")); ?>/news_banner.jpg" style="width:100%;margin:1em auto 0;border:1px solid #bbb;" alt="Greenco side channel blower news"/>
+       <img src="<?php echo (L("SRC_LAN")); ?>/news_banner.jpg" class="banner" alt="Greenco side channel blower news"/>
        <div class="row">
 	       <div class="col-md-3">
-	             <h3 style="font-family:tahoma;  text-indent: 10px; background: #666; font-size: 14px;  font-weight: 600;height: 32px;color: #fff;line-height: 32px;border: 1px solid #555;"><?php echo (L("HEADER_NEWS_CENTER")); ?></h3>
-	                 <ul>
-		                  <li style="margin-top:-2px;"><a href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
-		                  <li><a href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>	
-		                  <li style="margin-top:-2px;"><a href="support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
-	                  </ul>
+	             <h3  class="head-1"><?php echo (L("HEADER_NEWS_CENTER")); ?></h3>
+<ul class="news-nav">
+<li><a href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
+<li><a href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>	
+<li><a href="support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
+</ul>
+
 	       </div>
 	       <div class="col-md-9" style="border-left: 1px solid #ccc;">
 	       <h3 style="color:#eee;text-indent:5px;font-size:14px;font-family:tahoma;font-family:tahoma;  text-indent: 10px; background: #666; font-size: 14px;  font-weight: 600; ;height: 32px;color: #fff;line-height: 32px;border: 1px solid #555; "><?php echo (L("HEADER_COMPANY_NEWS")); ?></h3>

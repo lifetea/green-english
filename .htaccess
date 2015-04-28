@@ -5,8 +5,8 @@
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-f
 
-  RewriteRule ^(.*)$ index.php/Home/Index/$1 [QSA,PT,L]
-  RewriteRule ^about_us.php$ about_us
+  RewriteRule ^(.*)$ index.php/Home/$1 [QSA,PT,L]
+  RewriteRule ^about_us.php$ Index/about_us
   RewriteRule ^Download.php$ download
   RewriteRule ^Contact_us.php$ contact_us
   RewriteRule ^Support.php$ support

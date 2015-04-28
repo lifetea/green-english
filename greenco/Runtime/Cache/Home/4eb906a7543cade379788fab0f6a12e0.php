@@ -166,15 +166,16 @@
 <!-- 应用内容 -->
 <div class="container-fuild">
    <div class="container news">
-       <img src="<?php echo (L("SRC_LAN")); ?>/news_banner.jpg" style="width:100%;margin:1em auto 0;border:1px solid #bbb;" alt="Greenco side channel blower news"/>
+       <img src="<?php echo (L("SRC_LAN")); ?>/news_banner.jpg"  class="banner" alt="Greenco side channel blower news"/>
        <div class="row">
 	       <div class="col-md-3">
-	             <h3 class="head-1"><?php echo (L("HEADER_NEWS_CENTER")); ?></h3>
-	                 <ul>
-		                  <li style="margin-top:-2px;"><a href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
-		                  <li><a href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>	
-		                  <li style="margin-top:-2px;"><a href="support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
-	                  </ul>
+	             <h3  class="head-1"><?php echo (L("HEADER_NEWS_CENTER")); ?></h3>
+<ul class="news-nav">
+<li><a href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
+<li><a href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>	
+<li><a href="support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
+</ul>
+
 	       </div>
 	       <div class="col-md-9" style="border-left: 1px solid #ccc;">
 	       <h3 class="head-1"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></h3>

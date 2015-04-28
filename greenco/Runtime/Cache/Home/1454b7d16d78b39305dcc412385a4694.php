@@ -166,7 +166,7 @@
 <!-- 下载内容 -->
 <div class="container-fluid content">
 		<div class="container download" >
-			        <img class="download-img" src="<?php echo (L("SRC_LAN")); ?>/download_img.jpg"  alt="side channel blower Downloads"/>
+			        <img class="banner" src="<?php echo (L("SRC_LAN")); ?>/download_img.jpg"  alt="side channel blower Downloads"/>
 						<div>
 								<h5>
 										<span class="glyphicon  glyphicon-book" aria-hidden="true"></span>
@@ -210,8 +210,8 @@
 								      	
 				      </div>
 
-						<div class="row">
-							 <h3><?php echo (L("DOWNLOAD_DATA_SHEETS")); ?></h3>
+						<div class="row content">
+							 <h3 class="head-1"><?php echo (L("DOWNLOAD_DATA_SHEETS")); ?></h3>
 							<div class="col-md-6" >
 					             <h5>
 											<span class="glyphicon  glyphicon-book" aria-hidden="true"></span>
