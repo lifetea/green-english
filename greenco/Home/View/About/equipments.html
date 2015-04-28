@@ -6,15 +6,14 @@
 <meta name="keywords" content="{$Think.lang.EQUIPMENTS_KEYWORDS}" />
 <meta name="description" content="{$Think.lang.EQUIPMENTS_DESCRIPTION}" />
 <link href="favicon.ico" rel="shortcut icon" />
-<?php require 'inc/css.inc';?>
+<include file="../Public/css" />
 </head>
 <include file="../Public/header" />
 
 <!-- 质量认证内容 -->
 <div class="container-fuild">
 	<div class="container about row">
-		<img src="image/about_banner.png"
-			style="width:100%;margin: 1em auto; border: 1px solid #999;" />
+		<img src="{$Think.config.IMG_ROOT}/about_banner.png"  class="banner" />
 		<div class="col-md-3">
 			<include file="../Public/about-nav" />
 		</div>
@@ -23,8 +22,8 @@
 				<div class="row">
 					<div class="eq-list content ">
 							<div class="col-md-6" >
-								<a class="pic-item"  href="javascript:void(0)"	data="image/jifang1.jpg"	title="<strong>Sparepart Warehouse</strong>">
-								<img src="image/jifang1_sub.jpg" alt="Sparepart Warehouse GREENCO Side Channel Blower Equipments" />
+								<a class="pic-item"  href="javascript:void(0)"	data="{$Think.config.IMG_ROOT}/jifang1.jpg"	title="<strong>Sparepart Warehouse</strong>">
+								<img src="{$Think.config.IMG_ROOT}/jifang1_sub.jpg" alt="Sparepart Warehouse GREENCO Side Channel Blower Equipments" />
 								<p>
 										<a class="link-1" href="#">
 											<?php echo _('Sparepart Warehouse');?>
@@ -32,9 +31,9 @@
 									</p></a>
 							</div>
 							<div class="col-md-6 Equipments_image">
-								<a class="pic-item"  href="javascript:void(0)" 	data="image/jifang2.jpg" 	title="<strong>Precision Production Line</strong>">
+								<a class="pic-item"  href="javascript:void(0)" 	data="{$Think.config.IMG_ROOT}/jifang2.jpg" 	title="<strong>Precision Production Line</strong>">
 								<img
-									src="image/jifang2_sub.jpg"
+									src="{$Think.config.IMG_ROOT}/jifang2_sub.jpg"
 									alt="Precision Production Line GREENCO Side Channel Blower Equipments" />
 								<p>
 										<a class="link-1"  href="#">
@@ -43,10 +42,10 @@
 									</p></a>
 							</div>
 							<div class="col-md-6 Equipments_image" id="Equipments_image1">
-								<a class="pic-item"  href="javascript:void(0)" data="image/jifang3.jpg"
+								<a class="pic-item"  href="javascript:void(0)" data="{$Think.config.IMG_ROOT}/jifang3.jpg"
 									title="<strong>Die Casting Workshop</strong>">
 									<img
-									src="image/jifang3_sub.jpg"
+									src="{$Think.config.IMG_ROOT}/jifang3_sub.jpg"
 									alt="Die Casting Workshop GREENCO Side Channel Blower Equipments" />
 								<p>
 										<a class="link-1"  href="#">
@@ -55,10 +54,10 @@
 									</p></a>
 							</div>
 							<div class="col-md-6 Equipments_image">
-								<a class="pic-item"   href="javascript:void(0)"  data="image/jifang4.jpg"
+								<a class="pic-item"   href="javascript:void(0)"  data="{$Think.config.IMG_ROOT}/jifang4.jpg"
 									title="<strong>Assembling Line</strong>">
 									<img
-									src="image/jifang4_sub.jpg"
+									src="{$Think.config.IMG_ROOT}/jifang4_sub.jpg"
 									alt="Assembling Line GREENCO Side Channel Blower Equipments" />
 								<p>
 										<a class="link-1"  href="#">
@@ -67,10 +66,10 @@
 									</p></a>
 							</div>
 							<div class="col-md-6"  id="Equipments_image1">
-								<a class="fancybox"  href="javascript:void(0)"   data="image/jifang5.jpg"
+								<a class="fancybox"  href="javascript:void(0)"   data="{$Think.config.IMG_ROOT}/jifang5.jpg"
 									title="<strong>Carl Zeiss CMM</strong>">
 									<img
-									src="image/jifang5_sub.jpg"
+									src="{$Think.config.IMG_ROOT}/jifang5_sub.jpg"
 									alt="Q&C Department GREENCO Side Channel Blower Equipments" />
 								<p>
 										<a class="link-1"  href="#">
@@ -79,10 +78,10 @@
 									</p></a>
 							</div>
 							<div class="col-md-6 Equipments_image">
-								<a class="fancybox"  href="javascript:void(0)"  data="image/jifang6.jpg"
+								<a class="fancybox"  href="javascript:void(0)"  data="{$Think.config.IMG_ROOT}/jifang6.jpg"
 									title="<strong>Packing Line</strong>">
 									<img
-									src="image/jifang6_sub.jpg"
+									src="{$Think.config.IMG_ROOT}/jifang6_sub.jpg"
 									alt="Packing Line GREENCO Side Channel Blower Equipments" />
 								<p>
 										<a class="link-1"  href="#">
@@ -91,10 +90,10 @@
 									</p></a>
 							</div>
 							<div class="col-md-6 Equipments_image" id="Equipments_image1">
-								<a class="fancybox"  href="javascript:void(0)"  data="image/jifang7.jpg"
+								<a class="fancybox"  href="javascript:void(0)"  data="{$Think.config.IMG_ROOT}/jifang7.jpg"
 									 title="<strong>Shipping</strong>">
 									 <img
-									src="image/jifang7_sub.jpg"
+									src="{$Think.config.IMG_ROOT}/jifang7_sub.jpg"
 									alt="Shipping GREENCO Side Channel Blower Equipments" />
 								<p>
 										<a class="link-1"  href="#">
@@ -103,9 +102,9 @@
 									</p></a>
 							</div>
 							<div class="col-md-6 Equipments_image">
-								<a class="fancybox" href="javascript:void(0)"  data="image/jifang10.jpg"
+								<a class="fancybox" href="javascript:void(0)"  data="{$Think.config.IMG_ROOT}/jifang10.jpg"
 									title="<strong>Outgoing Inspection</strong>"><img
-									src="image/jifang8_sub.jpg"
+									src="{$Think.config.IMG_ROOT}/jifang8_sub.jpg"
 									alt="Outgoing Inspection GREENCO Side Channel Blower Equipments" />
 								<p>
 										<a class="link-1"  href="#">
@@ -114,9 +113,9 @@
 									</p></a>
 							</div>
 							<div class="col-md-6 Equipments_image" id="Equipments_image1">
-								<a class="fancybox" href="javascript:void(0)"  data="image/jifang11.jpg"
+								<a class="fancybox" href="javascript:void(0)"  data="{$Think.config.IMG_ROOT}/jifang11.jpg"
 									title="<strong>AUTO motor winding</strong>"><img
-									src="image/jifang11_sub.jpg"
+									src="{$Think.config.IMG_ROOT}/jifang11_sub.jpg"
 									alt="AUTO motor winding GREENCO Side Channel Blower Equipments" />
 								<p>
 										<a class="link-1"  href="#">
@@ -125,9 +124,9 @@
 									</p></a>
 							</div>
 							<div class="col-md-6 Equipments_image">
-								<a class="fancybox"  href="javascript:void(0)"  data="image/jifang10.jpg"
+								<a class="fancybox"  href="javascript:void(0)"  data="{$Think.config.IMG_ROOT}/jifang10.jpg"
 									title="<strong>SCHNEEBERGER Grinder</strong>"><img
-									src="image/jifang10_sub.jpg"
+									src="{$Think.config.IMG_ROOT}/jifang10_sub.jpg"
 									alt="SCHNEEBERGER Grinder GREENCO Side Channel Blower Equipments" />
 								<p>
 										<a class="link-1"  href="#">
@@ -149,7 +148,7 @@
 					      		<h4 class="modal-title">&nbsp;</h4>
 					    </div>
 					    <div class="modal-body">
-					      		<img id="mypic" style="width:100%" src="image/zhiliangrenzheng11.jpg" />
+					      		<img id="mypic" style="width:100%" src="{$Think.config.IMG_ROOT}/zhiliangrenzheng11.jpg" />
 					    </div>
 					    		<div class="modal-footer">
 					    </div>

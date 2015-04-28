@@ -6,7 +6,8 @@
 				<title><?php echo (L("INDEX_TITLE")); ?></title>
 				<meta name="keywords" content="<?php echo (L("INDEX_KEYWORDS")); ?>" />
 				<meta name="description" content="<?php echo (L("INDEX_DESCRIPTION")); ?>" />
-				<?php require 'inc/css.inc';?>
+				<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<link href="<?php echo (C("SRC_ROOT")); ?>/src/css/common.css" rel="stylesheet">
 				<link href="favicon.ico" rel="shortcut icon"/>
 		</head>
 				<body class="<?php echo (L("HEADER_BODY_CLASS")); ?>">
@@ -39,7 +40,7 @@
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="nav navbar-nav">
 										<li>
-												<a rel="nofollow"  href="index.php"><?php echo (L("HEADER_HOME")); ?></a>
+												<a rel="nofollow"  href="<?php echo (C("Index_ROOT")); ?>/index"><?php echo (L("HEADER_HOME")); ?></a>
 										</li>
 								  <li class="dropdown">
 								  		<a href="about_us.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -57,7 +58,7 @@
 									            		<a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/honour"><?php echo (L("HEADER_HONOUR")); ?></a>
 								            	</li>
 									            <li>
-									            		<a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/video.php"><?php echo (L("HEADER_VIDEO")); ?></a>
+									            		<a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/video"><?php echo (L("HEADER_VIDEO")); ?></a>
 							            		</li>
 									            <li>
 									            		<a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/equipments"><?php echo (L("HEADER_EQUIPMENTS")); ?></a>
@@ -67,13 +68,13 @@
 								  
 								  
 								  <li class="dropdown">
-								    <a href="Side_Channel_Blower_2RB_Single_Stage.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+								    <a href="<?php echo (C("PRO_ROOT")); ?>/2RB_1" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
 								    		<?php echo (L("HEADER_PRODUCTS")); ?>
 								    		<span class="caret"></span>
 								    </a>
 								    <ul class="dropdown-menu" role="menu">
 								            <li>
-								            	<a href="Side_Channel_Blower_2RB_Single_Stage.php"><?php echo (L("HEADER_2RB_SINGLE")); ?></a>
+								            	<a href="<?php echo (C("PRO_ROOT")); ?>/2RB_1"><?php echo (L("HEADER_2RB_SINGLE")); ?></a>
 							            	</li>
 								            <li>
 								            	<a href="Side_Channel_Blower_2RB_Double_Stage.php"><?php echo (L("HEADER_2RB_DOUBLE")); ?></a>
@@ -139,9 +140,9 @@
 									    		<span class="caret"></span>
 									    </a>
 									    <ul class="dropdown-menu" role="menu">
-									            <li><a rel="nofollow" href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
-									            <li><a rel="nofollow" href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
-									            <li><a rel="nofollow" href="support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
+									            <li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/company"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
+									            <li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/industry"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
+									            <li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
 								        </ul>
 					      		</li>        
 								<li>

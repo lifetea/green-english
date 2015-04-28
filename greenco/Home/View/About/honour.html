@@ -5,13 +5,13 @@
 <title>{$Think.lang.HONOUR_TITLE}</title>
 <meta name="keywords"	content="{$Think.lang.HONOUR_KEYWORDS}" />
 <meta name="description"	content="{$Think.lang.HONOUR_DESCRIPTION}" />
-<?php require 'inc/css.inc';?>
+<include file="../Public/css" />
 </head>
 <include file="../Public/header" />
 <!-- 荣誉内容start -->
 <div class="container-fuild">
 	<div class="container about">
-		<img src="image/about_banner.png" style="width: 100%; margin: 1em auto; border: 1px solid #999;" />
+		<img src="{$Think.config.IMG_ROOT}/about_banner.png"  class="banner" />
 		<div class="row">
 			<div class="col-md-3">
 				<include file="../Public/about-nav" />
@@ -20,49 +20,49 @@
 				 <h3 class="title-1">{$Think.lang.HEADER_HONOUR}</h3>
 				 <div class="honour-list">
 						<div class="col-md-6 row">
-							<img src="image/Honour1.jpg" alt="{$Think.lang.HONOUR_BRAND_PRODUCTS}" />
+							<img src="{$Think.config.IMG_ROOT}/Honour1.jpg" alt="{$Think.lang.HONOUR_BRAND_PRODUCTS}" />
 							<p>
 								<a class="link-1">{$Think.lang.HONOUR_BRAND_PRODUCTS}</a>
 							</p>
 							
 						</div>
 						<div class="col-md-6">
-							<img src="image/Honour2.jpg" alt="{$Think.lang.HONOUR_TAXER}" />
+							<img src="{$Think.config.IMG_ROOT}/Honour2.jpg" alt="{$Think.lang.HONOUR_TAXER}" />
 							<p>
 								<a class="link-1">{$Think.lang.HONOUR_TAXER}</a>
 							</p>
 							
 						</div>
 						<div class="col-md-6">
-							<img src="image/Honour7.jpg" alt="{$Think.lang.HONOUR_TECH ENTERPRISES}" />
+							<img src="{$Think.config.IMG_ROOT}/Honour7.jpg" alt="{$Think.lang.HONOUR_TECH ENTERPRISES}" />
 							<p>
 									<a class="link-1">{$Think.lang.HONOUR_TECH ENTERPRISES}</a>
 							</p>
 							
 						</div>
 						<div class="col-md-6">
-							<img src="image/Honour3.jpg" alt="{$Think.lang.HONOUR_TECHNOLOGY_CENTER}" />
+							<img src="{$Think.config.IMG_ROOT}/Honour3.jpg" alt="{$Think.lang.HONOUR_TECHNOLOGY_CENTER}" />
 							<p>
 								<a class="link-1">{$Think.lang.HONOUR_TECHNOLOGY_CENTER}</a>
 							</p>
 							
 						</div>
 						<div class="col-md-6">
-							<img src="image/Honour6.jpg"
+							<img src="{$Think.config.IMG_ROOT}/Honour6.jpg"
 								alt="{$Think.lang.HONOUR_FAMOUS_TRADEMARK}" />
 							<p>
 								<a>{$Think.lang.HONOUR_FAMOUS_TRADEMARK}</a>
 							</p>
 						</div>
 						<div class="col-md-6">
-							<img src="image/Honour8.jpg" alt="{$Think.lang.HONOUR_R&D_Center}" />
+							<img src="{$Think.config.IMG_ROOT}/Honour8.jpg" alt="{$Think.lang.HONOUR_R&D_Center}" />
 							<p>
 								<a class="link-1">{$Think.lang.HONOUR_R&D_Center}</a>
 							</p>
 							
 						</div>
 						<div class="col-md-6">
-							<img src="image/Honour4.jpg"
+							<img src="{$Think.config.IMG_ROOT}/Honour4.jpg"
 								alt="{$Think.lang.HONOUR_CREDIT_UNIT}" />
 							<p>
 									<a class="link-1">{$Think.lang.HONOUR_CREDIT_UNIT}</a>
@@ -70,7 +70,7 @@
 							
 						</div>
 						<div class="col-md-6">
-							<img src="image/Honour5.jpg"
+							<img src="{$Think.config.IMG_ROOT}/Honour5.jpg"
 								alt="{$Think.lang.HONOUR_ELECTRICAL_PRODUCTS}" />
 							<p>
 									<a class="link-1">{$Think.lang.HONOUR_ELECTRICAL_PRODUCTS}</a>

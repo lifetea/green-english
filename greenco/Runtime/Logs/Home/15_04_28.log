@@ -2824,3 +2824,3626 @@ INFO: [ app_init ] --START--
 INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
 INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
 
+[ 2015-04-28T19:42:18+08:00 ] 192.168.1.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000749s ]
+
+[ 2015-04-28T19:42:20+08:00 ] 192.168.1.42 /Index/about_us
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+
+[ 2015-04-28T19:42:24+08:00 ] 192.168.1.42 /Index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000605s ]
+
+[ 2015-04-28T19:42:25+08:00 ] 192.168.1.42 /Index/about_us
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+
+[ 2015-04-28T19:46:01+08:00 ] 192.168.1.42 /Index/about_us
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000635s ]
+
+[ 2015-04-28T19:46:39+08:00 ] 192.168.1.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+
+[ 2015-04-28T19:48:48+08:00 ] 192.168.1.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+
+[ 2015-04-28T19:48:49+08:00 ] 192.168.1.42 /font.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+ERR: 无法加载控制器:Font.swf
+
+[ 2015-04-28T19:48:51+08:00 ] 192.168.1.42 /Index/about_us
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+
+[ 2015-04-28T19:48:52+08:00 ] 192.168.1.42 /Index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+
+[ 2015-04-28T19:49:07+08:00 ] 192.168.1.42 /Index/honour
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000555s ]
+
+[ 2015-04-28T19:49:08+08:00 ] 192.168.1.42 /Index/image/about_banner.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008425s ]
+
+[ 2015-04-28T19:49:08+08:00 ] 192.168.1.42 /Index/image/Honour1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009327s ]
+
+[ 2015-04-28T19:49:08+08:00 ] 192.168.1.42 /Index/image/Honour7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003068s ]
+
+[ 2015-04-28T19:49:08+08:00 ] 192.168.1.42 /Index/image/Honour3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003880s ]
+
+[ 2015-04-28T19:49:08+08:00 ] 192.168.1.42 /Index/image/Honour2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002755s ]
+
+[ 2015-04-28T19:49:08+08:00 ] 192.168.1.42 /Index/src/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004267s ]
+ERR: 非法操作:src
+
+[ 2015-04-28T19:49:08+08:00 ] 192.168.1.42 /Index/image/Honour6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001600s ]
+
+[ 2015-04-28T19:49:08+08:00 ] 192.168.1.42 /Index/image/Honour4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000278s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002363s ]
+
+[ 2015-04-28T19:49:08+08:00 ] 192.168.1.42 /Index/image/Honour8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003188s ]
+
+[ 2015-04-28T19:49:08+08:00 ] 192.168.1.42 /Index/image/Honour5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001783s ]
+
+[ 2015-04-28T19:49:14+08:00 ] 192.168.1.42 /Index/certification
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000897s ]
+
+[ 2015-04-28T19:49:14+08:00 ] 192.168.1.42 /Index/image/zhiliangrenzheng4_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002504s ]
+
+[ 2015-04-28T19:49:14+08:00 ] 192.168.1.42 /Index/image/about_banner.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002154s ]
+
+[ 2015-04-28T19:49:14+08:00 ] 192.168.1.42 /Index/image/zhiliangrenzheng12_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002477s ]
+
+[ 2015-04-28T19:49:14+08:00 ] 192.168.1.42 /Index/image/zhiliangrenzheng10_sub.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002126s ]
+
+[ 2015-04-28T19:49:14+08:00 ] 192.168.1.42 /Index/image/zhiliangrenzheng5_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002216s ]
+
+[ 2015-04-28T19:49:14+08:00 ] 192.168.1.42 /Index/image/zhiliangrenzheng3_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001869s ]
+
+[ 2015-04-28T19:49:14+08:00 ] 192.168.1.42 /Index/image/zhiliangrenzheng9_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001758s ]
+
+[ 2015-04-28T19:49:14+08:00 ] 192.168.1.42 /Index/image/zhiliangrenzheng6_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002339s ]
+
+[ 2015-04-28T19:49:14+08:00 ] 192.168.1.42 /Index/image/zhiliangrenzheng2_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002309s ]
+
+[ 2015-04-28T19:49:14+08:00 ] 192.168.1.42 /Index/image/zhiliangrenzheng11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002517s ]
+
+[ 2015-04-28T19:49:14+08:00 ] 192.168.1.42 /Index/image/zhiliangrenzheng11_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001899s ]
+
+[ 2015-04-28T19:51:22+08:00 ] 192.168.1.42 /Index/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+ERR: 非法操作:index.php
+
+[ 2015-04-28T19:51:25+08:00 ] 192.168.1.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+
+[ 2015-04-28T19:51:25+08:00 ] 192.168.1.42 /font.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+ERR: 无法加载控制器:Font.swf
+
+[ 2015-04-28T19:51:28+08:00 ] 192.168.1.42 /About/about_us
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+
+[ 2015-04-28T19:51:28+08:00 ] 192.168.1.42 /About/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+
+[ 2015-04-28T19:51:31+08:00 ] 192.168.1.42 /About/certification
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+
+[ 2015-04-28T19:51:31+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng4_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002276s ]
+
+[ 2015-04-28T19:51:31+08:00 ] 192.168.1.42 /About/image/about_banner.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002302s ]
+
+[ 2015-04-28T19:51:31+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng5_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002156s ]
+
+[ 2015-04-28T19:51:31+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng12_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001835s ]
+
+[ 2015-04-28T19:51:31+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng10_sub.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002084s ]
+
+[ 2015-04-28T19:51:31+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng3_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001772s ]
+
+[ 2015-04-28T19:51:31+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng11_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001714s ]
+
+[ 2015-04-28T19:51:31+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng2_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002058s ]
+
+[ 2015-04-28T19:51:31+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng9_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001807s ]
+
+[ 2015-04-28T19:51:31+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng6_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001774s ]
+
+[ 2015-04-28T19:51:31+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002392s ]
+
+[ 2015-04-28T19:53:11+08:00 ] 192.168.1.42 /About/certification
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000707s ]
+
+[ 2015-04-28T19:53:12+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng10_sub.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002521s ]
+
+[ 2015-04-28T19:53:12+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng4_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003079s ]
+
+[ 2015-04-28T19:53:12+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng12_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005019s ]
+
+[ 2015-04-28T19:53:12+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng5_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002805s ]
+
+[ 2015-04-28T19:53:12+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng2_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003429s ]
+
+[ 2015-04-28T19:53:12+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng3_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003319s ]
+
+[ 2015-04-28T19:53:12+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng9_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001824s ]
+
+[ 2015-04-28T19:53:12+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng6_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001814s ]
+
+[ 2015-04-28T19:53:12+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng11_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003782s ]
+
+[ 2015-04-28T19:53:12+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003210s ]
+
+[ 2015-04-28T19:55:52+08:00 ] 192.168.1.42 /About/certification
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+
+[ 2015-04-28T19:56:09+08:00 ] 192.168.1.42 /About/certification
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+
+[ 2015-04-28T19:56:45+08:00 ] 192.168.1.42 /About/honour
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000829s ]
+
+[ 2015-04-28T19:56:45+08:00 ] 192.168.1.42 /About/image/Honour6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002159s ]
+
+[ 2015-04-28T19:56:45+08:00 ] 192.168.1.42 /About/image/Honour1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002202s ]
+
+[ 2015-04-28T19:56:45+08:00 ] 192.168.1.42 /About/image/Honour7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002173s ]
+
+[ 2015-04-28T19:56:45+08:00 ] 192.168.1.42 /About/image/Honour2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002372s ]
+
+[ 2015-04-28T19:56:45+08:00 ] 192.168.1.42 /About/image/Honour3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002766s ]
+
+[ 2015-04-28T19:56:45+08:00 ] 192.168.1.42 /About/src/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002032s ]
+ERR: 非法操作:src
+
+[ 2015-04-28T19:56:45+08:00 ] 192.168.1.42 /About/image/Honour5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001506s ]
+
+[ 2015-04-28T19:56:45+08:00 ] 192.168.1.42 /About/image/Honour4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001278s ]
+
+[ 2015-04-28T19:56:45+08:00 ] 192.168.1.42 /About/image/Honour8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002202s ]
+
+[ 2015-04-28T19:56:56+08:00 ] 192.168.1.42 /About/src/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001575s ]
+ERR: 非法操作:src
+
+[ 2015-04-28T19:58:20+08:00 ] 192.168.1.42 /About/honour
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+
+[ 2015-04-28T19:58:21+08:00 ] 192.168.1.42 /src/img/Honour1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004301s ]
+
+[ 2015-04-28T19:58:21+08:00 ] 192.168.1.42 /src/img/Honour7.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003590s ]
+
+[ 2015-04-28T19:58:21+08:00 ] 192.168.1.42 /src/img/Honour8.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004724s ]
+
+[ 2015-04-28T19:58:21+08:00 ] 192.168.1.42 /src/img/Honour2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004661s ]
+
+[ 2015-04-28T19:58:21+08:00 ] 192.168.1.42 /src/img/Honour3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006007s ]
+
+[ 2015-04-28T19:58:21+08:00 ] 192.168.1.42 /src/img/Honour6.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004798s ]
+
+[ 2015-04-28T19:58:21+08:00 ] 192.168.1.42 /src/img/Honour5.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001314s ]
+
+[ 2015-04-28T19:58:21+08:00 ] 192.168.1.42 /src/img/Honour4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+
+[ 2015-04-28T19:58:59+08:00 ] 192.168.1.42 /About/honour
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000895s ]
+
+[ 2015-04-28T19:59:09+08:00 ] 192.168.1.42 /About/video.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+ERR: 非法操作:video.php
+
+[ 2015-04-28T20:00:40+08:00 ] 192.168.1.42 /About/video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+
+[ 2015-04-28T20:00:40+08:00 ] 192.168.1.42 /About/src/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001519s ]
+ERR: 非法操作:src
+
+[ 2015-04-28T20:00:40+08:00 ] 192.168.1.42 /About/src/video/jwplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+ERR: 非法操作:src
+
+[ 2015-04-28T20:01:10+08:00 ] 192.168.1.42 /About/video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+
+[ 2015-04-28T20:01:11+08:00 ] 192.168.1.42 /About/src/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000807s ]
+ERR: 非法操作:src
+
+[ 2015-04-28T20:01:11+08:00 ] 192.168.1.42 /About/src/video/jwplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+ERR: 非法操作:src
+
+[ 2015-04-28T20:01:14+08:00 ] 192.168.1.42 /About/video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+
+[ 2015-04-28T20:01:14+08:00 ] 192.168.1.42 /About/src/video/jwplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002056s ]
+ERR: 非法操作:src
+
+[ 2015-04-28T20:01:14+08:00 ] 192.168.1.42 /About/src/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+ERR: 非法操作:src
+
+[ 2015-04-28T20:01:31+08:00 ] 192.168.1.42 /About/video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+
+[ 2015-04-28T20:01:32+08:00 ] 192.168.1.42 /About/src/video/jwplayer.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000848s ]
+ERR: 非法操作:src
+
+[ 2015-04-28T20:02:31+08:00 ] 192.168.1.42 /About/video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000800s ]
+
+[ 2015-04-28T20:02:31+08:00 ] 192.168.1.42 /About/src/video/player.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003168s ]
+ERR: 非法操作:src
+
+[ 2015-04-28T20:03:09+08:00 ] 192.168.1.42 /About/video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+
+[ 2015-04-28T20:03:15+08:00 ] 192.168.1.42 /About/video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000966s ]
+
+[ 2015-04-28T20:03:38+08:00 ] 192.168.1.42 /About/equipments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+
+[ 2015-04-28T20:03:38+08:00 ] 192.168.1.42 /About/image/jifang3_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002684s ]
+
+[ 2015-04-28T20:03:38+08:00 ] 192.168.1.42 /About/image/jifang4_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002821s ]
+
+[ 2015-04-28T20:03:38+08:00 ] 192.168.1.42 /About/image/jifang1_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002637s ]
+
+[ 2015-04-28T20:03:38+08:00 ] 192.168.1.42 /About/image/jifang2_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002364s ]
+
+[ 2015-04-28T20:03:38+08:00 ] 192.168.1.42 /About/image/jifang5_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002342s ]
+
+[ 2015-04-28T20:03:38+08:00 ] 192.168.1.42 /About/src/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003488s ]
+ERR: 非法操作:src
+
+[ 2015-04-28T20:03:38+08:00 ] 192.168.1.42 /About/image/jifang7_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003178s ]
+
+[ 2015-04-28T20:03:38+08:00 ] 192.168.1.42 /About/image/jifang8_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002508s ]
+
+[ 2015-04-28T20:03:38+08:00 ] 192.168.1.42 /About/image/jifang6_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003444s ]
+
+[ 2015-04-28T20:03:38+08:00 ] 192.168.1.42 /About/image/jifang11_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001916s ]
+
+[ 2015-04-28T20:03:38+08:00 ] 192.168.1.42 /About/image/jifang10_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004815s ]
+
+[ 2015-04-28T20:03:38+08:00 ] 192.168.1.42 /About/image/zhiliangrenzheng11.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004791s ]
+
+[ 2015-04-28T20:05:11+08:00 ] 192.168.1.42 /About/equipments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+
+[ 2015-04-28T20:05:11+08:00 ] 192.168.1.42 /src/img/jifang4_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005126s ]
+
+[ 2015-04-28T20:05:11+08:00 ] 192.168.1.42 /src/img/jifang2_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002947s ]
+
+[ 2015-04-28T20:05:11+08:00 ] 192.168.1.42 /src/img/jifang6_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002545s ]
+
+[ 2015-04-28T20:05:11+08:00 ] 192.168.1.42 /src/img/jifang3_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002586s ]
+
+[ 2015-04-28T20:05:11+08:00 ] 192.168.1.42 /src/img/jifang1_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002821s ]
+
+[ 2015-04-28T20:05:11+08:00 ] 192.168.1.42 /src/img/jifang5_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002626s ]
+
+[ 2015-04-28T20:05:11+08:00 ] 192.168.1.42 /src/img/jifang8_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001414s ]
+
+[ 2015-04-28T20:05:11+08:00 ] 192.168.1.42 /src/img/jifang7_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001492s ]
+
+[ 2015-04-28T20:05:11+08:00 ] 192.168.1.42 /src/img/jifang10_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001132s ]
+
+[ 2015-04-28T20:05:11+08:00 ] 192.168.1.42 /src/img/jifang11_sub.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001728s ]
+
+[ 2015-04-28T20:05:49+08:00 ] 192.168.1.42 /About/equipments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+
+[ 2015-04-28T20:06:41+08:00 ] 192.168.1.42 /About/equipments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000814s ]
+
+[ 2015-04-28T20:06:52+08:00 ] 192.168.1.42 /About/equipments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000891s ]
+
+[ 2015-04-28T20:06:54+08:00 ] 192.168.1.42 /About/about_us
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+
+[ 2015-04-28T20:06:56+08:00 ] 192.168.1.42 /About/certification
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000601s ]
+
+[ 2015-04-28T20:06:58+08:00 ] 192.168.1.42 /About/honour
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2015-04-28T20:07:00+08:00 ] 192.168.1.42 /About/video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+
+[ 2015-04-28T20:07:02+08:00 ] 192.168.1.42 /About/equipments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001224s ]
+
+[ 2015-04-28T20:07:12+08:00 ] 192.168.1.42 /About/news_company.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000822s ]
+ERR: 非法操作:news_company.php
+
+[ 2015-04-28T20:07:20+08:00 ] 192.168.1.42 /About/application
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+ERR: 非法操作:application
+
+[ 2015-04-28T20:07:29+08:00 ] 192.168.1.42 /About/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+ERR: 非法操作:contact
+
+[ 2015-04-28T20:08:45+08:00 ] 192.168.1.42 /About/Side_Channel_Blower_3RB_Single_Stage.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000578s ]
+ERR: 非法操作:Side_Channel_Blower_3RB_Single_Stage.php
+
+[ 2015-04-28T20:12:15+08:00 ] 192.168.1.42 /About/news_company.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001147s ]
+ERR: 非法操作:news_company.php
+
+[ 2015-04-28T20:13:31+08:00 ] 192.168.1.42 /About/equipments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+
+[ 2015-04-28T20:13:34+08:00 ] 192.168.1.42 /About/company
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 非法操作:company
+
+[ 2015-04-28T20:13:59+08:00 ] 192.168.1.42 /About/company
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+ERR: 非法操作:company
+
+[ 2015-04-28T20:14:03+08:00 ] 192.168.1.42 /About/equipments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+
+[ 2015-04-28T20:14:05+08:00 ] 192.168.1.42 /News/company
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+
+[ 2015-04-28T20:14:05+08:00 ] 192.168.1.42 /News/js/jquery.quickpaginate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001761s ]
+ERR: 非法操作:js
+
+[ 2015-04-28T20:14:05+08:00 ] 192.168.1.42 /News/src/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001841s ]
+ERR: 非法操作:src
+
+[ 2015-04-28T20:14:05+08:00 ] 192.168.1.42 /News/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000491s ]
+
+[ 2015-04-28T20:15:12+08:00 ] 192.168.1.42 /News/company
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000472s ]
+
+[ 2015-04-28T20:15:12+08:00 ] 192.168.1.42 /News/js/jquery.quickpaginate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+ERR: 非法操作:js
+
+[ 2015-04-28T20:15:24+08:00 ] 192.168.1.42 /News/industry
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+
+[ 2015-04-28T20:15:24+08:00 ] 192.168.1.42 /News/js/jquery.quickpaginate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+ERR: 非法操作:js
+
+[ 2015-04-28T20:15:28+08:00 ] 192.168.1.42 /News/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+
+[ 2015-04-28T20:15:28+08:00 ] 192.168.1.42 /News/js/jquery.quickpaginate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001897s ]
+ERR: 非法操作:js
+
+[ 2015-04-28T21:08:56+08:00 ] 192.168.1.42 /News/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000539s ]
+
+[ 2015-04-28T21:08:56+08:00 ] 192.168.1.42 /News/js/jquery.quickpaginate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+ERR: 非法操作:js
+
+[ 2015-04-28T21:10:41+08:00 ] 192.168.1.42 /News/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+
+[ 2015-04-28T21:10:41+08:00 ] 192.168.1.42 /News/JS_ROOT/jquery.quickpaginate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000858s ]
+ERR: 非法操作:JS_ROOT
+
+[ 2015-04-28T21:10:52+08:00 ] 192.168.1.42 /News/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000508s ]
+
+[ 2015-04-28T21:10:53+08:00 ] 192.168.1.42 /News/JS_ROOT/jquery.quickpaginate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001408s ]
+ERR: 非法操作:JS_ROOT
+
+[ 2015-04-28T21:11:52+08:00 ] 192.168.1.42 /News/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+
+[ 2015-04-28T21:11:52+08:00 ] 192.168.1.42 /src/js/jquery.quickpaginate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002869s ]
+ERR: 无法加载控制器:Src
+
+[ 2015-04-28T21:12:40+08:00 ] 192.168.1.42 /News/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+
+[ 2015-04-28T21:13:11+08:00 ] 192.168.1.42 /News/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000526s ]
+
+[ 2015-04-28T21:13:14+08:00 ] 192.168.1.42 /News/company
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+
+[ 2015-04-28T21:13:20+08:00 ] 192.168.1.42 /News/industry
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000602s ]
+
+[ 2015-04-28T21:13:26+08:00 ] 192.168.1.42 /News/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000494s ]
+
+[ 2015-04-28T21:13:41+08:00 ] 192.168.1.42 /News/support_content.php?id=66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000509s ]
+ERR: 非法操作:support_content.php
+
+[ 2015-04-28T21:15:02+08:00 ] 192.168.1.42 /News/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000481s ]
+
+[ 2015-04-28T21:15:03+08:00 ] 192.168.1.42 /News/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+
+[ 2015-04-28T21:15:04+08:00 ] 192.168.1.42 /News/news_content?id=66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+
+[ 2015-04-28T21:15:04+08:00 ] 192.168.1.42 /News/js/jquery.quickpaginate.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001082s ]
+ERR: 非法操作:js
+
+[ 2015-04-28T21:15:32+08:00 ] 192.168.1.42 /News/news_content?id=66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+
+[ 2015-04-28T21:15:49+08:00 ] 192.168.1.42 /News/news_company.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+ERR: 非法操作:news_company.php
+
+[ 2015-04-28T21:15:54+08:00 ] 192.168.1.42 /News/news_Industry.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+ERR: 非法操作:news_Industry.php
+
+[ 2015-04-28T21:16:09+08:00 ] 192.168.1.42 /News/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000763s ]
+ERR: 非法操作:index.php
+
+[ 2015-04-28T21:16:13+08:00 ] 192.168.1.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2015-04-28T21:16:14+08:00 ] 192.168.1.42 /font.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+ERR: 无法加载控制器:Font.swf
+
+[ 2015-04-28T21:16:20+08:00 ] 192.168.1.42 /News/company
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001025s ]
+
+[ 2015-04-28T21:16:22+08:00 ] 192.168.1.42 /News/news_content?id=48
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+
+[ 2015-04-28T21:17:05+08:00 ] 192.168.1.42 /News/news_content?id=48
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000688s ]
+
+[ 2015-04-28T21:17:15+08:00 ] 192.168.1.42 /News/news_content?id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+
+[ 2015-04-28T21:17:46+08:00 ] 192.168.1.42 /News/news_content?id=53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+
+[ 2015-04-28T21:18:03+08:00 ] 192.168.1.42 /News/company
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001106s ]
+
+[ 2015-04-28T21:18:05+08:00 ] 192.168.1.42 /News/industry
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000826s ]
+
+[ 2015-04-28T21:18:08+08:00 ] 192.168.1.42 /News/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+
+[ 2015-04-28T21:18:11+08:00 ] 192.168.1.42 /News/application
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+ERR: 非法操作:application
+
+[ 2015-04-28T21:18:19+08:00 ] 192.168.1.42 /News/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000772s ]
+
+[ 2015-04-28T21:18:21+08:00 ] 192.168.1.42 /News/news_Industry.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+ERR: 非法操作:news_Industry.php
+
+[ 2015-04-28T21:19:43+08:00 ] 192.168.1.42 /News/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+
+[ 2015-04-28T21:19:44+08:00 ] 192.168.1.42 /News/company
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+
+[ 2015-04-28T21:19:48+08:00 ] 192.168.1.42 /News/industry
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+
+[ 2015-04-28T21:19:50+08:00 ] 192.168.1.42 /News/support
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+
+[ 2015-04-28T21:19:53+08:00 ] 192.168.1.42 /News/industry
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000584s ]
+
+[ 2015-04-28T21:20:02+08:00 ] 192.168.1.42 /News/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000581s ]
+ERR: 非法操作:index.php
+
+[ 2015-04-28T21:20:59+08:00 ] 192.168.1.42 /News/industry
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+
+[ 2015-04-28T21:21:00+08:00 ] 192.168.1.42 /About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+ERR: 模板不存在:./greenco/Home/View/About/index.html
+
+[ 2015-04-28T21:21:04+08:00 ] 192.168.1.42 /About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000589s ]
+ERR: 模板不存在:./greenco/Home/View/About/index.html
+
+[ 2015-04-28T21:21:06+08:00 ] 192.168.1.42 /News/industry
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000660s ]
+
+[ 2015-04-28T21:21:07+08:00 ] 192.168.1.42 /About/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+ERR: 模板不存在:./greenco/Home/View/About/index.html
+
+[ 2015-04-28T21:21:36+08:00 ] 192.168.1.42 /News/industry
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000715s ]
+
+[ 2015-04-28T21:21:42+08:00 ] 192.168.1.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000884s ]
+
+[ 2015-04-28T21:21:42+08:00 ] 192.168.1.42 /font.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001309s ]
+ERR: 无法加载控制器:Font.swf
+
+[ 2015-04-28T21:22:02+08:00 ] 192.168.1.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+
+[ 2015-04-28T21:22:03+08:00 ] 192.168.1.42 /font.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002782s ]
+ERR: 无法加载控制器:Font.swf
+
+[ 2015-04-28T21:22:03+08:00 ] 192.168.1.42 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+
+[ 2015-04-28T21:22:04+08:00 ] 192.168.1.42 /Index/src/css/common.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+ERR: 非法操作:src
+
+[ 2015-04-28T21:22:04+08:00 ] 192.168.1.42 /Index/cu3er.swf?t=1430227324000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000840s ]
+ERR: 非法操作:cu3er.swf
+
+[ 2015-04-28T21:22:34+08:00 ] 192.168.1.42 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2015-04-28T21:22:35+08:00 ] 192.168.1.42 /Index/cu3er.swf?t=1430227354000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000878s ]
+ERR: 非法操作:cu3er.swf
+
+[ 2015-04-28T21:22:57+08:00 ] 192.168.1.42 /About/equipments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+
+[ 2015-04-28T21:23:00+08:00 ] 192.168.1.42 /About/video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+
+[ 2015-04-28T21:23:01+08:00 ] 192.168.1.42 /About/honour
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+
+[ 2015-04-28T21:23:03+08:00 ] 192.168.1.42 /About/certification
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2015-04-28T21:23:05+08:00 ] 192.168.1.42 /About/about_us
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+
+[ 2015-04-28T21:23:08+08:00 ] 192.168.1.42 /About/Side_Channel_Blower_2RB_Single_Stage.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000883s ]
+ERR: 非法操作:Side_Channel_Blower_2RB_Single_Stage.php
+
+[ 2015-04-28T21:23:10+08:00 ] 192.168.1.42 /About/application
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000686s ]
+ERR: 非法操作:application
+
+[ 2015-04-28T21:23:40+08:00 ] 192.168.1.42 /About/about_us
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000810s ]
+
+[ 2015-04-28T21:23:43+08:00 ] 192.168.1.42 /About/Download.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000913s ]
+ERR: 非法操作:Download.php
+
+[ 2015-04-28T21:23:45+08:00 ] 192.168.1.42 /About/contact
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 非法操作:contact
+
+[ 2015-04-28T21:24:11+08:00 ] 192.168.1.42 /About/Side_Channel_Blower_2RB_Single_Stage.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+ERR: 非法操作:Side_Channel_Blower_2RB_Single_Stage.php
+
+[ 2015-04-28T21:27:04+08:00 ] 192.168.1.42 /About/Side_Channel_Blower_2RB_Single_Stage.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000781s ]
+ERR: 非法操作:Side_Channel_Blower_2RB_Single_Stage.php
+
+[ 2015-04-28T21:30:25+08:00 ] 192.168.1.42 /About/Side_Channel_Blower_2RB_Single_Stage.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+ERR: 非法操作:Side_Channel_Blower_2RB_Single_Stage.php
+
+[ 2015-04-28T21:30:35+08:00 ] 192.168.1.42 /About/about_us
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+
+[ 2015-04-28T21:30:37+08:00 ] 192.168.1.42 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+
+[ 2015-04-28T21:30:38+08:00 ] 192.168.1.42 /Index/cu3er.swf?t=1430227837000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+ERR: 非法操作:cu3er.swf
+
+[ 2015-04-28T21:30:40+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000718s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001498s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001749s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002293s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002493s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/image/product_banner.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003182s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002746s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001603s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001495s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002163s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002708s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003973s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006133s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001533s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001713s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001880s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001802s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001589s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004134s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001223s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002055s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001345s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/image/search_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002484s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002951s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/image/search.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001409s ]
+
+[ 2015-04-28T21:30:41+08:00 ] 192.168.1.42 /Pro/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000737s ]
+
+[ 2015-04-28T21:31:27+08:00 ] 192.168.1.42 /Pro/Side_Channel_Blower_2RB_Single_Stage_table.php?series=610
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+ERR: 非法操作:Side_Channel_Blower_2RB_Single_Stage_table.php
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000901s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004972s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005952s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005488s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006614s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/image/product_banner.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007379s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009598s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007286s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001941s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000053s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002567s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003045s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003505s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011614s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/image/search_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002344s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002049s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001991s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002642s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004243s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004486s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006201s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002605s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002817s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007988s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/image/search.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005568s ]
+
+[ 2015-04-28T21:33:13+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004435s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004563s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004716s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003382s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004537s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/image/product_banner.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005145s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003393s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002645s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002055s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/image/search_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002245s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002047s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002036s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003337s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002685s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003732s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004716s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003029s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003637s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003877s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001689s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001980s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002129s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/image/search.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001450s ]
+
+[ 2015-04-28T21:35:20+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000319s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002454s ]
+
+[ 2015-04-28T21:36:56+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000565s ]
+
+[ 2015-04-28T21:36:56+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007051s ]
+
+[ 2015-04-28T21:36:56+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002664s ]
+
+[ 2015-04-28T21:36:56+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002532s ]
+
+[ 2015-04-28T21:36:56+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003013s ]
+
+[ 2015-04-28T21:36:56+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003153s ]
+
+[ 2015-04-28T21:36:56+08:00 ] 192.168.1.42 /Pro/image/product_banner.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004367s ]
+
+[ 2015-04-28T21:36:56+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002473s ]
+
+[ 2015-04-28T21:36:56+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002631s ]
+
+[ 2015-04-28T21:36:56+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002371s ]
+
+[ 2015-04-28T21:36:56+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002455s ]
+
+[ 2015-04-28T21:36:56+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002459s ]
+
+[ 2015-04-28T21:36:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002558s ]
+
+[ 2015-04-28T21:36:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001655s ]
+
+[ 2015-04-28T21:36:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001683s ]
+
+[ 2015-04-28T21:36:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002014s ]
+
+[ 2015-04-28T21:36:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001565s ]
+
+[ 2015-04-28T21:36:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004067s ]
+
+[ 2015-04-28T21:36:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002707s ]
+
+[ 2015-04-28T21:36:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003127s ]
+
+[ 2015-04-28T21:36:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002312s ]
+
+[ 2015-04-28T21:36:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002225s ]
+
+[ 2015-04-28T21:36:57+08:00 ] 192.168.1.42 /Pro/image/search.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003138s ]
+
+[ 2015-04-28T21:36:57+08:00 ] 192.168.1.42 /Pro/image/search_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004036s ]
+
+[ 2015-04-28T21:36:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002890s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002419s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002816s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002128s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002834s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002007s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002928s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004526s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005289s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005565s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003354s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003312s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003373s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002997s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003454s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003799s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000274s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009078s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004316s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005224s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001604s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003497s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/image/search_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002601s ]
+
+[ 2015-04-28T21:38:02+08:00 ] 192.168.1.42 /Pro/image/search.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000137s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002890s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004132s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005563s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004080s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005916s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008463s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009091s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003445s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002996s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006842s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007632s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009570s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003250s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002178s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002725s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006610s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006577s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003986s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003647s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001539s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002027s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001825s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/image/search_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001059s ]
+
+[ 2015-04-28T21:38:38+08:00 ] 192.168.1.42 /Pro/image/search.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001186s ]
+
+[ 2015-04-28T21:39:44+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+
+[ 2015-04-28T21:39:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002661s ]
+
+[ 2015-04-28T21:39:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002834s ]
+
+[ 2015-04-28T21:39:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002721s ]
+
+[ 2015-04-28T21:39:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003438s ]
+
+[ 2015-04-28T21:39:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002851s ]
+
+[ 2015-04-28T21:39:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003379s ]
+
+[ 2015-04-28T21:39:44+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004814s ]
+
+[ 2015-04-28T21:39:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003090s ]
+
+[ 2015-04-28T21:39:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004041s ]
+
+[ 2015-04-28T21:39:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004089s ]
+
+[ 2015-04-28T21:39:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002931s ]
+
+[ 2015-04-28T21:39:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002291s ]
+
+[ 2015-04-28T21:39:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003552s ]
+
+[ 2015-04-28T21:39:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004264s ]
+
+[ 2015-04-28T21:39:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003867s ]
+
+[ 2015-04-28T21:39:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001851s ]
+
+[ 2015-04-28T21:39:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002139s ]
+
+[ 2015-04-28T21:39:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003077s ]
+
+[ 2015-04-28T21:39:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001125s ]
+
+[ 2015-04-28T21:39:45+08:00 ] 192.168.1.42 /Pro/image/search_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+
+[ 2015-04-28T21:39:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001421s ]
+
+[ 2015-04-28T21:39:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003087s ]
+
+[ 2015-04-28T21:39:45+08:00 ] 192.168.1.42 /Pro/image/search.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001628s ]
+
+[ 2015-04-28T21:40:11+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+
+[ 2015-04-28T21:40:11+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003087s ]
+
+[ 2015-04-28T21:40:11+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002849s ]
+
+[ 2015-04-28T21:40:11+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002841s ]
+
+[ 2015-04-28T21:40:11+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004494s ]
+
+[ 2015-04-28T21:40:11+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004331s ]
+
+[ 2015-04-28T21:40:11+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004159s ]
+
+[ 2015-04-28T21:40:11+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002741s ]
+
+[ 2015-04-28T21:40:11+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003133s ]
+
+[ 2015-04-28T21:40:11+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002703s ]
+
+[ 2015-04-28T21:40:11+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003200s ]
+
+[ 2015-04-28T21:40:11+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003650s ]
+
+[ 2015-04-28T21:40:11+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001875s ]
+
+[ 2015-04-28T21:40:12+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001360s ]
+
+[ 2015-04-28T21:40:12+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002347s ]
+
+[ 2015-04-28T21:40:12+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001735s ]
+
+[ 2015-04-28T21:40:12+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001732s ]
+
+[ 2015-04-28T21:40:12+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002428s ]
+
+[ 2015-04-28T21:40:12+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002248s ]
+
+[ 2015-04-28T21:40:12+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001956s ]
+
+[ 2015-04-28T21:40:12+08:00 ] 192.168.1.42 /Pro/image/search.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002362s ]
+
+[ 2015-04-28T21:40:12+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002977s ]
+
+[ 2015-04-28T21:40:12+08:00 ] 192.168.1.42 /Pro/image/search_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001652s ]
+
+[ 2015-04-28T21:40:12+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001658s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002897s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002849s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002482s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003134s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000431s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004281s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003528s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002656s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002395s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003136s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004167s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005507s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006041s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002060s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001594s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001845s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001665s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010213s ]
+
+[ 2015-04-28T21:44:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003880s ]
+
+[ 2015-04-28T21:44:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002730s ]
+
+[ 2015-04-28T21:44:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003600s ]
+
+[ 2015-04-28T21:44:16+08:00 ] 192.168.1.42 /Pro/image/search_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002575s ]
+
+[ 2015-04-28T21:44:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002395s ]
+
+[ 2015-04-28T21:44:16+08:00 ] 192.168.1.42 /Pro/image/search.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005444s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000560s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003512s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005804s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002327s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003617s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007046s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007450s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/image/search_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001956s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002317s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002193s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002594s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002800s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001986s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005319s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003502s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004327s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001977s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002355s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002185s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001580s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001156s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001680s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/image/search.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001543s ]
+
+[ 2015-04-28T21:44:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002513s ]
+
+[ 2015-04-28T21:45:15+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2015-04-28T21:45:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003475s ]
+
+[ 2015-04-28T21:45:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004328s ]
+
+[ 2015-04-28T21:45:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003799s ]
+
+[ 2015-04-28T21:45:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006289s ]
+
+[ 2015-04-28T21:45:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005268s ]
+
+[ 2015-04-28T21:45:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007508s ]
+
+[ 2015-04-28T21:45:15+08:00 ] 192.168.1.42 /Pro/image/search_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002982s ]
+
+[ 2015-04-28T21:45:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002849s ]
+
+[ 2015-04-28T21:45:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003620s ]
+
+[ 2015-04-28T21:45:15+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006070s ]
+
+[ 2015-04-28T21:45:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005316s ]
+
+[ 2015-04-28T21:45:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004969s ]
+
+[ 2015-04-28T21:45:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002959s ]
+
+[ 2015-04-28T21:45:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002449s ]
+
+[ 2015-04-28T21:45:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002851s ]
+
+[ 2015-04-28T21:45:15+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002071s ]
+
+[ 2015-04-28T21:45:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002018s ]
+
+[ 2015-04-28T21:45:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002557s ]
+
+[ 2015-04-28T21:45:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+
+[ 2015-04-28T21:45:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+
+[ 2015-04-28T21:45:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000930s ]
+
+[ 2015-04-28T21:45:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002134s ]
+
+[ 2015-04-28T21:47:44+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000613s ]
+
+[ 2015-04-28T21:47:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003498s ]
+
+[ 2015-04-28T21:47:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005832s ]
+
+[ 2015-04-28T21:47:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005388s ]
+
+[ 2015-04-28T21:47:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004240s ]
+
+[ 2015-04-28T21:47:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003195s ]
+
+[ 2015-04-28T21:47:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002785s ]
+
+[ 2015-04-28T21:47:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001892s ]
+
+[ 2015-04-28T21:47:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001784s ]
+
+[ 2015-04-28T21:47:45+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002369s ]
+
+[ 2015-04-28T21:47:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003466s ]
+
+[ 2015-04-28T21:47:45+08:00 ] 192.168.1.42 /Pro/image/search_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004587s ]
+
+[ 2015-04-28T21:47:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011155s ]
+
+[ 2015-04-28T21:47:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002181s ]
+
+[ 2015-04-28T21:47:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001663s ]
+
+[ 2015-04-28T21:47:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001888s ]
+
+[ 2015-04-28T21:47:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001702s ]
+
+[ 2015-04-28T21:47:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006047s ]
+
+[ 2015-04-28T21:47:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008203s ]
+
+[ 2015-04-28T21:47:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002305s ]
+
+[ 2015-04-28T21:47:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001731s ]
+
+[ 2015-04-28T21:47:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000115s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001987s ]
+
+[ 2015-04-28T21:47:45+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002317s ]
+
+[ 2015-04-28T21:48:57+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004662s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004249s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003682s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004356s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008032s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008499s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/image/search_top.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002829s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003504s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002753s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003008s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003896s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004616s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001551s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002206s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001441s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001220s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001552s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001773s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001651s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002028s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002248s ]
+
+[ 2015-04-28T21:48:58+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003630s ]
+
+[ 2015-04-28T21:49:35+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+
+[ 2015-04-28T21:49:35+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007031s ]
+
+[ 2015-04-28T21:49:35+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002312s ]
+
+[ 2015-04-28T21:49:35+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002276s ]
+
+[ 2015-04-28T21:49:35+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006996s ]
+
+[ 2015-04-28T21:49:35+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007978s ]
+
+[ 2015-04-28T21:49:35+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007851s ]
+
+[ 2015-04-28T21:49:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002362s ]
+
+[ 2015-04-28T21:49:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002833s ]
+
+[ 2015-04-28T21:49:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002540s ]
+
+[ 2015-04-28T21:49:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002859s ]
+
+[ 2015-04-28T21:49:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004440s ]
+
+[ 2015-04-28T21:49:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006119s ]
+
+[ 2015-04-28T21:49:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001563s ]
+
+[ 2015-04-28T21:49:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001977s ]
+
+[ 2015-04-28T21:49:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001655s ]
+
+[ 2015-04-28T21:49:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001687s ]
+
+[ 2015-04-28T21:49:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002868s ]
+
+[ 2015-04-28T21:49:36+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+
+[ 2015-04-28T21:49:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000806s ]
+
+[ 2015-04-28T21:49:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+
+[ 2015-04-28T21:52:36+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+
+[ 2015-04-28T21:52:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003244s ]
+
+[ 2015-04-28T21:52:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004253s ]
+
+[ 2015-04-28T21:52:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004629s ]
+
+[ 2015-04-28T21:52:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004373s ]
+
+[ 2015-04-28T21:52:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002609s ]
+
+[ 2015-04-28T21:52:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010281s ]
+
+[ 2015-04-28T21:52:36+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003178s ]
+
+[ 2015-04-28T21:52:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002561s ]
+
+[ 2015-04-28T21:52:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002125s ]
+
+[ 2015-04-28T21:52:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003324s ]
+
+[ 2015-04-28T21:52:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011175s ]
+
+[ 2015-04-28T21:52:36+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002581s ]
+
+[ 2015-04-28T21:52:37+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002977s ]
+
+[ 2015-04-28T21:52:37+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005524s ]
+
+[ 2015-04-28T21:52:37+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005391s ]
+
+[ 2015-04-28T21:52:37+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003232s ]
+
+[ 2015-04-28T21:52:37+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002251s ]
+
+[ 2015-04-28T21:52:37+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010818s ]
+
+[ 2015-04-28T21:52:37+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001013s ]
+
+[ 2015-04-28T21:52:37+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001358s ]
+
+[ 2015-04-28T21:52:37+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001324s ]
+
+[ 2015-04-28T21:53:32+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004025s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006354s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009318s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007115s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007918s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006521s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002284s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003569s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001822s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005192s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004435s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004957s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001724s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001576s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001651s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001861s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002253s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002337s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000928s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+
+[ 2015-04-28T21:53:33+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001252s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005414s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008477s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007789s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004888s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004985s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002198s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002794s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003062s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002899s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002905s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005378s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008038s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002226s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001910s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002219s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001708s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013916s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005676s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001246s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+
+[ 2015-04-28T21:53:55+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004453s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004401s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004660s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003313s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002085s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002292s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001967s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002448s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002348s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002164s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002238s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.012374s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001609s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001538s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003849s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002821s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002710s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008230s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000992s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002357s ]
+
+[ 2015-04-28T21:54:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001343s ]
+
+[ 2015-04-28T21:55:15+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000553s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002151s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001663s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001838s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002503s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002352s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005465s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001604s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001718s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001602s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002201s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002091s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002506s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002481s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001896s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001403s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001363s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001851s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002672s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+
+[ 2015-04-28T21:55:16+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001800s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000714s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003542s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003533s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004653s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004382s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004160s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005905s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005166s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005371s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011931s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006074s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011108s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006980s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001562s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001855s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002208s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002260s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003371s ]
+
+[ 2015-04-28T21:55:43+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002980s ]
+
+[ 2015-04-28T21:55:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+
+[ 2015-04-28T21:55:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+
+[ 2015-04-28T21:55:44+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001443s ]
+
+[ 2015-04-28T21:55:56+08:00 ] 192.168.1.42 /Pro/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000698s ]
+
+[ 2015-04-28T21:55:56+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB010.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002881s ]
+
+[ 2015-04-28T21:55:56+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB310.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003601s ]
+
+[ 2015-04-28T21:55:56+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB110.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003341s ]
+
+[ 2015-04-28T21:55:56+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB410.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004261s ]
+
+[ 2015-04-28T21:55:56+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB330.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003974s ]
+
+[ 2015-04-28T21:55:56+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB230.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005033s ]
+
+[ 2015-04-28T21:55:56+08:00 ] 192.168.1.42 /Pro/image/new.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002477s ]
+
+[ 2015-04-28T21:55:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB810.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003674s ]
+
+[ 2015-04-28T21:55:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB910.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003678s ]
+
+[ 2015-04-28T21:55:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB490.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003991s ]
+
+[ 2015-04-28T21:55:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB630.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002383s ]
+
+[ 2015-04-28T21:55:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB790.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001825s ]
+
+[ 2015-04-28T21:55:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB530.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001588s ]
+
+[ 2015-04-28T21:55:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB710.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001400s ]
+
+[ 2015-04-28T21:55:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB610.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001840s ]
+
+[ 2015-04-28T21:55:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB590.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004238s ]
+
+[ 2015-04-28T21:55:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB730.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008044s ]
+
+[ 2015-04-28T21:55:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB430.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005566s ]
+
+[ 2015-04-28T21:55:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB510.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+
+[ 2015-04-28T21:55:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB830.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+
+[ 2015-04-28T21:55:57+08:00 ] 192.168.1.42 /Pro/product_image/2RB/2RB930.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000976s ]
+

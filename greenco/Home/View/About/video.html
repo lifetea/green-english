@@ -6,7 +6,7 @@
 <meta name="keywords" content="{$Think.lang.VIDEO_KEYWORDS}" />
 <meta name="description"content="{$Think.lang.VIDEO_DESCRIPTION}" />
 <link href="favicon.ico" rel="shortcut icon" />
-<?php require 'inc/css.inc';?>
+<include file="../Public/css" />
 </head>
 <include file="../Public/header" />
 
@@ -14,7 +14,7 @@
 <!-- 视频内容 -->
 <div class="container-fuild">
    <div class="container about row" id="video">
-       <img class="banner" src="image/about_banner.png"/>
+       <img src="{$Think.config.IMG_ROOT}/about_banner.png"  class="banner" />
        <div class="col-md-3">
 			<include file="../Public/about-nav" />
        </div>
@@ -35,18 +35,18 @@
 
 <include file="../Public/footer" />
 
-<script type="text/javascript" src="src/video/jwplayer.js"></script>
+<script type="text/javascript" src="http://localhost/src/video/jwplayer.js"></script>
 <script>
 $(function(){
 	//点击图片放大
 
 	jwplayer("player").setup({
-		  skin: "src/video/glow.zip",//皮肤地址
-		  flashplayer: "src/video/player.swf",
-		  image: "src/video/bg.jpg",//开始的图片
+		  skin: "http://localhost/src/video/glow.zip",//皮肤地址
+		  flashplayer: "http://localhost/src/video/player.swf",
+		  image: "http://localhost/src/video/bg.jpg",//开始的图片
 		  width: 600,//宽度
 		  height:400,//高度
-		  levels: [{file: "src/video/greenco.flv"}]//视频路径
+		  levels: [{file: "http://localhost/src/video/greenco.flv"}]//视频路径
 		})
 })
 </script>

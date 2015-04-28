@@ -3,35 +3,7 @@ namespace Home\Controller;
 use Think\Controller;
 class NewsController extends Controller {
     public function index(){
-//     	print  L('add_user_error');　
         $this->display();
-    }
-    public function about_us(){
-    	//     	print  L('add_user_error');　
-    	$this->display();
-    }
-    public function download(){
-    	//     	print  L('add_user_error');　
-    	$this->display();
-    }
-    public function contact(){
-    	//     	print  L('add_user_error');　
-    	$list = S('contact-data');
-    	if (!$list) {
-    		$salers = M("salers");
-    		$list = $salers->where("status ='true'")->select();
-    		S('contact-data', $list, 7000);
-    	}
-    	$this->assign('list',$list);
-    	$this->display();
-    }
-    public function code(){
-    	//     	print  L('add_user_error');　
-    	$Verify = new \Think\Verify();
-    	$Verify->fontSize = 12;
-    	$Verify->length   = 4;
-    	$Verify->useNoise = false;
-		$Verify->entry();
     }
     public function support(){
     	$list = S("support-data-".L('LAN'));
@@ -75,6 +47,17 @@ class NewsController extends Controller {
     	$this->assign('list',$list);
     	$this->display();
     }
+    public function news_content(){
+    	//     	$list = S("industry-data-".L('LAN'));
+    	//     	if (!$list) {/
+    
+    	$news = M("news");
+    	$list = $news->where("id =". I('get.id'))->find();
+    	//     		S("industry-data-".L('LAN'), $list, 7000);
+    	//     	}
+    	$this->assign('list',$list);
+    	$this->display();
+    }    
   private  function _content($_string,$_len) {
     	if (mb_strlen($_string,'utf-8') > $_len) {
     		$_string = mb_substr(strip_tags($_string),0,$_len,'utf-8');

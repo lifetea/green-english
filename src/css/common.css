@@ -126,7 +126,7 @@ ul{padding:0;list-style:none}
 .contact .detail p{
 	line-height:180%;
 }
-.support ,.news,.application,.about{
+.support ,.news,.application,.about,.pro{
   margin: 0 auto;
   background: white;
   border: 1px solid #999;
@@ -156,6 +156,6 @@ ul{padding:0;list-style:none}
 .cert-list,.honour-list,.content{margin-top: 1em;}
 .cert-list img{width:12em;height:16em;  border: 1px solid #999;vertical-align:middle}
 .eq-list img {width:96%;border: 1px solid #999;}
-.about-nav li,.news-nav li{margin-top: 13px;background: url(../img/arrow.png) no-repeat 0 2px;padding-left: 18px;}
+.pro-nav li,.about-nav li,.news-nav li{margin-top: 13px;background: url(../img/arrow.png) no-repeat 0 2px;padding-left: 18px;}
 .video{width:620px; height:436px; overflow:hidden;padding:7px;border:1px solid #ccc;text-align:center;margin:0 auto;}
 .search-bar{padding-top:1em}

@@ -6,7 +6,7 @@
 <meta name="keywords" content="{$Think.lang.SUPPORT_KEYWORDS}" />
 <meta name="description" content="{$Think.lang.SUPPORT_DESCRIPTION}" />
 <link href="favicon.ico" rel="shortcut icon" />
-<?php require 'inc/css.inc';?>
+<include file="../Public/css" />
 </head>
 <include file="../Public/header" />
 
@@ -47,7 +47,7 @@
 <!-- 应用内容end -->
 
 <include file="../Public/footer" />
-<script src="js/jquery.quickpaginate.js" type="text/javascript" ></script>
+<script src="{$Think.config.JS_ROOT}/jquery.quickpaginate.js" type="text/javascript" ></script>
 <script type="text/javascript">
 	$(function(){
 		$(".mypagination").quickpaginate({
