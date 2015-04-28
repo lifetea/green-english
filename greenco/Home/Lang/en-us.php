@@ -131,6 +131,23 @@ return array(
 		'HONOUR_TITLE'=>'Honours|Greenco honour_GREENCO',
 		'HONOUR_KEYWORDS'=>'Honours,Greenco honour,side channel blower honour,High Tech,Famous brand,trademark,regenerative blower,air blower,GREENCO',
 		'HONOUR_DESCRIPTION'=>'Zhejiang Greenco Industry Co Ltd approved by ISO9001:2008 quality system，side channel blower approved by UL、CE、TUV、GS certifications,high quality & competitive price,export to more than 100 countries',
-				
+		'HONOUR_BRAND_PRODUCTS'=>'Zhejiang Brand products',
+		'HONOUR_TAXER'=>'Taxer',
+		'HONOUR_TECH ENTERPRISES'=>'High and new tech enterprises',
+		'HONOUR_TECHNOLOGY_CENTER'=>'Enterprise technology center',
+		'HONOUR_FAMOUS_TRADEMARK'=>'The zhejiang province famous trademark',
+		'HONOUR_R&D_Center'=>'R&D Center',
+		'HONOUR_CREDIT_UNIT'=>'AA Rated(Keep the contract heavy credit unit)',
+		'HONOUR_ELECTRICAL_PRODUCTS'=>'New mechanical and electrical products',				
+		'VIDEO_TITLE'=>'Greenco Video|Product showroom|Blower video|side channel blower_GREENCO',
+		'VIDEO_KEYWORDS'=>'Greenco video,workshop,blower video,side channel blower_Greenco',
+		'VIDEO_DESCRIPTION'=>'Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco',
+		'VIDEO_SIDE_CHANNEL_BLOWERS_VIDEO'=>'Greenco Side Channel Blowers Video',
+		'VIDEO_WORKSHOP_VIDEO'=>'Production workshop video',
+		'EQUIPMENTS_TITLE'=>'Greenco Video|Product showroom|Blower video|side channel blower_GREENCO',
+		'EQUIPMENTS_KEYWORDS'=>'CNC,Die casting,CNC equipment,LGMazak,Brother CNC,side channel blower,regenerative blower,air blower,GREENCO',
+		'EQUIPMENTS_DESCRIPTION'=>'CNC,Die casting,CNC equipment,LGMazak,Brother CNC,side channel blower,regenerative blower,air blower,GREENCO',
+		
+		
 );
 ?>

@@ -188,44 +188,68 @@
 		</li>
 </ul>
 <h3 class="head-1" style="margin-top:26px;background:#666 url(image/search_top.png) no-repeat 0 2px;padding-left:18px;"><?php echo (L("NAV_SEARCH_PRODUCT")); ?></h3>
-<form mehtod="post"  action="?">
-     <p>
-     		<span>
-		     		<?php echo _('1:Select a Graph:');?>
-     		</span>
-     		<select>
-     				<option><?php echo _('Pressure');?></option>
-     				<option><?php echo _('Vacuum');?></option>
-     		</select>
-     </p>
-		<p>
-				<span>
-						<?php echo _('2:Air Flow');?>(e.g.120):
-				</span>
-		</p>
-<p><input type="text" class="text"/><select><option>m³/h</option><option>m³/min</option></select></p>
-<p><?php echo _('3:Pressure');?>(e.g.200):</p>
-     <p><input type="text" class="text"/><select><option>mbar</option><option>pa</option></select></p>
-     <p><input type="image" src="image/search.gif"/></dd></p>
+<form class="search-bar">
+		<div class="form-group">
+				<label for="inputEmail3" class="control-label col-ms-6"><?php echo _('1:Select a Graph:');?></label>
+				<div class="col-ms-6">
+						<select class="form-control">
+						   				<option><?php echo _('Pressure');?></option>
+						  				<option><?php echo _('Vacuum');?></option>
+						</select>
+				</div>
+		</div>
+		<div class="form-group">
+				<label for="inputEmail3" class="control-label"><?php echo _('2:Air Flow');?>(e.g.120):</label>
+				<div class="row">
+						  <div class="col-md-6">
+								  <input type="text" class="form-control">
+						  </div>
+						  <div class="col-md-6">
+									<select class="form-control">
+									   				<option>m³/h</option>
+									   				<option>m³/min</option>
+									</select>
+						  </div>
+				</div>
+		</div>
+		 <div class="form-group">
+			  <label for="inputEmail3" class="col-sm-8 control-label"><?php echo _('3:Pressure');?>(e.g.200):</label>
+				<div class="row">
+						  <div class="col-md-6">
+								  <input type="text" class="form-control">
+						  </div>
+						  <div class="col-md-6">
+									<select class="form-control">
+											<option>mbar</option>
+											<option>pa</option>
+									</select>
+						  </div>
+				</div>
+			</div> 
+		<div class="form-group">
+		    <button type="submit" class="btn btn-default">Search</button>
+		</div>
+</form>
 
-</form>     
        		</div>
 	       <div class="col-md-9 split">
 	             <h3 class="title-1"><?php echo (L("HEADER_ABOUT_US")); ?></h3>
-	             <p class="text-2"><?php echo (L("ABOUT_CONTENT_1")); ?></p>
-	             <div class="row" style="margin:5px 0  5px 0;text-align: center;">
-	             <div class="col-md-6"><img style="width:100%" src="image/about_us_image2.jpg"/>
-		             <p class="text-1"><?php echo (L("ABOUT_FACTORY_DONGXINQU")); ?></p>
+	             <div class="content">
+			             <p class="text-2"><?php echo (L("ABOUT_CONTENT_1")); ?></p>
+			             <div class="row" style="margin:5px 0  5px 0;text-align: center;">
+			             <div class="col-md-6"><img style="width:100%" src="image/about_us_image2.jpg"/>
+				             <p class="text-1"><?php echo (L("ABOUT_FACTORY_DONGXINQU")); ?></p>
+			             </div>
+			             <div class="col-md-6">
+				             <img src="image/about_us_image1.jpg" style="width:100%"/>
+				             <p class="text-1"><?php echo (L("ABOUT_FACTORY_SHENQIAO")); ?></p>
+			             </div>
+			             
+			             </div>
+			             <p class="text-2"><?php echo (L("ABOUT_CONTENT_2")); ?></p>
+			             <p class="text-2"><?php echo (L("ABOUT_CONTENT_3")); ?></p>
+			             <p class="text-2"><?php echo (L("ABOUT_CONTENT_4")); ?></p>
 	             </div>
-	             <div class="col-md-6">
-		             <img src="image/about_us_image1.jpg" style="width:100%"/>
-		             <p class="text-1"><?php echo (L("ABOUT_FACTORY_SHENQIAO")); ?></p>
-	             </div>
-	             
-	             </div>
-	             <p class="text-2"><?php echo (L("ABOUT_CONTENT_2")); ?></p>
-	             <p class="text-2"><?php echo (L("ABOUT_CONTENT_3")); ?></p>
-	             <p class="text-2"><?php echo (L("ABOUT_CONTENT_4")); ?></p>
 	       </div>
        </div>
    </div>

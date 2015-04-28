@@ -1,12 +1,10 @@
-<?php if (!defined('THINK_PATH')) exit();?>﻿<?php
-require 'setLan.php'; ?>
-<!DOCTYPE html">
-<html  xmlns="http://www.w3.org/1999/xhtml">
+<?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title><?php echo _('Greenco Video|Product showroom|Blower video|side channel blower_GREENCO');?></title>
-<meta name="keywords" content="<?php echo _('Greenco video,workshop,blower video,side channel blower_Greenco');?>" />
-<meta name="description"content="<?php echo _('Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.');?>" />
+<title><?php echo (L("VIDEO_TITLE")); ?></title>
+<meta name="keywords" content="<?php echo (L("VIDEO_KEYWORDS")); ?>" />
+<meta name="description"content="<?php echo (L("VIDEO_DESCRIPTION")); ?>" />
 <link href="favicon.ico" rel="shortcut icon" />
 <?php require 'inc/css.inc';?>
 </head>
@@ -168,7 +166,7 @@ require 'setLan.php'; ?>
 <!-- 视频内容 -->
 <div class="container-fuild">
    <div class="container about row" id="video">
-       <img src="image/about_banner.png" style="width:100%;margin:1em auto;border:1px solid #999;"/>
+       <img class="banner" src="image/about_banner.png"/>
        <div class="col-md-3">
 			<h3 class="head-1"><?php echo (L("HEADER_ABOUT_GREENCO")); ?></h3>
 <ul class="about-nav">
@@ -210,13 +208,16 @@ require 'setLan.php'; ?>
 
 </form>     
        </div>
-       <div class="col-md-9">
-             <h5 style="background:url(image/video.gif) no-repeat 178px 7px;padding-left:20px;font-size:14px;color:#1b347e;"><?php echo _('Greenco Side Channel Blowers Video');?></h5>
-             <div id="jwplayer" style="background: transparent !important; margin:20px 0 0  100px; width:450px; height:320px; overflow:hidden;padding:7px;border:1px solid #ccc;">
-	                 <div id="player"></div>
-
+       <div class="col-md-9 split">
+             <h3 class="title-1">
+	             <span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>
+	             <?php echo (L("VIDEO_SIDE_CHANNEL_BLOWERS_VIDEO")); ?></h3>
+             <div class="content ">
+		             <div class="video">
+			                 <div id="player"></div>
+				             <p style="">(<?php echo (L("VIDEO_WORKSHOP_VIDEO")); ?>)</p>
+		             </div>
              </div>
-             <p style="text-indent:100px;height:50px;line-height:50px;"><?php echo _('(Production workshop video)');?></p>
        </div>
    </div>
 </div>
@@ -283,8 +284,8 @@ $(function(){
 		  skin: "src/video/glow.zip",//皮肤地址
 		  flashplayer: "src/video/player.swf",
 		  image: "src/video/bg.jpg",//开始的图片
-		  width: 450,//宽度
-		  height:320,//高度
+		  width: 600,//宽度
+		  height:400,//高度
 		  levels: [{file: "src/video/greenco.flv"}]//视频路径
 		})
 })

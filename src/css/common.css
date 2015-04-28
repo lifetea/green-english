@@ -5,6 +5,7 @@ body{
   font-family:Tahoma,Geneva,sans-serif;
   font-size:13px;
 }
+div,p,h1,h2,h3,h4,h5{margin:0;padding:0}
 ul{padding:0;list-style:none}
 .hide{display:none}
 .link-1{color:#1d2d56;line-height:30px;}
@@ -150,8 +151,14 @@ ul{padding:0;list-style:none}
 /*application*/
 .app-list dl img{width:98%;margin:0 auto;border: 1px dashed #888;}
 .app-list dl,.cert-list div,.honour-list div{text-align:center}
-.eq-list a{text-align:center}
-.cert-list,.honour-list{margin-top: 1em;}
+
+
+/*about*/
+.eq-list div{text-align:center}
+.honour-list img{ border: 1px solid #999;}
+.cert-list,.honour-list,.content{margin-top: 1em;}
 .cert-list img{width:12em;height:16em;  border: 1px solid #999;vertical-align:middle}
-..eq-list img {width:100%}
+.eq-list img {width:96%;border: 1px solid #999;}
 .about-nav li{margin-top: 13px;background: url(../img/arrow.png) no-repeat 0 2px;padding-left: 18px;}
+.video{width:620px; height:436px; overflow:hidden;padding:7px;border:1px solid #ccc;text-align:center;margin:0 auto;}
+.search-bar{padding-top:1em}

@@ -2,6 +2,9 @@
 <html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title><?php echo (L("EQUIPMENTS_TITLE")); ?></title>
+<meta name="keywords" content="<?php echo (L("EQUIPMENTS_KEYWORDS")); ?>" />
+<meta name="description" content="<?php echo (L("EQUIPMENTS_DESCRIPTION")); ?>" />
 <link href="favicon.ico" rel="shortcut icon" />
 <?php require 'inc/css.inc';?>
 </head>
@@ -159,7 +162,6 @@
 		</nav>
 
 
-
 <!-- 质量认证内容 -->
 <div class="container-fuild">
 	<div class="container about row">
@@ -184,162 +186,188 @@
 		</li>
 </ul>
 <h3 class="head-1" style="margin-top:26px;background:#666 url(image/search_top.png) no-repeat 0 2px;padding-left:18px;"><?php echo (L("NAV_SEARCH_PRODUCT")); ?></h3>
-<form mehtod="post"  action="?">
-     <p>
-     		<span>
-		     		<?php echo _('1:Select a Graph:');?>
-     		</span>
-     		<select>
-     				<option><?php echo _('Pressure');?></option>
-     				<option><?php echo _('Vacuum');?></option>
-     		</select>
-     </p>
-		<p>
-				<span>
-						<?php echo _('2:Air Flow');?>(e.g.120):
-				</span>
-		</p>
-<p><input type="text" class="text"/><select><option>m³/h</option><option>m³/min</option></select></p>
-<p><?php echo _('3:Pressure');?>(e.g.200):</p>
-     <p><input type="text" class="text"/><select><option>mbar</option><option>pa</option></select></p>
-     <p><input type="image" src="image/search.gif"/></dd></p>
-
-</form>     
+<form class="search-bar">
+		<div class="form-group">
+				<label for="inputEmail3" class="control-label col-ms-6"><?php echo _('1:Select a Graph:');?></label>
+				<div class="col-ms-6">
+						<select class="form-control">
+						   				<option><?php echo _('Pressure');?></option>
+						  				<option><?php echo _('Vacuum');?></option>
+						</select>
+				</div>
 		</div>
-		<div class="col-md-9 row">
-			<h5>
-				<?php echo _('Equipments');?>
-				<span style="margin-left: 440px; font-weight: 500; font-size: 13px;"><a
-					href="index.php">
-						<?php echo _('Home');?>
-				</a> > <a href="Equipments.php">
-						<?php echo _('Equipments');?>
-				</a></span>
-			</h5>
-			<div class="eq-list">
-					<div class="col-md-6 Equipments_image" id="Equipments_image1">
-						<a class="fancybox" href="image/jifang1.jpg"
-							data-fancybox-group="gallery"
-							title="<strong>Sparepart Warehouse</strong>"><img
-							src="image/jifang1_sub.jpg"
-							alt="Sparepart Warehouse GREENCO Side Channel Blower Equipments" />
-						<p>
-								<a class="link-1" href="#">
-									<?php echo _('Sparepart Warehouse');?>
-								</a>
-							</p></a>
-					</div>
-					<div class="col-md-6 Equipments_image">
-						<a class="fancybox" href="image/jifang2.jpg"
-							data-fancybox-group="gallery"
-							title="<strong>Precision Production Line</strong>"><img
-							src="image/jifang2_sub.jpg"
-							alt="Precision Production Line GREENCO Side Channel Blower Equipments" />
-						<p>
-								<a class="link-1"  href="#">
-									<?php echo _('Precision Production Line');?>
-								</a>
-							</p></a>
-					</div>
-					<div class="col-md-6 Equipments_image" id="Equipments_image1">
-						<a class="fancybox" href="image/jifang3.jpg"
-							data-fancybox-group="gallery"
-							title="<strong>Die Casting Workshop</strong>"><img
-							src="image/jifang3_sub.jpg"
-							alt="Die Casting Workshop GREENCO Side Channel Blower Equipments" />
-						<p>
-								<a class="link-1"  href="#">
-									<?php echo _('Die Casting Workshop');?>
-								</a>
-							</p></a>
-					</div>
-					<div class="col-md-6 Equipments_image">
-						<a class="fancybox" href="image/jifang4.jpg"
-							data-fancybox-group="gallery"
-							title="<strong>Assembling Line</strong>"><img
-							src="image/jifang4_sub.jpg"
-							alt="Assembling Line GREENCO Side Channel Blower Equipments" />
-						<p>
-								<a class="link-1"  href="#">
-									<?php echo _('Assembling Line');?>
-								</a>
-							</p></a>
-					</div>
-					<div class="col-md-6 Equipments_image" id="Equipments_image1">
-						<a class="fancybox" href="image/jifang5.jpg"
-							data-fancybox-group="gallery"
-							title="<strong>Carl Zeiss CMM</strong>"><img
-							src="image/jifang5_sub.jpg"
-							alt="Q&C Department GREENCO Side Channel Blower Equipments" />
-						<p>
-								<a class="link-1"  href="#">
-									<?php echo _('Carl Zeiss CMM');?>
-								</a>
-							</p></a>
-					</div>
-					<div class="col-md-6 Equipments_image">
-						<a class="fancybox" href="image/jifang6.jpg"
-							data-fancybox-group="gallery" title="<strong>Packing Line</strong>"><img
-							src="image/jifang6_sub.jpg"
-							alt="Packing Line GREENCO Side Channel Blower Equipments" />
-						<p>
-								<a class="link-1"  href="#">
-									<?php echo _('Packing Line');?>
-								</a>
-							</p></a>
-					</div>
-					<div class="col-md-6 Equipments_image" id="Equipments_image1">
-						<a class="fancybox" href="image/jifang7.jpg"
-							data-fancybox-group="gallery" title="<strong>Shipping</strong>"><img
-							src="image/jifang7_sub.jpg"
-							alt="Shipping GREENCO Side Channel Blower Equipments" />
-						<p>
-								<a class="link-1"  href="#">
-									<?php echo _('Shipping');?>
-								</a>
-							</p></a>
-					</div>
-					<div class="col-md-6 Equipments_image">
-						<a class="fancybox" href="image/jifang10.jpg"
-							data-fancybox-group="gallery"
-							title="<strong>Outgoing Inspection</strong>"><img
-							src="image/jifang8_sub.jpg"
-							alt="Outgoing Inspection GREENCO Side Channel Blower Equipments" />
-						<p>
-								<a class="link-1"  href="#">
-									<?php echo _('Outgoing Inspection');?>
-								</a>
-							</p></a>
-					</div>
-					<div class="col-md-6 Equipments_image" id="Equipments_image1">
-						<a class="fancybox" href="image/jifang11.jpg"
-							data-fancybox-group="gallery"
-							title="<strong>AUTO motor winding</strong>"><img
-							src="image/jifang11_sub.jpg"
-							alt="AUTO motor winding GREENCO Side Channel Blower Equipments" />
-						<p>
-								<a class="link-1"  href="#">
-									<?php echo _('AUTO motor winding');?>
-								</a>
-							</p></a>
-					</div>
-					<div class="col-md-6 Equipments_image">
-						<a class="fancybox" href="image/jifang10.jpg"
-							data-fancybox-group="gallery"
-							title="<strong>SCHNEEBERGER Grinder</strong>"><img
-							src="image/jifang10_sub.jpg"
-							alt="SCHNEEBERGER Grinder GREENCO Side Channel Blower Equipments" />
-						<p>
-								<a class="link-1"  href="#">
-									<?php echo _('SCHNEEBERGER Grinder');?>
-								</a>
-							</p></a>
-					</div>
+		<div class="form-group">
+				<label for="inputEmail3" class="control-label"><?php echo _('2:Air Flow');?>(e.g.120):</label>
+				<div class="row">
+						  <div class="col-md-6">
+								  <input type="text" class="form-control">
+						  </div>
+						  <div class="col-md-6">
+									<select class="form-control">
+									   				<option>m³/h</option>
+									   				<option>m³/min</option>
+									</select>
+						  </div>
+				</div>
+		</div>
+		 <div class="form-group">
+			  <label for="inputEmail3" class="col-sm-8 control-label"><?php echo _('3:Pressure');?>(e.g.200):</label>
+				<div class="row">
+						  <div class="col-md-6">
+								  <input type="text" class="form-control">
+						  </div>
+						  <div class="col-md-6">
+									<select class="form-control">
+											<option>mbar</option>
+											<option>pa</option>
+									</select>
+						  </div>
+				</div>
+			</div> 
+		<div class="form-group">
+		    <button type="submit" class="btn btn-default">Search</button>
+		</div>
+</form>
+
+		</div>
+		<div class="col-md-9 split">
+					<h3 class="title-1"><?php echo (L("HEADER_EQUIPMENTS")); ?></h3>
+				<div class="row">
+					<div class="eq-list content ">
+							<div class="col-md-6" >
+								<a class="pic-item"  href="javascript:void(0)"	data="image/jifang1.jpg"	title="<strong>Sparepart Warehouse</strong>">
+								<img src="image/jifang1_sub.jpg" alt="Sparepart Warehouse GREENCO Side Channel Blower Equipments" />
+								<p>
+										<a class="link-1" href="#">
+											<?php echo _('Sparepart Warehouse');?>
+										</a>
+									</p></a>
+							</div>
+							<div class="col-md-6 Equipments_image">
+								<a class="pic-item"  href="javascript:void(0)" 	data="image/jifang2.jpg" 	title="<strong>Precision Production Line</strong>">
+								<img
+									src="image/jifang2_sub.jpg"
+									alt="Precision Production Line GREENCO Side Channel Blower Equipments" />
+								<p>
+										<a class="link-1"  href="#">
+											<?php echo _('Precision Production Line');?>
+										</a>
+									</p></a>
+							</div>
+							<div class="col-md-6 Equipments_image" id="Equipments_image1">
+								<a class="pic-item"  href="javascript:void(0)" data="image/jifang3.jpg"
+									title="<strong>Die Casting Workshop</strong>">
+									<img
+									src="image/jifang3_sub.jpg"
+									alt="Die Casting Workshop GREENCO Side Channel Blower Equipments" />
+								<p>
+										<a class="link-1"  href="#">
+											<?php echo _('Die Casting Workshop');?>
+										</a>
+									</p></a>
+							</div>
+							<div class="col-md-6 Equipments_image">
+								<a class="pic-item"   href="javascript:void(0)"  data="image/jifang4.jpg"
+									title="<strong>Assembling Line</strong>">
+									<img
+									src="image/jifang4_sub.jpg"
+									alt="Assembling Line GREENCO Side Channel Blower Equipments" />
+								<p>
+										<a class="link-1"  href="#">
+											<?php echo _('Assembling Line');?>
+										</a>
+									</p></a>
+							</div>
+							<div class="col-md-6"  id="Equipments_image1">
+								<a class="fancybox"  href="javascript:void(0)"   data="image/jifang5.jpg"
+									title="<strong>Carl Zeiss CMM</strong>">
+									<img
+									src="image/jifang5_sub.jpg"
+									alt="Q&C Department GREENCO Side Channel Blower Equipments" />
+								<p>
+										<a class="link-1"  href="#">
+											<?php echo _('Carl Zeiss CMM');?>
+										</a>
+									</p></a>
+							</div>
+							<div class="col-md-6 Equipments_image">
+								<a class="fancybox"  href="javascript:void(0)"  data="image/jifang6.jpg"
+									title="<strong>Packing Line</strong>">
+									<img
+									src="image/jifang6_sub.jpg"
+									alt="Packing Line GREENCO Side Channel Blower Equipments" />
+								<p>
+										<a class="link-1"  href="#">
+											<?php echo _('Packing Line');?>
+										</a>
+									</p></a>
+							</div>
+							<div class="col-md-6 Equipments_image" id="Equipments_image1">
+								<a class="fancybox"  href="javascript:void(0)"  data="image/jifang7.jpg"
+									 title="<strong>Shipping</strong>">
+									 <img
+									src="image/jifang7_sub.jpg"
+									alt="Shipping GREENCO Side Channel Blower Equipments" />
+								<p>
+										<a class="link-1"  href="#">
+											<?php echo _('Shipping');?>
+										</a>
+									</p></a>
+							</div>
+							<div class="col-md-6 Equipments_image">
+								<a class="fancybox" href="javascript:void(0)"  data="image/jifang10.jpg"
+									title="<strong>Outgoing Inspection</strong>"><img
+									src="image/jifang8_sub.jpg"
+									alt="Outgoing Inspection GREENCO Side Channel Blower Equipments" />
+								<p>
+										<a class="link-1"  href="#">
+											<?php echo _('Outgoing Inspection');?>
+										</a>
+									</p></a>
+							</div>
+							<div class="col-md-6 Equipments_image" id="Equipments_image1">
+								<a class="fancybox" href="javascript:void(0)"  data="image/jifang11.jpg"
+									title="<strong>AUTO motor winding</strong>"><img
+									src="image/jifang11_sub.jpg"
+									alt="AUTO motor winding GREENCO Side Channel Blower Equipments" />
+								<p>
+										<a class="link-1"  href="#">
+											<?php echo _('AUTO motor winding');?>
+										</a>
+									</p></a>
+							</div>
+							<div class="col-md-6 Equipments_image">
+								<a class="fancybox"  href="javascript:void(0)"  data="image/jifang10.jpg"
+									title="<strong>SCHNEEBERGER Grinder</strong>"><img
+									src="image/jifang10_sub.jpg"
+									alt="SCHNEEBERGER Grinder GREENCO Side Channel Blower Equipments" />
+								<p>
+										<a class="link-1"  href="#">
+											<?php echo _('SCHNEEBERGER Grinder');?>
+										</a>
+									</p></a>
+							</div>
+			</div>
 		</div>
 		</div>
 	</div>
 </div>
 <!-- 质量认证end -->
+<div id="myModal" class="modal fade">
+		<div class="modal-dialog">
+			  <div class="modal-content">
+					    <div class="modal-header">
+					      		<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					      		<h4 class="modal-title">&nbsp;</h4>
+					    </div>
+					    <div class="modal-body">
+					      		<img id="mypic" style="width:100%" src="image/zhiliangrenzheng11.jpg" />
+					    </div>
+					    		<div class="modal-footer">
+					    </div>
+			  </div>
+		</div>
+</div>
 <div class="container-fluid navbar-inverse footer">
 		<div class="container">
 			<ul class=" col-md-2 " >

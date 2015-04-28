@@ -131,7 +131,27 @@ return array(
 		'HONOUR_TITLE'=>'荣誉|企业荣誉|格凌荣誉|G浙江格凌实业有限公司',
 		'HONOUR_KEYWORDS'=>'格凌荣誉,企业荣誉,风机荣誉,高新企业,浙江名牌,著名商标,高压风机,漩涡气泵,旋涡风机,真空泵,GREENCO,格凌,浙江格凌,格凌实业',
 		'HONOUR_DESCRIPTION'=>'浙江格凌实业有限公司是一家专业从事空气流体设备）（压缩、真空）的国家高新技术企业，公司形成了以高压风机，漩涡气泵，旋涡风机，高压鼓风机为主，其他空气流体设备（真空泵和压缩机）为辅，集研发、生产、销售、服务于一体的发展格局，公司已经成为中国乃至全球真空和压缩领域的领导者',
-		
+		'HONOUR_BRAND_PRODUCTS'=>'浙江名牌产品',
+		'HONOUR_TAXER'=>'温岭市最美纳税人',
+		'HONOUR_TECH ENTERPRISES'=>'浙江省高新技术企业',
+		'HONOUR_TECHNOLOGY_CENTER'=>'浙江省企业技术中心',
+		'HONOUR_FAMOUS_TRADEMARK'=>'浙江著名商标',
+		'HONOUR_R&D_Center'=>'高新技术研究开发中心',
+		'HONOUR_CREDIT_UNIT'=>'守合同重信用单位',
+		'HONOUR_ELECTRICAL_PRODUCTS'=>'名优新机电产品',
+		'VIDEO_TITLE'=>'视频|格凌视频|视频展示|生产视频_浙江格凌实业有限公司',
+		'VIDEO_KEYWORDS'=>'高压风机视频|漩涡气泵视频|格凌生产车间视频|GREENCO|生产现场视频_浙江格凌实业有限公司',
+		'VIDEO_DESCRIPTION'=>'浙江格凌实业有限公司专业研发、生产、销售格凌高压风机、高压鼓风机、真空泵十多年.拥有40多项高压风机核心专利技术和发明专利',		
+		'VIDEO_SIDE_CHANNEL_BLOWERS_VIDEO'=>'格凌漩涡气泵视频',
+		'VIDEO_WORKSHOP_VIDEO'=>'企业宣传视频',
+		'VIDEO_TITLE'=>'Greenco factory|CNC|Equipments|workshop|advanced machines',
+		'VIDEO_KEYWORDS'=>'Greenco video,workshop,blower video,side channel blower_Greenco',
+		'VIDEO_DESCRIPTION'=>'Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco',
+		'EQUIPMENTS_TITLE'=>'格凌设备|CNC|加工中心|加工车间|加工设备|浙江格凌实业有限公司',
+		'EQUIPMENTS_KEYWORDS'=>'加工中心CNC,压铸,加工设备,LGMazak马扎克,兄弟Brother CNC,磨床,高压风机,漩涡气泵,气环风机,旋涡风机,GREENCO,格凌,格凌风机,浙江格凌实业',
+		'EQUIPMENTS_DESCRIPTION'=>'浙江格凌实业有限公司专业研发、生产、销售格凌高压风机、高压鼓风机、真空泵十多年.拥有40多项高压风机核心专利技术和发明专利',
 				
+		
+		
 );
 ?>

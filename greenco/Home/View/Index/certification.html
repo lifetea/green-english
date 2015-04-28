@@ -19,14 +19,7 @@
 				<include file="../Public/about-nav" />
 			</div>
 			<div class="col-md-9  split">
-					<div class="clearfix line">
-							<span class="title-1">{$Think.lang.HEADER_CERTIFICATION}</span>
-							<div class="pull-right">
-								 <a href="index.php" class="link-1">	{$Think.lang.HEADER_HOME}</a>
-								 <span>></span>
-								 <a href="certification" class="link-1">{$Think.lang.HEADER_CERTIFICATION}</a>
-							 </div>
-					 </div>
+				<h3 class="title-1">	{$Think.lang.HEADER_CERTIFICATION} </h3>
 				<div class="row cert-list">
 						<div class="col-md-3">
 							<a class="pic-item"  href="javascript:void(0)" data="image/zhiliangrenzheng4.jpg"	title="<strong>ISO9001:2008 Certification</strong>">
@@ -125,13 +118,11 @@
 <include file="../Public/footer" />
 <script type="text/javascript">
 		$(".pic-item").click(function(){
-			//console.log("111")
 			var data = $(this).attr("data");
 			$("#mypic").attr("src",data);
 			//console.log($(this).attr("data"));
 			$('#myModal').modal();
 		});
-		
 </script>
 </body>
 </html>

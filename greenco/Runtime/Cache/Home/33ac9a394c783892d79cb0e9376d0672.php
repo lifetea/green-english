@@ -160,7 +160,6 @@
 				</div><!-- /.container-fluid -->
 		</nav>
 
-
 <!-- 荣誉内容start -->
 <div class="container-fuild">
 	<div class="container about">
@@ -185,95 +184,109 @@
 		</li>
 </ul>
 <h3 class="head-1" style="margin-top:26px;background:#666 url(image/search_top.png) no-repeat 0 2px;padding-left:18px;"><?php echo (L("NAV_SEARCH_PRODUCT")); ?></h3>
-<form mehtod="post"  action="?">
-     <p>
-     		<span>
-		     		<?php echo _('1:Select a Graph:');?>
-     		</span>
-     		<select>
-     				<option><?php echo _('Pressure');?></option>
-     				<option><?php echo _('Vacuum');?></option>
-     		</select>
-     </p>
-		<p>
-				<span>
-						<?php echo _('2:Air Flow');?>(e.g.120):
-				</span>
-		</p>
-<p><input type="text" class="text"/><select><option>m³/h</option><option>m³/min</option></select></p>
-<p><?php echo _('3:Pressure');?>(e.g.200):</p>
-     <p><input type="text" class="text"/><select><option>mbar</option><option>pa</option></select></p>
-     <p><input type="image" src="image/search.gif"/></dd></p>
+<form class="search-bar">
+		<div class="form-group">
+				<label for="inputEmail3" class="control-label col-ms-6"><?php echo _('1:Select a Graph:');?></label>
+				<div class="col-ms-6">
+						<select class="form-control">
+						   				<option><?php echo _('Pressure');?></option>
+						  				<option><?php echo _('Vacuum');?></option>
+						</select>
+				</div>
+		</div>
+		<div class="form-group">
+				<label for="inputEmail3" class="control-label"><?php echo _('2:Air Flow');?>(e.g.120):</label>
+				<div class="row">
+						  <div class="col-md-6">
+								  <input type="text" class="form-control">
+						  </div>
+						  <div class="col-md-6">
+									<select class="form-control">
+									   				<option>m³/h</option>
+									   				<option>m³/min</option>
+									</select>
+						  </div>
+				</div>
+		</div>
+		 <div class="form-group">
+			  <label for="inputEmail3" class="col-sm-8 control-label"><?php echo _('3:Pressure');?>(e.g.200):</label>
+				<div class="row">
+						  <div class="col-md-6">
+								  <input type="text" class="form-control">
+						  </div>
+						  <div class="col-md-6">
+									<select class="form-control">
+											<option>mbar</option>
+											<option>pa</option>
+									</select>
+						  </div>
+				</div>
+			</div> 
+		<div class="form-group">
+		    <button type="submit" class="btn btn-default">Search</button>
+		</div>
+</form>
 
-</form>     
 			</div>
-			<div class="col-md-9 row split">
-					<div class="clearfix line">
-							<span class="title-1"><?php echo (L("HEADER_HONOUR")); ?></span>
-							<div class="pull-right">
-								 <a href="index.php" class="link-1">	<?php echo (L("HEADER_HOME")); ?></a>
-								 <span>></span>
-								 <a href="certification" class="link-1"><?php echo (L("HEADER_HONOUR")); ?></a>
-							 </div>
-					 </div>		
+			<div class="col-md-9  split">
+				 <h3 class="title-1"><?php echo (L("HEADER_HONOUR")); ?></h3>
 				 <div class="honour-list">
-						<div class="col-md-6">
-							<img src="image/Honour1.jpg" alt="Zhejiang Brand products" />
+						<div class="col-md-6 row">
+							<img src="image/Honour1.jpg" alt="<?php echo (L("HONOUR_BRAND_PRODUCTS")); ?>" />
 							<p>
-								<a class="link-1"><?php echo _('Zhejiang Brand products');?></a>
+								<a class="link-1"><?php echo (L("HONOUR_BRAND_PRODUCTS")); ?></a>
 							</p>
 							
 						</div>
 						<div class="col-md-6">
-							<img src="image/Honour2.jpg" alt="Beautiful  taxpayers'" />
+							<img src="image/Honour2.jpg" alt="<?php echo (L("HONOUR_TAXER")); ?>" />
 							<p>
-								<a class="link-1"><?php echo _('Home');?></a>
+								<a class="link-1"><?php echo (L("HONOUR_TAXER")); ?></a>
 							</p>
 							
 						</div>
 						<div class="col-md-6">
-							<img src="image/Honour7.jpg" alt="High and new tech enterprises" />
+							<img src="image/Honour7.jpg" alt="<?php echo (L("HONOUR_TECH ENTERPRISES")); ?>" />
 							<p>
-									<a class="link-1"><?php echo _('High and new tech enterprises');?></a>
+									<a class="link-1"><?php echo (L("HONOUR_TECH ENTERPRISES")); ?></a>
 							</p>
 							
 						</div>
 						<div class="col-md-6">
-							<img src="image/Honour3.jpg" alt="Enterprise technology center" />
+							<img src="image/Honour3.jpg" alt="<?php echo (L("HONOUR_TECHNOLOGY_CENTER")); ?>" />
 							<p>
-								<a class="link-1"><?php echo _('Enterprise technology center');?></a>
+								<a class="link-1"><?php echo (L("HONOUR_TECHNOLOGY_CENTER")); ?></a>
 							</p>
 							
 						</div>
 						<div class="col-md-6">
 							<img src="image/Honour6.jpg"
-								alt="The zhejiang province famous trademark" />
+								alt="<?php echo (L("HONOUR_FAMOUS_TRADEMARK")); ?>" />
 							<p>
-								<a><?php echo _('The zhejiang province famous trademark');?></a>
+								<a><?php echo (L("HONOUR_FAMOUS_TRADEMARK")); ?></a>
 							</p>
 						</div>
 						<div class="col-md-6">
-							<img src="image/Honour8.jpg" alt="R&D Center" />
+							<img src="image/Honour8.jpg" alt="<?php echo (L("HONOUR_R&D_Center")); ?>" />
 							<p>
-								<a class="link-1"><?php echo _('R&D Center');?></a>
+								<a class="link-1"><?php echo (L("HONOUR_R&D_Center")); ?></a>
 							</p>
 							
 						</div>
 						<div class="col-md-6">
 							<img src="image/Honour4.jpg"
-								alt="AA Rated(Keep the contract heavy credit unit)" />
+								alt="<?php echo (L("HONOUR_CREDIT_UNIT")); ?>" />
 							<p>
-									<a class="link-1"><?php echo _('AA Rated(Keep the contract heavy credit unit)');?></a>
+									<a class="link-1"><?php echo (L("HONOUR_CREDIT_UNIT")); ?></a>
 							</p>
 							
 						</div>
 						<div class="col-md-6">
 							<img src="image/Honour5.jpg"
-								alt="New mechanical and electrical products" />
+								alt="<?php echo (L("HONOUR_ELECTRICAL_PRODUCTS")); ?>" />
 							<p>
-									<a class="link-1"><?php echo _('New mechanical and electrical products');?></a>
+									<a class="link-1"><?php echo (L("HONOUR_ELECTRICAL_PRODUCTS")); ?></a>
 							</p>
-							
 						</div>
 				</div>	
 			</div>
