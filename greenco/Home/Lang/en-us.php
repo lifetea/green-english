@@ -4,7 +4,7 @@ return array(
         'INDEX_TITLE'=>'GREENCO-Side Channel Blower|Ring blower|Regenerative blower|Air blower|Vacuum pump',
 		'INDEX_KEYWORDS'=>'GREENCO_The world leader manufacturer in side channel blower,regenerative blower,ring blower,air blower in China,side channel pumps can be used as vacuum pumps or compressors and are a highly efficient dry running technology for numerous applications.',
 		'INDEX_DESCRIPTION'=>'side channel blower,ring blower,regenerative blower,air blower,vortex blower,vacuum pump,industrial blowers,high pressure blowers,double stage blower,three stage multistage blowers,2RB,3RB,4RB series',
-		'SRC_LAN'=>'http://192.168.1.42/src/en',
+		'SRC_LAN'=>URL.'/src/en',
 		'LAN'=>'en-us',
 		//Header Footer  *-nav页面
 		'HEADER_BODY_CLASS'=>'green-en',
@@ -41,11 +41,18 @@ return array(
 		'HEADER_CONTACT_US'=>"Contact us",
 		'HEADER_JOIN_US'=>"Join us",
 		'HEADER_SEARCH'=>'Search',
+		'HEADER_VACUUM'=>"Vacuum",
+		'HEADER_PRESSURE'=>'Pressure',
 		'FOOTER_ACCESSORIES'=>'Accessories',
 		'FOOTER_CATALOG'=>'Complete Catalog',
 		'FOOTER_MOTOR'=>'Electric Motor',
 		'FOOTER_SITEMAP'=>'sitemap',
 		'NAV_SEARCH_PRODUCT'=>'Search Product',
+		'NAV_SEARCH_SELECT_GRAPH'=>'Select a Graph',
+		'NAV_SEARCH_PRESSURE'=>'Pressure',
+		'NAV_SEARCH_VACUUM'=>'Vacuum',
+		'NAV_SEARCH_AIR_FLOW'=>'Air Flow',
+
 		//Download 页面
 		'DOWNLOAD_TITLE'=>'Download side channel blower performance curves,data sheet,technical data for pressure and vacuum_GREENCO',
 		'DOWNLOAD_KEYWORDS'=>'side channel blower download,regenerative blower,Ring Blower catalogue,Air blower manual,blower dimensions,regenerative blower,vacuum pump,motors,performance curves,technical data,blower curves',
@@ -147,6 +154,17 @@ return array(
 		'EQUIPMENTS_TITLE'=>'Greenco Video|Product showroom|Blower video|side channel blower_GREENCO',
 		'EQUIPMENTS_KEYWORDS'=>'CNC,Die casting,CNC equipment,LGMazak,Brother CNC,side channel blower,regenerative blower,air blower,GREENCO',
 		'EQUIPMENTS_DESCRIPTION'=>'CNC,Die casting,CNC equipment,LGMazak,Brother CNC,side channel blower,regenerative blower,air blower,GREENCO',
+		'EQUIPMENTS_SPAREPART_WAREHOUSE'=>'Sparepart Warehouse',
+		'EQUIPMENTS_PRECISION_PRODUCTION_LINE'=>'Precision Production Line',
+		'EQUIPMENTS_DIE_CASTING_WORKSHOP'=>'Die Casting Workshop',
+		'EQUIPMENTS_ASSEMBLING_LINE'=>'Assembling Line',
+		'EQUIPMENTS_CARL_ZEISS_CMM'=>'Carl Zeiss CMM',
+		'EQUIPMENTS_PACKING_LINE'=>'Packing Line',
+		'EQUIPMENTS_SHIPPING'=>'Shipping',
+		'EQUIPMENTS_OUTGOING_INSPECTION'=>'Outgoing Inspection',
+		'EQUIPMENTS_AUTO_MOTOR_WINDING'=>'AUTO motor winding',
+		'EQUIPMENTS_SCHNEEBERGER_GRINDER'=>'SCHNEEBERGER Grinder',
+		
 		
 		
 );

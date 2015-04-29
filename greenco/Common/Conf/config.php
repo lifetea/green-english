@@ -10,18 +10,18 @@ return array(
 		'DB_PORT'   => 3306, // 端口
 		'DB_PREFIX' => '', // 数据库表前缀
 			
-		'SRC_ROOT'=>'http://192.168.1.42',
-		'IMG_ROOT'=>'http://192.168.1.42/src/img',
-		'JS_ROOT'=>'http://192.168.1.42/src/js',
+		'SRC_ROOT'=>URL,
+		'IMG_ROOT'=>URL.'/src/img',
+		'JS_ROOT'=>URL.'/src/js',
 		'COM_TP'=>'../Public',
 	//多语言网址
 		'ZH_URL'=>'http://www.greenco.com.cn',
 		'EN_URL'=>'http://www.greenco.cn',
 		'ES_URL'=>'http://spanish.greenco.cn',
 		
-		'Index_ROOT'=>'http://'.$_SERVER['HTTP_HOST'].'/Index',
-		'ABOUT_ROOT'=>'http://'.$_SERVER['HTTP_HOST'].'/About',
-		'PRO_ROOT'=>'http://'.$_SERVER['HTTP_HOST'].'/Pro',
-		'NEWS_ROOT'=>'http://'.$_SERVER['HTTP_HOST'].'/News',
+		'Index_ROOT'=>URL.'/Index',
+		'ABOUT_ROOT'=>URL.'/About',
+		'PRO_ROOT'=>URL.'/Pro',
+		'NEWS_ROOT'=>URL.'/News',
 		
 );

@@ -76,46 +76,47 @@
 								            	<a href="<?php echo (C("PRO_ROOT")); ?>/2RB_1"><?php echo (L("HEADER_2RB_SINGLE")); ?></a>
 							            	</li>
 								            <li>
-								            	<a href="Side_Channel_Blower_2RB_Double_Stage.php"><?php echo (L("HEADER_2RB_DOUBLE")); ?></a>
+								            	<a href="<?php echo (C("PRO_ROOT")); ?>/2RB_2"><?php echo (L("HEADER_2RB_DOUBLE")); ?></a>
 							            	</li>
 											<li class="divider">
 											<li>
 													<img class="pull-right" src="<?php echo (C("IMG_ROOT")); ?>/new.gif">
-													<a href="Side_Channel_Blower_3RB_Single_Stage.php"><?php echo (L("HEADER_3RB_SINGLE")); ?></a>
+													<a href="<?php echo (C("PRO_ROOT")); ?>/3RB_1"><?php echo (L("HEADER_3RB_SINGLE")); ?></a>
 									 	 	</li>
 											<li>
 													<img class="pull-right" src="<?php echo (C("IMG_ROOT")); ?>/new.gif">
-													<a href="Side_Channel_Blower_3RB_Double_Stage.php"><?php echo (L("HEADER_3RB_DOUBLE")); ?></a>
+													<a href="<?php echo (C("PRO_ROOT")); ?>/3RB_2"><?php echo (L("HEADER_3RB_DOUBLE")); ?></a>
 											</li>
 											<li>
 											 		<img class="pull-right" src="<?php echo (C("IMG_ROOT")); ?>/new.gif">
-													<a href="Side_Channel_Blower_3RB_Three_Stage.php"><?php echo (L("HEADER_3RB_THREE")); ?></a>
+													<a href="<?php echo (C("PRO_ROOT")); ?>/3RB_3"><?php echo (L("HEADER_3RB_THREE")); ?></a>
 											</li>
 											<li class="divider">                  
 								            <li>
-								            		<a href="Side_Channel_Blower_4RB_Single_Stage.php"><?php echo (L("HEADER_4RB_SINGLE")); ?></a>
+								            		<a href="<?php echo (C("PRO_ROOT")); ?>/4RB_1"><?php echo (L("HEADER_4RB_SINGLE")); ?></a>
 								            </li>
 								            <li>
-								            		<a href="Side_Channel_Blower_4RB_Double_Stage.php"><?php echo (L("HEADER_4RB_DOUBLE")); ?></a>
+								            		<a href="<?php echo (C("PRO_ROOT")); ?>/4RB_2"><?php echo (L("HEADER_4RB_DOUBLE")); ?></a>
 							            	</li>
 								            <li>
-							         	   			<a href="Side_Channel_Blower_4RB_Three_Stage.php"><?php echo (L("HEADER_4RB_THREE")); ?></a>
+							         	   			<a href="<?php echo (C("PRO_ROOT")); ?>/4RB_3"><?php echo (L("HEADER_4RB_THREE")); ?></a>
+								            </li>
+								             <li class="divider">
+								            <li>
+								            		<a href="<?php echo (C("PRO_ROOT")); ?>/Belt_2RB_1"><?php echo (L("HEADER_2RB_SINGLE_BELT")); ?></a>
 								            </li>
 								            <li>
-								            		<a href="Belt_Drive_Air_Blower_2RB_Single_Stage.php"><?php echo (L("HEADER_2RB_SINGLE_BELT")); ?></a>
+								            		<a href="<?php echo (C("PRO_ROOT")); ?>/Belt_2RB_2"><?php echo (L("HEADER_2RB_DOUBLE_BELT")); ?></a>
 								            </li>
 								            <li class="divider">
 								            <li>
-								            		<a href="Belt_Drive_Air_Blower_2RB_Double_Stage.php"><?php echo (L("HEADER_2RB_DOUBLE_BELT")); ?></a>
+								            <a href="<?php echo (C("PRO_ROOT")); ?>/IE2_1"><?php echo (L("HEADER_2RB_SINGLE_REGENERATIVE")); ?></a>
 								            </li>
 								            <li>
-								            <a href="IE2_Single_Stage_Regenerative_Blower.php"><?php echo (L("HEADER_2RB_SINGLE_REGENERATIVE")); ?></a>
+								            <a href="<?php echo (C("PRO_ROOT")); ?>/IE2_2"><?php echo (L("HEADER_2RB_DOUBLE_REGENERATIVE")); ?></a>
 								            </li>
 								            <li>
-								            <a href="IE2_Double_Stage_Regenerative_Blower.php"><?php echo (L("HEADER_2RB_DOUBLE_REGENERATIVE")); ?></a>
-								            </li>
-								            <li>
-								            <a href="Cover_Suction_Ring_Blower.php"><?php echo (L("HEADER_COVER_SUCTION")); ?></a>
+								            <a href="<?php echo (C("PRO_ROOT")); ?>/Suction"><?php echo (L("HEADER_COVER_SUCTION")); ?></a>
 								            </li>
 								            <li class="divider">
 								            <li>
@@ -128,9 +129,9 @@
 								            <a href="Inlet_Vacuum_Filter.php"><?php echo (L("HEADER_FILTER")); ?></a>
 								            </li>
 								        </ul>
-								      </li>        
+								      </li>   
 								 <li>
-								        <a href="application"><?php echo (L("HEADER_APPLICATIONS")); ?></a>
+								        <a href="<?php echo (C("INDEX_ROOT")); ?>/application"><?php echo (L("HEADER_APPLICATIONS")); ?></a>
 								  </li>
 								  
 								 <li class="dropdown">
@@ -192,16 +193,14 @@
 </h3>
 <form class="search-bar">
 		<div class="form-group">
-				<label for="inputEmail3" class="control-label col-ms-6"><?php echo _('1:Select a Graph:');?></label>
-				<div class="col-ms-6">
-						<select class="form-control">
-						   				<option><?php echo _('Pressure');?></option>
-						  				<option><?php echo _('Vacuum');?></option>
-						</select>
-				</div>
+				<label for="inputEmail3" class="control-label ">1:<?php echo (L("NAV_SEARCH_SELECT_GRAPH")); ?></label>
+				<select class="form-control">
+				   				<option><?php echo (L("HEADER_VACUUM")); ?></option>
+				  				<option><?php echo (L("HEADER_PRESSURE")); ?></option>
+				</select>
 		</div>
 		<div class="form-group">
-				<label for="inputEmail3" class="control-label"><?php echo _('2:Air Flow');?>(e.g.120):</label>
+				<label for="inputEmail3" class="control-label">2:<?php echo (L("NAV_SEARCH_AIR_FLOW")); ?>(e.g.120):</label>
 				<div class="row">
 						  <div class="col-md-6">
 								  <input type="text" class="form-control">
@@ -215,7 +214,7 @@
 				</div>
 		</div>
 		 <div class="form-group">
-			  <label for="inputEmail3" class="col-sm-8 control-label"><?php echo _('3:Pressure');?>(e.g.200):</label>
+			  <label for="inputEmail3" class="control-label">3:<?php echo (L("NAV_SEARCH_PRESSURE")); ?>(e.g.200):</label>
 				<div class="row">
 						  <div class="col-md-6">
 								  <input type="text" class="form-control">
@@ -229,7 +228,7 @@
 				</div>
 			</div> 
 		<div class="form-group">
-		    <button type="submit" class="btn btn-default">Search</button>
+		    <button type="submit" class="btn btn-default"><?php echo (L("HEADER_SEARCH")); ?></button>
 		</div>
 </form>
 
@@ -263,10 +262,10 @@
 		<div class="container">
 			<ul class=" col-md-2 " >
 				<li class="item-title" ><?php echo (L("HEADER_ABOUT_GREENCO")); ?></li>
-				<li><a rel="nofollow" href="Certification.php"><?php echo (L("HEADER_CERTIFICATION")); ?></a></li>
-				<li><a rel="nofollow" href="Honour.php"><?php echo (L("HEADER_HONOUR")); ?></a></li>
-				<li><a rel="nofollow" href="Video.php"><?php echo (L("HEADER_VIDEO")); ?></a></li>
-				<li><a rel="nofollow" href="Equipments.php"><?php echo (L("HEADER_EQUIPMENTS")); ?></a></li>
+				<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/certification"><?php echo (L("HEADER_CERTIFICATION")); ?></a></li>
+				<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/honour"><?php echo (L("HEADER_HONOUR")); ?></a></li>
+				<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/video"><?php echo (L("HEADER_VIDEO")); ?></a></li>
+				<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/equipments"><?php echo (L("HEADER_EQUIPMENTS")); ?></a></li>
 			</ul>
 			<ul class="col-md-3 ">
 				<li class="item-title" ><?php echo (L("HEADER_PRODUCTS")); ?></li>

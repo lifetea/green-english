@@ -11,6 +11,8 @@ ul{padding:0;list-style:none}
 .link-1{color:#1d2d56;line-height:30px;}
 .link-2{color: #333;}
 .link-3{color:#1d2d56;}
+.link-4{color: #333;line-height: 40px;font-weight: 400;}
+
 .head-1{color:#eee;text-indent:5px;font-size:14px;font-family:tahoma;font-family:tahoma;  text-indent: 10px; background: #666; font-size: 14px;  font-weight: 600; ;height: 32px;color: #fff;line-height: 32px;border: 1px solid #555; }
 .text-1{font-weight:600;font-size:12px;line-height:200%;}
 .text-2{line-height: 21px;text-indent: 2em;text-align: justify;}
@@ -159,3 +161,8 @@ ul{padding:0;list-style:none}
 .pro-nav li,.about-nav li,.news-nav li{margin-top: 13px;background: url(../img/arrow.png) no-repeat 0 2px;padding-left: 18px;}
 .video{width:620px; height:436px; overflow:hidden;padding:7px;border:1px solid #ccc;text-align:center;margin:0 auto;}
 .search-bar{padding-top:1em}
+
+/*Pro*/
+.pro-list div{text-align:center}
+.pro-item img{border: 1px solid #bbb;}
+.pro .content{min-height:890px}

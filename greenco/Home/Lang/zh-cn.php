@@ -4,7 +4,7 @@ return array(
 		'INDEX_TITLE'=>'旋涡气泵_漩涡气泵_高压风机_浙江格凌实业有限公司',
 		'INDEX_KEYWORDS'=>' 浙江格凌实业有限公司是一家专业从事空气流体设备的国家高新技术企业,形成了漩涡式气泵为主,其他空气流体设备（真空泵和压缩机）为辅，集研发、生产、销售、服务于一体的发展格局,公司已经成为中国乃至全球漩涡气泵与高压风机领域的领导者。http://chinese.greenco.cn/',
 		'INDEX_DESCRIPTION'=>'高压风机,高压鼓风机,漩涡气泵,旋涡气泵,真空泵,2RB系列高压风机,4RB系列高压风机',
-		'SRC_LAN'=>'http://192.168.1.42/src/cn',
+		'SRC_LAN'=>URL.'/src/cn',
 		'LAN'=>'zh-cn', 
 		//Header Footer  *-nav页面
 		'HEADER_BODY_CLASS'=>'green-zh',
@@ -41,11 +41,16 @@ return array(
 		'HEADER_CONTACT_US'=>"联系我们",
 		'HEADER_JOIN_US'=>"加入我们",
 		'HEADER_SEARCH'=>'搜索',
+		'HEADER_VACUUM'=>"真空",
+		'HEADER_PRESSURE'=>'压力',
 		'FOOTER_ACCESSORIES'=>'漩涡气泵配件',
 		'FOOTER_CATALOG'=>'格凌目录书',
 		'FOOTER_MOTOR'=>'电机',
 		'FOOTER_SITEMAP'=>'网址地图',
 		'NAV_SEARCH_PRODUCT'=>'搜索产品',
+		'NAV_SEARCH_SELECT_GRAPH'=>'选择压力方式',
+		'NAV_SEARCH_PRESSURE'=>'压力值',
+		'NAV_SEARCH_AIR_FLOW'=>'流量值',		
 		//Download 页面
 		'DOWNLOAD_TITLE'=>'高压风机资料下载|漩涡气泵资料下载|真空泵资料下载|电动机资料下载_浙江格凌实业有限公司',
 		'DOWNLOAD_KEYWORDS'=>'高压风机资料下载,高压风机参数下载,高压风机说明文档下载,高压风机使用手册下载,高压风机应用下载,高瑞风机安装尺寸图下载,高瑞高压风机,高压风机产品,高压鼓风机',
@@ -150,7 +155,16 @@ return array(
 		'EQUIPMENTS_TITLE'=>'格凌设备|CNC|加工中心|加工车间|加工设备|浙江格凌实业有限公司',
 		'EQUIPMENTS_KEYWORDS'=>'加工中心CNC,压铸,加工设备,LGMazak马扎克,兄弟Brother CNC,磨床,高压风机,漩涡气泵,气环风机,旋涡风机,GREENCO,格凌,格凌风机,浙江格凌实业',
 		'EQUIPMENTS_DESCRIPTION'=>'浙江格凌实业有限公司专业研发、生产、销售格凌高压风机、高压鼓风机、真空泵十多年.拥有40多项高压风机核心专利技术和发明专利',
-				
+		'EQUIPMENTS_SPAREPART_WAREHOUSE'=>'零件仓库',
+		'EQUIPMENTS_PRECISION_PRODUCTION_LINE'=>'生产设备展示',
+		'EQUIPMENTS_DIE_CASTING_WORKSHOP'=>'压铸车间',
+		'EQUIPMENTS_ASSEMBLING_LINE'=>'装配线',
+		'EQUIPMENTS_CARL_ZEISS_CMM'=>'Carl Zeiss三坐标',
+		'EQUIPMENTS_PACKING_LINE'=>'包装线',
+		'EQUIPMENTS_SHIPPING'=>'发货区',
+		'EQUIPMENTS_OUTGOING_INSPECTION'=>'出厂检测',
+		'EQUIPMENTS_AUTO_MOTOR_WINDING'=>'自动绕线机',
+		'EQUIPMENTS_SCHNEEBERGER_GRINDER'=>'SCHNEEBERGER 磨床',				
 		
 		
 );
