@@ -130,9 +130,9 @@
 								            <a href="Inlet_Vacuum_Filter.php"><?php echo (L("HEADER_FILTER")); ?></a>
 								            </li>
 								        </ul>
-								      </li>        
+								      </li>   
 								 <li>
-								        <a href="application"><?php echo (L("HEADER_APPLICATIONS")); ?></a>
+								        <a href="<?php echo (C("INDEX_ROOT")); ?>/application"><?php echo (L("HEADER_APPLICATIONS")); ?></a>
 								  </li>
 								  
 								 <li class="dropdown">
@@ -147,10 +147,10 @@
 								        </ul>
 					      		</li>        
 								<li>
-										<a rel="nofollow" href="Download.php"><?php echo (L("HEADER_DOWNLOADS")); ?></a>
+										<a rel="nofollow" href="<?php echo (C("INDEX_ROOT")); ?>/download"><?php echo (L("HEADER_DOWNLOADS")); ?></a>
 								</li>
 								<li>
-										<a rel="nofollow" href="contact"><?php echo (L("HEADER_CONTACT_US")); ?></a>
+										<a rel="nofollow" href="<?php echo (C("Index_ROOT")); ?>/contact"><?php echo (L("HEADER_CONTACT_US")); ?></a>
 								</li>
 								<li>
 										<a rel="nofollow" href="#"><?php echo (L("HEADER_JOIN_US")); ?></a>
@@ -297,10 +297,10 @@
 		<div class="container">
 			<ul class=" col-md-2 " >
 				<li class="item-title" ><?php echo (L("HEADER_ABOUT_GREENCO")); ?></li>
-				<li><a rel="nofollow" href="Certification.php"><?php echo (L("HEADER_CERTIFICATION")); ?></a></li>
-				<li><a rel="nofollow" href="Honour.php"><?php echo (L("HEADER_HONOUR")); ?></a></li>
-				<li><a rel="nofollow" href="Video.php"><?php echo (L("HEADER_VIDEO")); ?></a></li>
-				<li><a rel="nofollow" href="Equipments.php"><?php echo (L("HEADER_EQUIPMENTS")); ?></a></li>
+				<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/certification"><?php echo (L("HEADER_CERTIFICATION")); ?></a></li>
+				<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/honour"><?php echo (L("HEADER_HONOUR")); ?></a></li>
+				<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/video"><?php echo (L("HEADER_VIDEO")); ?></a></li>
+				<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/equipments"><?php echo (L("HEADER_EQUIPMENTS")); ?></a></li>
 			</ul>
 			<ul class="col-md-3 ">
 				<li class="item-title" ><?php echo (L("HEADER_PRODUCTS")); ?></li>
@@ -324,9 +324,9 @@
 			</ul>
 			<ul class="col-md-2  last">
 					<li class="item-title"><?php echo (L("HEADER_NEWS_CENTER")); ?></li>
-					<li><a rel="nofollow" href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
-					<li><a rel="nofollow" href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
-					<li><a rel="nofollow" href="support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
+					<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/company"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
+					<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/industry"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
+					<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
 					<li><a rel="nofollow" href="sitemap.xml"><?php echo (L("FOOTER_SITEMAP")); ?></a></li>
 			</ul>
 		</div>

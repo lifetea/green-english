@@ -149,7 +149,7 @@
 										<a rel="nofollow" href="Download.php"><?php echo (L("HEADER_DOWNLOADS")); ?></a>
 								</li>
 								<li>
-										<a rel="nofollow" href="contact"><?php echo (L("HEADER_CONTACT_US")); ?></a>
+										<a rel="nofollow" href="<?php echo (C("Index_ROOT")); ?>/contact"><?php echo (L("HEADER_CONTACT_US")); ?></a>
 								</li>
 								<li>
 										<a rel="nofollow" href="#"><?php echo (L("HEADER_JOIN_US")); ?></a>
@@ -166,96 +166,220 @@
 
 <!-- 下载内容 -->
 <div class="container-fuild">
-    <div class="container contact">
-	    <div class="row">
-	    	<div class="col-md-6">
-		    	<div class="detail">
-					<h3 class="title-2"><?php echo (L("CONTACT_DETAILS")); ?></h3>
-					<p class="title-1">
-						<?php echo (L("CONTACT_GREENCO_COLTD")); ?>
-					</p>
-					<p>
-						 <span><?php echo (L("CONTACT_ADD")); ?>:</span>
-						 <?php echo (L("CONTACT_ADDRESS")); ?>
-					</p>
-					<?php if(L("LAN")=='zh-cn'): if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p class="phone hide">
-								<span><?php echo (L("CONTACT_TELEPHONE")); ?>:</span>
-								<?php echo ($vo["tel"]); ?> <?php echo ($vo["name"]); ?>
-							</p><?php endforeach; endif; else: echo "" ;endif; ?>										
-					<?php else: ?>
-						<p>Tel: 0086-576-86428999</p><?php endif; ?>
-					<p>
-						<span><?php echo (L("CONTACT_FAX")); ?>:</span>
-						<?php echo (L("CONTACT_FAX_NO")); ?>
-					</p>
-					<p><?php echo (L("CONTACT_EMAIL")); ?>: greenco@greenco.cn</p>
-					<p>MSN: greenco.cn@hotmail.com</p>
-					<p><?php echo (L("CONTACT_WEBSITE")); ?>: http://www.greenco.cn</p>
-		    	</div>	
-	    	</div>
-	    	<div class="col-md-6">
- 			   <img style="margin:0 auto;width:70%" src="images/contact_us.jpg"/>
-	    	</div>
-	    </div>
-	    <div class="row">
-		    <div class="col-md-6">
-				    <?php  include 'map.php';?>
-		    </div>
-		    <div class="col-md-5">
-			     <div id="feedback_info">
-					<p class="title-1">
-							<?php echo (L("CONTACT_Q&C")); ?>
-					</p>
-					<p>
-						<?php echo (L("CONTACT_SUGGEST")); ?>
-					</p>
-		              <form method="post" class="form-horizontal"  action="contact_us.php">
-						  <div class="form-group">
-						    <label class="col-sm-2 control-label"><?php echo (L("CONTACT_NAME")); ?>:</label>
-						    <div class="col-sm-10">
-						    	<input type="text" class="form-control" name="name" placeholder="<?php echo (L("CONTACT_NAME")); ?>">
-						    </div>
-						  </div>
-						  <div class="form-group">
-						  	<label class="col-sm-2 control-label"><?php echo (L("CONTACT_COMPANY")); ?>:</label>
-						    <div class="col-sm-10">
-							    <input type="text" name="company" class="form-control" id="exampleInputPassword1" placeholder=<?php echo (L("CONTACT_COMPANY")); ?>>
-						    </div>
-						  </div>
-						  <div class="form-group">
-						  	<label class="col-sm-2 control-label"><?php echo (L("CONTACT_TELEPHONE")); ?>:</label>
-						    <div class="col-sm-10">
-							    <input type="text" name="phone" class="form-control" id="exampleInputPassword1" placeholder="<?php echo (L("CONTACT_TELEPHONE")); ?>">
-						    </div>						  
-						  </div>						  
-						  <div class="form-group">
-						  	<label class="col-sm-2 control-label"><?php echo (L("CONTACT_EMAIL")); ?>:</label>
-						    <div class="col-sm-10">
-							    <input type="email" name="email" class="form-control" id="exampleInputPassword1" placeholder="<?php echo (L("CONTACT_EMAIL")); ?>">
-						    </div>	
-						  </div>
-						  <div class="form-group">
-						  	<label class="col-sm-2 control-label"><?php echo (L("CONTACT_COMMENTS")); ?>:</label>
-						    <div class="col-sm-10">
-							    <textarea name="content" class="form-control" rows="3" placeholder="<?php echo (L("CONTACT_COMMENTS")); ?>"></textarea>
-						    </div>	
-						  </div>
-						  <div class="form-group">
-						  	<label class="col-sm-2 control-label">*<?php echo (L("CONTACT_CODE")); ?>:</label>
-						    <div class="col-sm-6">
-						    	<img src="Code"  id="code" class="pull-left"  style="cursor: pointer;border:1px solid #999;padding:2px;"/>
-						    	<input type="text" style="width:100px;margin-left:6px" name="code" class="form-control pull-left"/>
-						    </div>
-						    <div class="col-sm-4">
-						    	<button type="submit" id="submit" class="btn btn-default pull-right"><?php echo (L("CONTACT_SEND")); ?></button>
-						    </div>						    
-						  </div>						  
-		              </form>
-			    </div>
-		    </div>		    
-	    </div>
+		<div class="container contact">
+				<div class="row">
+						<div class="col-md-6">
+							 	<div class="detail">
+										<h3 class="title-2"><?php echo (L("CONTACT_DETAILS")); ?></h3>
+										<p class="title-1">
+												<?php echo (L("CONTACT_GREENCO_COLTD")); ?>
+										</p>
+										<p>
+												 <span><?php echo (L("CONTACT_ADD")); ?>:</span>
+												 <?php echo (L("CONTACT_ADDRESS")); ?>
+										</p>
+										<?php if(L("LAN")=='zh-cn'): if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><p class="phone hide">
+																<span><?php echo (L("CONTACT_TELEPHONE")); ?>:</span>
+																<?php echo ($vo["tel"]); ?> <?php echo ($vo["name"]); ?>
+														</p><?php endforeach; endif; else: echo "" ;endif; ?>										
+										<?php else: ?>
+												<p>Tel: 0086-576-86428999</p><?php endif; ?>
+										<p>
+												<span><?php echo (L("CONTACT_FAX")); ?>:</span>
+												<?php echo (L("CONTACT_FAX_NO")); ?>
+										</p>
+										<p><?php echo (L("CONTACT_EMAIL")); ?>: greenco@greenco.cn</p>
+										<p>MSN: greenco.cn@hotmail.com</p>
+										<p><?php echo (L("CONTACT_WEBSITE")); ?>: http://www.greenco.cn</p>
+							 	</div>	
+						</div>
+						<div class="col-md-6">
+							  <img style="margin:0 auto;width:70%" src="<?php echo (C("IMG_ROOT")); ?>/contact_us.jpg"/>
+						</div>
+				</div>
+		 <div class="row">
+		  <div class="col-md-6">
+		    <!DOCTYPE html>
+<html>
+<head>
+<title>浙江格凌实业有限公司地址-百度地图</title>
+<meta name="keywords" content="百度地图,百度地图API，百度地图自定义工具，百度地图所见即所得工具" />
+<meta name="description" content="百度地图API自定义地图，帮助用户在可视化操作下生成百度地图" />
+<!--引用百度地图API-->
+<style type="text/css">
+    html,body{margin:0;padding:0;}
+    .iw_poi_title {color:#1b2f69;font-size:13px;font-weight:bold;overflow:hidden;padding-right:13px;}
+    .iw_poi_content {font:12px arial,sans-serif;overflow:visible;padding-top:-4px;white-space:-moz-pre-wrap;word-wrap:break-word;}
+	#dituContent {
+		width: 90%;
+		margin:0 auto;
+		height: 400px;
+		border: 1px solid #666;
+	}
+</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
 
-    </div>
+<body>
+  <!--百度地图容器-->
+  <div style="margin-top:10px;" id="dituContent"></div>
+
+  <script type="text/javascript">
+    //创建和初始化地图函数：
+    function initMap(){
+        createMap();//创建地图
+        setMapEvent();//设置地图事件
+        addMapControl();//向地图添加控件
+        addMarker();//向地图中添加marker
+    }
+
+    //创建地图函数：
+    function createMap(){
+        var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
+        var point = new BMap.Point(121.352961,28.510765);//创建点坐标
+        map.centerAndZoom(point,14);//初始化地图，设置中心点坐标和地图级别
+        window.map = map;//将map变量存储在全局
+    }
+
+    //地图事件设置函数：
+    function setMapEvent(){
+        map.enableDragging();//启用地图拖拽事件，默认启用(可不写)
+        map.enableScrollWheelZoom();//启用地图滚轮放大缩小
+        map.enableDoubleClickZoom();//启用鼠标双击放大，默认启用(可不写)
+        map.enableKeyboard();//启用键盘上下左右键移动地图
+    }
+
+    //地图控件添加函数：
+    function addMapControl(){
+        //向地图中添加缩放控件
+	var ctrl_nav = new BMap.NavigationControl({anchor:BMAP_ANCHOR_TOP_LEFT,type:BMAP_NAVIGATION_CONTROL_LARGE});
+	map.addControl(ctrl_nav);
+        //向地图中添加缩略图控件
+	var ctrl_ove = new BMap.OverviewMapControl({anchor:BMAP_ANCHOR_BOTTOM_RIGHT,isOpen:1});
+	map.addControl(ctrl_ove);
+        //向地图中添加比例尺控件
+	var ctrl_sca = new BMap.ScaleControl({anchor:BMAP_ANCHOR_BOTTOM_LEFT});
+	map.addControl(ctrl_sca);
+    }
+
+    //标注点数组
+    var markerArr = [{title:"浙江格凌实业有限公司",content:"公司地址：浙江省温岭市泽国镇丹崖工业区<br/>电话：+86-0576-86402630或+86-0576-86402632<br/>传真：+86-057686409555<br/>邮箱：greenco@greenco.cn<br/>网站地址：http://www.greenco.cn",point:"121.352309|28.51159",isOpen:0,icon:{w:21,h:19,l:0,t:0,x:6,lb:5}}
+		 ];
+    //创建marker
+    function addMarker(){
+        for(var i=0;i<markerArr.length;i++){
+            var json = markerArr[i];
+            var p0 = json.point.split("|")[0];
+            var p1 = json.point.split("|")[1];
+            var point = new BMap.Point(p0,p1);
+			var iconImg = createIcon(json.icon);
+            var marker = new BMap.Marker(point,{icon:iconImg});
+			var iw = createInfoWindow(i);
+			var label = new BMap.Label(json.title,{"offset":new BMap.Size(json.icon.lb-json.icon.x+20,-20)});
+			marker.setLabel(label);
+            map.addOverlay(marker);
+            label.setStyle({
+                        borderColor:"#444",
+                        color:"#333",
+                        cursor:"pointer"
+            });
+
+			(function(){
+				var index = i;
+				var _iw = createInfoWindow(i);
+				var _marker = marker;
+				_marker.addEventListener("click",function(){
+				    this.openInfoWindow(_iw);
+			    });
+			    _iw.addEventListener("open",function(){
+				    _marker.getLabel().hide();
+			    })
+			    _iw.addEventListener("close",function(){
+				    _marker.getLabel().show();
+			    })
+				label.addEventListener("click",function(){
+				    _marker.openInfoWindow(_iw);
+			    })
+				if(!!json.isOpen){
+					label.hide();
+					_marker.openInfoWindow(_iw);
+				}
+			})()
+        }
+    }
+    //创建InfoWindow
+    function createInfoWindow(i){
+        var json = markerArr[i];
+        var iw = new BMap.InfoWindow("<b class='iw_poi_title' title='" + json.title + "'>" + json.title + "</b><div class='iw_poi_content'>"+json.content+"</div>");
+        return iw;
+    }
+    //创建一个Icon 可以修改图标
+    function createIcon(json){
+        var icon = new BMap.Icon("<?php echo (C("IMG_ROOT")); ?>/ditu.png", new BMap.Size(json.w,json.h),{imageOffset: new BMap.Size(-json.l,-json.t),infoWindowOffset:new BMap.Size(json.lb+5,1),offset:new BMap.Size(json.x,json.h)})
+        return icon;
+    }
+
+    initMap();//创建和初始化地图
+</script>
+</body>
+
+</html>
+		  </div>
+		  <div class="col-md-5">
+		    <div id="feedback_info">
+			<p class="title-1">
+					<?php echo (L("CONTACT_Q&C")); ?>
+			</p>
+			<p>
+				<?php echo (L("CONTACT_SUGGEST")); ?>
+			</p>
+		            <form method="post" class="form-horizontal"  action="contact_us.php">
+				  <div class="form-group">
+				    <label class="col-sm-2 control-label"><?php echo (L("CONTACT_NAME")); ?>:</label>
+				    <div class="col-sm-10">
+				    	<input type="text" class="form-control" name="name" placeholder="<?php echo (L("CONTACT_NAME")); ?>">
+				    </div>
+				  </div>
+				  <div class="form-group">
+				  	<label class="col-sm-2 control-label"><?php echo (L("CONTACT_COMPANY")); ?>:</label>
+				    <div class="col-sm-10">
+					    <input type="text" name="company" class="form-control" id="exampleInputPassword1" placeholder=<?php echo (L("CONTACT_COMPANY")); ?>>
+				    </div>
+				  </div>
+				  <div class="form-group">
+				  	<label class="col-sm-2 control-label"><?php echo (L("CONTACT_TELEPHONE")); ?>:</label>
+				    <div class="col-sm-10">
+					    <input type="text" name="phone" class="form-control" id="exampleInputPassword1" placeholder="<?php echo (L("CONTACT_TELEPHONE")); ?>">
+				    </div>						  
+				  </div>						  
+				  <div class="form-group">
+				  	<label class="col-sm-2 control-label"><?php echo (L("CONTACT_EMAIL")); ?>:</label>
+				    <div class="col-sm-10">
+					    <input type="email" name="email" class="form-control" id="exampleInputPassword1" placeholder="<?php echo (L("CONTACT_EMAIL")); ?>">
+				    </div>	
+				  </div>
+				  <div class="form-group">
+				  	<label class="col-sm-2 control-label"><?php echo (L("CONTACT_COMMENTS")); ?>:</label>
+				    <div class="col-sm-10">
+					    <textarea name="content" class="form-control" rows="3" placeholder="<?php echo (L("CONTACT_COMMENTS")); ?>"></textarea>
+				    </div>	
+				  </div>
+				  <div class="form-group">
+				  	<label class="col-sm-2 control-label">*<?php echo (L("CONTACT_CODE")); ?>:</label>
+				    <div class="col-sm-6">
+				    	<img src="Code"  id="code" class="pull-left"  style="cursor: pointer;border:1px solid #999;padding:2px;"/>
+				    	<input type="text" style="width:100px;margin-left:6px" name="code" class="form-control pull-left"/>
+				    </div>
+				    <div class="col-sm-4">
+				    	<button type="submit" id="submit" class="btn btn-default pull-right"><?php echo (L("CONTACT_SEND")); ?></button>
+				    </div>						    
+				  </div>						  
+		            </form>
+		   </div>
+		  </div>		    
+		 </div>
+		
+		</div>
 </div>
 <!-- 下载内容end -->
         
@@ -291,9 +415,9 @@
 			</ul>
 			<ul class="col-md-2  last">
 					<li class="item-title"><?php echo (L("HEADER_NEWS_CENTER")); ?></li>
-					<li><a rel="nofollow" href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
-					<li><a rel="nofollow" href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
-					<li><a rel="nofollow" href="support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
+					<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/company"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
+					<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/industry"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
+					<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
 					<li><a rel="nofollow" href="sitemap.xml"><?php echo (L("FOOTER_SITEMAP")); ?></a></li>
 			</ul>
 		</div>

@@ -151,7 +151,7 @@
 										<a rel="nofollow" href="Download.php"><?php echo (L("HEADER_DOWNLOADS")); ?></a>
 								</li>
 								<li>
-										<a rel="nofollow" href="contact"><?php echo (L("HEADER_CONTACT_US")); ?></a>
+										<a rel="nofollow" href="<?php echo (C("Index_ROOT")); ?>/contact"><?php echo (L("HEADER_CONTACT_US")); ?></a>
 								</li>
 								<li>
 										<a rel="nofollow" href="#"><?php echo (L("HEADER_JOIN_US")); ?></a>
@@ -505,9 +505,9 @@
 			</ul>
 			<ul class="col-md-2  last">
 					<li class="item-title"><?php echo (L("HEADER_NEWS_CENTER")); ?></li>
-					<li><a rel="nofollow" href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
-					<li><a rel="nofollow" href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
-					<li><a rel="nofollow" href="support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
+					<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/company"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
+					<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/industry"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
+					<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
 					<li><a rel="nofollow" href="sitemap.xml"><?php echo (L("FOOTER_SITEMAP")); ?></a></li>
 			</ul>
 		</div>

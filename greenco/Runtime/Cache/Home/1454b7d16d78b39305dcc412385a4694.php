@@ -39,7 +39,7 @@
 						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 								<ul class="nav navbar-nav">
 										<li>
-												<a rel="nofollow"  href="index.php"><?php echo (L("HEADER_HOME")); ?></a>
+												<a rel="nofollow"  href="<?php echo (C("Index_ROOT")); ?>/index"><?php echo (L("HEADER_HOME")); ?></a>
 										</li>
 								  <li class="dropdown">
 								  		<a href="about_us.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
@@ -48,74 +48,75 @@
 								    	</a>
 								    	<ul class="dropdown-menu" role="menu">
 									            <li>
-							            				<a rel="nofollow" href="about_us"><?php echo (L("HEADER_ABOUT_GREENCO")); ?></a>
+							            				<a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/about_us"><?php echo (L("HEADER_ABOUT_GREENCO")); ?></a>
 						            			</li>
 									            <li>
-									            		<a rel="nofollow" href="certification"><?php echo (L("HEADER_CERTIFICATION")); ?></a>
+									            		<a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/certification"><?php echo (L("HEADER_CERTIFICATION")); ?></a>
 								            	</li>
 									            <li>
-									            		<a rel="nofollow" href="honour"><?php echo (L("HEADER_HONOUR")); ?></a>
+									            		<a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/honour"><?php echo (L("HEADER_HONOUR")); ?></a>
 								            	</li>
 									            <li>
-									            		<a rel="nofollow" href="video.php"><?php echo (L("HEADER_VIDEO")); ?></a>
+									            		<a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/video"><?php echo (L("HEADER_VIDEO")); ?></a>
 							            		</li>
 									            <li>
-									            		<a rel="nofollow" href="equipments"><?php echo (L("HEADER_EQUIPMENTS")); ?></a>
+									            		<a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/equipments"><?php echo (L("HEADER_EQUIPMENTS")); ?></a>
 							            		</li>
 									    </ul>
 								  </li>
 								  
 								  
 								  <li class="dropdown">
-								    <a href="Side_Channel_Blower_2RB_Single_Stage.php" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+								    <a href="<?php echo (C("PRO_ROOT")); ?>/2RB_1" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
 								    		<?php echo (L("HEADER_PRODUCTS")); ?>
 								    		<span class="caret"></span>
 								    </a>
 								    <ul class="dropdown-menu" role="menu">
 								            <li>
-								            	<a href="Side_Channel_Blower_2RB_Single_Stage.php"><?php echo (L("HEADER_2RB_SINGLE")); ?></a>
+								            	<a href="<?php echo (C("PRO_ROOT")); ?>/2RB_1"><?php echo (L("HEADER_2RB_SINGLE")); ?></a>
 							            	</li>
 								            <li>
-								            	<a href="Side_Channel_Blower_2RB_Double_Stage.php"><?php echo (L("HEADER_2RB_DOUBLE")); ?></a>
+								            	<a href="<?php echo (C("PRO_ROOT")); ?>/2RB_2"><?php echo (L("HEADER_2RB_DOUBLE")); ?></a>
 							            	</li>
 											<li class="divider">
 											<li>
-													<img class="pull-right" src="image/new.gif">
-													<a href="Side_Channel_Blower_3RB_Single_Stage.php"><?php echo (L("HEADER_3RB_SINGLE")); ?></a>
+													<img class="pull-right" src="<?php echo (C("IMG_ROOT")); ?>/new.gif">
+													<a href="<?php echo (C("PRO_ROOT")); ?>/3RB_1"><?php echo (L("HEADER_3RB_SINGLE")); ?></a>
 									 	 	</li>
 											<li>
-													<img class="pull-right" src="image/new.gif">
-													<a href="Side_Channel_Blower_3RB_Double_Stage.php"><?php echo (L("HEADER_3RB_DOUBLE")); ?></a>
+													<img class="pull-right" src="<?php echo (C("IMG_ROOT")); ?>/new.gif">
+													<a href="<?php echo (C("PRO_ROOT")); ?>/3RB_2"><?php echo (L("HEADER_3RB_DOUBLE")); ?></a>
 											</li>
 											<li>
-											 		<img class="pull-right" src="image/new.gif">
-													<a href="Side_Channel_Blower_3RB_Three_Stage.php"><?php echo (L("HEADER_3RB_THREE")); ?></a>
+											 		<img class="pull-right" src="<?php echo (C("IMG_ROOT")); ?>/new.gif">
+													<a href="<?php echo (C("PRO_ROOT")); ?>/3RB_3"><?php echo (L("HEADER_3RB_THREE")); ?></a>
 											</li>
 											<li class="divider">                  
 								            <li>
-								            		<a href="Side_Channel_Blower_4RB_Single_Stage.php"><?php echo (L("HEADER_4RB_SINGLE")); ?></a>
+								            		<a href="<?php echo (C("PRO_ROOT")); ?>/4RB_1"><?php echo (L("HEADER_4RB_SINGLE")); ?></a>
 								            </li>
 								            <li>
-								            		<a href="Side_Channel_Blower_4RB_Double_Stage.php"><?php echo (L("HEADER_4RB_DOUBLE")); ?></a>
+								            		<a href="<?php echo (C("PRO_ROOT")); ?>/4RB_2"><?php echo (L("HEADER_4RB_DOUBLE")); ?></a>
 							            	</li>
 								            <li>
-							         	   			<a href="Side_Channel_Blower_4RB_Three_Stage.php"><?php echo (L("HEADER_4RB_THREE")); ?></a>
+							         	   			<a href="<?php echo (C("PRO_ROOT")); ?>/4RB_3"><?php echo (L("HEADER_4RB_THREE")); ?></a>
+								            </li>
+								             <li class="divider">
+								            <li>
+								            		<a href="<?php echo (C("PRO_ROOT")); ?>/Belt_2RB_1"><?php echo (L("HEADER_2RB_SINGLE_BELT")); ?></a>
 								            </li>
 								            <li>
-								            		<a href="Belt_Drive_Air_Blower_2RB_Single_Stage.php"><?php echo (L("HEADER_2RB_SINGLE_BELT")); ?></a>
+								            		<a href="<?php echo (C("PRO_ROOT")); ?>/Belt_2RB_2"><?php echo (L("HEADER_2RB_DOUBLE_BELT")); ?></a>
 								            </li>
 								            <li class="divider">
 								            <li>
-								            		<a href="Belt_Drive_Air_Blower_2RB_Double_Stage.php"><?php echo (L("HEADER_2RB_DOUBLE_BELT")); ?></a>
+								            <a href="<?php echo (C("PRO_ROOT")); ?>/IE2_1"><?php echo (L("HEADER_2RB_SINGLE_REGENERATIVE")); ?></a>
 								            </li>
 								            <li>
-								            <a href="IE2_Single_Stage_Regenerative_Blower.php"><?php echo (L("HEADER_2RB_SINGLE_REGENERATIVE")); ?></a>
+								            <a href="<?php echo (C("PRO_ROOT")); ?>/IE2_2"><?php echo (L("HEADER_2RB_DOUBLE_REGENERATIVE")); ?></a>
 								            </li>
 								            <li>
-								            <a href="IE2_Double_Stage_Regenerative_Blower.php"><?php echo (L("HEADER_2RB_DOUBLE_REGENERATIVE")); ?></a>
-								            </li>
-								            <li>
-								            <a href="Cover_Suction_Ring_Blower.php"><?php echo (L("HEADER_COVER_SUCTION")); ?></a>
+								            <a href="<?php echo (C("PRO_ROOT")); ?>/Suction"><?php echo (L("HEADER_COVER_SUCTION")); ?></a>
 								            </li>
 								            <li class="divider">
 								            <li>
@@ -128,9 +129,9 @@
 								            <a href="Inlet_Vacuum_Filter.php"><?php echo (L("HEADER_FILTER")); ?></a>
 								            </li>
 								        </ul>
-								      </li>        
+								      </li>   
 								 <li>
-								        <a href="application"><?php echo (L("HEADER_APPLICATIONS")); ?></a>
+								        <a href="<?php echo (C("INDEX_ROOT")); ?>/application"><?php echo (L("HEADER_APPLICATIONS")); ?></a>
 								  </li>
 								  
 								 <li class="dropdown">
@@ -139,16 +140,16 @@
 									    		<span class="caret"></span>
 									    </a>
 									    <ul class="dropdown-menu" role="menu">
-									            <li><a rel="nofollow" href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
-									            <li><a rel="nofollow" href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
-									            <li><a rel="nofollow" href="support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
+									            <li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/company"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
+									            <li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/industry"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
+									            <li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
 								        </ul>
 					      		</li>        
 								<li>
-										<a rel="nofollow" href="Download.php"><?php echo (L("HEADER_DOWNLOADS")); ?></a>
+										<a rel="nofollow" href="<?php echo (C("INDEX_ROOT")); ?>/download"><?php echo (L("HEADER_DOWNLOADS")); ?></a>
 								</li>
 								<li>
-										<a rel="nofollow" href="contact"><?php echo (L("HEADER_CONTACT_US")); ?></a>
+										<a rel="nofollow" href="<?php echo (C("Index_ROOT")); ?>/contact"><?php echo (L("HEADER_CONTACT_US")); ?></a>
 								</li>
 								<li>
 										<a rel="nofollow" href="#"><?php echo (L("HEADER_JOIN_US")); ?></a>
@@ -433,10 +434,10 @@
 		<div class="container">
 			<ul class=" col-md-2 " >
 				<li class="item-title" ><?php echo (L("HEADER_ABOUT_GREENCO")); ?></li>
-				<li><a rel="nofollow" href="Certification.php"><?php echo (L("HEADER_CERTIFICATION")); ?></a></li>
-				<li><a rel="nofollow" href="Honour.php"><?php echo (L("HEADER_HONOUR")); ?></a></li>
-				<li><a rel="nofollow" href="Video.php"><?php echo (L("HEADER_VIDEO")); ?></a></li>
-				<li><a rel="nofollow" href="Equipments.php"><?php echo (L("HEADER_EQUIPMENTS")); ?></a></li>
+				<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/certification"><?php echo (L("HEADER_CERTIFICATION")); ?></a></li>
+				<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/honour"><?php echo (L("HEADER_HONOUR")); ?></a></li>
+				<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/video"><?php echo (L("HEADER_VIDEO")); ?></a></li>
+				<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/equipments"><?php echo (L("HEADER_EQUIPMENTS")); ?></a></li>
 			</ul>
 			<ul class="col-md-3 ">
 				<li class="item-title" ><?php echo (L("HEADER_PRODUCTS")); ?></li>
@@ -460,9 +461,9 @@
 			</ul>
 			<ul class="col-md-2  last">
 					<li class="item-title"><?php echo (L("HEADER_NEWS_CENTER")); ?></li>
-					<li><a rel="nofollow" href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
-					<li><a rel="nofollow" href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
-					<li><a rel="nofollow" href="support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
+					<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/company"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
+					<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/industry"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
+					<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
 					<li><a rel="nofollow" href="sitemap.xml"><?php echo (L("FOOTER_SITEMAP")); ?></a></li>
 			</ul>
 		</div>

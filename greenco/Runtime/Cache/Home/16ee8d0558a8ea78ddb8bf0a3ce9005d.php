@@ -2,9 +2,10 @@
 <html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title><?php echo _('3RB Single Stage Side Channel Blower'); ?></title>
-<meta name="description" content="<?php echo _('Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.');?>" />
-<meta name="keywords" content="<?php echo _('Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO');?>" />
+<?php require 'setLan.php'; ?>
+<title><?php echo _('Cover Suction Ring Blower|');?></title>
+<meta name="description" content="<?php echo _('Greenco Cover Suction Ring Blower,Side channel blower,Regenerative blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.');?>" />
+<meta name="keywords" content="<?php echo _('Cover Suction Ring blower,Front suction Side channel blower,Regenerative blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO');?>" />
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <link href="<?php echo (C("SRC_ROOT")); ?>/src/css/common.css" rel="stylesheet">
 <link href="favicon.ico" rel="shortcut icon" />
@@ -129,9 +130,9 @@
 								            <a href="Inlet_Vacuum_Filter.php"><?php echo (L("HEADER_FILTER")); ?></a>
 								            </li>
 								        </ul>
-								      </li>   
+								      </li>        
 								 <li>
-								        <a href="<?php echo (C("INDEX_ROOT")); ?>/application"><?php echo (L("HEADER_APPLICATIONS")); ?></a>
+								        <a href="application"><?php echo (L("HEADER_APPLICATIONS")); ?></a>
 								  </li>
 								  
 								 <li class="dropdown">
@@ -149,7 +150,7 @@
 										<a rel="nofollow" href="Download.php"><?php echo (L("HEADER_DOWNLOADS")); ?></a>
 								</li>
 								<li>
-										<a rel="nofollow" href="<?php echo (C("Index_ROOT")); ?>/contact"><?php echo (L("HEADER_CONTACT_US")); ?></a>
+										<a rel="nofollow" href="contact"><?php echo (L("HEADER_CONTACT_US")); ?></a>
 								</li>
 								<li>
 										<a rel="nofollow" href="#"><?php echo (L("HEADER_JOIN_US")); ?></a>
@@ -163,11 +164,13 @@
 				</div><!-- /.container-fluid -->
 		</nav>
 
+
+
 <!-- 应用内容 -->
 <div class="container-fuild">
-   <div class="container pro">
-       <img src="<?php echo (L("SRC_LAN")); ?>/product_banner.png" class="banner" />
-       <div class="row">
+	<div class="container pro">
+		<img src="<?php echo (L("SRC_LAN")); ?>/product_banner.png" class="banner" />
+		<div class="row">
 			<div class="col-md-3">
 				<h3 class="head-1"><?php echo _('Side Channel Blower')?></h3>
 <ul class="pro-nav">
@@ -267,28 +270,45 @@
 </form>
 			</div>
        <div class="col-md-9 split">
-				<h3 class="title-1">
-					3RB <?php echo _('Single Stage'); echo _(' ▪ Side Channel Blower');?>
-				</h3>
-				<div class="row pro-list content">
-             <?php require 'inc/3RB-desc.php';?>
-       		 <div  id="mypage" class="col-md-4 pro-item"><a href="Side_Channel_Blower_3RB_Single_Stage_table.php?series=350-1" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/3RB350-1.jpg" /></a><h4><a href="Side_Channel_Blower_3RB_Single_Stage_table.php?series=350-1" target="_blank">3RB 350</a></h4></div>
-		     <div  id="mypage" class="col-md-4 pro-item"><a href="Side_Channel_Blower_3RB_Single_Stage_table.php?series=550-1"><img  src="<?php echo (C("IMG_ROOT")); ?>/3RB350-1.jpg" /></a><h4><a href="Side_Channel_Blower_3RB_Single_Stage_table.php?series=550-1">3RB 550</a></h4></div>
-		   	 <div  id="mypage" class="col-md-4 pro-item"><a href="Side_Channel_Blower_3RB_Single_Stage_table.php?series=750-1"><img  src="<?php echo (C("IMG_ROOT")); ?>/3RB350-1.jpg" /></a><h4><a href="Side_Channel_Blower_3RB_Single_Stage_table.php?series=750-1">3RB 750</a></h4></div>
-       </div>
-       </div>
-       </div>
-   </div>
+             <h3 class="title-1">
+             <?php echo _('  Cover Suction Ring Blower');?>
+             </h3>
+             <div class="content">
+             <p><?php echo _('  The cover suction series ring blower are designed for our specific customers. On the front cover, There is an inlet and an outlet, which make customers use their own products flexibly. The customers are not only able to use the inlet and outlet to suction and blow, but also are able to use the original inlet and outlet on the rear housing to suction and blow. Then it will reduce customers’ cost of product materials as well as decrease the freight cost due to the smaller volume of products. This design has been widely used on industrial vacuum cleaners, automatic hopper loaders and dental suction systems. As a result, Our professional OEM design has been appreciated by many of our customers because we help them win more markets. ');?></p>
+		     <h6><?php echo _('  Application for cover suction series ring blower');?></h6>
+		     <div class="row">
+		     <div class="col-md-4">
+		     <img src="<?php echo (C("IMG_ROOT")); ?>/home9.png" style="margin:17px 0 0 10px;"/>
+		     <h3><?php echo _('Industrial vacuum cleaner');?></h3></div>
+		     <div class="col-md-4">
+		     <img src="<?php echo (C("IMG_ROOT")); ?>/home8.png" style="margin:17px 0 0 50px;"/>
+		     <h3 style="text-indent:47px;"><?php echo _('Automatic hopper loader system');?></h3></div>
+		     <div class="col-md-4">
+		     <img src="<?php echo (C("IMG_ROOT")); ?>/home10.png" style="margin:17px 0 0 50px;"/>
+		     <h3 style="text-indent:47px;"><?php echo _('Dental suction system');?></h3>
+		     </div>
+		     </div>
+		     <h6 style="color:#444;font-family:Calibri,arial;font-size:16px;margin-bottom:15px;clear:both;"><?php echo _(' Performance & Technical data');?></h6>
+		     <div class="row">
+		     <div  id="mypage" class="col-md-4 pro-item"><a href="Cover_Suction_Ring_Blower_table.php?series=210" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/B_series.jpg"  alt="2RB 210 Cover Suction Ring Blower"/></a><h4><a href="Cover_Suction_Ring_Blower_table.php?series=210" target="_blank">2RB210 (B)</a></h4></div>
+		     <div  id="mypage" class="col-md-4 pro-item"><a href="Cover_Suction_Ring_Blower_table.php?series=410" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/B_series.jpg"  alt="2RB 410 Cover Suction Ring Blower"/></a><h4><a href="Cover_Suction_Ring_Blower_table.php?series=410" target="_blank">2RB410 (B)</a></h4></div>
+		     <div  id="mypage" class="col-md-4 pro-item"><a href="Cover_Suction_Ring_Blower_table.php?series=510" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/B_series.jpg"  alt="2RB 510 Cover Suction Ring Blower"/></a><h4><a href="Cover_Suction_Ring_Blower_table.php?series=510" target="_blank">2RB510 (B)</a></h4></div>
+		     <div  id="mypage" class="col-md-4 pro-item"><a href="Cover_Suction_Ring_Blower_table.php?series=710" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/B_series.jpg"  alt="2RB 710 Cover Suction Ring Blower"/></a><h4><a href="Cover_Suction_Ring_Blower_table.php?series=710" target="_blank">2RB710 (B)</a></h4></div>
+		     <div  id="mypage" class="col-md-4 pro-item"><a href="Cover_Suction_Ring_Blower_table.php?series=810" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/B_series.jpg"  alt="2RB 810 Cover Suction Ring Blower"/></a><h4><a href="Cover_Suction_Ring_Blower_table.php?series=810" target="_blank">2RB810 (B)</a></h4></div>
+	         <div  id="page_text"></div>
+       		</div>	
+       </div></div>
+   </div></div>
 </div>
 <!-- 应用内容end -->
 <div class="container-fluid navbar-inverse footer">
 		<div class="container">
 			<ul class=" col-md-2 " >
 				<li class="item-title" ><?php echo (L("HEADER_ABOUT_GREENCO")); ?></li>
-				<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/certification"><?php echo (L("HEADER_CERTIFICATION")); ?></a></li>
-				<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/honour"><?php echo (L("HEADER_HONOUR")); ?></a></li>
-				<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/video"><?php echo (L("HEADER_VIDEO")); ?></a></li>
-				<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/equipments"><?php echo (L("HEADER_EQUIPMENTS")); ?></a></li>
+				<li><a rel="nofollow" href="Certification.php"><?php echo (L("HEADER_CERTIFICATION")); ?></a></li>
+				<li><a rel="nofollow" href="Honour.php"><?php echo (L("HEADER_HONOUR")); ?></a></li>
+				<li><a rel="nofollow" href="Video.php"><?php echo (L("HEADER_VIDEO")); ?></a></li>
+				<li><a rel="nofollow" href="Equipments.php"><?php echo (L("HEADER_EQUIPMENTS")); ?></a></li>
 			</ul>
 			<ul class="col-md-3 ">
 				<li class="item-title" ><?php echo (L("HEADER_PRODUCTS")); ?></li>
@@ -312,9 +332,9 @@
 			</ul>
 			<ul class="col-md-2  last">
 					<li class="item-title"><?php echo (L("HEADER_NEWS_CENTER")); ?></li>
-					<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/company"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
-					<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/industry"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
-					<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
+					<li><a rel="nofollow" href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
+					<li><a rel="nofollow" href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
+					<li><a rel="nofollow" href="support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
 					<li><a rel="nofollow" href="sitemap.xml"><?php echo (L("FOOTER_SITEMAP")); ?></a></li>
 			</ul>
 		</div>
