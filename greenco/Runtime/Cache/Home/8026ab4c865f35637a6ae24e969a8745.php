@@ -117,7 +117,7 @@
 								            <a href="<?php echo (C("PRO_ROOT")); ?>/IE2_2"><?php echo (L("HEADER_2RB_DOUBLE_REGENERATIVE")); ?></a>
 								            </li>
 								            <li>
-								            <a href="Cover_Suction_Ring_Blower.php"><?php echo (L("HEADER_COVER_SUCTION")); ?></a>
+								            <a href="<?php echo (C("PRO_ROOT")); ?>/Suction"><?php echo (L("HEADER_COVER_SUCTION")); ?></a>
 								            </li>
 								            <li class="divider">
 								            <li>
@@ -130,9 +130,9 @@
 								            <a href="Inlet_Vacuum_Filter.php"><?php echo (L("HEADER_FILTER")); ?></a>
 								            </li>
 								        </ul>
-								      </li>        
+								      </li>   
 								 <li>
-								        <a href="application"><?php echo (L("HEADER_APPLICATIONS")); ?></a>
+								        <a href="<?php echo (C("INDEX_ROOT")); ?>/application"><?php echo (L("HEADER_APPLICATIONS")); ?></a>
 								  </li>
 								  
 								 <li class="dropdown">
@@ -147,10 +147,10 @@
 								        </ul>
 					      		</li>        
 								<li>
-										<a rel="nofollow" href="Download.php"><?php echo (L("HEADER_DOWNLOADS")); ?></a>
+										<a rel="nofollow" href="<?php echo (C("INDEX_ROOT")); ?>/download"><?php echo (L("HEADER_DOWNLOADS")); ?></a>
 								</li>
 								<li>
-										<a rel="nofollow" href="contact"><?php echo (L("HEADER_CONTACT_US")); ?></a>
+										<a rel="nofollow" href="<?php echo (C("Index_ROOT")); ?>/contact"><?php echo (L("HEADER_CONTACT_US")); ?></a>
 								</li>
 								<li>
 										<a rel="nofollow" href="#"><?php echo (L("HEADER_JOIN_US")); ?></a>
@@ -203,13 +203,13 @@
 		<a class="link-3" href="<?php echo (C("PRO_ROOT")); ?>/Belt_2RB_2"><?php echo _('2RB Double Stage Belt Drive Air Blower')?></a>
 	</li>
 	<li>
-		<a class="link-3" href="IE2_Single_Stage_Regenerative_Blower.php"><?php echo _('IE2 Single Stage Regenerative Blower')?></a>
+		<a class="link-3" href="<?php echo (C("PRO_ROOT")); ?>/IE2_1"><?php echo _('IE2 Single Stage Regenerative Blower')?></a>
 	</li>
 	<li>
-		<a class="link-3" href="IE2_Double_Stage_Regenerative_Blower.php"><?php echo _('IE2 Double Stage Regenerative Blower');?></a>
+		<a class="link-3" href="<?php echo (C("PRO_ROOT")); ?>/IE2_2"><?php echo _('IE2 Double Stage Regenerative Blower');?></a>
 	</li>
 	<li>
-		<a class="link-3" href="Cover_Suction_Ring_Blower.php" style="background:url(<?php echo (C("IMG_ROOT")); ?>/new.gif) no-repeat 154px -2px;display:block;"><?php echo _('Cover Suction Ring Blower');?></a></li>
+		<a class="link-3" href="<?php echo (C("PRO_ROOT")); ?>/Suction" style="background:url(<?php echo (C("IMG_ROOT")); ?>/new.gif) no-repeat 154px -2px;display:block;"><?php echo _('Cover Suction Ring Blower');?></a></li>
 </ul>
 <h3 class="head-1"><?php echo _('Accessories');?></h3>
 <ul class="pro-nav">
@@ -293,40 +293,40 @@
 
 <div class="container-fluid navbar-inverse footer">
 		<div class="container">
-			<ul class=" col-md-2 " >
-				<li class="item-title" ><?php echo (L("HEADER_ABOUT_GREENCO")); ?></li>
-				<li><a rel="nofollow" href="Certification.php"><?php echo (L("HEADER_CERTIFICATION")); ?></a></li>
-				<li><a rel="nofollow" href="Honour.php"><?php echo (L("HEADER_HONOUR")); ?></a></li>
-				<li><a rel="nofollow" href="Video.php"><?php echo (L("HEADER_VIDEO")); ?></a></li>
-				<li><a rel="nofollow" href="Equipments.php"><?php echo (L("HEADER_EQUIPMENTS")); ?></a></li>
-			</ul>
-			<ul class="col-md-3 ">
-				<li class="item-title" ><?php echo (L("HEADER_PRODUCTS")); ?></li>
-				<li><a rel="nofollow" href="Side_Channel_Blower_2RB_Single_Stage.php"><?php echo (L("HEADER_2RB_SINGLE")); ?></a></li>
-				<li><a rel="nofollow" href="Side_Channel_Blower_3RB_Single_Stage.php"><?php echo (L("HEADER_3RB_SINGLE")); ?></a></li>
-				<li><a rel="nofollow" href="Side_Channel_Blower_4RB_Single_Stage.php"><?php echo (L("HEADER_4RB_SINGLE")); ?></a></li>
-				<li><a rel="nofollow" href="IE2_Single_Stage_Regenerative_Blower.php"><?php echo (L("HEADER_2RB_SINGLE_REGENERATIVE")); ?></a></li>
-				<li><a rel="nofollow" href="Belt_Drive_Air_Blower_2RB_Single_Stage.php"><?php echo (L("HEADER_2RB_SINGLE_BELT")); ?></a></li>
-			</ul>
-			<ul class="col-md-2 ">
-				<li class="item-title" ><?php echo (L("FOOTER_ACCESSORIES")); ?></li>
-				<li><a rel="nofollow" href="Silencer.php"><?php echo (L("HEADER_SILENCER")); ?></a></li>
-				<li><a rel="nofollow" href="Relief_Valve.php"><?php echo (L("HEADER_RELIEF_VALUE")); ?></a></li>
-				<li><a rel="nofollow" href="Inlet_Vacuum_Filter.php"><?php echo (L("HEADER_FILTER")); ?></a></li>
-			</ul>
-			<ul class="col-md-3">
-					<li class="item-title" ><?php echo (L("HEADER_DOWNLOADS")); ?></li>
-					<li><a rel="nofollow" href="upfile/side channel blower Complete Catalog.pdf"><?php echo (L("FOOTER_CATALOG")); ?></a></li>
-					<li><a rel="nofollow" href="upfile/Side channel blower Relief_Valve 2BX4.pdf"><?php echo (L("FOOTER_ACCESSORIES")); ?></a></li>
-					<li><a rel="nofollow" href="javascript:;"><?php echo (L("HEADER_FILTER")); ?></a></li>
-			</ul>
-			<ul class="col-md-2  last">
-					<li class="item-title"><?php echo (L("HEADER_NEWS_CENTER")); ?></li>
-					<li><a rel="nofollow" href="news_company.php"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
-					<li><a rel="nofollow" href="news_Industry.php"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
-					<li><a rel="nofollow" href="support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
-					<li><a rel="nofollow" href="sitemap.xml"><?php echo (L("FOOTER_SITEMAP")); ?></a></li>
-			</ul>
+				<ul class=" col-md-2 " >
+						<li class="item-title" ><?php echo (L("HEADER_ABOUT_GREENCO")); ?></li>
+						<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/certification"><?php echo (L("HEADER_CERTIFICATION")); ?></a></li>
+						<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/honour"><?php echo (L("HEADER_HONOUR")); ?></a></li>
+						<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/video"><?php echo (L("HEADER_VIDEO")); ?></a></li>
+						<li><a rel="nofollow" href="<?php echo (C("ABOUT_ROOT")); ?>/equipments"><?php echo (L("HEADER_EQUIPMENTS")); ?></a></li>
+				</ul>
+				<ul class="col-md-3 ">
+						<li class="item-title" ><?php echo (L("HEADER_PRODUCTS")); ?></li>
+						<li><a rel="nofollow" href="Side_Channel_Blower_2RB_Single_Stage.php"><?php echo (L("HEADER_2RB_SINGLE")); ?></a></li>
+						<li><a rel="nofollow" href="Side_Channel_Blower_3RB_Single_Stage.php"><?php echo (L("HEADER_3RB_SINGLE")); ?></a></li>
+						<li><a rel="nofollow" href="Side_Channel_Blower_4RB_Single_Stage.php"><?php echo (L("HEADER_4RB_SINGLE")); ?></a></li>
+						<li><a rel="nofollow" href="IE2_Single_Stage_Regenerative_Blower.php"><?php echo (L("HEADER_2RB_SINGLE_REGENERATIVE")); ?></a></li>
+						<li><a rel="nofollow" href="Belt_Drive_Air_Blower_2RB_Single_Stage.php"><?php echo (L("HEADER_2RB_SINGLE_BELT")); ?></a></li>
+				</ul>
+				<ul class="col-md-2 ">
+						<li class="item-title" ><?php echo (L("FOOTER_ACCESSORIES")); ?></li>
+						<li><a rel="nofollow" href="Silencer.php"><?php echo (L("HEADER_SILENCER")); ?></a></li>
+						<li><a rel="nofollow" href="Relief_Valve.php"><?php echo (L("HEADER_RELIEF_VALUE")); ?></a></li>
+						<li><a rel="nofollow" href="Inlet_Vacuum_Filter.php"><?php echo (L("HEADER_FILTER")); ?></a></li>
+				</ul>
+				<ul class="col-md-3">
+						<li class="item-title" ><?php echo (L("HEADER_DOWNLOADS")); ?></li>
+						<li><a rel="nofollow" href="upfile/side channel blower Complete Catalog.pdf"><?php echo (L("FOOTER_CATALOG")); ?></a></li>
+						<li><a rel="nofollow" href="upfile/Side channel blower Relief_Valve 2BX4.pdf"><?php echo (L("FOOTER_ACCESSORIES")); ?></a></li>
+						<li><a rel="nofollow" href="javascript:;"><?php echo (L("HEADER_FILTER")); ?></a></li>
+				</ul>
+				<ul class="col-md-2  last">
+						<li class="item-title"><?php echo (L("HEADER_NEWS_CENTER")); ?></li>
+						<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/company"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
+						<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/industry"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>
+						<li><a rel="nofollow" href="<?php echo (C("NEWS_ROOT")); ?>/support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
+						<li><a rel="nofollow" href="sitemap.xml"><?php echo (L("FOOTER_SITEMAP")); ?></a></li>
+				</ul>
 		</div>
 		<p class="col-md-offset-6">
 				<span>©2002-2013 Copyright Greenco. All Rights Reserved 浙ICP备12000939号-1

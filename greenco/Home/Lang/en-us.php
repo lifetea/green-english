@@ -8,6 +8,7 @@ return array(
 		'LAN'=>'en-us',
 		//Header Footer  *-nav页面
 		'HEADER_BODY_CLASS'=>'green-en',
+		'HEADER_SIDE_CHANNEL_BLOWER'=>'Side Channel Blower',
 		'HEADER_HOME'=>'Home',
 		'HEADER_ABOUT_US'=>'About us',
 		'HEADER_ABOUT_GREENCO'=>'About Greenco',
@@ -165,7 +166,13 @@ return array(
 		'EQUIPMENTS_AUTO_MOTOR_WINDING'=>'AUTO motor winding',
 		'EQUIPMENTS_SCHNEEBERGER_GRINDER'=>'SCHNEEBERGER Grinder',
 		
-		
-		
+		//PROD 模块
+		'PROD_SINGLE_STAGE'=>'Single Stage',
+		'PROD_DOUBLE_STAGE'=>'Double Stage',
+		'PROD_THREE_STAGE'=>'Three Stage',
+		'2RB_SIDE_CHANNEL_BLOWER'=>'Side Channel Blower',
+		'3RB_SIDE_CHANNEL_BLOWER'=>'Side Channel Blower',
+		'3RB_DSC'=>'Greenco classica with innovative technology for 3RB series side channel blower create high pressure,high vacuum and high airflow which can be replaced equivalent power of Roots blower,but Greenco side channel blowers are more advantages than roots blower:the materials are made by aluminum die casting,the weight is much lighter,the volume is even compacter.the lifetime is longer,low noise,oilless,free maintenance.',
+		'4RB_SIDE_CHANNEL_BLOWER'=>'Side Channel Blower',
 );
 ?>

@@ -10,7 +10,7 @@ return array(
 		'DB_PORT'   => 3306, // 端口
 		'DB_PREFIX' => '', // 数据库表前缀
 			
-		'SRC_ROOT'=>URL,
+		'SRC_ROOT'=>URL.'/src',
 		'IMG_ROOT'=>URL.'/src/img',
 		'JS_ROOT'=>URL.'/src/js',
 		'COM_TP'=>'../Public',
@@ -21,7 +21,7 @@ return array(
 		
 		'Index_ROOT'=>URL.'/Index',
 		'ABOUT_ROOT'=>URL.'/About',
-		'PRO_ROOT'=>URL.'/Pro',
+		'PROD_ROOT'=>URL.'/PROD',
 		'NEWS_ROOT'=>URL.'/News',
 		
 );

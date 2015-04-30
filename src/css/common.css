@@ -164,5 +164,5 @@ ul{padding:0;list-style:none}
 
 /*Pro*/
 .pro-list div{text-align:center}
-.pro-item img{border: 1px solid #bbb;}
+.pro-item img{border: 1px solid #bbb; width:98%}
 .pro .content{min-height:890px}

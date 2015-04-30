@@ -8,6 +8,7 @@ return array(
 		'LAN'=>'zh-cn', 
 		//Header Footer  *-nav页面
 		'HEADER_BODY_CLASS'=>'green-zh',
+		'HEADER_SIDE_CHANNEL_BLOWER'=>'漩涡气泵',
 		'HEADER_HOME'=>'网站首页',
 		'HEADER_ABOUT_US'=>'关于我们',
 		'HEADER_ABOUT_GREENCO'=>'关于格凌',
@@ -166,6 +167,13 @@ return array(
 		'EQUIPMENTS_AUTO_MOTOR_WINDING'=>'自动绕线机',
 		'EQUIPMENTS_SCHNEEBERGER_GRINDER'=>'SCHNEEBERGER 磨床',				
 		
-		
+		//PROD 模块
+		'PROD_SINGLE_STAGE'=>'单段',
+		'PROD_DOUBLE_STAGE'=>'双段',
+		'PROD_THREE_STAGE'=>'三段',
+		'2RB_SIDE_CHANNEL_BLOWER'=>'高压风机',
+		'3RB_SIDE_CHANNEL_BLOWER'=>'高压鼓风机',
+		'3RB_DSC'=>'浙江格凌实业有限公司以独创的创新技术最新研发的3RB系列旋涡气泵，该系列比原来的2RB系列和4RB系列能够产生更高的压力，更高的真空和更大的风量。3RB系列旋涡气泵完全能够代替同等功率的罗茨鼓风机，并且比罗茨鼓风机有更大的优势：材料完全铝压铸，体积小重量更轻、无油，免维护、寿命更长、噪音比2RB和4RB系列更低，性价比更高。',
+		'4RB_SIDE_CHANNEL_BLOWER'=>'漩涡气泵',
 );
 ?>
