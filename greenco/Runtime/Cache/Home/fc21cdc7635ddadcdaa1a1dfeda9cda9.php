@@ -1,13 +1,13 @@
 <?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
-<html  xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title><?php echo (L("SUPPORT_INDEX")); ?></title>
-<meta name="keywords" content="<?php echo (L("SUPPORT_KEYWORDS")); ?>" />
-<meta name="description" content="<?php echo (L("SUPPORT_DESCRIPTION")); ?>" />
-<link href="favicon.ico" rel="shortcut icon" />
+<title>2RB <?php  echo $_GET['series'];?> Series <?php echo _('Side channel blower'); ?></title>
+<meta name="description" content="Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco." />
+<meta name="keywords" content="Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO" />
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <link href="<?php echo (C("SRC_ROOT")); ?>/css/common.css" rel="stylesheet">
+<link href="favicon.ico" rel="shortcut icon" />
 </head>
 <body class="<?php echo (L("HEADER_BODY_CLASS")); ?>">
 		<div class="container header row" >
@@ -73,10 +73,10 @@
 								    </a>
 								    <ul class="dropdown-menu" role="menu">
 								            <li>
-								            	<a href="<?php echo (C("PROD_ROOT")); ?>/2RB_1"><?php echo (L("HEADER_2RB_SINGLE")); ?></a>
+								            	<a href="<?php echo (C("PROD_ROOT")); ?>/_2RB_1"><?php echo (L("HEADER_2RB_SINGLE")); ?></a>
 							            	</li>
 								            <li>
-								            	<a href="<?php echo (C("PROD_ROOT")); ?>/2RB_2"><?php echo (L("HEADER_2RB_DOUBLE")); ?></a>
+								            	<a href="<?php echo (C("PROD_ROOT")); ?>/_2RB_2"><?php echo (L("HEADER_2RB_DOUBLE")); ?></a>
 							            	</li>
 											<li class="divider">
 											<li>
@@ -163,42 +163,125 @@
 				</div><!-- /.container-fluid -->
 		</nav>
 
-
-
+<?php
+?>%' ");
+?>
 <!-- 应用内容 -->
 <div class="container-fuild">
-   <div class="container news">
-       <img src="<?php echo (L("SRC_LAN")); ?>/news_banner.jpg"  class="banner" alt="Greenco side channel blower news"/>
-       <div class="row">
-	       <div class="col-md-3">
-	             <h3  class="head-1"><?php echo (L("HEADER_NEWS_CENTER")); ?></h3>
-<ul class="news-nav">
-<li><a href="<?php echo (C("NEWS_ROOT")); ?>/company"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
-<li><a href="<?php echo (C("NEWS_ROOT")); ?>/industry"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>	
-<li><a href="<?php echo (C("NEWS_ROOT")); ?>/support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
-</ul>
+	<div class="container pro">
 
-	       </div>
-	       <div class="col-md-9" style="border-left: 1px solid #ccc;">
-	       <h3 class="head-1"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></h3>
-	       <ul>
-       		<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="mypagination">
-							<p></p>
-							<p>
-									<strong>
-											<a href="support_content.php?id=<?php echo ($vo["id"]); ?> "><?php echo ($vo["title"]); ?></a>
-									</strong>
-							</p>
-			            	<p><?php echo ($vo["content"]); ?></p>
-			            	<p class="row">
-				            	<span class="more col-md-2"><?php echo ($vo["time"]); ?></span>
-			            	    <a class="more col-md-1 col-md-offset-9"  href="support_content.php?id=<?php echo ($vo["id"]); ?> "><?php echo (L("SUPPORT_DETAIL")); ?></a>
-			            	</p>
-			           </li><?php endforeach; endif; else: echo "" ;endif; ?>		       
-	       </ul>
-	       <div  id="page_text"></div>
-	       </div>
-       </div>
+<!-- 应用内容 -->
+      <img src="<?php echo (L("SRC_LAN")); ?>/product_banner.png" class="banner" />
+      <div class="row">
+			<div class="col-md-3">
+				<h3 class="head-1"><?php echo (L("HEADER_SIDE_CHANNEL_BLOWER")); ?></h3>
+<ul class="pro-nav">
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/2RB_1"><?php echo (L("HEADER_2RB_SINGLE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/2RB_2"><?php echo (L("HEADER_2RB_DOUBLE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/3RB_1" style="background:url(<?php echo (C("IMG_ROOT")); ?>/new.gif) no-repeat 222px -2px;display:block;"><?php echo (L("HEADER_3RB_SINGLE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/3RB_2" style="background:url(<?php echo (C("IMG_ROOT")); ?>/new.gif) no-repeat 222px -2px;display:block;"><?php echo (L("HEADER_3RB_DOUBLE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/3RB_3" style="background:url(<?php echo (C("IMG_ROOT")); ?>/new.gif) no-repeat 222px -2px;display:block;"><?php echo (L("HEADER_3RB_THREE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/4RB_1"><?php echo (L("HEADER_4RB_SINGLE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/4RB_2"><?php echo (L("HEADER_4RB_DOUBLE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/4RB_3"><?php echo (L("HEADER_4RB_THREE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/Belt_2RB_1"><?php echo (L("HEADER_2RB_SINGLE_BELT")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/Belt_2RB_2"><?php echo (L("HEADER_2RB_DOUBLE_BELT")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/IE2_1"><?php echo (L("HEADER_2RB_SINGLE_REGENERATIVE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/IE2_2"><?php echo (L("HEADER_2RB_DOUBLE_REGENERATIVE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/Suction" style="background:url(<?php echo (C("IMG_ROOT")); ?>/new.gif) no-repeat 154px -2px;display:block;"><?php echo (L("HEADER_COVER_SUCTION")); ?></a></li>
+</ul>
+<h3 class="head-1"><?php echo (L("FOOTER_ACCESSORIES")); ?></h3>
+<ul class="pro-nav">
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/Silencer"><?php echo (L("HEADER_SILENCER")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/Filter"><?php echo (L("HEADER_RELIEF_VALUE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/Relief"><?php echo (L("HEADER_FILTER")); ?></a>
+	</li>
+</ul>
+<h3 class="head-1" style=""><?php echo (L("NAV_SEARCH_PRODUCT")); ?>
+		<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+</h3>
+<form class="search-bar">
+		<div class="form-group">
+				<label for="inputEmail3" class="control-label ">1:<?php echo (L("NAV_SEARCH_SELECT_GRAPH")); ?></label>
+				<select class="form-control">
+				   				<option><?php echo (L("HEADER_VACUUM")); ?></option>
+				  				<option><?php echo (L("HEADER_PRESSURE")); ?></option>
+				</select>
+		</div>
+		<div class="form-group">
+				<label for="inputEmail3" class="control-label">2:<?php echo (L("NAV_SEARCH_AIR_FLOW")); ?>(e.g.120):</label>
+				<div class="row">
+						  <div class="col-md-6">
+								  <input type="text" class="form-control">
+						  </div>
+						  <div class="col-md-6">
+									<select class="form-control">
+									   				<option>m³/h</option>
+									   				<option>m³/min</option>
+									</select>
+						  </div>
+				</div>
+		</div>
+		 <div class="form-group">
+			  <label for="inputEmail3" class="control-label">3:<?php echo (L("NAV_SEARCH_PRESSURE")); ?>(e.g.200):</label>
+				<div class="row">
+						  <div class="col-md-6">
+								  <input type="text" class="form-control">
+						  </div>
+						  <div class="col-md-6">
+									<select class="form-control">
+											<option>mbar</option>
+											<option>pa</option>
+									</select>
+						  </div>
+				</div>
+			</div> 
+		<div class="form-group">
+		    <button type="submit" class="btn btn-default"><?php echo (L("HEADER_SEARCH")); ?></button>
+		</div>
+</form>
+			</div>
+			<div class="col-md-9 split">
+             <h5><i>2RB <?php echo $_GET['series'];?> <?php echo _('Series Ordering Data and Performance Data');?></i> ▪ <?php echo _('Side Channel Blower');?></h5>
+             <table  cellspacing="0" cellpadding="0" id="data">
+                 <?php require 'inc/date-hd.php';?>
+                 <tr class="two"><td>一</td><td style="width:100px;">Hz</td><td style="width:65px;">Kw</td><td>m³/h</td><td>mbar</td><td style="width:150px;">mbar</td></tr>
+                   <?php  while($_rows=mysql_fetch_array($_result)){?>
+                             <tr class="content" onclick="window.location.href='Side_Channel_Blower_2RB_Single_Stage_content.php?series=<?php echo $_rows['type'];?>&output=<?php echo $_rows['output'];?>' "><td><strong style="font-size:12px;"><a href="Side_Channel_Blower_2RB_single_Stage_content.php?series=<?php echo $_rows['type'];?>&output=<?php echo $_rows['output'];?>"><?php  echo $_rows['type'];?></a></strong></td><td style="width:100px;"><?php  echo $_rows['Fre_quency'];?></td><td style="width:65px;"><?php  echo $_rows['output'];?></td><td><?php  echo $_rows['maximum_airflow'];?></td><td><?php  echo $_rows['maximum_vacuum'];?></td><td><?php  echo $_rows['maximum_pressure'];?></td></tr>
+                  <?php }?>
+                </table>
+                 <h3><a href="<?php echo _('upfile');?>/2RB_series/side channel blower 2rb<?php echo substr($_GET['series'],0,3)?>.pdf" target="_blank" ><?php echo _('Download');?> Side Channel Blower 2RB<?php echo substr($_GET['series'],0,3)?> Series(PDF-<?php $type=$_GET['series'];$filename ='upfile/2RB_Series/side channel blower 2RB'.$type.'.PDF'; echo floor(filesize($filename)/1024);?>KB)</a></h3>
+       </div></div>
    </div>
 </div>
 <!-- 应用内容end -->
@@ -254,14 +337,5 @@
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-<script src="<?php echo (C("JS_ROOT")); ?>/jquery.quickpaginate.js" type="text/javascript" ></script>
-<script type="text/javascript">
-	$(function(){
-		$(".mypagination").quickpaginate({
-			perpage: 6,//每页显示条数,
-			pager : $("#page_text") //div的ID
-		})
-	})
-</script>
 </body>
 </html>

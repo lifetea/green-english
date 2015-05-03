@@ -1,0 +1,115 @@
+[ 2015-05-02T06:36:10+08:00 ] 192.168.1.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.046390s ]
+
+[ 2015-05-02T06:36:15+08:00 ] 192.168.1.42 /font.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000920s ]
+ERR: 无法加载控制器:Font.swf
+
+[ 2015-05-02T06:36:29+08:00 ] 192.168.1.42 /About/about_us
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+
+[ 2015-05-02T06:36:30+08:00 ] 192.168.1.42 /About/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+
+[ 2015-05-02T06:36:35+08:00 ] 192.168.1.42 /PROD/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+
+[ 2015-05-02T06:36:36+08:00 ] 192.168.1.42 /PROD/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+
+[ 2015-05-02T06:36:38+08:00 ] 192.168.1.42 /PROD/get2RBList?series=010
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+
+[ 2015-05-02T06:36:41+08:00 ] 192.168.1.42 /PROD/3RB_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000678s ]
+
+[ 2015-05-02T06:36:42+08:00 ] 192.168.1.42 /PROD/get3RBList?series=350-2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000627s ]
+
+[ 2015-05-02T06:36:49+08:00 ] 192.168.1.42 /PROD/4RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+
+[ 2015-05-02T06:36:52+08:00 ] 192.168.1.42 /PROD/get4RBList?series=510
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+
+[ 2015-05-02T06:36:58+08:00 ] 192.168.1.42 /PROD/Belt_2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000585s ]
+
+[ 2015-05-02T06:36:58+08:00 ] 192.168.1.42 /src/js/PRODjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+ERR: 无法加载控制器:Src
+
+[ 2015-05-02T06:36:59+08:00 ] 192.168.1.42 /PROD/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB213.pdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000694s ]
+ERR: 非法操作:upfile
+
+[ 2015-05-02T06:37:12+08:00 ] 192.168.1.42 /PROD/4RB_3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+
+[ 2015-05-02T06:37:13+08:00 ] 192.168.1.42 /PROD/get4RBList?series=530
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+
+[ 2015-05-02T06:38:48+08:00 ] 192.168.1.42 /PROD/get4RBList?series=530
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001909s ]
+
+[ 2015-05-02T06:38:57+08:00 ] 192.168.1.42 /PROD/Belt_2RB_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+
+[ 2015-05-02T06:38:58+08:00 ] 192.168.1.42 /src/js/PRODjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+ERR: 无法加载控制器:Src
+
+[ 2015-05-02T06:39:03+08:00 ] 192.168.1.42 /PROD/Belt_2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+
+[ 2015-05-02T06:39:03+08:00 ] 192.168.1.42 /src/js/PRODjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+ERR: 无法加载控制器:Src
+
+[ 2015-05-02T06:44:04+08:00 ] 192.168.1.42 /About/about_us
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+

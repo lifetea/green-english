@@ -174,5 +174,16 @@ return array(
 		'3RB_SIDE_CHANNEL_BLOWER'=>'Side Channel Blower',
 		'3RB_DSC'=>'Greenco classica with innovative technology for 3RB series side channel blower create high pressure,high vacuum and high airflow which can be replaced equivalent power of Roots blower,but Greenco side channel blowers are more advantages than roots blower:the materials are made by aluminum die casting,the weight is much lighter,the volume is even compacter.the lifetime is longer,low noise,oilless,free maintenance.',
 		'4RB_SIDE_CHANNEL_BLOWER'=>'Side Channel Blower',
+		'Belt_2RB_REGENERATIVE_BLOWER'=>'Regenerative Blower',
+		'COVER_SUCTION_RING_BLOWER'=>'Cover Suction Ring Blower',
+		'SUCTION_DSC'=>'The cover suction series ring blower are designed for our specific customers. On the front cover, There is an inlet and an outlet, which make customers use their own products flexibly. The customers are not only able to use the inlet and outlet to suction and blow, but also are able to use the original inlet and outlet on the rear housing to suction and blow. Then it will reduce customers’ cost of product materials as well as decrease the freight cost due to the smaller volume of products. This design has been widely used on industrial vacuum cleaners, automatic hopper loaders and dental suction systems. As a result, Our professional OEM design has been appreciated by many of our customers because we help them win more markets.',
+		'SUCTION_APPLICATION'=>'Application for cover suction series ring blower',
+		'SUCTION_INDUSTRIAL_VACUUM_CLEANER'=>'Industrial vacuum cleaner',
+		'SUCTION_AUTOMATIC_HOPPER_LOADER'=>'Automatic hopper loader system',
+		'SUCTION_DENTAL_SUCTION'=>'Dental suction system',
+		'SUCTION_TECHNICAL_DATA'=>'Performance & Technical data',
+		'SILENCER_FOR SIDE_CHANNEL_BLOWER'=>'Silencer for Side Channel Blower',
+		'FILTER_FOR_SIDE_CHANNEL_BLOWER'=>'Inlet Vacuum Filter for Side Channel Blower',
+		'RELIEF_FOR_SIDE_CHANNEL_BLOWER'=>'Relief Valve for Side Channel Blower',
 );
 ?>

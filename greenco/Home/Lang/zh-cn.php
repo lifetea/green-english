@@ -175,5 +175,17 @@ return array(
 		'3RB_SIDE_CHANNEL_BLOWER'=>'高压鼓风机',
 		'3RB_DSC'=>'浙江格凌实业有限公司以独创的创新技术最新研发的3RB系列旋涡气泵，该系列比原来的2RB系列和4RB系列能够产生更高的压力，更高的真空和更大的风量。3RB系列旋涡气泵完全能够代替同等功率的罗茨鼓风机，并且比罗茨鼓风机有更大的优势：材料完全铝压铸，体积小重量更轻、无油，免维护、寿命更长、噪音比2RB和4RB系列更低，性价比更高。',
 		'4RB_SIDE_CHANNEL_BLOWER'=>'漩涡气泵',
+		'Belt_2RB_REGENERATIVE_BLOWER'=>'皮带式气环风机 ',
+		'IE2_2RB_REGENERATIVE_BLOWER'=>'漩涡风机 ',
+		'COVER_SUCTION_RING_BLOWER'=>'吸顶式漩涡风机',
+		'SUCTION_DSC'=>'吸顶式风机系列是针对特定的客户专门开发的产品,该系列在前盖位置增加了一个进气孔和一个出气孔，使得客户可以根据自己的产品灵活使用,既可以使用前盖位置作为吸气和吹气,也可以使用现有的泵体位置吸气和吹气。这样就可以为客户节省产品的材料成本，也可以为客户由于体积变小而降低运输成本。该设计已经被广泛使用在工业吸尘器，自动供料系统和口腔抽吸系统上，为客户赢得了市场竞争，我们的专业定制性也获得很多客户的赞赏。',
+		'SUCTION_APPLICATION'=>'吸顶式气泵应用',
+		'SUCTION_INDUSTRIAL_VACUUM_CLEANER'=>'工业吸尘器应用',
+		'SUCTION_AUTOMATIC_HOPPER_LOADER'=>'自动供料系统应用',
+		'SUCTION_DENTAL_SUCTION'=>'口腔抽吸系统应用',
+		'SUCTION_TECHNICAL_DATA'=>'性能和技术参数',
+		'SILENCER_FOR SIDE_CHANNEL_BLOWER'=>'消音器用于旋涡气泵',
+		'FILTER_FOR_SIDE_CHANNEL_BLOWER'=>'过滤器用于旋涡气泵',
+		'RELIEF_FOR_SIDE_CHANNEL_BLOWER'=>'释压伐用于旋涡气泵',
 );
 ?>

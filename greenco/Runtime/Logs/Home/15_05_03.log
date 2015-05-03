@@ -1,0 +1,456 @@
+[ 2015-05-03T06:14:02+08:00 ] 192.168.1.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005365s ]
+
+[ 2015-05-03T06:14:04+08:00 ] 192.168.1.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000859s ]
+
+[ 2015-05-03T06:14:04+08:00 ] 192.168.1.42 /font.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000554s ]
+ERR: 无法加载控制器:Font.swf
+
+[ 2015-05-03T06:14:07+08:00 ] 192.168.1.42 /PROD/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000619s ]
+
+[ 2015-05-03T06:14:07+08:00 ] 192.168.1.42 /PROD/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000831s ]
+
+[ 2015-05-03T06:14:10+08:00 ] 192.168.1.42 /PROD/get2RBList?series=010
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000809s ]
+
+[ 2015-05-03T06:14:18+08:00 ] 192.168.1.42 /PROD/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+
+[ 2015-05-03T06:14:22+08:00 ] 192.168.1.42 /PROD/3RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+
+[ 2015-05-03T06:14:26+08:00 ] 192.168.1.42 /PROD/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000650s ]
+
+[ 2015-05-03T06:14:29+08:00 ] 192.168.1.42 /PROD/2RB_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+
+[ 2015-05-03T06:15:31+08:00 ] 192.168.1.42 /PROD/get2RBList?series=220
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000836s ]
+
+[ 2015-05-03T06:15:37+08:00 ] 192.168.1.42 /PROD/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000567s ]
+
+[ 2015-05-03T06:15:39+08:00 ] 192.168.1.42 /PROD/2RB_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2015-05-03T06:15:40+08:00 ] 192.168.1.42 /PROD/get2RBList?series=220
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000739s ]
+
+[ 2015-05-03T06:15:49+08:00 ] 192.168.1.42 /PROD/3RB_3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+
+[ 2015-05-03T06:15:50+08:00 ] 192.168.1.42 /PROD/get3RBList?series=350-3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+
+[ 2015-05-03T06:28:44+08:00 ] 192.168.1.42 /PROD/IE2_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2015-05-03T06:28:46+08:00 ] 192.168.1.42 /PROD/Suction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000779s ]
+
+[ 2015-05-03T06:28:50+08:00 ] 192.168.1.42 /PROD/IE2_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000973s ]
+
+[ 2015-05-03T06:28:51+08:00 ] 192.168.1.42 /PROD/IE2_Double_Stage_Regenerative_Blower_table.php?series=220
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000716s ]
+ERR: 非法操作:IE2_Double_Stage_Regenerative_Blower_table.php
+
+[ 2015-05-03T06:28:54+08:00 ] 192.168.1.42 /PROD/IE2_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001413s ]
+
+[ 2015-05-03T06:28:57+08:00 ] 192.168.1.42 /PROD/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2015-05-03T06:28:58+08:00 ] 192.168.1.42 /PROD/3RB_3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+
+[ 2015-05-03T06:29:00+08:00 ] 192.168.1.42 /PROD/Belt_2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001338s ]
+
+[ 2015-05-03T06:29:00+08:00 ] 192.168.1.42 /src/js/PRODjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000947s ]
+ERR: 无法加载控制器:Src
+
+[ 2015-05-03T06:29:01+08:00 ] 192.168.1.42 /PROD/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB213.pdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000791s ]
+ERR: 非法操作:upfile
+
+[ 2015-05-03T06:29:04+08:00 ] 192.168.1.42 /PROD/4RB_3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000538s ]
+
+[ 2015-05-03T06:29:05+08:00 ] 192.168.1.42 /PROD/get4RBList?series=530
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001005s ]
+
+[ 2015-05-03T06:29:10+08:00 ] 192.168.1.42 /PROD/Belt_2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2015-05-03T06:29:10+08:00 ] 192.168.1.42 /src/js/PRODjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+ERR: 无法加载控制器:Src
+
+[ 2015-05-03T06:29:11+08:00 ] 192.168.1.42 /PROD/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB213.pdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001358s ]
+ERR: 非法操作:upfile
+
+[ 2015-05-03T07:33:04+08:00 ] 192.168.1.42 /PROD/Belt_2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001399s ]
+
+[ 2015-05-03T07:33:04+08:00 ] 192.168.1.42 /src/js/PRODjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000869s ]
+ERR: 无法加载控制器:Src
+
+[ 2015-05-03T09:23:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018699s ]
+
+[ 2015-05-03T09:23:16+08:00 ] 127.0.0.1 /SRC_LAN/logo.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+
+[ 2015-05-03T09:23:16+08:00 ] 127.0.0.1 /SRC_LAN/home7.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+
+[ 2015-05-03T09:23:16+08:00 ] 127.0.0.1 /SRC_LAN/home2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001312s ]
+
+[ 2015-05-03T09:23:16+08:00 ] 127.0.0.1 /SRC_LAN/home4.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001658s ]
+
+[ 2015-05-03T09:23:16+08:00 ] 127.0.0.1 /SRC_LAN/home3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001245s ]
+
+[ 2015-05-03T09:23:18+08:00 ] 127.0.0.1 /SRC_LAN/config.xml?t=1430616198140
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000850s ]
+ERR: 无法加载控制器:SRC_LAN
+
+[ 2015-05-03T09:23:25+08:00 ] 192.168.1.42 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2015-05-03T09:23:28+08:00 ] 192.168.1.42 /font.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000591s ]
+ERR: 无法加载控制器:Font.swf
+
+[ 2015-05-03T09:23:32+08:00 ] 192.168.1.42 /PROD/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+
+[ 2015-05-03T09:23:32+08:00 ] 192.168.1.42 /PROD/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000774s ]
+
+[ 2015-05-03T09:24:02+08:00 ] 192.168.1.42 /About/about_us
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+
+[ 2015-05-03T09:24:02+08:00 ] 192.168.1.42 /About/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001297s ]
+
+[ 2015-05-03T09:24:07+08:00 ] 192.168.1.42 /About/certification
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+
+[ 2015-05-03T09:24:09+08:00 ] 192.168.1.42 /About/honour
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+
+[ 2015-05-03T09:24:12+08:00 ] 192.168.1.42 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000833s ]
+
+[ 2015-05-03T09:24:12+08:00 ] 192.168.1.42 /Index/cu3er.swf?t=1430616252000
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+ERR: 非法操作:cu3er.swf
+
+[ 2015-05-03T09:24:12+08:00 ] 192.168.1.42 /Index/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000563s ]
+
+[ 2015-05-03T09:24:17+08:00 ] 192.168.1.42 /About/about_us
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000587s ]
+
+[ 2015-05-03T09:24:18+08:00 ] 192.168.1.42 /About/certification
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000595s ]
+
+[ 2015-05-03T09:24:21+08:00 ] 192.168.1.42 /About/honour
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000691s ]
+
+[ 2015-05-03T09:24:23+08:00 ] 192.168.1.42 /About/video
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+
+[ 2015-05-03T09:24:26+08:00 ] 192.168.1.42 /About/equipments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+
+[ 2015-05-03T09:24:30+08:00 ] 192.168.1.42 /About/about_us
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+
+[ 2015-05-03T09:24:34+08:00 ] 192.168.1.42 /About/certification
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+
+[ 2015-05-03T09:24:46+08:00 ] 192.168.1.42 /About/equipments
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+
+[ 2015-05-03T09:24:50+08:00 ] 192.168.1.42 /PROD/2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+
+[ 2015-05-03T09:24:54+08:00 ] 192.168.1.42 /PROD/Belt_2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000794s ]
+
+[ 2015-05-03T09:24:54+08:00 ] 192.168.1.42 /src/js/PRODjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+ERR: 无法加载控制器:Src
+
+[ 2015-05-03T09:26:49+08:00 ] 192.168.1.42 /PROD/Belt_2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000649s ]
+
+[ 2015-05-03T09:26:49+08:00 ] 192.168.1.42 /src/js/PRODjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+ERR: 无法加载控制器:Src
+
+[ 2015-05-03T09:26:56+08:00 ] 192.168.1.42 /PROD/Belt_2RB_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+
+[ 2015-05-03T09:26:56+08:00 ] 192.168.1.42 /src/js/PRODjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000887s ]
+ERR: 无法加载控制器:Src
+
+[ 2015-05-03T09:27:08+08:00 ] 192.168.1.42 /PROD/IE2_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000608s ]
+
+[ 2015-05-03T09:27:10+08:00 ] 192.168.1.42 /PROD/IE2_Single_Stage_Regenerative_Blower_table.php?series=210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+ERR: 非法操作:IE2_Single_Stage_Regenerative_Blower_table.php
+
+[ 2015-05-03T09:49:19+08:00 ] 192.168.1.42 /PROD/IE2_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000922s ]
+
+[ 2015-05-03T09:49:22+08:00 ] 192.168.1.42 /PROD/Belt_2RB_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000956s ]
+
+[ 2015-05-03T09:49:22+08:00 ] 192.168.1.42 /src/js/PRODjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000982s ]
+ERR: 无法加载控制器:Src
+
+[ 2015-05-03T09:49:45+08:00 ] 192.168.1.42 /PROD/IE2_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000537s ]
+
+[ 2015-05-03T09:49:46+08:00 ] 192.168.1.42 /PROD/IE2_Single_Stage_Regenerative_Blower_table.php?series=210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+ERR: 非法操作:IE2_Single_Stage_Regenerative_Blower_table.php
+
+[ 2015-05-03T09:49:50+08:00 ] 192.168.1.42 /PROD/Silencer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000556s ]
+
+[ 2015-05-03T09:49:50+08:00 ] 192.168.1.42 /src/js/PRODjs
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000865s ]
+ERR: 无法加载控制器:Src
+
+[ 2015-05-03T09:49:51+08:00 ] 192.168.1.42 /PROD/silencer_content.php?type=2BX4%20011
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000562s ]
+ERR: 非法操作:silencer_content.php
+
+[ 2015-05-03T09:50:15+08:00 ] 192.168.1.42 /PROD/IE2_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+
+[ 2015-05-03T09:53:26+08:00 ] 192.168.1.42 /PROD/IE2_1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000682s ]
+
+[ 2015-05-03T09:53:28+08:00 ] 192.168.1.42 /PROD/getIE2List?series=210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+
+[ 2015-05-03T09:53:37+08:00 ] 192.168.1.42 /PROD/upfile/2RB_series/side%20channel%20blower%202rb210.pdf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+ERR: 非法操作:upfile
+
+[ 2015-05-03T09:56:55+08:00 ] 192.168.1.42 /PROD/getIE2List?series=210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000726s ]
+
+[ 2015-05-03T09:57:48+08:00 ] 192.168.1.42 /PROD/getIE2List?series=210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+ERR: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'greenco.ie' doesn't exist
+
+[ 2015-05-03T09:58:03+08:00 ] 192.168.1.42 /PROD/getIE2List?series=210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+
+[ 2015-05-03T09:58:14+08:00 ] 192.168.1.42 /PROD/IE2_2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+
+[ 2015-05-03T09:58:15+08:00 ] 192.168.1.42 /PROD/getIE2List?series=220
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+
+[ 2015-05-03T09:58:18+08:00 ] 192.168.1.42 /PROD/Suction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001022s ]
+
+[ 2015-05-03T09:58:21+08:00 ] 192.168.1.42 /PROD/Cover_Suction_Ring_Blower_table.php?series=210
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+ERR: 非法操作:Cover_Suction_Ring_Blower_table.php
+

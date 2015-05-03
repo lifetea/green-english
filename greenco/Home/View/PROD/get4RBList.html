@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title>2RB <?php  echo $_GET['series'];?> Series <?php echo _('Side channel blower'); ?></title>
+<meta name="description" content="Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco." />
+<meta name="keywords" content="Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO" />
+<include file="../Public/css" />
+<link href="favicon.ico" rel="shortcut icon" />
+</head>
+<include file="../Public/header" />
+<!-- 应用内容 -->
+<div class="container-fuild">
+	<div class="container pro">
+
+<!-- 应用内容 -->
+      <img src="{$Think.lang.SRC_LAN}/product_banner.png" class="banner" />
+      <div class="row">
+			<div class="col-md-3">
+				<include file="../Public/pro-nav" />
+			</div>
+			<div class="col-md-9 split">
+            <div class="content">
+            <h3 class="title-1">4RB <?php echo  $_GET['series'];?> <?php echo _('Series Ordering Data and Performance Data');?></h3>
+			<table class="table table-striped table-hover">
+				<caption style="text-align: center;"><h1></h1></caption>
+		      	<include file="../Public/data-hd" />
+		      		<tbody>
+		        		<volist name="list" id="vo">
+		        		<tr>
+		        			<a href="#">
+		        			<td>{$vo.type}</td>
+		        			<td>{$vo.fre_quency}</td>
+		        			<td>{$vo.output}</td>
+		        			<td>{$vo.maximum_airflow}</td>
+		        			<td>{$vo.maximum_vacuum}</td>
+		        			<td>{$vo.maximum_pressure}</td>
+		        			</tr>
+		        			</a>
+						</volist>
+					</tbody>
+					<tfoot>
+						<tr>
+							<td colspan=6>
+									<p>
+											<a class="link-1" href="<?php echo _('upfile');?>/2RB_series/side channel blower 2rb<?php echo substr($_GET['series'],0,3)?>.pdf" target="_blank" ><?php echo _('Download');?> Side Channel Blower 2RB<?php echo substr($_GET['series'],0,3)?> Series(PDF-<?php $type=$_GET['series'];$filename ='upfile/2RB_Series/side channel blower 2RB'.$type.'.PDF'; echo floor(filesize($filename)/1024);?>KB)
+											</a>
+									</p>
+							</td>
+						</tr>
+					</tfoot>
+		    	</table>                
+
+
+       </div>
+       </div>
+       </div>
+   </div>
+</div>
+<!-- 应用内容end -->
+
+<include file="../Public/footer" />
+</body>
+</html>
+

@@ -1,13 +1,14 @@
 <?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
-<html  xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title><?php echo (L("SUPPORT_INDEX")); ?></title>
-<meta name="keywords" content="<?php echo (L("SUPPORT_KEYWORDS")); ?>" />
-<meta name="description" content="<?php echo (L("SUPPORT_DESCRIPTION")); ?>" />
-<link href="favicon.ico" rel="shortcut icon" />
+<?php require 'setLan.php'; ?>
+<title><?php echo _('Cover Suction Ring Blower|');?></title>
+<meta name="description" content="<?php echo _('Greenco Cover Suction Ring Blower,Side channel blower,Regenerative blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.');?>" />
+<meta name="keywords" content="<?php echo _('Cover Suction Ring blower,Front suction Side channel blower,Regenerative blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO');?>" />
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <link href="<?php echo (C("SRC_ROOT")); ?>/css/common.css" rel="stylesheet">
+<link href="favicon.ico" rel="shortcut icon" />
 </head>
 <body class="<?php echo (L("HEADER_BODY_CLASS")); ?>">
 		<div class="container header row" >
@@ -167,42 +168,176 @@
 
 <!-- 应用内容 -->
 <div class="container-fuild">
-   <div class="container news">
-       <img src="<?php echo (L("SRC_LAN")); ?>/news_banner.jpg"  class="banner" alt="Greenco side channel blower news"/>
-       <div class="row">
-	       <div class="col-md-3">
-	             <h3  class="head-1"><?php echo (L("HEADER_NEWS_CENTER")); ?></h3>
-<ul class="news-nav">
-<li><a href="<?php echo (C("NEWS_ROOT")); ?>/company"><?php echo (L("HEADER_COMPANY_NEWS")); ?></a></li>
-<li><a href="<?php echo (C("NEWS_ROOT")); ?>/industry"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></a></li>	
-<li><a href="<?php echo (C("NEWS_ROOT")); ?>/support"><?php echo (L("HEADER_SUPPORT")); ?></a></li>
+		<div class="container pro">
+				<img src="<?php echo (L("SRC_LAN")); ?>/product_banner.png" class="banner" />
+				<div class="row">
+						<div class="col-md-3">
+								<h3 class="head-1"><?php echo (L("HEADER_SIDE_CHANNEL_BLOWER")); ?></h3>
+<ul class="pro-nav">
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/2RB_1"><?php echo (L("HEADER_2RB_SINGLE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/2RB_2"><?php echo (L("HEADER_2RB_DOUBLE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/3RB_1" style="background:url(<?php echo (C("IMG_ROOT")); ?>/new.gif) no-repeat 222px -2px;display:block;"><?php echo (L("HEADER_3RB_SINGLE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/3RB_2" style="background:url(<?php echo (C("IMG_ROOT")); ?>/new.gif) no-repeat 222px -2px;display:block;"><?php echo (L("HEADER_3RB_DOUBLE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/3RB_3" style="background:url(<?php echo (C("IMG_ROOT")); ?>/new.gif) no-repeat 222px -2px;display:block;"><?php echo (L("HEADER_3RB_THREE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/4RB_1"><?php echo (L("HEADER_4RB_SINGLE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/4RB_2"><?php echo (L("HEADER_4RB_DOUBLE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/4RB_3"><?php echo (L("HEADER_4RB_THREE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/Belt_2RB_1"><?php echo (L("HEADER_2RB_SINGLE_BELT")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/Belt_2RB_2"><?php echo (L("HEADER_2RB_DOUBLE_BELT")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/IE2_1"><?php echo (L("HEADER_2RB_SINGLE_REGENERATIVE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/IE2_2"><?php echo (L("HEADER_2RB_DOUBLE_REGENERATIVE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/Suction" style="background:url(<?php echo (C("IMG_ROOT")); ?>/new.gif) no-repeat 154px -2px;display:block;"><?php echo (L("HEADER_COVER_SUCTION")); ?></a></li>
 </ul>
-
-	       </div>
-	       <div class="col-md-9" style="border-left: 1px solid #ccc;">
-	       <h3 class="head-1"><?php echo (L("HEADER_INDUSTRY_NEWS")); ?></h3>
-	       <ul>
-       		<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><li class="mypagination">
-							<p></p>
-							<p>
-									<strong>
-											<a href="support_content.php?id=<?php echo ($vo["id"]); ?> "><?php echo ($vo["title"]); ?></a>
-									</strong>
-							</p>
-			            	<p><?php echo ($vo["content"]); ?></p>
-			            	<p class="row">
-				            	<span class="more col-md-2"><?php echo ($vo["time"]); ?></span>
-			            	    <a class="more col-md-1 col-md-offset-9"  href="support_content.php?id=<?php echo ($vo["id"]); ?> "><?php echo (L("SUPPORT_DETAIL")); ?></a>
-			            	</p>
-			           </li><?php endforeach; endif; else: echo "" ;endif; ?>		       
-	       </ul>
-	       <div  id="page_text"></div>
-	       </div>
-       </div>
-   </div>
+<h3 class="head-1"><?php echo (L("FOOTER_ACCESSORIES")); ?></h3>
+<ul class="pro-nav">
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/Silencer"><?php echo (L("HEADER_SILENCER")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/Filter"><?php echo (L("HEADER_RELIEF_VALUE")); ?></a>
+	</li>
+	<li>
+		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/Relief"><?php echo (L("HEADER_FILTER")); ?></a>
+	</li>
+</ul>
+<h3 class="head-1" style=""><?php echo (L("NAV_SEARCH_PRODUCT")); ?>
+		<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+</h3>
+<form class="search-bar">
+		<div class="form-group">
+				<label for="inputEmail3" class="control-label ">1:<?php echo (L("NAV_SEARCH_SELECT_GRAPH")); ?></label>
+				<select class="form-control">
+				   				<option><?php echo (L("HEADER_VACUUM")); ?></option>
+				  				<option><?php echo (L("HEADER_PRESSURE")); ?></option>
+				</select>
+		</div>
+		<div class="form-group">
+				<label for="inputEmail3" class="control-label">2:<?php echo (L("NAV_SEARCH_AIR_FLOW")); ?>(e.g.120):</label>
+				<div class="row">
+						  <div class="col-md-6">
+								  <input type="text" class="form-control">
+						  </div>
+						  <div class="col-md-6">
+									<select class="form-control">
+									   				<option>m³/h</option>
+									   				<option>m³/min</option>
+									</select>
+						  </div>
+				</div>
+		</div>
+		 <div class="form-group">
+			  <label for="inputEmail3" class="control-label">3:<?php echo (L("NAV_SEARCH_PRESSURE")); ?>(e.g.200):</label>
+				<div class="row">
+						  <div class="col-md-6">
+								  <input type="text" class="form-control">
+						  </div>
+						  <div class="col-md-6">
+									<select class="form-control">
+											<option>mbar</option>
+											<option>pa</option>
+									</select>
+						  </div>
+				</div>
+			</div> 
+		<div class="form-group">
+		    <button type="submit" class="btn btn-default"><?php echo (L("HEADER_SEARCH")); ?></button>
+		</div>
+</form>
+						</div>
+						<div class="col-md-9 split">
+								<h3 class="title-1"><?php echo (L("COVER_SUCTION_RING_BLOWER")); ?></h3>
+								<div class="content">
+										<p><?php echo (L("SUCTION_DSC")); ?></p>
+										<h6><?php echo (L("SUCTION_APPLICATION")); ?></h6>
+										<div class="row pro-list">
+												<div class="col-md-4 pro-item">
+														<img src="<?php echo (C("IMG_ROOT")); ?>/home9.png"/>
+														<h4 class="link-4"><?php echo (L("SUCTION_INDUSTRIAL_VACUUM_CLEANER")); ?></h4>
+												</div>
+												<div class="col-md-4 pro-item">
+														<img src="<?php echo (C("IMG_ROOT")); ?>/home8.png" />
+														<h4 class="link-4"><?php echo (L("SUCTION_AUTOMATIC_HOPPER_LOADER")); ?></h4>
+												</div>
+												<div class="col-md-4 pro-item">
+														<img src="<?php echo (C("IMG_ROOT")); ?>/home10.png" />
+														<h4 class="link-4"><?php echo (L("SUCTION_DENTAL_SUCTION")); ?></h4>
+												</div>
+												</div>
+												<h6 style="color:#444;font-family:Calibri,arial;font-size:16px;margin-bottom:15px;clear:both;"><?php echo (L("SUCTION_TECHNICAL_DATA")); ?></h6>
+												<div class="row pro-list">
+														<div  id="mypage" class="col-md-4 pro-item">
+																<a href="Cover_Suction_Ring_Blower_table.php?series=210" target="_blank">
+																		<img  src="<?php echo (C("IMG_ROOT")); ?>/B_series.jpg"  alt="2RB 210 Cover Suction Ring Blower"/>
+																</a>
+																<h4>
+																		<a class="link-4" href="Cover_Suction_Ring_Blower_table.php?series=210" target="_blank">2RB210 (B)</a>
+																</h4>
+														</div>
+														<div  id="mypage" class="col-md-4 pro-item">
+																<a href="Cover_Suction_Ring_Blower_table.php?series=410" target="_blank">
+																		<img  src="<?php echo (C("IMG_ROOT")); ?>/B_series.jpg"  alt="2RB 410 Cover Suction Ring Blower"/>
+																</a>
+																<h4>
+																		<a class="link-4" href="Cover_Suction_Ring_Blower_table.php?series=410" target="_blank">2RB410 (B)</a>
+																</h4>
+														</div>
+														<div  id="mypage" class="col-md-4 pro-item">
+																<a href="Cover_Suction_Ring_Blower_table.php?series=510" target="_blank">
+																		<img  src="<?php echo (C("IMG_ROOT")); ?>/B_series.jpg"  alt="2RB 510 Cover Suction Ring Blower"/>
+																</a>
+																<h4>
+																		<a class="link-4" href="Cover_Suction_Ring_Blower_table.php?series=510" target="_blank">2RB510 (B)</a>
+																</h4>
+														</div>
+														<div  id="mypage" class="col-md-4 pro-item">
+																<a href="Cover_Suction_Ring_Blower_table.php?series=710" target="_blank">
+																		<img  src="<?php echo (C("IMG_ROOT")); ?>/B_series.jpg"  alt="2RB 710 Cover Suction Ring Blower"/>
+																</a>
+																<h4>
+																		<a class="link-4" href="Cover_Suction_Ring_Blower_table.php?series=710" target="_blank">2RB710 (B)</a>
+																</h4>
+														</div>
+														<div  id="mypage" class="col-md-4 pro-item">
+																<a href="Cover_Suction_Ring_Blower_table.php?series=810" target="_blank">
+																		<img  src="<?php echo (C("IMG_ROOT")); ?>/B_series.jpg"  alt="2RB 810 Cover Suction Ring Blower"/>
+																</a>
+																<h4>
+																		<a class="link-4" href="Cover_Suction_Ring_Blower_table.php?series=810" target="_blank">2RB810 (B)</a>
+																</h4>
+														</div>
+														<div  id="page_text"></div>
+										</div>	
+								</div>
+						</div>
+				</div>
+		</div>
 </div>
 <!-- 应用内容end -->
-
 <div class="container-fluid navbar-inverse footer">
 		<div class="container">
 				<ul class=" col-md-2 " >
@@ -254,14 +389,7 @@
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-<script src="<?php echo (C("JS_ROOT")); ?>/jquery.quickpaginate.js" type="text/javascript" ></script>
-<script type="text/javascript">
-	$(function(){
-		$(".mypagination").quickpaginate({
-			perpage: 6,//每页显示条数,
-			pager : $("#page_text") //div的ID
-		})
-	})
-</script>
+<script src="<?php echo (C("JS_ROOT")); ?>/jquery.quickpaginate.js" type="text/javascript"></script>
+<script src="<?php echo (C("JS_ROOT")); ?>/PROD.js" type="text/javascript"></script>
 </body>
 </html>

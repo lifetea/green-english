@@ -166,3 +166,5 @@ ul{padding:0;list-style:none}
 .pro-list div{text-align:center}
 .pro-item img{border: 1px solid #bbb; width:98%}
 .pro .content{min-height:890px}
+.pro .table td{line-height:50px;}
+.pro .table-hover>tbody>tr:hover{background-color: #aaa;}
