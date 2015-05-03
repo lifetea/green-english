@@ -21,7 +21,7 @@
 			</div>
 			<div class="col-md-9 split">
             <div class="content">
-            <h3 class="title-1">2RB <?php echo  $_GET['series'];?> <?php echo _('Series Ordering Data and Performance Data');?></h3>
+            <h3 class="title-1">IE2 <?php echo  $_GET['series'];?> <?php echo _('Series Ordering Data and Performance Data');?></h3>
 			<table class="table table-striped table-hover">
 				<caption style="text-align: center;"><h1></h1></caption>
 		      	<include file="../Public/data-hd" />
@@ -43,8 +43,7 @@
 						<tr>
 							<td colspan=6>
 									<p>
-											<a class="link-1" href="{$Think.lang.SRC_LAN}/2rb_<?php echo substr($_GET['series'],0,3)?>.pdf" target="_blank" >
-													<span><?php echo _('Download');?> Side Channel Blower 2RB<?php echo substr($_GET['series'],0,3)?> Series</span>
+											<a class="link-1" href="<?php echo _('upfile');?>/2RB_series/side channel blower 2rb<?php echo substr($_GET['series'],0,3)?>.pdf" target="_blank" ><?php echo _('Download');?> Side Channel Blower 2RB<?php echo substr($_GET['series'],0,3)?> Series(PDF-<?php $type=$_GET['series'];$filename ='upfile/2RB_Series/side channel blower 2RB'.$type.'.PDF'; echo floor(filesize($filename)/1024);?>KB)
 											</a>
 									</p>
 							</td>

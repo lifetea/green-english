@@ -50,5 +50,28 @@ class PRODController extends Controller {
     	$this->assign('list',$list);
     	$this->display();
     }
+    public function getSuctionList(){
+    	//product  type like '%2RB {$_GET['series']}%'
+    	//$list = S('contact-data');
+    	//if (!$list) {
+    	$prod = M("b_series");
+    	$list = $prod->where("type like '%2RB {$_GET['series']}%'")->order('id ASC')->select();
+    	//S('contact-data', $list, 7000);
+    	//}
+    	$this->assign('list',$list);
+    	$this->display();
+    }    
+    public function getSilencerContent(){
+    	//product  type like '%2RB {$_GET['series']}%'
+    	//$list = S('contact-data');
+    	//if (!$list) {
+    	$prod = M("Silencer");
+    	$list = $prod->where("type like '%{$_GET['type']}%'")->find();
+    	//S('contact-data', $list, 7000);
+    	//}
+    	$this->assign('list',$list);
+    	$this->display();
+    }    
+    
     
 }

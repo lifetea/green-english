@@ -291,43 +291,43 @@
 												<h6 style="color:#444;font-family:Calibri,arial;font-size:16px;margin-bottom:15px;clear:both;"><?php echo (L("SUCTION_TECHNICAL_DATA")); ?></h6>
 												<div class="row pro-list">
 														<div  id="mypage" class="col-md-4 pro-item">
-																<a href="Cover_Suction_Ring_Blower_table.php?series=210" target="_blank">
+																<a href="<?php echo (C("PROD_ROOT")); ?>/getSuctionList?series=210" target="_blank">
 																		<img  src="<?php echo (C("IMG_ROOT")); ?>/B_series.jpg"  alt="2RB 210 Cover Suction Ring Blower"/>
 																</a>
 																<h4>
-																		<a class="link-4" href="Cover_Suction_Ring_Blower_table.php?series=210" target="_blank">2RB210 (B)</a>
+																		<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getSuctionList?series=210" target="_blank">2RB210 (B)</a>
 																</h4>
 														</div>
 														<div  id="mypage" class="col-md-4 pro-item">
-																<a href="Cover_Suction_Ring_Blower_table.php?series=410" target="_blank">
+																<a href="<?php echo (C("PROD_ROOT")); ?>/getSuctionList?series=410" target="_blank">
 																		<img  src="<?php echo (C("IMG_ROOT")); ?>/B_series.jpg"  alt="2RB 410 Cover Suction Ring Blower"/>
 																</a>
 																<h4>
-																		<a class="link-4" href="Cover_Suction_Ring_Blower_table.php?series=410" target="_blank">2RB410 (B)</a>
+																		<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getSuctionList?series=410" target="_blank">2RB410 (B)</a>
 																</h4>
 														</div>
 														<div  id="mypage" class="col-md-4 pro-item">
-																<a href="Cover_Suction_Ring_Blower_table.php?series=510" target="_blank">
+																<a href="<?php echo (C("PROD_ROOT")); ?>/getSuctionList?series=510" target="_blank">
 																		<img  src="<?php echo (C("IMG_ROOT")); ?>/B_series.jpg"  alt="2RB 510 Cover Suction Ring Blower"/>
 																</a>
 																<h4>
-																		<a class="link-4" href="Cover_Suction_Ring_Blower_table.php?series=510" target="_blank">2RB510 (B)</a>
+																		<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getSuctionList?series=510" target="_blank">2RB510 (B)</a>
 																</h4>
 														</div>
 														<div  id="mypage" class="col-md-4 pro-item">
-																<a href="Cover_Suction_Ring_Blower_table.php?series=710" target="_blank">
+																<a href="<?php echo (C("PROD_ROOT")); ?>/getSuctionList?series=710" target="_blank">
 																		<img  src="<?php echo (C("IMG_ROOT")); ?>/B_series.jpg"  alt="2RB 710 Cover Suction Ring Blower"/>
 																</a>
 																<h4>
-																		<a class="link-4" href="Cover_Suction_Ring_Blower_table.php?series=710" target="_blank">2RB710 (B)</a>
+																		<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getSuctionList?series=710" target="_blank">2RB710 (B)</a>
 																</h4>
 														</div>
 														<div  id="mypage" class="col-md-4 pro-item">
-																<a href="Cover_Suction_Ring_Blower_table.php?series=810" target="_blank">
+																<a href="<?php echo (C("PROD_ROOT")); ?>/getSuctionList?series=810" target="_blank">
 																		<img  src="<?php echo (C("IMG_ROOT")); ?>/B_series.jpg"  alt="2RB 810 Cover Suction Ring Blower"/>
 																</a>
 																<h4>
-																		<a class="link-4" href="Cover_Suction_Ring_Blower_table.php?series=810" target="_blank">2RB810 (B)</a>
+																		<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getSuctionList?series=810" target="_blank">2RB810 (B)</a>
 																</h4>
 														</div>
 														<div  id="page_text"></div>

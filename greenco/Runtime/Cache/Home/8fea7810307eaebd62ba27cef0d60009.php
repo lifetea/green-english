@@ -2,9 +2,12 @@
 <html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title>2RB <?php  echo $_GET['series'];?> Series <?php echo _('Side channel blower'); ?></title>
-<meta name="description" content="Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco." />
-<meta name="keywords" content="Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO" />
+<title><?php echo _('Silencer|Blower Silencer|Side channel blower'); echo $_GET['type'];?>
+	<?php echo _('Technical Data|Zhejiang GREENCO Industry Co Ltd'); ?></title>
+<meta name="description"
+	content="<?php echo $_GET['type'];?> <?php echo _('Silencers are used for the reduce in positive displacement air blowers and vacuum pumps.') ?>" />
+<meta name="keywords"
+	content="<?php echo _('Silencer,Blower Silencer,Air Silencer,Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,2BX4 series,GREENCO'); ?>" />
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <link href="<?php echo (C("SRC_ROOT")); ?>/css/common.css" rel="stylesheet">
 <link href="favicon.ico" rel="shortcut icon" />
@@ -163,13 +166,10 @@
 				</div><!-- /.container-fluid -->
 		</nav>
 
-<!-- 应用内容 -->
 <div class="container-fuild">
 	<div class="container pro">
-
-<!-- 应用内容 -->
-      <img src="<?php echo (L("SRC_LAN")); ?>/product_banner.png" class="banner" />
-      <div class="row">
+		<img src="<?php echo (L("SRC_LAN")); ?>/product_banner.png" class="banner" />
+		<div class="row">
 			<div class="col-md-3">
 				<h3 class="head-1"><?php echo (L("HEADER_SIDE_CHANNEL_BLOWER")); ?></h3>
 <ul class="pro-nav">
@@ -269,73 +269,79 @@
 </form>
 			</div>
 			<div class="col-md-9 split">
-            <div class="content">
-            <h3 class="title-1">2RB <?php echo $_GET['series'];?> <?php echo _('Series Ordering Data and Performance Data');?></h3>
-			<table class="table table-striped table-hover">
-				<caption style="text-align: center;"><h1></h1></caption>
-		      	<thead>
-	<tr>
-		<th>
-			<?php echo _('Order No');?>.
-		</th>
-		<th>
-			<?php echo _('Fre-quency');?>
-		</th>
-		<th>
-			<?php echo _('Output');?>
-		</th>
-		<th>
-			<?php echo _('Maximum Airflow');?>
-		</th>
-		<th>
-			<?php echo _('Maximum Vacuum');?>
-		</th>
-		<th>
-			<?php echo _('Maximum Pressure');?>
-		</th>
-	</tr>
-	<tr>
-		<td>#</td>
-		<td>Hz</td>
-		<td>Kw</td>
-		<td>m³/h</td>
-		<td>mbar</td>
-		<td>mbar</td>
-	</tr>	
-</thead>
+				<div class="row pro-list content">
+					<h3 class="title-1">Silencer <?php echo ($list["type"]); ?> Technical Data</h3>
+					<div class="row">
+						<div class="col-md-6">
+							Model: </strong><span> <?php echo ($list["type"]); ?>
+								<h5
+									style="background: #fff url(image/download1.png) no-repeat; color: #333; border: none; line-height: 45px; margin-top: 180px; font-size: 14px;">
+									<a href="upfile/Side channel blower Silencer.pdf"
+										target="_blank" style="color: #1850a3;">Download PDF
+										Silencer (532 KB)</a>
+								</h5>
+						</div>
+						<div class="col-md-6">
+							<img src="<?php echo (C("IMG_ROOT")); ?>/silencer.jpg"
+								alt="<?php echo ($list["type"]); ?> side channel blower silencer image and picture" />
+						</div>
+					</div>
+					<div>
+				<h5>Dimension for Silencer <?php echo ($list["type"]); ?></h5>
+				<!-- 尺寸图判断 -->
+				<a rel="shadowbox"
+					href="<?php echo (C("IMG_ROOT")); ?>/silencer_2BX4_big.jpg"> <img
+					alt="Dimension for Silencer <?php echo ($list["type"]); ?>" class="border"
+					src="<?php echo (C("IMG_ROOT")); ?>/silencer_2BX4_small.jpg"
+					title="Click to Enlarge" />
+				</a>
 
-		      		<tbody>
-		        		<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-		        			<a href="#">
-		        			<td><?php echo ($vo["type"]); ?></td>
-		        			<td><?php echo ($vo["fre_quency"]); ?></td>
-		        			<td><?php echo ($vo["output"]); ?></td>
-		        			<td><?php echo ($vo["maximum_airflow"]); ?></td>
-		        			<td><?php echo ($vo["maximum_vacuum"]); ?></td>
-		        			<td><?php echo ($vo["maximum_pressure"]); ?></td>
-		        			</tr>
-		        			</a><?php endforeach; endif; else: echo "" ;endif; ?>
-					</tbody>
-					<tfoot>
-						<tr>
-							<td colspan=6>
-									<p>
-											<a class="link-1" href="<?php echo (L("SRC_LAN")); ?>/2rb_<?php echo substr($_GET['series'],0,3)?>.pdf" target="_blank" >
-													<span><?php echo _('Download');?> Side Channel Blower 2RB<?php echo substr($_GET['series'],0,3)?> Series</span>
-											</a>
-									</p>
-							</td>
-						</tr>
-					</tfoot>
-		    	</table>                
+				<!-- 技术参数判断 -->
+				<table class="table table-striped" cellspacing="0" cellpadding="0"
+					style="margin-top: 30px;">
+					<tr class="one">
+						<td style="font-style: Italic;">Type</td>
+						<td>a</td>
+						<td>b</td>
+						<td>c</td>
+						<td>d</td>
+						<td>e</td>
+						<td>f</td>
+						<td>g</td>
+						<td>h</td>
+						<td>i</td>
+						<td>j</td>
+						<td>k</td>
+					</tr>
+					<tr>
+						<td><?php echo ($list["type"]); ?></td>
+						<td><?php echo ($list["a"]); ?></td>
+						<td><?php echo ($list["b"]); ?></td>
+						<td><?php echo ($list["c"]); ?></td>
+						<td><?php echo ($list["d"]); ?></td>
+						<td><?php echo ($list["e"]); ?></td>
+						<td><?php echo ($list["f"]); ?></td>
+						<td><?php echo ($list["g"]); ?></td>
+						<td><?php echo ($list["h"]); ?></td>
+						<td><?php echo ($list["i"]); ?></td>
+						<td><?php echo ($list["j"]); ?></td>
+						<td><?php echo ($list["k"]); ?></td>
+					</tr>
+					'.
+				</table>
+				<p style="margin-top: 160px;">Note:Model offerings and design
+					parameters may change without notice.</p>					
+					</div>
+				</div>
 
 
-       </div>
-       </div>
-       </div>
-   </div>
+			</div>
+		</div>
+	</div>
+</div>
 </div>
 <!-- 应用内容end -->
+
 
 <div class="container-fluid navbar-inverse footer">
 		<div class="container">
@@ -388,5 +394,8 @@
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
+<script src="<?php echo (C("JS_ROOT")); ?>/jquery.quickpaginate.js"
+	type="text/javascript"></script>
+<script src="<?php echo (C("JS_ROOT")); ?>/PROD.js" type="text/javascript"></script>
 </body>
 </html>

@@ -43,7 +43,8 @@
 						<tr>
 							<td colspan=6>
 									<p>
-											<a class="link-1" href="<?php echo _('upfile');?>/2RB_series/side channel blower 2rb<?php echo substr($_GET['series'],0,3)?>.pdf" target="_blank" ><?php echo _('Download');?> Side Channel Blower 2RB<?php echo substr($_GET['series'],0,3)?> Series(PDF-<?php $type=$_GET['series'];$filename ='upfile/2RB_Series/side channel blower 2RB'.$type.'.PDF'; echo floor(filesize($filename)/1024);?>KB)
+											<a class="link-1" href="{$Think.lang.SRC_LAN}/3rb_<?php echo substr($_GET['series'],0,5)?>.pdf" target="_blank" >
+											<span><?php echo _('Download');?> Side Channel Blower 2RB<?php echo substr($_GET['series'],0,3)?> Series</span>
 											</a>
 									</p>
 							</td>
