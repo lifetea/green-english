@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html  xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<include file="../Public/css" />
+<link href="favicon.ico" rel="shortcut icon" />
+</head>
+<include file="../Public/header" />
+
+<!-- 应用内容 -->
+<div class="container-fuild">
+	<div class="container pro">
+     <img src="{$Think.lang.SRC_LAN}/product_banner.png" class="banner" />
+      <div class="row">
+		<div class="col-md-3">
+			<include file="../Public/pro-nav" />
+		</div>
+       <div class="col-md-9 split">
+       <div class="content">
+             <div id="left">
+                <h3>Vacuum Filter <?php echo $_rows['type'];?> Technical Data</h3>
+                <table>
+                   <tr><td><strong>Model: </strong><span><?php echo $_rows['type'];?></span></td><td>
+                </table>
+                <h5>
+                		<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                		<a href="{$Think.lang.SRC_LAN}/filter.pdf" target="_blank" style="color:#1850a3;">Download PDF Inlet Vacuum Filters (551 KB)</a>
+                </h5>
+             </div>
+             <div id="right"><?php echo $_rows['type'];?>
+                <img src="{$Think.config.IMG_ROOT}/Inlet vacuum filters {$type}.jpg" alt="{$type}.jpg side channel blower inlet vacuum filters image and picture"/>
+             </div>
+
+
+             <h5>Dimension for Inlet Vacuum Filter <?php echo $_rows['type'];?></h5>
+             <!-- 尺寸图判断 -->
+                   <a rel="shadowbox" href="{$Think.config.IMG_ROOT}/Inlet_Vacuum_Filter_big.jpg">
+                   <img alt="Dimension for Silencer '.$_rows['type'].' " class="border" src="{$Think.config.IMG_ROOT}/Inlet_Vacuum_Filter_small.jpg"  title="Click to Enlarge"/>
+                   </a>
+
+             <!-- 技术参数判断 -->
+             <?php
+		            echo    '<table class="data"  cellspacing="0" cellpadding="0" style="margin-top:30px;">'.
+		              '<tr class="one"><td style="font-style:Italic;">Type</td><td>material</td><td>FPT Inlet & Outlet</td><td>d1</td><td>d2</td><td>d3</td><td>d4</td><td>h1</td><td>h2</td><td>h3</td><td>h4</td><td>Rated Flow</br>(m³/min)</td><td>Approx.wt.</br>(kg)</td></tr>'.
+		              '<tr class="two"><td>'.$_rows['type'].'</td><td>'.$_rows['material'].'</td><td>'.$_rows['outlet'].'</td><td>'.$_rows['d1'].'</td><td>'.$_rows['d2'].'</td><td>'.$_rows['d3'].'</td><td>'.$_rows['d4'].'</td><td>'.$_rows['h1'].'</td><td>'.$_rows['h2'].'</td><td>'.$_rows['h3'].'</td><td>'.$_rows['h4'].'</td><td>'.$_rows['rated_flow'].'</td><td>'.$_rows['approx'].'</td></tr>'.
+		             '</table>';
+             ?>
+             <p ><?php echo _('Note:Model offerings and design parameters may change without notice.'); ?></p>
+       </div></div>
+   </div></div>
+</div>
+<!-- 应用内容end -->
+<include file="../Public/footer" />
+<script src="{$Think.config.JS_ROOT}/jquery.quickpaginate.js"
+	type="text/javascript"></script>
+<script src="{$Think.config.JS_ROOT}/PROD.js" type="text/javascript"></script>
+</body>
+</html>
+

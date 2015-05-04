@@ -15,12 +15,13 @@ ul{padding:0;list-style:none}
 
 .head-1{color:#eee;text-indent:5px;font-size:14px;font-family:tahoma;font-family:tahoma;  text-indent: 10px; background: #666; font-size: 14px;  font-weight: 600; ;height: 32px;color: #fff;line-height: 32px;border: 1px solid #555; }
 .text-1{font-weight:600;font-size:12px;line-height:200%;}
-.text-2{line-height: 21px;text-indent: 2em;text-align: justify;}
+.text-2{line-height: 2em;text-indent: 2em;text-align: justify;}
 .title-1{font-weight:600;font-size:18px;color:#333;font-family:tahoma;}
 .title-2{	color: #1e448c;font-weight: 600;	line-height: 30px;}
+.para-1{text-indent: 2em;padding: 1em 0;line-height: 2em;}
 .split{border-left: 1px solid #ccc;}
 .line{	  border-bottom: 1px solid #ccc;}
-
+.center {text-align:center}
 
 .banner{margin:1em auto;width:100%;border:1px solid #999;}
 
@@ -163,8 +164,8 @@ ul{padding:0;list-style:none}
 .search-bar{padding-top:1em}
 
 /*Pro*/
-.pro-list div{text-align:center}
+
 .pro-item img{border: 1px solid #bbb; width:98%}
 .pro .content{min-height:890px}
 .pro .table td{line-height:50px;}
-.pro .table-hover>tbody>tr:hover{background-color: #aaa;}
+.pro .table-hover>tbody>tr:hover{background-color: #aaa;cursor: pointer;text-decoration: underline;}

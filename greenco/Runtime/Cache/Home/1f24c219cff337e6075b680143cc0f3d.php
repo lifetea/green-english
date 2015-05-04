@@ -277,7 +277,7 @@
 						target="_blank" >
 							<img src="<?php echo (C("IMG_ROOT")); ?>/2RB010.jpg" />
 					</a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=010"
 							target="_blank">2RB 010</a>
@@ -286,7 +286,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=110"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB110.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=110"
 							target="_blank">2RB 110</a>
@@ -295,7 +295,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=210"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB310.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=210"
 							target="_blank">2RB 210</a>
@@ -304,7 +304,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=230"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB230.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=230"
 							target="_blank">2RB 230</a>
@@ -313,7 +313,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=310"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB310.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=310"
 							target="_blank">2RB 310</a>
@@ -322,7 +322,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=330"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB330.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=330"
 							target="_blank">2RB 330</a>
@@ -331,7 +331,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=410"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB410.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=410"
 							target="_blank">2RB 410</a>
@@ -340,7 +340,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=430"
 						target="_black"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB430.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=430"
 							target="_blank">2RB 430</a>
@@ -349,7 +349,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=490"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB490.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=490"
 							target="_blank">2RB 490</a>
@@ -358,7 +358,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=510"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB510.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=510"
 							target="_blank">2RB 510</a>
@@ -367,7 +367,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=530"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB530.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=530"
 							target="_blank">2RB 530</a>
@@ -376,7 +376,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=590"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB590.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=590"
 							target="_blank">2RB 590</a>
@@ -385,7 +385,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=610"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB610.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=610"
 							target="_blank">2RB 610</a>
@@ -394,7 +394,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=630"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB630.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=630"
 							target="_blank">2RB 630</a>
@@ -403,7 +403,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=710"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB710.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=710"
 							target="_blank">2RB 710</a>
@@ -412,7 +412,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=730"
 						target="_black"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB730.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=730"
 							target="_blank">2RB 730</a>
@@ -421,7 +421,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=790"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB790.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=790"
 							target="_blank">2RB 790</a>
@@ -430,7 +430,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=810"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB810.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=810"
 							target="_blank">2RB 810</a>
@@ -439,7 +439,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=830"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB830.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=830"
 							target="_blank">2RB 830</a>
@@ -448,7 +448,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=910"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB910.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=910"
 							target="_blank">2RB 910</a>
@@ -457,7 +457,7 @@
 				<div id="mypage" class="col-md-4 pro-item">
 					<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=930"
 						target="_blank"><img src="<?php echo (C("IMG_ROOT")); ?>/2RB930.jpg" /></a>
-					<h4>
+					<h4 class="center">
 						<a class="link-4"
 							href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=930"
 							target="_blank">2RB 930</a>

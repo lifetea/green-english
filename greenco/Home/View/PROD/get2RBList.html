@@ -27,8 +27,7 @@
 		      	<include file="../Public/data-hd" />
 		      		<tbody>
 		        		<volist name="list" id="vo">
-		        		<tr>
-		        			<a href="#">
+		        		<tr data-href="site.com/whatever">
 		        			<td>{$vo.type}</td>
 		        			<td>{$vo.fre_quency}</td>
 		        			<td>{$vo.output}</td>
@@ -36,7 +35,6 @@
 		        			<td>{$vo.maximum_vacuum}</td>
 		        			<td>{$vo.maximum_pressure}</td>
 		        			</tr>
-		        			</a>
 						</volist>
 					</tbody>
 					<tfoot>
@@ -44,6 +42,7 @@
 							<td colspan=6>
 									<p>
 											<a class="link-1" href="{$Think.lang.SRC_LAN}/2rb_<?php echo substr($_GET['series'],0,3)?>.pdf" target="_blank" >
+													<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
 													<span><?php echo _('Download');?> Side Channel Blower 2RB<?php echo substr($_GET['series'],0,3)?> Series</span>
 											</a>
 									</p>

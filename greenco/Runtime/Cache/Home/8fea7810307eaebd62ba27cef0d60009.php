@@ -276,9 +276,8 @@
 							Model: </strong><span> <?php echo ($list["type"]); ?>
 								<h5
 									style="background: #fff url(image/download1.png) no-repeat; color: #333; border: none; line-height: 45px; margin-top: 180px; font-size: 14px;">
-									<a href="upfile/Side channel blower Silencer.pdf"
-										target="_blank" style="color: #1850a3;">Download PDF
-										Silencer (532 KB)</a>
+									<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+									<a href="<?php echo (L("SRC_LAN")); ?>/silencer.pdf"	target="_blank" style="color: #1850a3;">Download PDF Silencer</a>
 								</h5>
 						</div>
 						<div class="col-md-6">
@@ -286,8 +285,8 @@
 								alt="<?php echo ($list["type"]); ?> side channel blower silencer image and picture" />
 						</div>
 					</div>
+				<h3 class="head-1">Dimension for Silencer <?php echo ($list["type"]); ?></h3>
 					<div>
-				<h5>Dimension for Silencer <?php echo ($list["type"]); ?></h5>
 				<!-- 尺寸图判断 -->
 				<a rel="shadowbox"
 					href="<?php echo (C("IMG_ROOT")); ?>/silencer_2BX4_big.jpg"> <img
@@ -299,8 +298,8 @@
 				<!-- 技术参数判断 -->
 				<table class="table table-striped" cellspacing="0" cellpadding="0"
 					style="margin-top: 30px;">
-					<tr class="one">
-						<td style="font-style: Italic;">Type</td>
+				<tr class="one">
+					<td style="font-style: Italic;">Type</td>
 						<td>a</td>
 						<td>b</td>
 						<td>c</td>
@@ -327,14 +326,10 @@
 						<td><?php echo ($list["j"]); ?></td>
 						<td><?php echo ($list["k"]); ?></td>
 					</tr>
-					'.
 				</table>
-				<p style="margin-top: 160px;">Note:Model offerings and design
-					parameters may change without notice.</p>					
+				<p style="margin-top: 160px;">Note:Model offerings and design	parameters may change without notice.</p>					
 					</div>
 				</div>
-
-
 			</div>
 		</div>
 	</div>

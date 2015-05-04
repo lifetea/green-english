@@ -160,11 +160,13 @@
 				</div><!-- /.container-fluid -->
 		</nav>
 
+
+
 <!-- 应用内容 -->
 <div class="container-fuild">
 		<div class="container pro">
 				<img src="<?php echo (L("SRC_LAN")); ?>/product_banner.png" class="banner" />
-				<div class="row">
+       <div class="row">
 						<div class="col-md-3">
 								<h3 class="head-1"><?php echo (L("HEADER_SIDE_CHANNEL_BLOWER")); ?></h3>
 <ul class="pro-nav">
@@ -264,144 +266,31 @@
 </form>
 						</div>
 						<div class="col-md-9 split">
-								<h3 class="title-1">IE2 <?php echo (L("PROD_SINGLE_STAGE")); ?> ▪ <?php echo (L("IE2_2RB_REGENERATIVE_BLOWER")); ?></h3>
-								<div class="row pro-list content">
-										<div  id="mypage" class="col-md-4 pro-item">
-												<a href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=210" target="_blank">
-														<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB210_IE2.jpg"/>
-												</a>
-												<h4>
-														<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=210" target="_blank">2RB 210</a>
-												</h4>
-										</div>
-										<div  id="mypage" class="col-md-4 pro-item">
-												<a href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=230" target="_blank">
-														<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB230_IE2.jpg"/>
-												</a>
-												<h4>
-														<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=230" target="_blank">2RB 230</a>
-												</h4>
-										</div>
-										<div  id="mypage" class="col-md-4 pro-item">
-												<a href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=310" target="_blank">
-														<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB310_IE2.jpg"/>
-												</a>
-												<h4>
-														<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=310" target="_blank">2RB 310</a>
-												</h4>
-										</div>
-										<div  id="mypage" class="col-md-4 pro-item">
-												<a href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=330" target="_blank">
-														<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB330_IE2.jpg"/>
-												</a>
-												<h4>
-														<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=330" target="_blank">2RB 330</a>
-												</h4>
-										</div>
-										<div  id="mypage" class="col-md-4 pro-item">
-												<a href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=410" target="_blank">
-														<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB410_IE2.jpg"/>
-												</a>
-												<h4>
-														<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=410" target="_blank">2RB 410</a>
-												</h4>
-										</div>
-										<div  id="mypage" class="col-md-4 pro-item">
-												<a href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=430" target="_blank">
-														<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB430_IE2.jpg" />
-												</a>
-												<h4>
-														<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=430" target="_blank">2RB 430</a>
-												</h4>
-										</div>
-										<div  id="mypage" class="col-md-4 pro-item">
-												<a href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=510" target="_blank">
-														<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB510_IE2.jpg" />
-												</a>
-												<h4>
-														<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=510" target="_blank">2RB 510</a>
-												</h4>
-										</div>
-										<div  id="mypage" class="col-md-4 pro-item">
-												<a href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=530" target="_blank">
-														<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB530_IE2.jpg"/>
-												</a>
-												<h4>
-														<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=530" target="_blank">2RB 530</a>
-												</h4>
-										</div>
-										<div  id="mypage" class="col-md-4 pro-item">
-												<a href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=610" target="_blank">
-														<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB610_IE2.jpg" />
-												</a>
-												<h4>
-														<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=610" target="_blank">2RB 610</a>
-												</h4>
-										</div>
-										<div  id="mypage" class="col-md-4 pro-item">
-												<a href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=630" target="_blank">
-														<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB630_IE2.jpg"  />
-												</a>
-												<h4>
-												<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=630" target="_blank">2RB 630</a>
-												</h4>
-										</div>
-										<div  id="mypage" class="col-md-4 pro-item">
-												<a href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=710" target="_blank">
-														<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB710_IE2.jpg" />
-												</a>
-												<h4>
-														<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=710" target="_blank">2RB 710</a>
-												</h4>
-										</div>
-										<div  id="mypage" class="col-md-4 pro-item">
-												<a href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=730" target="_blank">
-														<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB730_IE2.jpg"/>
-												</a>
-												<h4>
-														<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=730" target="_blank">2RB 730</a>
-												</h4>
-										</div>
-										<div  id="mypage" class="col-md-4 pro-item">
-												<a href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=810" target="_blank">
-														<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB810_IE2.jpg" />
-												</a>
-												<h4>
-														<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=810" target="_blank">2RB 810</a>
-												</h4>
-										</div>
-										<div  id="mypage" class="col-md-4 pro-item">
-												<a href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=830" target="_blank">
-														<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB830_IE2.jpg" />
-												</a>
-												<h4>
-														<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=830" target="_blank">2RB 830</a>
-												</h4>
-										</div>
-										<div  id="mypage" class="col-md-4 pro-item">
-												<a href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=910" target="_blank">
-														<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB910_IE2.jpg" />
-												</a>
-												<h4>
-														<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=910" target="_blank">2RB 910</a>
-												</h4>
-										</div>
-										<div  id="mypage" class="col-md-4 pro-item">
-												<a href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=930" target="_blank">
-														<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB930_IE2.jpg" />
-												</a>
-												<h4>
-														<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getIE2List?series=930" target="_blank">2RB 930</a>
-												</h4>
-										</div>
-										   <div  id="page_text"></div>
-								</div>
-						</div>
-				</div>
-		</div>
+             <div id="left">
+                <h4>Relief Valve <?php echo $_GET['type'];?> Technical Data</h4>
+                <table style="font-size:12px;">
+                   <tr><td><strong>Model: </strong><span><?php echo $_GET['type'];?></span></td><td>
+                </table>
+                <?php if($_GET['type']=='RV-01' or $_GET['type']=='RV-02'){ echo '<h5 style="background:#fff url(image/download1.png) no-repeat ;color:#333;border:none;line-height:45px;text-indent:36px;margin-top:180px;font-size:14px;"><a href="upfile/side channel blower Relief Valve RV.pdf" target="_blank" style="color:#1850a3;">Download PDF Relief Valve '.$_GET['type'].' (569 KB)</a></h5>'; }else{ echo '<h5 style="background:#fff url(image/download1.png) no-repeat ;color:#333;border:none;line-height:45px;text-indent:36px;margin-top:180px;font-size:14px;"><a href="upfile/Side channel blower Relief_Valve 2BX4.pdf" target="_blank" style="color:#1850a3;">Download PDF Relief Valve '.$_GET['type'].' (404 KB)</a></h5>'; } ?>
+             </div>
+             <div id="right">
+              <?php if($_GET['type']=='RV-01' or $_GET['type']=='RV-02'){ echo '<img src="product_image/product_content_big/Relief_Valve_RV.jpg" alt="side channel blower '.$_GET['type'].' image and picture"/>'; }elseif($_GET['type']=='2BX4 141'){ echo '<img src="product_image/product_content_big/Relief_Valve_2BX4_141.jpg" alt="side channel blower '.$_GET['type'].' image and picture"/>'; }elseif($_GET['type']=='2BX4 142'){ echo '<img src="product_image/product_content_big/Relief_Valve_2BX4_142.jpg" alt="side channel blower '.$_GET['type'].' image and picture"/>'; }elseif($_GET['type']=='2BX4 143'){ echo '<img src="product_image/product_content_big/Relief_Valve_2BX4_143.jpg" alt="side channel blower '.$_GET['type'].' image and picture"/>'; }elseif($_GET['type']=='2BX4 144'){ echo '<img src="product_image/product_content_big/Relief_Valve_2BX4_144.jpg" alt="side channel blower '.$_GET['type'].' image and picture"/>'; }elseif($_GET['type']=='2BX4 145'){ echo '<img src="product_image/product_content_big/Relief_Valve_2BX4_145.jpg" alt="side channel blower '.$_GET['type'].' image and picture"/>'; } ?>
+             </div>
+
+
+             <h5>Dimension for Relief Valve <?php echo $_GET['type'];?></h5>
+             <!-- 尺寸图判断 -->
+             <?php
+ if($_GET['type']=='RV-01' or $_GET['type']=='RV-02'){ echo '<a rel="shadowbox" href="product_image/Dimensions_Relief_Valve/Relief_valve_RV_big.jpg"><img alt="Dimension for Silencer '.$_rows['type'].' " class="border" src="product_image/Dimensions_Relief_valve/Relief_valve_RV_small.jpg"  title="Click to Enlarge"/></a>'; }else{ echo '<a rel="shadowbox" href="product_image/Dimensions_Relief_Valve/Relief_valve_2BX4_big.jpg"><img alt="Dimension for Silencer '.$_rows['type'].' " class="border" src="product_image/Dimensions_Relief_valve/Relief_valve_2BX4_small.jpg"  title="Click to Enlarge"/></a>'; } ?>
+
+             <!-- 技术参数判断 -->
+             <?php
+ if($_GET['type']=='RV-01' or $_GET['type']=='RV-02'){ echo '<table class="data"  cellspacing="0" cellpadding="0" style="margin-top:30px;">'. '<tr class="one"><td>Model</td><td>MPaG</td><td>a</td><td>b</td><td>c</td><td>d</td><td>e</td><td>f</td><td>g</td></tr>'. '<tr class="two"><td>'.$_rows['type'].'</td><td>'.$_rows['MPag'].'</td><td>'.$_rows['A'].'</td><td>'.$_rows['B'].'</td><td>'.$_rows['C'].'</td><td>'.$_rows['D'].'</td><td>'.$_rows['E'].'</td><td>'.$_rows['F'].'</td><td>'.$_rows['G'].'</td></tr>'. '</table>'; }else{ echo '<table class="data"  cellspacing="0" cellpadding="0" style="margin-top:30px;">'. '<tr class="one"><td>Model</td><td>A</td><td>ϕB</td><td>C</td><td>D</td><td>E</td></tr>'. '<tr class="two"><td>'.$_rows['type'].'</td><td>'.$_rows['A'].'</td><td>'.$_rows['B'].'</td><td>'.$_rows['C'].'</td><td>'.$_rows['D'].'</td><td>'.$_rows['E'].'</td></tr>'. '</table>'; } ?>
+             <p style="position: absolute;bottom:20px;left:20px;">Note:Model offerings and design parameters may change without notice.</p>
+       </div>
+   </div></div>
 </div>
 <!-- 应用内容end -->
-
 <div class="container-fluid navbar-inverse footer">
 		<div class="container">
 				<ul class=" col-md-2 " >

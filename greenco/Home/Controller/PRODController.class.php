@@ -67,11 +67,35 @@ class PRODController extends Controller {
     	//if (!$list) {
     	$prod = M("Silencer");
     	$list = $prod->where("type like '%{$_GET['type']}%'")->find();
-    	//S('contact-data', $list, 7000);
+//     	S('contact-data', $list, 7000);
     	//}
+//     	echo $_GET['type'];
     	$this->assign('list',$list);
     	$this->display();
     }    
-    
+    public function filterContent(){
+    	//product  type like '%2RB {$_GET['series']}%'
+    	//$list = S('contact-data');
+    	//if (!$list) {
+    	$prod = M("filters");
+    	$list = $prod->where("type like '%{$_GET['type']}%'")->find();
+    	//S('contact-data', $list, 7000);
+    	//}
+    	$this->assign('list',$list);
+    	$this->assign('type',I('get.type'));
+    	$this->display();
+    }   
+    public function reliefContent(){
+    	//product  type like '%2RB {$_GET['series']}%'
+    	//$list = S('contact-data');
+    	//if (!$list) {
+    	$prod = M("filters");
+    	$list = $prod->where("type like '%{$_GET['type']}%'")->find();
+    	//S('contact-data', $list, 7000);
+    	//}
+    	$this->assign('list',$list);
+    	$this->assign('type',I('get.type'));
+    	$this->display();
+    }    
     
 }

@@ -305,22 +305,21 @@
 </thead>
 
 		      		<tbody>
-		        		<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
-		        			<a href="#">
+		        		<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr data-href="site.com/whatever">
 		        			<td><?php echo ($vo["type"]); ?></td>
 		        			<td><?php echo ($vo["fre_quency"]); ?></td>
 		        			<td><?php echo ($vo["output"]); ?></td>
 		        			<td><?php echo ($vo["maximum_airflow"]); ?></td>
 		        			<td><?php echo ($vo["maximum_vacuum"]); ?></td>
 		        			<td><?php echo ($vo["maximum_pressure"]); ?></td>
-		        			</tr>
-		        			</a><?php endforeach; endif; else: echo "" ;endif; ?>
+		        			</tr><?php endforeach; endif; else: echo "" ;endif; ?>
 					</tbody>
 					<tfoot>
 						<tr>
 							<td colspan=6>
 									<p>
 											<a class="link-1" href="<?php echo (L("SRC_LAN")); ?>/2rb_<?php echo substr($_GET['series'],0,3)?>.pdf" target="_blank" >
+													<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
 													<span><?php echo _('Download');?> Side Channel Blower 2RB<?php echo substr($_GET['series'],0,3)?> Series</span>
 											</a>
 									</p>

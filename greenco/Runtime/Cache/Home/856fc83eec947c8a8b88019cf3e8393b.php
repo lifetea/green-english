@@ -1,11 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?>﻿<!DOCTYPE html>
-<html>
+<html  xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<?php require 'setLan.php';?>
-<title><?php echo _('2RB Single Stage Belt Drive Air Blower'); ?></title>
-<meta name="description" content="<?php echo _('Belt Drive Air Blower,Side channel blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.'); ?>" />
-<meta name="keywords" content="<?php echo _('Belt Drive Air Blower,Side channel blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO'); ?>" />
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <link href="<?php echo (C("SRC_ROOT")); ?>/css/common.css" rel="stylesheet">
 <link href="favicon.ico" rel="shortcut icon" />
@@ -164,13 +160,14 @@
 				</div><!-- /.container-fluid -->
 		</nav>
 
+
 <!-- 应用内容 -->
 <div class="container-fuild">
-		<div class="container pro">
-				<img src="<?php echo (L("SRC_LAN")); ?>/product_banner.png" class="banner" />
-				<div class="row">
-						<div class="col-md-3">
-								<h3 class="head-1"><?php echo (L("HEADER_SIDE_CHANNEL_BLOWER")); ?></h3>
+	<div class="container pro">
+     <img src="<?php echo (L("SRC_LAN")); ?>/product_banner.png" class="banner" />
+      <div class="row">
+		<div class="col-md-3">
+			<h3 class="head-1"><?php echo (L("HEADER_SIDE_CHANNEL_BLOWER")); ?></h3>
 <ul class="pro-nav">
 	<li>
 		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/2RB_1"><?php echo (L("HEADER_2RB_SINGLE")); ?></a>
@@ -266,121 +263,38 @@
 		    <button type="submit" class="btn btn-default"><?php echo (L("HEADER_SEARCH")); ?></button>
 		</div>
 </form>
-						</div>
-						<div class="col-md-9 split">
-								<h3 class="title-1">2RB <?php echo (L("PROD_SINGLE_STAGE")); ?> ▪ <?php echo (L("Belt_2RB_REGENERATIVE_BLOWER")); ?></h3>
-								<div class="row pro-list content">
-										<div  id="mypage" class="col-md-4 pro-item">
-												<a href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB213.pdf" target="_blank">
-														<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB_Belt_213.jpg"/>
-												</a>
-												<h4>
-														<a class="link-4" href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB213.pdf" target="_blank">2RB 213-1HY99</a>
-												</h4>
-										  </div>
-										  <div  id="mypage" class="col-md-4 pro-item">
-												  <a href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB233.pdf" target="_blank">
-												  		<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB_Belt_213.jpg"/>
-												  </a>
-												  <h4>
-												  		<a class="link-4" href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB233.pdf" target="_blank">2RB 233-1HY99</a>
-												  </h4>
-										  </div>
-										  <div  id="mypage" class="col-md-4 pro-item">
-												  <a href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB413.pdf" target="_blank">
-												  		<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB_Belt_213.jpg"/>
-												  </a>
-												  <h4>
-												  		<a class="link-4" href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB413.pdf" target="_blank">2RB 413-1HY99</a>
-												  </h4>
-										  </div>
-										  <div  id="mypage" class="col-md-4 pro-item">
-										  <a href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB433.pdf" target="_blank">
-												  		<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB_Belt_213.jpg"/>
-												  </a>
-												  <h4>
-												  		<a class="link-4" href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB433.pdf" target="_blank">2RB 433-1HY99</a>
-												  </h4>
-										  </div>
-										  <div  id="mypage" class="col-md-4 pro-item">
-												  <a href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB513.pdf" target="_blank">
-												  		<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB_Belt_513.jpg"/></a>
-												  <h4>
-												  		<a class="link-4" href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB513.pdf" target="_blank">2RB 513-1HY99</a>
-												  </h4>
-										  </div>
-										  <div  id="mypage" class="col-md-4 pro-item">
-												  <a href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB533.pdf" target="_blank">
-												  		<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB_Belt_513.jpg" />
-												  </a>
-												  <h4>
-												  		<a class="link-4" href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB533.pdf" target="_blank">2RB 533-1HY99</a>
-												  </h4>
-										  </div>
-										  <div  id="mypage" class="col-md-4 pro-item">
-												  <a href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB613.pdf" target="_blank">
-												  		<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB_Belt_513.jpg" />
-												  </a>
-												  <h4>
-												  		<a class="link-4" href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB613.pdf" target="_blank">2RB 613-1HY99</a>
-												  </h4>
-										  </div>
-										  <div  id="mypage" class="col-md-4 pro-item">
-												  <a href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB713.pdf" target="_blank">
-												  		<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB_Belt_513.jpg"/>
-												  </a>
-												  <h4>
-												  		<a class="link-4" href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB713.pdf" target="_blank">2RB 713-1HY99</a>
-												  </h4>
-										  </div>
-										  <div  id="mypage" class="col-md-4 pro-item">
-												  <a href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB733.pdf" target="_blank">
-												  		<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB_Belt_513.jpg" />
-												  </a>
-												  <h4>
-												  		<a class="link-4" href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB733.pdf" target="_blank">2RB 733-1HY99</a>
-												  </h4>
-										  </div>
-										  <div  id="mypage" class="col-md-4 pro-item">
-												  <a href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB813.pdf" target="_blank">
-												  		<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB_Belt_513.jpg" />
-												  </a>
-												  <h4>
-												  		<a class="link-4" href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB813.pdf" target="_blank">2RB 813-1HY99</a>
-												  </h4>
-										  </div>
-										  <div  id="mypage" class="col-md-4 pro-item">
-												  <a href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB833.pdf" target="_blank">
-												  		<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB_Belt_513.jpg"/>
-												  </a>
-												  <h4>
-												  		<a class="link-4" href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB833.pdf" target="_blank">2RB 833-1HY99</a>
-												  </h4>
-										  </div>
-										  <div  id="mypage" class="col-md-4 pro-item">
-												  <a href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB913.pdf" target="_blank">
-												  		<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB_Belt_513.jpg"/>
-												  </a>
-												  <h4>
-												  		<a class="link-4" href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB913.pdf" target="_blank">2RB 913-1HY99</a>
-												  </h4>
-										  </div>
-										  <div  id="mypage" class="col-md-4 pro-item">
-												  <a href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB933.pdf" target="_blank">
-												  		<img  src="<?php echo (C("IMG_ROOT")); ?>/2RB_Belt_513.jpg"  />
-												  </a>
-												  <h4>
-												  		<a class="link-4" href="<?php echo (C("SRC_ROOT")); ?>/pdf/Belt_2RB933.pdf" target="_blank">2RB 933-1HY99</a>
-												  </h4>
-										  </div>
-										<div  id="page_text"></div>
-								</div>
-						</div>
-				</div>
 		</div>
+       <div class="col-md-9 split">
+       <div class="content">
+             <div id="left">
+                <h3>Vacuum Filter <?php echo $_rows['type'];?> Technical Data</h3>
+                <table>
+                   <tr><td><strong>Model: </strong><span><?php echo $_rows['type'];?></span></td><td>
+                </table>
+                <h5>
+                		<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+                		<a href="<?php echo (L("SRC_LAN")); ?>/filter.pdf" target="_blank" style="color:#1850a3;">Download PDF Inlet Vacuum Filters (551 KB)</a>
+                </h5>
+             </div>
+             <div id="right"><?php echo $_rows['type'];?>
+                <img src="<?php echo (C("IMG_ROOT")); ?>/Inlet vacuum filters <?php echo ($type); ?>.jpg" alt="<?php echo ($type); ?>.jpg side channel blower inlet vacuum filters image and picture"/>
+             </div>
+
+
+             <h5>Dimension for Inlet Vacuum Filter <?php echo $_rows['type'];?></h5>
+             <!-- 尺寸图判断 -->
+                   <a rel="shadowbox" href="<?php echo (C("IMG_ROOT")); ?>/Inlet_Vacuum_Filter_big.jpg">
+                   <img alt="Dimension for Silencer '.$_rows['type'].' " class="border" src="<?php echo (C("IMG_ROOT")); ?>/Inlet_Vacuum_Filter_small.jpg"  title="Click to Enlarge"/>
+                   </a>
+
+             <!-- 技术参数判断 -->
+             <?php
+ echo '<table class="data"  cellspacing="0" cellpadding="0" style="margin-top:30px;">'. '<tr class="one"><td style="font-style:Italic;">Type</td><td>material</td><td>FPT Inlet & Outlet</td><td>d1</td><td>d2</td><td>d3</td><td>d4</td><td>h1</td><td>h2</td><td>h3</td><td>h4</td><td>Rated Flow</br>(m³/min)</td><td>Approx.wt.</br>(kg)</td></tr>'. '<tr class="two"><td>'.$_rows['type'].'</td><td>'.$_rows['material'].'</td><td>'.$_rows['outlet'].'</td><td>'.$_rows['d1'].'</td><td>'.$_rows['d2'].'</td><td>'.$_rows['d3'].'</td><td>'.$_rows['d4'].'</td><td>'.$_rows['h1'].'</td><td>'.$_rows['h2'].'</td><td>'.$_rows['h3'].'</td><td>'.$_rows['h4'].'</td><td>'.$_rows['rated_flow'].'</td><td>'.$_rows['approx'].'</td></tr>'. '</table>'; ?>
+             <p ><?php echo _('Note:Model offerings and design parameters may change without notice.'); ?></p>
+       </div></div>
+   </div></div>
 </div>
 <!-- 应用内容end -->
-
 <div class="container-fluid navbar-inverse footer">
 		<div class="container">
 				<ul class=" col-md-2 " >
@@ -432,7 +346,8 @@
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-<script src="<?php echo (C("JS_ROOT")); ?>/jquery.quickpaginate.js" type="text/javascript"></script>
-<script src="<?php echo (C("JS_ROOT")); ?>/PRODjs" type="text/javascript"></script>
+<script src="<?php echo (C("JS_ROOT")); ?>/jquery.quickpaginate.js"
+	type="text/javascript"></script>
+<script src="<?php echo (C("JS_ROOT")); ?>/PROD.js" type="text/javascript"></script>
 </body>
 </html>

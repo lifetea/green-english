@@ -264,22 +264,93 @@
 		</div>
 </form>
 			</div>
-       <div class="col-md-9 split">
-             <h3 class="title-1"><?php echo (L("RELIEF_FOR_SIDE_CHANNEL_BLOWER")); ?></h3>
-             <div class="row pro-list content">
-             <div  id="mypage" class="col-md-4 pro-item"><a href="Relief_valve_content.php?type=RV-01" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_RV.jpg" alt="side channel blower Relief Valve RV"/></a><h4><a class="link-4" href="Relief_valve_content.php?type=RV-01" target="_blank">  RV-01</a></h4></div>
-             <div  id="mypage" class="col-md-4 pro-item"><a href="Relief_valve_content.php?type=RV-02" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_RV.jpg" alt="side channel blower Relief Valve RV"/></a><h4><a class="link-4" href="Relief_valve_content.php?type=RV-02" target="_blank"> RV-02</a></h4></div>
-             <div  id="mypage" class="col-md-4 pro-item"><a href="Relief_valve_content.php?type=2BX4 141" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_2BX141.jpg" alt="side channel blower Relief Valve 2BX4-141"/></a><h4><a class="link-4" href="Relief_valve_content.php?type=2BX4 141" target="_blank">  2BX4-141</a></h4></div>
-             <div  id="mypage" class="col-md-4 pro-item"><a href="Relief_valve_content.php?type=2BX4 142" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_2BX142.jpg" alt="side channel blower Relief Valve 2BX4-142"/></a><h4><a class="link-4" href="Relief_valve_content.php?type=2BX4 142" target="_blank">  2BX4-142</a></h4></div>
-             <div  id="mypage" class="col-md-4 pro-item"><a href="Relief_valve_content.php?type=2BX4 143" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_2BX143.jpg" alt="side channel blower Relief Valve 2BX4-143"/></a><h4><a class="link-4" href="Relief_valve_content.php?type=2BX4 143" target="_blank">  2BX4-143</a></h4></div>
-             <div  id="mypage" class="col-md-4 pro-item"><a href="Relief_valve_content.php?type=2BX4 144" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_2BX144.jpg" alt="side channel blower Relief Valve 2BX4-144"/></a><h4><a class="link-4" href="Relief_valve_content.php?type=2BX4 144" target="_blank">  2BX4-144</a></h4></div>
-             <div  id="mypage" class="col-md-4 pro-item"><a href="Relief_valve_content.php?type=2BX4 145" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_2BX145.jpg" alt="side channel blower Relief Valve 2BX4-145"/></a><h4><a class="link-4" href="Relief_valve_content.php?type=2BX4 145" target="_blank">  2BX4-145</a></h4></div>
-       </div></div>
-   </div>
-</div>
-<!-- 应用内容end -->
+			<div class="col-md-9 split">
+				<h3 class="title-1"><?php echo (L("RELIEF_FOR_SIDE_CHANNEL_BLOWER")); ?></h3>
+				<div class="row pro-list content">
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=RV-01"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_RV.jpg"
+							alt="side channel blower Relief Valve RV" /></a>
+						<h4>
+							<a class="link-4"
+								href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=RV-01"
+								target="_blank"> RV-01</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=RV-02"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_RV.jpg"
+							alt="side channel blower Relief Valve RV" /></a>
+						<h4>
+							<a class="link-4"
+								href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=RV-02"
+								target="_blank"> RV-02</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=2BX4 141"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_2BX141.jpg"
+							alt="side channel blower Relief Valve 2BX4-141" /></a>
+						<h4>
+							<a class="link-4"
+								href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=2BX4 141"
+								target="_blank"> 2BX4-141</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=2BX4 142"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_2BX142.jpg"
+							alt="side channel blower Relief Valve 2BX4-142" /></a>
+						<h4>
+							<a class="link-4"
+								href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=2BX4 142"
+								target="_blank"> 2BX4-142</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=2BX4 143"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_2BX143.jpg"
+							alt="side channel blower Relief Valve 2BX4-143" /></a>
+						<h4>
+							<a class="link-4"
+								href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=2BX4 143"
+								target="_blank"> 2BX4-143</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=2BX4 144"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_2BX144.jpg"
+							alt="side channel blower Relief Valve 2BX4-144" /></a>
+						<h4>
+							<a class="link-4"
+								href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=2BX4 144"
+								target="_blank"> 2BX4-144</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=2BX4 145"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_2BX145.jpg"
+							alt="side channel blower Relief Valve 2BX4-145" /></a>
+						<h4>
+							<a class="link-4"
+								href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=2BX4 145"
+								target="_blank"> 2BX4-145</a>
+						</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 应用内容end -->
 
-<div class="container-fluid navbar-inverse footer">
+	<div class="container-fluid navbar-inverse footer">
 		<div class="container">
 				<ul class=" col-md-2 " >
 						<li class="item-title" ><?php echo (L("HEADER_ABOUT_GREENCO")); ?></li>
@@ -330,7 +401,8 @@
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-<script src="<?php echo (C("JS_ROOT")); ?>/jquery.quickpaginate.js" type="text/javascript"></script>
-<script src="<?php echo (C("JS_ROOT")); ?>/PROD.js" type="text/javascript"></script>
-</body>
+	<script src="<?php echo (C("JS_ROOT")); ?>/jquery.quickpaginate.js"
+		type="text/javascript"></script>
+	<script src="<?php echo (C("JS_ROOT")); ?>/PROD.js" type="text/javascript"></script>
+	</body>
 </html>

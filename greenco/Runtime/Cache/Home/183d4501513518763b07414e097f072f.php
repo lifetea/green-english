@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title><?php echo _('Applications of Side channel blower|Blower applications|Vacuum application|Pressure application');?></title>
-<meta name="keywords"	content="<?php echo _('Applications,Blower applications,Vacuum application,Pressure application,Side channel blower,regenerative blower,air blower');?>" />
-<meta name="description"	content="<?php echo _('Regenerative Blowers,Air blower,Ring blower,Side Channel Blowers Manufacturer - GREENCO. 2RB,3RB & 4RB Series Side Channel Blowers, The pressure upto 150Kpa, volume flow upto 2500m3/h, Power range from 200w to 25Kw');?>" />
+<title><?php echo (L("APPLICATION_TITLE")); ?></title>
+<meta name="keywords"	content="<?php echo (L("APPLICATION_KEYWORDS")); ?>" />
+<meta name="description"	content="<?php echo (L("APPLICATION_DESCRIPTION")); ?>" />
 <link href="favicon.ico" rel="shortcut icon" />
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <link href="<?php echo (C("SRC_ROOT")); ?>/css/common.css" rel="stylesheet">
@@ -269,12 +269,8 @@
 </form>
 						</div>
 						<div class="col-md-9 split">		
-								<h3 class="title-1">
-									<?php echo _('Side Channel Blower Applications');?>
-								</h3>
-								<p style="margin:1em auto;">
-									<?php echo _('Side channel blowers have been widely used in the environmental water treatment. For example, in the aeration of sewage, ring blowers can provide oxy that the aerobe need in the activated sludge. Also, blowers can provide the conditions which make the sewage and activated sludge mixed sufficiently to dissolve all kinds of organic matters in the water. Then, the sewage water can be purified. Besides the above, ring blowers can also be used to mix the plating bath fluid and can be used in the aquaculture industry as well in the printer industry.');?>
-								</p>
+								<h3 class="title-1">	<?php echo (L("APPLICATION_	CONTENT_TITLE")); ?></h3>
+								<p class="para-1"><?php echo (L("APPLICATION_	CONTENT")); ?></p>
 								<div class="row app-list">
 									<dl class="col-md-4">
 										<dd>
@@ -285,7 +281,7 @@
 										</dd>
 										<dd>
 											<a href="javascript:;" name="Punch collector" rel="<?php echo (C("SRC_ROOT")); ?>/swfs/punchcollector.swf" class="flash link-1" id="align">
-												<?php echo _('Punch collector');?>
+												<?php echo (L("APPLICATION_	PUNCH_COLLECTOR")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -299,7 +295,7 @@
 										<dd>
 											<a href="javascript:;" name="Sewing machine"
 												rel="<?php echo (C("SRC_ROOT")); ?>/swfs/sewingmachine.swf" class="flash link-1" id="align">
-												<?php echo _('Sewing machine');?>
+													<?php echo (L("APPLICATION_	SEWING_MACHINE")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -312,7 +308,7 @@
 										<dd>
 											<a href="javascript:;" name="Transfer" rel="<?php echo (C("SRC_ROOT")); ?>/swfs/transfer.swf"
 												class="flash link-1" id="align">
-												<?php echo _('Transfer');?>
+												<?php echo (L("APPLICATION_	TRANSFER")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -326,7 +322,7 @@
 										<dd>
 											<a href="javascript:;" name="Paper scrap"
 												rel="<?php echo (C("SRC_ROOT")); ?>/swfs/paperscrap.swf" class="flash link-1" id="align">
-												<?php echo _('Paper scrap');?>
+												<?php echo (L("APPLICATION_PAPER_SCRAP")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -340,7 +336,7 @@
 										<dd>
 											<a href="javascript:;" name="Waste gasses"
 												rel="<?php echo (C("SRC_ROOT")); ?>/swfs/wastegasses.swf" class="flash link-1" id="align">
-												<?php echo _('Waste gasses');?>
+												<?php echo (L("APPLICATION_WASTE_GASSES")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -354,7 +350,7 @@
 										<dd>
 											<a href="javascript:;" name="Med suction"
 												rel="<?php echo (C("SRC_ROOT")); ?>/swfs/medsuction.swf" class="flash link-1" id="align">
-												<?php echo _('Med suction');?>
+												<?php echo (L("APPLICATION_	MED_SUCTION")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -368,7 +364,7 @@
 										<dd>
 											<a href="javascript:;" name="Paper dryer"
 												rel="<?php echo (C("SRC_ROOT")); ?>/swfs/paperdryer.swf" class="flash link-1" id="align">
-												<?php echo _('Paper dryer');?>
+												<?php echo (L("APPLICATION_PAPER_DRYER")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -382,7 +378,7 @@
 										<dd>
 											<a href="javascript:;" name="Paper feeding machine"
 												rel="<?php echo (C("SRC_ROOT")); ?>/swfs/paperfeedingmachine.swf" class="flash link-1" id="align">
-												<?php echo _('Paper feeding machine');?>
+												<?php echo (L("APPLICATION_PAPER_FEEDING_MACHINE")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -396,7 +392,7 @@
 										<dd>
 											<a href="javascript:;" name="Paper holder"
 												rel="<?php echo (C("SRC_ROOT")); ?>/swfs/paperholder.swf" class="flash link-1" id="align">
-												<?php echo _('Paper holder');?>
+												<?php echo (L("APPLICATION_	PAPER_HOLDER")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -410,7 +406,7 @@
 										<dd>
 											<a href="javascript:;" name="Vacuum transfer"
 												rel="<?php echo (C("SRC_ROOT")); ?>/swfs/vacuumtransfer.swf" class="flash link-1" id="align">
-												<?php echo _('Vacuum transfer');?>
+												<?php echo (L("APPLICATION_VACUUM_TRANSFER")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -424,7 +420,7 @@
 										<dd>
 											<a href="javascript:;" name="Powder transfer"
 												rel="<?php echo (C("SRC_ROOT")); ?>/swfs/powdertransfer.swf" class="flash link-1" id="align">
-												<?php echo _('Powder transfer');?>
+												<?php echo (L("APPLICATION_POWDER_TRANSFER")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -437,7 +433,7 @@
 										<dd>
 											<a href="javascript:;" name="Collector" rel="<?php echo (C("SRC_ROOT")); ?>/swfs/collector.swf"
 												class="flash link-1" id="align">
-												<?php echo _('Collector');?>
+												<?php echo (L("APPLICATION_COLLECTOR")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -450,7 +446,7 @@
 										<dd>
 											<a href="javascript:;" name="Sediment" rel="<?php echo (C("SRC_ROOT")); ?>/swfs/sediment2.swf"
 												class="flash link-1" id="align">
-												<?php echo _('Sediment');?>
+												<?php echo (L("APPLICATION_SEDIMENT")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -463,7 +459,7 @@
 										<dd>
 											<a href="javascript:;" name="Ventilation" rel="<?php echo (C("SRC_ROOT")); ?>/swfs/tunnels.swf"
 												class="flash link-1" id="align">
-												<?php echo _('Ventilation');?>
+												<?php echo (L("APPLICATION_VENTILATION")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -476,7 +472,7 @@
 										<dd>
 											<a href="javascript:;" name="Textile" rel="<?php echo (C("SRC_ROOT")); ?>/swfs/autoloom.swf"
 												class="flash link-1" id="align">
-												<?php echo _('Textile');?>
+												<?php echo (L("APPLICATION_TEXTILE")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -489,7 +485,7 @@
 										<dd>
 											<a href="javascript:;" name="Bottling" rel="<?php echo (C("SRC_ROOT")); ?>/swfs/bottling.swf"
 												class="flash link-1" id="align">
-												<?php echo _('Bottling');?>
+												<?php echo (L("APPLICATION_Bottling")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -503,7 +499,7 @@
 										<dd>
 											<a href="javascript:;" name="Electro facing"
 												rel="<?php echo (C("SRC_ROOT")); ?>/swfs/circulator.swf" class="flash link-1" id="align">
-												<?php echo _('Electro facing');?>
+												<?php echo (L("APPLICATION_ELECTRO_FACING")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -516,7 +512,7 @@
 										<dd>
 											<a href="javascript:;" name="Dryer" rel="<?php echo (C("SRC_ROOT")); ?>/swfs/dryer.swf"
 												class="flash link-1" id="align">
-												<?php echo _('Dryer');?>
+												<?php echo (L("APPLICATION_Dryer")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -530,7 +526,7 @@
 										<dd>
 											<a href="javascript:;" name="Eliminator"
 												rel="<?php echo (C("SRC_ROOT")); ?>/swfs/eliminator.swf" class="flash link-1" id="align">
-												<?php echo _('Eliminator');?>
+												<?php echo (L("APPLICATION_ELIMINATOR")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -544,7 +540,7 @@
 										<dd>
 											<a href="javascript:;" name="Evaporator"
 												rel="<?php echo (C("SRC_ROOT")); ?>/swfs/evaporator.swf" class="flash link-1" id="align">
-												<?php echo _('Evaporator');?>
+												<?php echo (L("APPLICATION_EVAPORATOR")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -558,7 +554,7 @@
 										<dd>
 											<a href="javascript:;" name="Sock Knitting"
 												rel="<?php echo (C("SRC_ROOT")); ?>/swfs/sockloom.swf" class="flash link-1" id="align">
-												<?php echo _('Sock Knitting');?>
+												<?php echo (L("APPLICATION_SOCK_KNITTING")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -571,7 +567,7 @@
 										<dd>
 											<a href="javascript:;" name="Pool & Psa" rel="<?php echo (C("SRC_ROOT")); ?>/swfs/jacuzzi.swf"
 												class="flash link-1" id="align">
-												<?php echo _('Pool & Psa');?>
+												<?php echo (L("APPLICATION_POOL&PSA")); ?>
 											</a>
 										</dd>
 									</dl>
@@ -584,7 +580,7 @@
 										<dd>
 											<a href="javascript:;" name="Hopper Loader" rel="<?php echo (C("SRC_ROOT")); ?>/swfs/hopper.swf"
 												class="flash link-1" id="align">
-												<?php echo _('Hopper Loader');?>
+												<?php echo (L("APPLICATION_HOPPER_LOADER")); ?>
 											</a>
 										</dd>
 									</dl>					
