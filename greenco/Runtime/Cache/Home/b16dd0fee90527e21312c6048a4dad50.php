@@ -3,8 +3,10 @@
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
 <title><?php echo _('Side Channel Blower Silencer'); ?></title>
-<meta name="description" content="<?php echo _('Silencers are used for the reduce in positive displacement air blowers and vacuum pumps.'); ?>" />
-<meta name="keywords" content="<?php echo _('Silencer,Blower Silencer,Air Silencer,Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,2BX4 series,GREENCO'); ?>" />
+<meta name="description"
+	content="<?php echo _('Silencers are used for the reduce in positive displacement air blowers and vacuum pumps.'); ?>" />
+<meta name="keywords"
+	content="<?php echo _('Silencer,Blower Silencer,Air Silencer,Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,2BX4 series,GREENCO'); ?>" />
 <link href="favicon.ico" rel="shortcut icon" />
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <link href="<?php echo (C("SRC_ROOT")); ?>/css/common.css" rel="stylesheet">
@@ -165,11 +167,11 @@
 
 <!-- 应用内容 -->
 <div class="container-fuild">
-		<div class="container pro">
-				<img src="<?php echo (L("SRC_LAN")); ?>/product_banner.png" class="banner" />
-				<div class="row">
-						<div class="col-md-3">
-								<h3 class="head-1"><?php echo (L("HEADER_SIDE_CHANNEL_BLOWER")); ?></h3>
+	<div class="container pro">
+		<img src="<?php echo (L("SRC_LAN")); ?>/product_banner.jpg" class="banner" />
+		<div class="row">
+			<div class="col-md-3">
+				<h3 class="head-1"><?php echo (L("HEADER_SIDE_CHANNEL_BLOWER")); ?></h3>
 <ul class="pro-nav">
 	<li>
 		<a class="link-3" href="<?php echo (C("PROD_ROOT")); ?>/2RB_1"><?php echo (L("HEADER_2RB_SINGLE")); ?></a>
@@ -265,19 +267,74 @@
 		    <button type="submit" class="btn btn-default"><?php echo (L("HEADER_SEARCH")); ?></button>
 		</div>
 </form>
-						</div>
-						<div class="col-md-9  split">
-								<h3 class="title-1"><?php echo (L("SILENCER_FOR SIDE_CHANNEL_BLOWER")); ?></h3>
-								<div class="row content pro-list">
-								<div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4%20011" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/Silencer.png" alt="Side channel blower silencer 2BX4-011"/></a><h4><a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4 011" target="_blank"><?php echo (L("HEADER_SILENCER")); ?> 2BX4-011</a></h4></div>
-								<div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4%20012" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/Silencer.png" alt="Side channel blower silencer 2BX4-012"/></a><h4><a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4 012" target="_blank"><?php echo (L("HEADER_SILENCER")); ?> 2BX4-012</a></h4></div>
-								<div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4%20013" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/Silencer.png" alt="Side channel blower silencer 2BX4-013"/></a><h4><a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4 013" target="_blank"><?php echo (L("HEADER_SILENCER")); ?> 2BX4-013</a></h4></div>
-								<div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4%20014" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/Silencer.png" alt="Side channel blower silencer 2BX4-014"/></a><h4><a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4 014" target="_blank"><?php echo (L("HEADER_SILENCER")); ?> 2BX4-014</a></h4></div>
-								<div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4%20015" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/Silencer.png" alt="Side channel blower silencer 2BX4-015"/></a><h4><a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4 015" target="_blank"><?php echo (L("HEADER_SILENCER")); ?> 2BX4-015</a></h4></div>
-								</div>
-								</div>
+			</div>
+			<div class="col-md-9  split">
+				<h3 class="title-1"><?php echo (L("SILENCER_FOR SIDE_CHANNEL_BLOWER")); ?></h3>
+				<div class="row content pro-list">
+					<div id="mypage" class="col-md-4 pro-item">
+						<a
+							href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4%20011"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/Silencer.png"
+							alt="Side channel blower silencer 2BX4-011" /></a>
+						<h4 class="center">
+							<a class="link-4"
+								href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4 011"
+								target="_blank"><?php echo (L("HEADER_SILENCER")); ?> 2BX4-011</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a
+							href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4%20012"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/Silencer.png"
+							alt="Side channel blower silencer 2BX4-012" /></a>
+						<h4 class="center">
+							<a class="link-4"
+								href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4 012"
+								target="_blank"><?php echo (L("HEADER_SILENCER")); ?> 2BX4-012</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a
+							href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4%20013"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/Silencer.png"
+							alt="Side channel blower silencer 2BX4-013" /></a>
+						<h4 class="center">
+							<a class="link-4"
+								href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4 013"
+								target="_blank"><?php echo (L("HEADER_SILENCER")); ?> 2BX4-013</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a
+							href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4%20014"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/Silencer.png"
+							alt="Side channel blower silencer 2BX4-014" /></a>
+						<h4 class="center">
+							<a class="link-4"
+								href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4 014"
+								target="_blank"><?php echo (L("HEADER_SILENCER")); ?> 2BX4-014</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a
+							href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4%20015"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/Silencer.png"
+							alt="Side channel blower silencer 2BX4-015" /></a>
+						<h4 class="center">
+							<a class="link-4"
+								href="<?php echo (C("PROD_ROOT")); ?>/getSilencerContent?type=2BX4 015"
+								target="_blank"><?php echo (L("HEADER_SILENCER")); ?> 2BX4-015</a>
+						</h4>
+					</div>
 				</div>
+			</div>
 		</div>
+	</div>
 </div>
 <!-- 应用内容end -->
 
@@ -332,7 +389,8 @@
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-<script src="<?php echo (C("JS_ROOT")); ?>/jquery.quickpaginate.js" type="text/javascript"></script>
+<script src="<?php echo (C("JS_ROOT")); ?>/jquery.quickpaginate.js"
+	type="text/javascript"></script>
 <script src="<?php echo (C("JS_ROOT")); ?>/PRODjs" type="text/javascript"></script>
 </body>
 </html>

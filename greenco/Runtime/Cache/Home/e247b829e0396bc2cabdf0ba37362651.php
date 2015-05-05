@@ -164,7 +164,7 @@
 <!-- 应用内容 -->
 <div class="container-fuild">
 	<div class="container pro">
-		<img src="<?php echo (L("SRC_LAN")); ?>/product_banner.png" class="banner" />
+		<img src="<?php echo (L("SRC_LAN")); ?>/product_banner.jpg" class="banner" />
 		<div class="row">
 			<div class="col-md-3">
 				<h3 class="head-1"><?php echo (L("HEADER_SIDE_CHANNEL_BLOWER")); ?></h3>
@@ -264,15 +264,57 @@
 		</div>
 </form>
 			</div>
-       <div class="col-md-9 split">
-             <h3 class="title-1"><?php echo (L("FILTER_FOR_SIDE_CHANNEL_BLOWER")); ?></h3>
-             <div class="row pro-list content">
-             <div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/filterContent?type=2BX4 080" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/inlet_vacuum_filter_080.png" alt="Side channel blower inlet vacuum filter 2BX4-080"/></a><h4><a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/filterContent?type=2BX4 080" target="_blank">2BX4-080</a></h4></div>
-             <div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/filterContent?type=2BX4 081" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/inlet_vacuum_filter_081.png" alt="Side channel blower inlet vacuum filter 2BX4-081"/></a><h4><a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/filterContent?type=2BX4 081" target="_blank">2BX4-081</a></h4></div>
-             <div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/filterContent?type=2BX4 082" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/inlet_vacuum_filter_082.png" alt="Side channel blower inlet vacuum filter 2BX4-082"/></a><h4><a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/filterContent?type=2BX4 082" target="_blank">2BX4-082</a></h4></div>
-             <div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/filterContent?type=2BX4 083" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/inlet_vacuum_filter_083.png" alt="Side channel blower inlet vacuum filter 2BX4-083"/></a><h4><a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/filterContent?type=2BX4 083" target="_blank">2BX4-083</a></h4></div>
-       </div>
-   </div></div></div>
+			<div class="col-md-9 split">
+				<h3 class="title-1"><?php echo (L("FILTER_FOR_SIDE_CHANNEL_BLOWER")); ?></h3>
+				<div class="row pro-list content">
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/filterContent?type=2BX4 080"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/inlet_vacuum_filter_080.png"
+							alt="Side channel blower inlet vacuum filter 2BX4-080" /></a>
+						<h4 class="center">
+							<a class="link-4"
+								href="<?php echo (C("PROD_ROOT")); ?>/filterContent?type=2BX4 080"
+								target="_blank">2BX4-080</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/filterContent?type=2BX4 081"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/inlet_vacuum_filter_081.png"
+							alt="Side channel blower inlet vacuum filter 2BX4-081" /></a>
+						<h4 class="center">
+							<a class="link-4"
+								href="<?php echo (C("PROD_ROOT")); ?>/filterContent?type=2BX4 081"
+								target="_blank">2BX4-081</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/filterContent?type=2BX4 082"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/inlet_vacuum_filter_082.png"
+							alt="Side channel blower inlet vacuum filter 2BX4-082" /></a>
+						<h4 class="center">
+							<a class="link-4"
+								href="<?php echo (C("PROD_ROOT")); ?>/filterContent?type=2BX4 082"
+								target="_blank">2BX4-082</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/filterContent?type=2BX4 083"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/inlet_vacuum_filter_083.png"
+							alt="Side channel blower inlet vacuum filter 2BX4-083" /></a>
+						<h4 class="center">
+							<a class="link-4"
+								href="<?php echo (C("PROD_ROOT")); ?>/filterContent?type=2BX4 083"
+								target="_blank">2BX4-083</a>
+						</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 <!-- 应用内容end -->
 
@@ -327,7 +369,8 @@
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-<script src="<?php echo (C("JS_ROOT")); ?>/jquery.quickpaginate.js" type="text/javascript"></script>
+<script src="<?php echo (C("JS_ROOT")); ?>/jquery.quickpaginate.js"
+	type="text/javascript"></script>
 <script src="<?php echo (C("JS_ROOT")); ?>/PROD.js" type="text/javascript"></script>
 </body>
 </html>

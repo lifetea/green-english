@@ -196,6 +196,8 @@ return array(
 		'EQUIPMENTS_SCHNEEBERGER_GRINDER'=>'SCHNEEBERGER 磨床',				
 		
 		//PROD 模块
+		'PROD_COMMON_KEYWORD'=>'高压风机,漩涡气泵,旋涡气泵,气环风机,漩涡风机,旋涡风机,气环风机,真空泵,单段,双段,三段,多段式2RB,3RB,4RB 系列,GREENCO，格凌，格凌风机，格凌高压风机',
+		'PROD_COMMON_CONTENT'=>'浙江格凌实业有限公司专业研发、生产、销售格凌高压风机、高压鼓风机、真空泵十多年.拥有40多项高压风机核心专利技术和发明专利',
 		'PROD_SINGLE_STAGE'=>'单段',
 		'PROD_DOUBLE_STAGE'=>'双段',
 		'PROD_THREE_STAGE'=>'三段',

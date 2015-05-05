@@ -196,6 +196,8 @@ return array(
 		'EQUIPMENTS_SCHNEEBERGER_GRINDER'=>'SCHNEEBERGER Grinder',
 		
 		//PROD 模块
+		'PROD_COMMON_KEYWORD'=>'Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco',
+		'PROD_COMMON_CONTENT'=>'Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO',
 		'PROD_SINGLE_STAGE'=>'Single Stage',
 		'PROD_DOUBLE_STAGE'=>'Double Stage',
 		'PROD_THREE_STAGE'=>'Three Stage',
@@ -204,6 +206,7 @@ return array(
 		'3RB_DSC'=>'Greenco classica with innovative technology for 3RB series side channel blower create high pressure,high vacuum and high airflow which can be replaced equivalent power of Roots blower,but Greenco side channel blowers are more advantages than roots blower:the materials are made by aluminum die casting,the weight is much lighter,the volume is even compacter.the lifetime is longer,low noise,oilless,free maintenance.',
 		'4RB_SIDE_CHANNEL_BLOWER'=>'Side Channel Blower',
 		'Belt_2RB_REGENERATIVE_BLOWER'=>'Regenerative Blower',
+		'IE2_2RB_REGENERATIVE_BLOWER'=>'Regenerative Blower ',
 		'COVER_SUCTION_RING_BLOWER'=>'Cover Suction Ring Blower',
 		'SUCTION_DSC'=>'The cover suction series ring blower are designed for our specific customers. On the front cover, There is an inlet and an outlet, which make customers use their own products flexibly. The customers are not only able to use the inlet and outlet to suction and blow, but also are able to use the original inlet and outlet on the rear housing to suction and blow. Then it will reduce customers’ cost of product materials as well as decrease the freight cost due to the smaller volume of products. This design has been widely used on industrial vacuum cleaners, automatic hopper loaders and dental suction systems. As a result, Our professional OEM design has been appreciated by many of our customers because we help them win more markets.',
 		'SUCTION_APPLICATION'=>'Application for cover suction series ring blower',

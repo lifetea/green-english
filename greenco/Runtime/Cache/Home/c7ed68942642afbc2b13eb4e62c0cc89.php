@@ -168,7 +168,7 @@
 	<div class="container pro">
 
 <!-- 应用内容 -->
-      <img src="<?php echo (L("SRC_LAN")); ?>/product_banner.png" class="banner" />
+      <img src="<?php echo (L("SRC_LAN")); ?>/product_banner.jpg" class="banner" />
       <div class="row">
 			<div class="col-md-3">
 				<h3 class="head-1"><?php echo (L("HEADER_SIDE_CHANNEL_BLOWER")); ?></h3>

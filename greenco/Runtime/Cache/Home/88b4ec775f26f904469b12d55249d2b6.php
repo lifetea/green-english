@@ -2,9 +2,9 @@
 <html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title><?php echo _('3RB Double Stage Side Channel Blower'); ?></title>
-<meta name="description" content="<?php echo _('Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.'); ?>" />
-<meta name="keywords" content="<?php echo _('Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO'); ?>" />
+<title>3RB <?php echo (L("PROD_DOUBLE_STAGE")); ?> <?php echo (L("3RB_SIDE_CHANNEL_BLOWER")); ?></title>
+<meta name="keywords" 	content="<?php echo (L("PROD_COMMON_KEYWORD")); ?>" />
+<meta name="description"	content="<?php echo (L("PROD_COMMON_CONTENT")); ?>" />
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <link href="<?php echo (C("SRC_ROOT")); ?>/css/common.css" rel="stylesheet">
 <link href="favicon.ico" rel="shortcut icon" />
@@ -167,7 +167,7 @@
 <!-- 应用内容 -->
 <div class="container-fuild">
 		<div class="container pro">
-				<img src="<?php echo (L("SRC_LAN")); ?>/product_banner.png" class="banner" />
+				<img src="<?php echo (L("SRC_LAN")); ?>/product_banner.jpg" class="banner" />
 				<div class="row">
 						<div class="col-md-3">
 							<h3 class="head-1"><?php echo (L("HEADER_SIDE_CHANNEL_BLOWER")); ?></h3>
@@ -269,12 +269,13 @@
 						</div>
 						<div class="col-md-9 split">
 					             <h3 class="title-1">3RB 	<?php echo (L("PROD_DOUBLE_STAGE")); ?> ▪ <?php echo (L("3RB_SIDE_CHANNEL_BLOWER")); ?></h3>
-					             <div class="row pro-list content">
-							             <p style="text-indent: 2em;	line-height: 1.6;	font-size: 13px;	padding: 0 1.8em 1.5em;	text-align: justify;"><?php echo (L("3RB_DSC")); ?></p>
+					             <div class="content">
+					<p class="text-3"><?php echo (L("3RB_DSC")); ?></p>
+					<div class="row pro-list content">
 							             <div  id="mypage" class="col-md-4 pro-item">
 												<a href="<?php echo (C("PROD_ROOT")); ?>/get3RBList?series=350-2" target="_blank">
 														<img  src="<?php echo (C("IMG_ROOT")); ?>/3RB350-2.jpg"/></a>         
-												<h4>
+												<h4 class="center">
 														<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/get3RBList?series=350-2" target="_blank">3RB 350</a>
 												</h4>
 							             </div>
@@ -282,7 +283,7 @@
 											     <a href="<?php echo (C("PROD_ROOT")); ?>/get3RBList?series=550-2">
 											     		<img  src="<?php echo (C("IMG_ROOT")); ?>/3RB350-2.jpg" />
 											     </a>
-											     <h4>
+											     <h4 class="center">
 											     		<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/get3RBList?series=550-2">3RB 550</a>
 											     </h4>
 									     </div>
@@ -290,14 +291,14 @@
 											     <a href="<?php echo (C("PROD_ROOT")); ?>/get3RBList?series=750-2">
 											     		<img  src="<?php echo (C("IMG_ROOT")); ?>/3RB350-2.jpg" />
 											     </a>
-											     <h4>
+											     <h4 class="center">
 											     		<a class="link-4" href="<?php echo (C("PROD_ROOT")); ?>/get3RBList?series=750-2">3RB 750</a>
 											     </h4>
 									     </div>
 								         <div  id="page_text"></div>
 					       		</div>
 			    		</div>
-				</div>
+				</div></div>
 		</div>
 </div>
 <!-- 应用内容end -->

@@ -164,7 +164,7 @@
 <!-- 应用内容 -->
 <div class="container-fuild">
 	<div class="container pro">
-		<img src="<?php echo (L("SRC_LAN")); ?>/product_banner.png" class="banner" />
+		<img src="<?php echo (L("SRC_LAN")); ?>/product_banner.jpg" class="banner" />
 		<div class="row">
 			<div class="col-md-3">
 				<h3 class="head-1"><?php echo (L("HEADER_SIDE_CHANNEL_BLOWER")); ?></h3>
@@ -272,7 +272,7 @@
 							target="_blank"><img
 							src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_RV.jpg"
 							alt="side channel blower Relief Valve RV" /></a>
-						<h4>
+						<h4 class="center">
 							<a class="link-4"
 								href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=RV-01"
 								target="_blank"> RV-01</a>
@@ -283,7 +283,7 @@
 							target="_blank"><img
 							src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_RV.jpg"
 							alt="side channel blower Relief Valve RV" /></a>
-						<h4>
+						<h4 class="center">
 							<a class="link-4"
 								href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=RV-02"
 								target="_blank"> RV-02</a>
@@ -294,7 +294,7 @@
 							target="_blank"><img
 							src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_2BX141.jpg"
 							alt="side channel blower Relief Valve 2BX4-141" /></a>
-						<h4>
+						<h4 class="center">
 							<a class="link-4"
 								href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=2BX4 141"
 								target="_blank"> 2BX4-141</a>
@@ -305,7 +305,7 @@
 							target="_blank"><img
 							src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_2BX142.jpg"
 							alt="side channel blower Relief Valve 2BX4-142" /></a>
-						<h4>
+						<h4 class="center">
 							<a class="link-4"
 								href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=2BX4 142"
 								target="_blank"> 2BX4-142</a>
@@ -316,7 +316,7 @@
 							target="_blank"><img
 							src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_2BX143.jpg"
 							alt="side channel blower Relief Valve 2BX4-143" /></a>
-						<h4>
+						<h4 class="center">
 							<a class="link-4"
 								href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=2BX4 143"
 								target="_blank"> 2BX4-143</a>
@@ -327,7 +327,7 @@
 							target="_blank"><img
 							src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_2BX144.jpg"
 							alt="side channel blower Relief Valve 2BX4-144" /></a>
-						<h4>
+						<h4 class="center">
 							<a class="link-4"
 								href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=2BX4 144"
 								target="_blank"> 2BX4-144</a>
@@ -338,7 +338,7 @@
 							target="_blank"><img
 							src="<?php echo (C("IMG_ROOT")); ?>/Relief_Valve_2BX145.jpg"
 							alt="side channel blower Relief Valve 2BX4-145" /></a>
-						<h4>
+						<h4 class="center">
 							<a class="link-4"
 								href="<?php echo (C("PROD_ROOT")); ?>/reliefContent?type=2BX4 145"
 								target="_blank"> 2BX4-145</a>

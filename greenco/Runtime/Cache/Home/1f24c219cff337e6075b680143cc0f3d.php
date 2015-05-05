@@ -2,11 +2,9 @@
 <html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title><?php echo _('2RB Single Stage Side Channel Blower'); ?></title>
-<meta name="keywords"
-	content="<?php echo _('Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO'); ?>" />
-<meta name="description"
-	content="<?php echo _('Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.'); ?>" />
+<title>2RB <?php echo (L("PROD_SINGLE_STAGE")); ?> <?php echo (L("2RB_SIDE_CHANNEL_BLOWER")); ?></title>
+<meta name="keywords" 	content="<?php echo (L("PROD_COMMON_KEYWORD")); ?>" />
+<meta name="description"	content="<?php echo (L("PROD_COMMON_CONTENT")); ?>" />
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <link href="<?php echo (C("SRC_ROOT")); ?>/css/common.css" rel="stylesheet">
 <link href="favicon.ico" rel="shortcut icon" />
@@ -169,7 +167,7 @@
 <!-- 应用内容 -->
 <div class="container-fuild">
 	<div class="container pro">
-		<img src="<?php echo (L("SRC_LAN")); ?>/product_banner.png" class="banner" />
+		<img src="<?php echo (L("SRC_LAN")); ?>/product_banner.jpg" class="banner" />
 		<div class="row">
 			<div class="col-md-3">
 				<h3 class="head-1"><?php echo (L("HEADER_SIDE_CHANNEL_BLOWER")); ?></h3>

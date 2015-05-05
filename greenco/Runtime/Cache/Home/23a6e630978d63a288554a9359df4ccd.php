@@ -2,10 +2,9 @@
 <html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<title><?php echo _('2RB Double Stage Side Channel Blower'); ?></title>
-<meta name="description" content="<?php echo _('Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.'); ?>" />
-<meta name="keywords" content="<?php echo _('Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO'); ?>" />
-<!-- 无刷新分页 -->
+<title>2RB <?php echo (L("PROD_DOUBLE_STAGE")); ?> <?php echo (L("2RB_SIDE_CHANNEL_BLOWER")); ?></title>
+<meta name="keywords" 	content="<?php echo (L("PROD_COMMON_KEYWORD")); ?>" />
+<meta name="description"	content="<?php echo (L("PROD_COMMON_CONTENT")); ?>" />
 <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
 <link href="<?php echo (C("SRC_ROOT")); ?>/css/common.css" rel="stylesheet">
 <link href="favicon.ico" rel="shortcut icon" />
@@ -169,7 +168,7 @@
 <!-- 应用内容 -->
 <div class="container-fuild">
 	<div class="container pro">
-		<img src="<?php echo (L("SRC_LAN")); ?>/product_banner.png" class="banner" />
+		<img src="<?php echo (L("SRC_LAN")); ?>/product_banner.jpg" class="banner" />
 		<div class="row">
 			<div class="col-md-3">
 				<h3 class="head-1"><?php echo (L("HEADER_SIDE_CHANNEL_BLOWER")); ?></h3>
@@ -269,25 +268,113 @@
 		</div>
 </form>
 			</div>
-       <div class="col-md-9 split">
-				<h3 class="title-1">2RB	<?php echo (L("PROD_DOUBLE_STAGE")); ?> ▪ <?php echo (L("2RB_SIDE_CHANNEL_BLOWER")); ?></h3>
-			<div class="row pro-list content">
-             <div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=220" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/2RB220.jpg"/></a><h4><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=220" target="_blank" class="link-4">2RB 220</a></h4></div>
-		     <div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=320" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/2RB320.jpg" /></a><h4><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=320" target="_blank" class="link-4">2RB 320</a></h4></div>
-		     <div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=420" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/2RB420.jpg"  /></a><h4><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=420" target="_blank" class="link-4">2RB 420</a></h4></div>
-		     <div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=520" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/2RB520.jpg"/></a><h4><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=330" target="_blank" class="link-4">2RB 520</a></h4></div>
-		     <div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=720" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/2RB720.jpg" /></a><h4><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=720" target="_blank" class="link-4">2RB 720</a></h4></div>
-		     <div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=740" target="_black"><img  src="<?php echo (C("IMG_ROOT")); ?>/2RB740.jpg"/></a><h4><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=740" target="_blank" class="link-4">2RB 740</a></h4></div>
-		     <div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=820" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/2RB820.jpg"/></a><h4><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=820" target="_blank" class="link-4">2RB 820</a></h4></div>
-		     <div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=840" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/2RB840.jpg" /></a><h4><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=840" target="_blank" class="link-4">2RB 840</a></h4></div>
-		     <div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=920" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/2RB920.jpg" /></a><h4><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=920" target="_blank" class="link-4">2RB 920</a></h4></div>
-		     <div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=940" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/2RB940.jpg"/></a><h4><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=940" target="_blank" class="link-4">2RB 940</a></h4></div>
-		     <div  id="mypage" class="col-md-4 pro-item"><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=943" target="_blank"><img  src="<?php echo (C("IMG_ROOT")); ?>/2RB943.jpg" /></a><h4><a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=943" target="_blank" class="link-4">2RB 943</a></h4></div>
-	         <div  id="page_text"></div>
-	         </div>
-       </div>
-   </div>
-   </div>
+			<div class="col-md-9 split">
+				<h3 class="title-1">2RB <?php echo (L("PROD_DOUBLE_STAGE")); ?> ▪	<?php echo (L("2RB_SIDE_CHANNEL_BLOWER")); ?></h3>
+				<div class="row pro-list content">
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=220"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/2RB220.jpg" /></a>
+						<h4 class="center">
+							<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=220"
+								target="_blank" class="link-4">2RB 220</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=320"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/2RB320.jpg" /></a>
+						<h4 class="center">
+							<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=320"
+								target="_blank" class="link-4">2RB 320</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=420"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/2RB420.jpg" /></a>
+						<h4 class="center">
+							<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=420"
+								target="_blank" class="link-4">2RB 420</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=520"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/2RB520.jpg" /></a>
+						<h4 class="center">
+							<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=330"
+								target="_blank" class="link-4">2RB 520</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=720"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/2RB720.jpg" /></a>
+						<h4 class="center">
+							<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=720"
+								target="_blank" class="link-4">2RB 720</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=740"
+							target="_black"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/2RB740.jpg" /></a>
+						<h4 class="center">
+							<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=740"
+								target="_blank" class="link-4">2RB 740</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=820"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/2RB820.jpg" /></a>
+						<h4 class="center">
+							<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=820"
+								target="_blank" class="link-4">2RB 820</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=840"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/2RB840.jpg" /></a>
+						<h4 class="center">
+							<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=840"
+								target="_blank" class="link-4">2RB 840</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=920"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/2RB920.jpg" /></a>
+						<h4 class="center">
+							<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=920"
+								target="_blank" class="link-4">2RB 920</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=940"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/2RB940.jpg" /></a>
+						<h4 class="center">
+							<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=940"
+								target="_blank" class="link-4">2RB 940</a>
+						</h4>
+					</div>
+					<div id="mypage" class="col-md-4 pro-item">
+						<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=943"
+							target="_blank"><img
+							src="<?php echo (C("IMG_ROOT")); ?>/2RB943.jpg" /></a>
+						<h4 class="center">
+							<a href="<?php echo (C("PROD_ROOT")); ?>/get2RBList?series=943"
+								target="_blank" class="link-4">2RB 943</a>
+						</h4>
+					</div>
+					<div id="page_text"></div>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 <!-- 应用内容end -->
 
@@ -342,7 +429,8 @@
 <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 <script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
-<script src="<?php echo (C("JS_ROOT")); ?>/jquery.quickpaginate.js"	type="text/javascript"></script>
+<script src="<?php echo (C("JS_ROOT")); ?>/jquery.quickpaginate.js"
+	type="text/javascript"></script>
 <script src="<?php echo (C("JS_ROOT")); ?>/PROD.js" type="text/javascript"></script>
 </body>
 </html>

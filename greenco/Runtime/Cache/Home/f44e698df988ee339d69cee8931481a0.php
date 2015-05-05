@@ -186,13 +186,13 @@
 							<p></p>
 							<p>
 									<strong>
-											<a href="support_content.php?id=<?php echo ($vo["id"]); ?> "><?php echo ($vo["title"]); ?></a>
+											<a href="<?php echo (C("NEWS_ROOT")); ?>/newsContent?id=<?php echo ($vo["id"]); ?> "><?php echo ($vo["title"]); ?></a>
 									</strong>
 							</p>
 			            	<p><?php echo ($vo["content"]); ?></p>
 			            	<p class="row">
 				            	<span class="more col-md-2"><?php echo ($vo["time"]); ?></span>
-			            	    <a class="more col-md-1 col-md-offset-9"  href="support_content.php?id=<?php echo ($vo["id"]); ?> "><?php echo (L("SUPPORT_DETAIL")); ?></a>
+			            	    <a class="more col-md-1 col-md-offset-9"  href="<?php echo (C("NEWS_ROOT")); ?>/newsContent?id=<?php echo ($vo["id"]); ?> "><?php echo (L("SUPPORT_DETAIL")); ?></a>
 			            	</p>
 			           </li><?php endforeach; endif; else: echo "" ;endif; ?>		       
 	       </ul>

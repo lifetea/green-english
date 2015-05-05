@@ -28,13 +28,13 @@
 							<p></p>
 							<p>
 									<strong>
-											<a href="news_content?id={$vo.id} ">{$vo.title}</a>
+											<a href="{$Think.config.NEWS_ROOT}/newsContent?id={$vo.id} ">{$vo.title}</a>
 									</strong>
 							</p>
 			            	<p>{$vo.content}</p>
 			            	<p class="row">
 				            	<span class="more col-md-2">{$vo.time}</span>
-			            	    <a class="more col-md-1 col-md-offset-9"  href="news_content?id={$vo.id} ">{$Think.lang.SUPPORT_DETAIL}</a>
+			            	    <a class="more col-md-1 col-md-offset-9"  href="{$Think.config.NEWS_ROOT}/newsContent?id={$vo.id} ">{$Think.lang.SUPPORT_DETAIL}</a>
 			            	</p>
 			           </li>
 			</volist>		       

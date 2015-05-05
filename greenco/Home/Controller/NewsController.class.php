@@ -47,7 +47,7 @@ class NewsController extends Controller {
     	$this->assign('list',$list);
     	$this->display();
     }
-    public function news_content(){
+    public function newsContent(){
     	//     	$list = S("industry-data-".L('LAN'));
     	//     	if (!$list) {/
     
