@@ -20,15 +20,17 @@
 	           <include file="../Public/news-nav" />
 	       </div>
 	       <div class="col-md-9" style="border-left: 1px solid #ccc;">
-	       <h3 style="color:#eee;text-indent:5px;font-size:14px;font-family:tahoma;font-family:tahoma;  text-indent: 10px; background: #666; font-size: 14px;  font-weight: 600; ;height: 32px;color: #fff;line-height: 32px;border: 1px solid #555; ">
-					{$list.title}
-			</h3>
-			<div  class="row">
-					<span class="pull-left">{$list.time}</span>
-			
+	       <h3 class="head-1">{$list.title}</h3>
+			<div class="row">
+					<div class="col-md-6">
+							<span class="pull-left">{$list.author}</span>
+					</div>
+					<div class="col-md-6">
+							<span class="pull-right">{$list.time}</span>
+					</div>
+					
 			</div>
-			<p>{$list.author}</p>
-			<p>{$list.content}</p>
+			<div class="news-content">{$list.content}</div>
 	       <div  id="page_text"></div>
 	       </div>
        </div>
