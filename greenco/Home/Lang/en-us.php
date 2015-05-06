@@ -217,5 +217,18 @@ return array(
 		'SILENCER_FOR SIDE_CHANNEL_BLOWER'=>'Silencer for Side Channel Blower',
 		'FILTER_FOR_SIDE_CHANNEL_BLOWER'=>'Inlet Vacuum Filter for Side Channel Blower',
 		'RELIEF_FOR_SIDE_CHANNEL_BLOWER'=>'Relief Valve for Side Channel Blower',
+		'IE2_TITLE'=>'漩涡气泵|漩涡风机IE2 2RB系列单段',
+		'IE2_KEYWORDS'=>'IE2,IE3,EFF1,EFF2,Side channel blower,Regenerative blower,Ring blower,single stage,double stage,multi stage blower,high efficiency blower,2RB,3RB,4RB series,GREENCO',
+		'IE2_DESCRIPTION'=>'IE2 blower,EFF1 blower,IE3,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.',
+		'SILENCER_TITLE'=>'Side Channel Blower Silencer',
+		'SILENCER_KEYWORDS'=>'Silencers are used for the reduce in positive displacement air blowers and vacuum pumps',
+		'SILENCER_DESCRIPTION'=>'Silencer,Blower Silencer,Air Silencer,Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,2BX4 series,GREENCO',
+		'RELIEF_TITLE'=>'Relief Valve for Side Channel Blower',
+		'RELIEF_KEYWORDS'=>'safety valve,security valve,pressure-relieving valve,vacuum relief valve,reducing valve for Ring blower,Air blower,Regenerative Blower',
+		'RELIEF_DESCRIPTION'=>'The relief valve is used to adjust the pressure of side channel blower，it is installed on inlet or outlet of side channel blower,in order to protect the blower,the overload pressure will be released from relief valve',
+		'FILTER_TITLE'=>'Inlet Vacuum Filter for Ring blower',
+		'FILTER_KEYWORDS'=>'Inlet vacuum filters are used in vacuum applications to prevent impurities from entering the blower, but also can be used in pressure applications to draw air from a remote location',
+		'FILTER_DESCRIPTION'=>'Inlet Vacuum Filter,Pressure Filter,Air Filter,Polyester filter,Paper filter,Filter element,2BX4 series,GREENCO',
+		
 );
 ?>

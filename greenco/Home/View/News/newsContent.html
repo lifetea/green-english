@@ -13,28 +13,27 @@
 
 <!-- 应用内容 -->
 <div class="container-fuild">
-   <div class="container support">
-       <img src="{$Think.lang.SRC_LAN}/support.jpg" style="width:100%;margin:1em auto 0;border:1px solid #bbb;" alt="Greenco side channel blower news"/>
-       <div class="row">
-	       <div class="col-md-3">
-	           <include file="../Public/news-nav" />
-	       </div>
-	       <div class="col-md-9" style="border-left: 1px solid #ccc;">
-	       <h3 class="head-1">{$list.title}</h3>
-			<div class="row">
-					<div class="col-md-6">
-							<span class="pull-left">{$list.author}</span>
-					</div>
-					<div class="col-md-6">
-							<span class="pull-right">{$list.time}</span>
-					</div>
-					
-			</div>
-			<div class="news-content">{$list.content}</div>
-	       <div  id="page_text"></div>
-	       </div>
-       </div>
-   </div>
+		<div class="container support">
+				<img src="{$Think.lang.SRC_LAN}/support.jpg" class="banner" alt="Greenco side channel blower news"/>
+						<div class="row">
+								<div class="col-md-3">
+								    <include file="../Public/news-nav" />
+								</div>
+								<div class="col-md-9" style="border-left: 1px solid #ccc;">
+										<h3 class="head-1">{$list.title}</h3>
+										<div class="row">
+												<div class="col-md-6">
+														<span class="pull-left">{$list.author}</span>
+												</div>
+												<div class="col-md-6">
+														<span class="pull-right">{$list.time}</span>
+												</div>
+										</div>
+										<div class="news-content">{$list.content}</div>
+									     <div  id="page_text"></div>
+								</div>
+						</div>
+		</div>
 </div>
 <!-- 应用内容end -->
 
