@@ -229,6 +229,7 @@ return array(
 		'FILTER_TITLE'=>'Inlet Vacuum Filter for Ring blower',
 		'FILTER_KEYWORDS'=>'Inlet vacuum filters are used in vacuum applications to prevent impurities from entering the blower, but also can be used in pressure applications to draw air from a remote location',
 		'FILTER_DESCRIPTION'=>'Inlet Vacuum Filter,Pressure Filter,Air Filter,Polyester filter,Paper filter,Filter element,2BX4 series,GREENCO',
-		
+		'Belt_KEYWORDS'=>'Belt Drive Air Blower,Side channel blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO',
+		'Belt_DESCRIPTION'=>'Belt Drive Air Blower,Side channel blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco',
 );
 ?>
