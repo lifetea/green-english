@@ -231,5 +231,14 @@ return array(
 		'FILTER_DESCRIPTION'=>'真空过滤器,压力过滤器,气体过滤器,聚酯过滤器,纸质过滤器,过滤器滤芯,2BX4080, 2BX4081,2BX4082,2BX4083,2BX4084,GREENCO,格凌,格凌实业,浙江格凌实业有限公司',
 		'Belt_KEYWORDS'=>'格凌高压风机,漩涡气泵,旋涡风机,旋涡气泵,气环风机,NSK,SFK耐高温轴承,低噪音，免维护，寿命长,高效节能环保，著名品牌，全球高压风机的生产基地，产销量全球第一',
 		'Belt_DESCRIPTION'=>'压风机,漩涡气泵,旋涡气泵,气环风机,漩涡风机,旋涡风机,气环风机,皮带式，无电机，裸轴,单段,双段,三段,多段式2RB,3RB,4RB 系列,GREENCO，格凌，格凌风机，格凌高压风机',		
+		'LIST_ORDER_NO'=>'产品型号',
+		'LIST_FRE-QUENCY'=>'频率',
+		'LIST_OUTPUT'=>'输出功率',
+		'LIST_MAX_AIRFLOW'=>'最大流量',
+		'LIST_MAX_VACUUM'=>'最高真空',
+		'LIST_MAX_PRESSURE'=>'最高压力',
+		'LIST_DOWNLOAD'=>'下载',
+		'LIST_ORDER&PERFOR'=>'规格数据和性能参数',
+		'LIST_SERIES'=>'系列',
 );
 ?>

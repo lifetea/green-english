@@ -13,6 +13,7 @@ class PRODController extends Controller {
     		$list = $prod->where("type like '%2RB {$_GET['series']}%'")->order('id ASC')->select();
     		//S('contact-data', $list, 7000);
     	//}
+    	$this->assign('series',I('get.series'));
     	$this->assign('list',$list);
     	$this->display();
     }
@@ -24,6 +25,7 @@ class PRODController extends Controller {
     	$list = $prod->where("type like '%3RB {$_GET['series']}%'")->order('id ASC')->select();
     	//S('contact-data', $list, 7000);
     	//}
+    	$this->assign('series',I('get.series'));
     	$this->assign('list',$list);
     	$this->display();
     }
@@ -36,6 +38,7 @@ class PRODController extends Controller {
     	//S('contact-data', $list, 7000);
     	//}
     	$this->assign('list',$list);
+    	$this->assign('series',I('get.series'));
     	$this->display();
     }
 
@@ -48,6 +51,7 @@ class PRODController extends Controller {
     	//S('contact-data', $list, 7000);
     	//}
     	$this->assign('list',$list);
+    	$this->assign('series',I('get.series'));
     	$this->display();
     }
     public function getSuctionList(){
@@ -59,6 +63,7 @@ class PRODController extends Controller {
     	//S('contact-data', $list, 7000);
     	//}
     	$this->assign('list',$list);
+    	$this->assign('series',I('get.series'));
     	$this->display();
     }    
     public function getSilencerContent(){

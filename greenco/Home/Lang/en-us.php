@@ -231,5 +231,15 @@ return array(
 		'FILTER_DESCRIPTION'=>'Inlet Vacuum Filter,Pressure Filter,Air Filter,Polyester filter,Paper filter,Filter element,2BX4 series,GREENCO',
 		'Belt_KEYWORDS'=>'Belt Drive Air Blower,Side channel blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO',
 		'Belt_DESCRIPTION'=>'Belt Drive Air Blower,Side channel blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco',
+		'LIST_ORDER_NO'=>'Order No',
+		'LIST_FRE-QUENCY'=>'Fre-quency',
+		'LIST_OUTPUT'=>'Output',
+		'LIST_MAX_AIRFLOW'=>'Maximum Airflow',
+		'LIST_MAX_VACUUM'=>'Maximum Vacuum',
+		'LIST_MAX_PRESSURE'=>'Maximum Pressure',
+		'LIST_DOWNLOAD'=>'Download',
+		'LIST_ORDER&PERFOR'=>'Series Ordering Data and Performance Data',
+		'LIST_SERIES'=>'Series',
+		
 );
 ?>
