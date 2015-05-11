@@ -169,3 +169,6 @@ ul{padding:0;list-style:none}
 .pro .content{min-height:890px}
 .pro .table td{line-height:50px;}
 .pro .table-hover>tbody>tr:hover{background-color: #aaa;cursor: pointer;text-decoration: underline;}
+
+.prod-detail li{line-height:2.6em;padding:0.8em 0}
+.prod-detail{padding-left:2em}

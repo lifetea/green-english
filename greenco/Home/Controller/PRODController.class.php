@@ -94,12 +94,13 @@ class PRODController extends Controller {
     	//product  type like '%2RB {$_GET['series']}%'
     	//$list = S('contact-data');
     	//if (!$list) {
-    	$prod = M("filters");
+    	$prod = M("Relief");
     	$list = $prod->where("type like '%{$_GET['type']}%'")->find();
     	//S('contact-data', $list, 7000);
     	//}
     	$this->assign('list',$list);
     	$this->assign('type',I('get.type'));
+    	$this->assign('subType',substr(I('get.type'),0,2));
     	$this->display();
     }    
     

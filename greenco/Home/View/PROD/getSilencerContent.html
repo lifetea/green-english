@@ -21,63 +21,89 @@
 			</div>
 			<div class="col-md-9 split">
 				<div class="row pro-list content">
-					<h3 class="title-1">Silencer {$list.type} Technical Data</h3>
 					<div class="row">
-						<div class="col-md-6">
-							Model: </strong><span> {$list.type}
-								<h5>
-									<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
-									<a href="{$Think.lang.SRC_LAN}/silencer.pdf"	target="_blank" style="color: #1850a3;">Download PDF Silencer</a>
-								</h5>
+						<div class="col-md-5">
+								<p class="center">
+										<img src="{$Think.config.IMG_ROOT}/silencer.jpg"	alt="{$list.type} side channel blower silencer image and picture" />
+								</p>
 						</div>
-						<div class="col-md-6">
-							<img src="{$Think.config.IMG_ROOT}/silencer.jpg"
-								alt="{$list.type} side channel blower silencer image and picture" />
+						<div class="col-md-7">
+								<form class="form-inline" >
+										<ul class="prod-detail">
+												<li>
+														<h3 class="title-1">Silencer {$list.type} Technical Data</h3>
+												</li>
+												<li>
+														<strong>Model: </strong>
+														<span> {$list.type}</span>
+												</li>
+												<li>
+														<div class="form-group">
+															  <label for="inputEmail3" class="control-label">数量：</label>
+															  <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+															  <input type="text" class="form-control"  style="width:40px" placeholder="1">
+															  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+														</div>
+												</li>	
+												<li>
+														<button class="btn btn-default" type="submit">
+																<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+																加入询价单
+														</button>
+												</li>	
+												<li>
+														<a href="{$Think.lang.SRC_LAN}/silencer.pdf"	target="_blank" style="color: #1850a3;">
+																<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+																<span>Download PDF Silencer</span>
+														</a>
+												</li>																			
+										</ul>
+								</form>
 						</div>
 					</div>
-				<h3 class="head-1">Dimension for Silencer {$list.type}</h3>
 					<div>
+							<h3 class="head-1">Dimension for Silencer {$list.type}</h3>
 				<!-- 尺寸图判断 -->
-				<a rel="shadowbox"
-					href="{$Think.config.IMG_ROOT}/silencer_2BX4_big.jpg"> <img
-					alt="Dimension for Silencer {$list.type}" class="border"
-					src="{$Think.config.IMG_ROOT}/silencer_2BX4_small.jpg"
-					title="Click to Enlarge" />
-				</a>
-
-				<!-- 技术参数判断 -->
-				<table class="table table-striped" cellspacing="0" cellpadding="0"
-					style="margin-top: 30px;">
-				<tr class="one">
-					<td style="font-style: Italic;">Type</td>
-						<td>a</td>
-						<td>b</td>
-						<td>c</td>
-						<td>d</td>
-						<td>e</td>
-						<td>f</td>
-						<td>g</td>
-						<td>h</td>
-						<td>i</td>
-						<td>j</td>
-						<td>k</td>
-					</tr>
-					<tr>
-						<td>{$list.type}</td>
-						<td>{$list.a}</td>
-						<td>{$list.b}</td>
-						<td>{$list.c}</td>
-						<td>{$list.d}</td>
-						<td>{$list.e}</td>
-						<td>{$list.f}</td>
-						<td>{$list.g}</td>
-						<td>{$list.h}</td>
-						<td>{$list.i}</td>
-						<td>{$list.j}</td>
-						<td>{$list.k}</td>
-					</tr>
-				</table>
-				<p style="margin-top: 160px;">Note:Model offerings and design	parameters may change without notice.</p>					
+							<a rel="shadowbox"
+								href="{$Think.config.IMG_ROOT}/silencer_2BX4_big.jpg"> <img
+								alt="Dimension for Silencer {$list.type}" class="border"
+								src="{$Think.config.IMG_ROOT}/silencer_2BX4_small.jpg"
+								title="Click to Enlarge" />
+							</a>
+			
+							<!-- 技术参数判断 -->
+							<table class="table table-striped" cellspacing="0" cellpadding="0"
+								style="margin-top: 30px;">
+							<tr class="one">
+								<td style="font-style: Italic;">Type</td>
+									<td>a</td>
+									<td>b</td>
+									<td>c</td>
+									<td>d</td>
+									<td>e</td>
+									<td>f</td>
+									<td>g</td>
+									<td>h</td>
+									<td>i</td>
+									<td>j</td>
+									<td>k</td>
+								</tr>
+								<tr>
+									<td>{$list.type}</td>
+									<td>{$list.a}</td>
+									<td>{$list.b}</td>
+									<td>{$list.c}</td>
+									<td>{$list.d}</td>
+									<td>{$list.e}</td>
+									<td>{$list.f}</td>
+									<td>{$list.g}</td>
+									<td>{$list.h}</td>
+									<td>{$list.i}</td>
+									<td>{$list.j}</td>
+									<td>{$list.k}</td>
+								</tr>
+							</table>
+							<p style="margin-top: 160px;">Note:Model offerings and design	parameters may change without notice.</p>					
 					</div>
 				</div>
 			</div>
