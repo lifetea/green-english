@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html  xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
 <include file="../Public/css" />
@@ -10,44 +10,109 @@
 <!-- 应用内容 -->
 <div class="container-fuild">
 	<div class="container pro">
-     <img src="{$Think.lang.SRC_LAN}/product_banner.jpg" class="banner" />
-      <div class="row">
-		<div class="col-md-3">
-			<include file="../Public/pro-nav" />
+		<img src="{$Think.lang.SRC_LAN}/product_banner.jpg" class="banner" />
+		<div class="row">
+			<div class="col-md-3">
+				<include file="../Public/pro-nav" />
+			</div>
+			<div class="col-md-9 split">
+				<div class="row pro-list content">
+					<div class="row">
+						<div class="col-md-5">
+							<p class="center">
+								<img
+									src="{$Think.config.IMG_ROOT}/Inlet vacuum filters {$type}.jpg"
+									alt="{$type}.jpg side channel blower inlet vacuum filters image and picture" />
+							</p>
+						</div>
+						<div class="col-md-7">
+							<form class="form-inline" action="#">
+								<ul class="prod-detail">
+									<li>
+										<h3 class="title-1">Vacuum Filter {$list.type} Technical
+											Data</h3>
+									</li>
+									<li><strong>Model: </strong> <span> {$list.type}</span></li>
+									<li>
+										<div class="form-group">
+											<label for="inputEmail3" class="control-label">数量：</label> <span
+												class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+											<input type="text" class="form-control" style="width: 40px"
+												placeholder="1"> <span
+												class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+										</div>
+									</li>
+									<li>
+										<button class="btn btn-default" type="submit">
+											<span class="glyphicon glyphicon-shopping-cart"
+												aria-hidden="true"></span> 加入询价单
+										</button>
+									</li>
+									<li><a href="{$Think.lang.SRC_LAN}/filter.pdf"
+										target="_blank" class="link-1"> <span
+											class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+											<span>Download PDF Inlet Vacuum Filters</span>
+									</a></li>
+								</ul>
+							</form>
+						</div>
+					</div>
+					<div>
+						<h3 class="head-1">
+							Dimension for Inlet Vacuum Filter
+							<?php echo $_rows['type'];?>
+						</h3>
+						<p class="center">
+							<a rel="shadowbox"
+								href="{$Think.config.IMG_ROOT}/Inlet_Vacuum_Filter_big.jpg">
+								<img alt="Dimension for Silencer '.$_rows['type'].' "
+								class="border"
+								src="{$Think.config.IMG_ROOT}/Inlet_Vacuum_Filter_small.jpg"
+								title="Click to Enlarge" />
+							</a>
+						</p>
+						<table class="table table-bordered table-striped">
+							<tr class="one">
+								<td style="font-style: Italic;">Type</td>
+								<td>material</td>
+								<td>FPT Inlet & Outlet</td>
+								<td>d1</td>
+								<td>d2</td>
+								<td>d3</td>
+								<td>d4</td>
+								<td>h1</td>
+								<td>h2</td>
+								<td>h3</td>
+								<td>h4</td>
+								<td>Rated Flow (m³/min)
+								</td>
+								<td>Approx.wt.(kg)</td>
+							</tr>
+							<tr>
+								<td>{$list.type}</td>
+								<td>{$list.material}</td>
+								<td>{$list.outlet}</td>
+								<td>{$list.d1}</td>
+								<td>{$list.d2}</td>
+								<td>{$list.d3}</td>
+								<td>{$list.d4}</td>
+								<td>{$list.h1}</td>
+								<td>{$list.h2}</td>
+								<td>{$list.h3}</td>
+								<td>{$list.h4}</td>
+								<td>{$list.rated_flow}</td>
+								<td>{$list.approx}</td>
+							</tr>
+						</table>
+					</div>
+					<p style="">Note:Model	offerings and design parameters may change without notice.</p>
+					<!-- 尺寸图判断 -->
+
+
+				</div>
+			</div>
 		</div>
-       <div class="col-md-9 split">
-       <div class="content">
-             <div id="left">
-                <h3>Vacuum Filter <?php echo $_rows['type'];?> Technical Data</h3>
-                <table>
-                   <tr><td><strong>Model: </strong><span><?php echo $_rows['type'];?></span></td><td>
-                </table>
-                <h5>
-                		<span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
-                		<a href="{$Think.lang.SRC_LAN}/filter.pdf" target="_blank" style="color:#1850a3;">Download PDF Inlet Vacuum Filters (551 KB)</a>
-                </h5>
-             </div>
-             <div id="right"><?php echo $_rows['type'];?>
-                <img src="{$Think.config.IMG_ROOT}/Inlet vacuum filters {$type}.jpg" alt="{$type}.jpg side channel blower inlet vacuum filters image and picture"/>
-             </div>
-
-
-             <h5>Dimension for Inlet Vacuum Filter <?php echo $_rows['type'];?></h5>
-             <!-- 尺寸图判断 -->
-                   <a rel="shadowbox" href="{$Think.config.IMG_ROOT}/Inlet_Vacuum_Filter_big.jpg">
-                   <img alt="Dimension for Silencer '.$_rows['type'].' " class="border" src="{$Think.config.IMG_ROOT}/Inlet_Vacuum_Filter_small.jpg"  title="Click to Enlarge"/>
-                   </a>
-
-             <!-- 技术参数判断 -->
-             <?php
-		            echo    '<table class="data"  cellspacing="0" cellpadding="0" style="margin-top:30px;">'.
-		              '<tr class="one"><td style="font-style:Italic;">Type</td><td>material</td><td>FPT Inlet & Outlet</td><td>d1</td><td>d2</td><td>d3</td><td>d4</td><td>h1</td><td>h2</td><td>h3</td><td>h4</td><td>Rated Flow</br>(m³/min)</td><td>Approx.wt.</br>(kg)</td></tr>'.
-		              '<tr class="two"><td>'.$_rows['type'].'</td><td>'.$_rows['material'].'</td><td>'.$_rows['outlet'].'</td><td>'.$_rows['d1'].'</td><td>'.$_rows['d2'].'</td><td>'.$_rows['d3'].'</td><td>'.$_rows['d4'].'</td><td>'.$_rows['h1'].'</td><td>'.$_rows['h2'].'</td><td>'.$_rows['h3'].'</td><td>'.$_rows['h4'].'</td><td>'.$_rows['rated_flow'].'</td><td>'.$_rows['approx'].'</td></tr>'.
-		             '</table>';
-             ?>
-             <p ><?php echo _('Note:Model offerings and design parameters may change without notice.'); ?></p>
-       </div></div>
-   </div></div>
+	</div>
 </div>
 <!-- 应用内容end -->
 <include file="../Public/footer" />

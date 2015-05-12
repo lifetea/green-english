@@ -167,7 +167,7 @@ ul{padding:0;list-style:none}
 
 .pro-item img{border: 1px solid #bbb; width:98%}
 .pro .content{min-height:890px}
-.pro .table td{line-height:50px;}
+.pro .table td{padding-top:2em;padding-bottom:2em}
 .pro .table-hover>tbody>tr:hover{background-color: #aaa;cursor: pointer;text-decoration: underline;}
 
 .prod-detail li{line-height:2.6em;padding:0.8em 0}
