@@ -5,7 +5,7 @@ class PRODController extends Controller {
     public function index(){
         $this->display();
     }
-    public function get2RBList(){
+    public function G2RBList(){
     	//product  type like '%2RB {$_GET['series']}%' 
     	//$list = S('contact-data');
     	//if (!$list) {
@@ -17,6 +17,18 @@ class PRODController extends Controller {
     	$this->assign('list',$list);
     	$this->display();
     }
+    public function G2RBContent(){
+    	//product  type like '%2RB {$_GET['series']}%'
+    	//$list = S('contact-data');
+    	//if (!$list) {
+    	$prod = M("product");
+    	$list = $prod->where("type like '%2RB {$_GET['series']}%'")->order('id ASC')->select();
+    	//S('contact-data', $list, 7000);
+    	//}
+    	$this->assign('series',I('get.series'));
+    	$this->assign('list',$list);
+    	$this->display();
+    }    
     public function get3RBList(){
     	//product  type like '%2RB {$_GET['series']}%'
     	//$list = S('contact-data');

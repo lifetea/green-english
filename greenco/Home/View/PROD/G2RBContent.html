@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+<title><?php  echo $_GET['series'];?> <?php echo _('Side channel blower'); ?></title>
+<meta name="description" content="<?php echo _('Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.'); ?>" />
+<meta name="keywords" content="<?php echo _('Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO'); ?>" />
+<include file="../Public/css" />
+<link href="favicon.ico" rel="shortcut icon" />
+</head>
+<include file="../Public/header" />
+<!-- 应用内容 -->
+<div class="container-fuild">
+	<div class="container pro">
+		<img src="{$Think.lang.SRC_LAN}/product_banner.jpg" class="banner" />
+		<div class="row">
+			<div class="col-md-3">
+				<include file="../Public/pro-nav" />
+			</div>
+       <div class="right">
+              <div id="left">
+                <h4><?php echo $_rows['type'];?> <?php echo _('Technical Data');?></h4>
+                <table style="font-size:12px;">
+                <tr><td><strong><?php echo _('Model');?>: </strong><span><?php echo $_rows['type'];?></span></td>
+                <td><strong><?php echo _('Stage');?>:</strong> <span><?php echo _('Double');?></span></td><td>
+                <tr><td><strong><?php echo _('Freq');?>:</strong> <span><?php echo $_rows['Fre_quency'];?></span> (Hz)</td>
+                <td><strong><?php echo _('Power');?>:</strong> <span><?php echo $_rows['output'];?></span> (Kw)</td><td>
+                <tr><td><strong><?php echo _('Airflow');?>:</strong> <span><?php echo $_rows['maximum_airflow'];?></span> (m³/h)</td>
+                <td><strong><?php echo _('TH.CL');?>:</strong> <span>IP55</span></td><td>
+                <tr><td><strong><?php echo _('Pressure');?>:</strong> <span>+<?php echo $_rows['maximum_pressure'];?></span> (mbar)</td>
+                <td><strong><?php echo _('IN.CL');?>:</strong> <span>F or H</span></td><td>
+                <tr><td><strong><?php echo _('Vacuum');?>:</strong> <span><?php echo $_rows['maximum_vacuum'];?></span> (mbar)</td>
+                <td><strong><?php echo _('N.weight');?>:</strong> <span><?php echo $_rows['weight'];?></span> (kg)</td><td>
+                <tr><td><strong><?php echo _('Inlet/outlet');?>:</strong> <span><?php echo $_rows['Inlet_outlet'];?></span>(inch)</td>
+                <td><strong><?php echo _('Sound');?>:</strong> <span><?php echo $_rows['sound_level'];?></span> dB(A)</td><td>
+                <tr><td><strong><?php echo _('Dimension');?>(L*W*H):</strong> <span><?php  if($_rows['type']=='2RB 220-7HH26' or $_rows['type']=='2RB 320-7HH36' or $_rows['type']=='2RB 320-7HH26' or $_rows['type']=='2RB 320-7HA31' or $_rows['type']=='2RB 420-7HH36' or $_rows['type']=='2RB 420-7HH46' or $_rows['type']=='2RB 520-7HH46' or $_rows['type']=='2RB 520-7HH57' or $_rows['type']=='2RB 720-7HH16' or $_rows['type']=='2RB 720-7HH26' or $_rows['type']=='2RB 720-7HH37' or $_rows['type']=='2RB 720-7HH47' or $_rows['type']=='2RB 720-7HH57'){echo $_rows['F'].'×'  .intval($_rows['A1']+$_rows['A']/2).   '×'.$_rows['B'];}
+                                             elseif($_rows['type']=='2RB 820-7HH17' or $_rows['type']=='2RB 820-7HH27' or $_rows['type']=='2RB 820-7HH37' or $_rows['type']=='2RB 820-7HH47'){echo $_rows['F'].'×'  .intval($_rows['A1']+$_rows['A']/2).   '×'.$_rows['B1'];}
+                                             elseif($_rows['type']=='2RB 920-7HH17' or $_rows['type']=='2RB 920-7HH27' or $_rows['type']=='2RB 920-7HH37' or $_rows['type']=='2RB 920-7HH47'){echo $_rows['F1'].'×'  .intval($_rows['A1']+$_rows['A']/2).   '×'.($_rows['B']+$_rows['B1']);}
+                                             elseif($_rows['type']=='2RB 940-7BH27' or $_rows['type']=='2RB 940-7BH37' or $_rows['type']=='2RB 940-7BH47'){echo $_rows['F1'].'×' .$_rows['A'].   '×'.($_rows['B']+$_rows['B1']);}
+                                             elseif($_rows['type']=='2RB 943-7BH27' or $_rows['type']=='2RB 943-7BH37' or $_rows['type']=='2RB 943-7BH47'){echo $_rows['B'].'×'.$_rows['A'].'×'.$_rows['F'];}
+                	                         else{echo $_rows['F'].'×'.$_rows['A'].'×'.$_rows['B'];}?>
+                	                         </span> (mm)</td><td>
+                </table>
+             </div>
+             <div id="right">
+                <img src="product_image/product_content_big/<?php echo  substr($_rows['type'],0,7)?>.jpg" alt="<?php echo $_rows['type'];?> side channel blower image and picture"/>
+             </div>
+
+             <h5><?php echo _('Dimension for side channel blower');?> <?php echo $_rows['type'];?></h5>
+             <!-- 尺寸图判断 -->
+             <?php if($_rows['type']=='2RB 220-7HH26' or $_rows['type']=='2RB 320-7HH36' or $_rows['type']=='2RB 320-7HH26'or $_rows['type']=='2RB 320-7HA31' or $_rows['type']=='2RB 420-7HH36' or $_rows['type']=='2RB 420-7HH46' or $_rows['type']=='2RB 420-7HA31' or $_rows['type']=='2RB 420-7AV45'){echo       '<a rel="shadowbox" href="product_image/dimensions/2RB220_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB220_small.jpg"  title="Click to Enlarge"/></a>';}
+             	elseif($_rows['type']=='2RB 520-7HH46' or $_rows['type']=='2RB 520-7HH57' or $_rows['type']=='2RB 720-7HH16' or $_rows['type']=='2RB 720-7HH26' or $_rows['type']=='2RB 720-7HH37'){echo  '<a rel="shadowbox" href="product_image/dimensions/2RB520_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB520_small.jpg"  title="Click to Enlarge"/></a>';}
+             	elseif($_rows['type']=='2RB 720-7HH47' or $_rows['type']=='2RB 720-7HH57'){echo  '<a rel="shadowbox" href="product_image/dimensions/2RB720_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB720_small.jpg"  title="Click to Enlarge"/></a>';}
+             	elseif($_rows['type']=='2RB 740-7GH37' ){echo  '<a rel="shadowbox" href="product_image/dimensions/2RB740-3_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB740-3_small.jpg"  title="Click to Enlarge"/></a>';}
+             	elseif($_rows['type']=='2RB 740-7GH47' or $_rows['type']=='2RB 740-7GH57'){echo  '<a rel="shadowbox" href="product_image/dimensions/2RB740-4_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB740-4_small.jpg"  title="Click to Enlarge"/></a>';}
+             	elseif($_rows['type']=='2RB 820-7HH37' or $_rows['type']=='2RB 820-7HH47'){echo  '<a rel="shadowbox" href="product_image/dimensions/2RB820-3_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB820-3_small.jpg"  title="Click to Enlarge"/></a>';}
+             	elseif($_rows['type']=='2RB 820-7HH17' or $_rows['type']=='2RB 820-7HH27'){echo  '<a rel="shadowbox" href="product_image/dimensions/2RB820-1_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB820-1_small.jpg"  title="Click to Enlarge"/></a>';}
+             	elseif($_rows['type']=='2RB 840-7GH27'){echo  '<a rel="shadowbox" href="product_image/dimensions/2RB840-2_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB840-2_small.jpg"  title="Click to Enlarge"/></a>';}
+             	elseif($_rows['type']=='2RB 840-7GH37'){echo  '<a rel="shadowbox" href="product_image/dimensions/2RB840-3_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB840-3_small.jpg"  title="Click to Enlarge"/></a>';}
+             	elseif($_rows['type']=='2RB 920-7HH17' or $_rows['type']=='2RB 920-7HH27' or $_rows['type']=='2RB 920-7HH37'  or $_rows['type']=='2RB 920-7HH47'){echo  '<a rel="shadowbox" href="product_image/dimensions/2RB920_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB920_small.jpg"  title="Click to Enlarge"/></a>';}
+             	elseif($_rows['type']=='2RB 940-7BH27' or $_rows['type']=='2RB 940-7BH37' or $_rows['type']=='2RB 940-7BH47'){echo  '<a rel="shadowbox" href="product_image/dimensions/2RB940_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB940_small.jpg"  title="Click to Enlarge"/></a>';}
+             	elseif($_rows['type']=='2RB 943-7BH27' or $_rows['type']=='2RB 943-7BH37' or $_rows['type']=='2RB 943-7BH47'){echo  '<a rel="shadowbox" href="product_image/dimensions/2RB943_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB943_small.jpg"  title="Click to Enlarge"/></a>';}
+             	?>
+
+             <!-- 技术参数判断 -->
+             <?php  if($_rows['type']=='2RB 220-7HH26' or $_rows['type']=='2RB 320-7HH36' or $_rows['type']=='2RB 320-7HH26' or $_rows['type']=='2RB 420-7HH36' or $_rows['type']=='2RB 420-7HH46' ){
+		            echo    '<table class="data"  cellspacing="0" cellpadding="0" style="margin-top:30px;">'.
+		              '<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>A</td><td>A′</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>H′</td><td>J</td><td>K</td><td>L</td><td>M</td></tr>'.
+		              '<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['A'].'</td><td>'.$_rows['A1'].'</td><td>'.$_rows['B'].'</td><td>'.$_rows['C'].'</td><td>'.$_rows['D'].'</td><td>'.$_rows['E'].'</td><td>'.$_rows['F'].'</td><td>'.$_rows['G'].'</td><td>'.$_rows['H'].'</td><td>'.$_rows['H1'].'</td><td>'.$_rows['J'].'</td><td>'.$_rows['K'].'</td><td>'.$_rows['L'].'</td><td>'.$_rows['M'].'</td></tr>'.
+		              '<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>N</td><td>O</td><td>P</td><td>Q</td><td>ϕR</td><td>S</td><td>T</td><td>U</td><td>V<span>1(3-)</span></td><td>V′<span>1(3-)</span></td><td>α</td><td>ϕX</td><td>Y×Z</td><td>X-Holes</td></tr>'.
+		              '<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['N'].'</td><td>'.$_rows['O'].'</td><td>'.$_rows['P'].'</td><td>'.$_rows['Q'].'</td><td>'.$_rows['ϕR'].'</td><td>'.$_rows['S'].'</td><td>'.$_rows['T'].'</td><td>'.$_rows['U'].'</td><td>'.$_rows['V3'].'</td><td>'.$_rows['V3_'].'</td><td>'.$_rows['α'].'</td><td>'.$_rows['ϕX'].'</td><td>'.$_rows['Y_Z'].'</td><td>'.$_rows['X_Holes'].'</td></tr>'.
+		             '</table>';
+                        }
+              elseif($_rows['type']=='2RB 320-7HA31' or $_rows['type']=='2RB 420-7HA31' or $_rows['type']=='2RB 420-7AV45'){
+		            echo    '<table class="data"  cellspacing="0" cellpadding="0" style="margin-top:30px;">'.
+		              '<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>A</td><td>A′</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>H′</td><td>J</td><td>K</td><td>L</td><td>M</td></tr>'.
+		              '<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['A'].'</td><td>'.$_rows['A1'].'</td><td>'.$_rows['B'].'</td><td>'.$_rows['C'].'</td><td>'.$_rows['D'].'</td><td>'.$_rows['E'].'</td><td>'.$_rows['F'].'</td><td>'.$_rows['G'].'</td><td>'.$_rows['H'].'</td><td>'.$_rows['H1'].'</td><td>'.$_rows['J'].'</td><td>'.$_rows['K'].'</td><td>'.$_rows['L'].'</td><td>'.$_rows['M'].'</td></tr>'.
+		              '<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>N</td><td>O</td><td>P</td><td>Q</td><td>ϕR</td><td>S</td><td>T</td><td>U</td><td>V<span>(1-)</span></td><td>V′<span>(1-)</span></td><td>α</td><td>ϕX</td><td>Y×Z</td><td>X-Holes</td></tr>'.
+		              '<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['N'].'</td><td>'.$_rows['O'].'</td><td>'.$_rows['P'].'</td><td>'.$_rows['Q'].'</td><td>'.$_rows['ϕR'].'</td><td>'.$_rows['S'].'</td><td>'.$_rows['T'].'</td><td>'.$_rows['U'].'</td><td>'.$_rows['V1'].'</td><td>'.$_rows['V1_'].'</td><td>'.$_rows['α'].'</td><td>'.$_rows['ϕX'].'</td><td>'.$_rows['Y_Z'].'</td><td>'.$_rows['X_Holes'].'</td></tr>'.
+		             '</table>';
+                        }
+              elseif($_rows['type']=='2RB 520-7HH46' or $_rows['type']=='2RB 520-7HH57' or $_rows['type']=='2RB 720-7HH16' or $_rows['type']=='2RB 720-7HH26' or $_rows['type']=='2RB 720-7HH37' or $_rows['type']=='2RB 720-7HH47' or $_rows['type']=='2RB 720-7HH57'){
+					   echo '<table class="data"  cellspacing="0" cellpadding="0" style="margin-top:30px;">'.
+							'<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>A</td><td>A′</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>H′</td><td>J</td><td>K</td><td>L</td><td>M</td></tr>'.
+							'<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['A'].'</td><td>'.$_rows['A1'].'</td><td>'.$_rows['B'].'</td><td>'.$_rows['C'].'</td><td>'.$_rows['D'].'</td><td>'.$_rows['E'].'</td><td>'.$_rows['F'].'</td><td>'.$_rows['G'].'</td><td>'.$_rows['H'].'</td><td>'.$_rows['H1'].'</td><td>'.$_rows['J'].'</td><td>'.$_rows['K'].'</td><td>'.$_rows['L'].'</td><td>'.$_rows['M'].'</td></tr>'.
+							'<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>N</td><td>O</td><td>P</td><td>Q</td><td>ϕR</td><td>S</td><td>T</td><td>U</td><td>V</td><td>V′</td><td>ϕX</td><td>Y×Z</td><td>X-Holes</td><td>W</td></tr>'.
+							'<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['N'].'</td><td>'.$_rows['O'].'</td><td>'.$_rows['P'].'</td><td>'.$_rows['Q'].'</td><td>'.$_rows['ϕR'].'</td><td>'.$_rows['S'].'</td><td>'.$_rows['T'].'</td><td>'.$_rows['U'].'</td><td>'.$_rows['V'].'</td><td>'.$_rows['V_PIE'].'</td><td>'.$_rows['ϕX'].'</td><td>'.$_rows['Y_Z'].'</td><td>'.$_rows['X_Holes'].'</td><td>'.$_rows['W'].'</td></tr>'.
+							'</table>';
+              }
+              elseif($_rows['type']=='2RB 740-7GH37' or $_rows['type']=='2RB 740-7GH47' or $_rows['type']=='2RB 740-7GH57' ){
+              	echo '<table class="data"  cellspacing="0" cellpadding="0" style="margin-top:30px;">'.
+              			'<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>A</td><td>B</td><td>C</td><td>C′</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>J</td><td>K</td><td>L</td></tr>'.
+              			'<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['A'].'</td><td>'.$_rows['B'].'</td><td>'.$_rows['C'].'</td><td>'.$_rows['C1'].'</td><td>'.$_rows['D'].'</td><td>'.$_rows['E'].'</td><td>'.$_rows['F'].'</td><td>'.$_rows['G'].'</td><td>'.$_rows['H'].'</td><td>'.$_rows['J'].'</td><td>'.$_rows['K'].'</td><td>'.$_rows['L'].'</td></tr>'.
+              			'<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>M</td><td>N</td><td>O</td><td>P</td><td>Q</td><td>ϕR</td><td>S</td><td>U</td><td>V</td><td>ϕX</td><td>Y×Z</td><td>X-Holes</td></tr>'.
+              			'<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['M'].'</td><td>'.$_rows['N'].'</td><td>'.$_rows['O'].'</td><td>'.$_rows['P'].'</td><td>'.$_rows['Q'].'</td><td>'.$_rows['ϕR'].'</td><td>'.$_rows['S'].'</td><td>'.$_rows['U'].'</td><td>'.$_rows['V'].'</td><td>'.$_rows['ϕX'].'</td><td>'.$_rows['Y_Z'].'</td><td>'.$_rows['X_Holes'].'</td></tr>'.
+              			'</table>';
+              }
+              elseif($_rows['type']=='2RB 820-7HH17' or $_rows['type']=='2RB 820-7HH27' or $_rows['type']=='2RB 820-7HH37' or $_rows['type']=='2RB 820-7HH47'){
+              	echo '<table class="data"  cellspacing="0" cellpadding="0" style="margin-top:30px;">'.
+              			'<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>A</td><td>A′</td><td>B</td><td>B′</td><td>C</td><td>D</td><td>E</td><td>F</td><td>F′</td><td>G</td><td>H</td><td>H′</td><td>J</td></tr>'.
+              			'<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['A'].'</td><td>'.$_rows['A1'].'</td><td>'.$_rows['B'].'</td><td>'.$_rows['B1'].'</td><td>'.$_rows['C'].'</td><td>'.$_rows['D'].'</td><td>'.$_rows['E'].'</td><td>'.$_rows['F'].'</td><td>'.$_rows['F1'].'</td><td>'.$_rows['G'].'</td><td>'.$_rows['H'].'</td><td>'.$_rows['H1'].'</td><td>'.$_rows['J'].'</td></tr>'.
+              			'<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>K</td><td>L</td><td>N</td><td>N′</td><td>O</td><td>P</td><td>ϕR</td><td>S</td><td>V</td><td>W</td><td>ϕX</td><td>Y×Z</td><td>X-Holes</td></tr>'.
+              			'<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['K'].'</td><td>'.$_rows['L'].'</td><td>'.$_rows['N'].'</td><td>'.$_rows['N1'].'</td><td>'.$_rows['O'].'</td><td>'.$_rows['P'].'</td><td>'.$_rows['ϕR'].'</td><td>'.$_rows['S'].'</td><td>'.$_rows['V'].'</td><td>'.$_rows['W'].'</td><td>'.$_rows['ϕX'].'</td><td>'.$_rows['Y_Z'].'</td><td>'.$_rows['X_Holes'].'</td></tr>'.
+              			'</table>';
+              }
+              elseif($_rows['type']=='2RB 840-7GH27' or $_rows['type']=='2RB 840-7GH37'){
+              	echo '<table class="data"  cellspacing="0" cellpadding="0" style="margin-top:30px;">'.
+              			'<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>A</td><td>B</td><td>C</td><td>C′</td><td>D</td><td>E</td><td>F</td><td>G</td><td>H</td><td>J</td><td>K</td><td>L</td></tr>'.
+              			'<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['A'].'</td><td>'.$_rows['B'].'</td><td>'.$_rows['C'].'</td><td>'.$_rows['C1'].'</td><td>'.$_rows['D'].'</td><td>'.$_rows['E'].'</td><td>'.$_rows['F'].'</td><td>'.$_rows['G'].'</td><td>'.$_rows['H'].'</td><td>'.$_rows['J'].'</td><td>'.$_rows['K'].'</td><td>'.$_rows['L'].'</td></tr>'.
+              			'<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>M</td><td>N</td><td>O</td><td>P</td><td>ϕR</td><td>S</td><td>V</td><td>W</td><td>ϕX</td><td>Y×Z</td><td>X-Holes</td><td></td></tr>'.
+              			'<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['M'].'</td><td>'.$_rows['N'].'</td><td>'.$_rows['O'].'</td><td>'.$_rows['P'].'</td><td>'.$_rows['ϕR'].'</td><td>'.$_rows['S'].'</td><td>'.$_rows['V'].'</td><td>'.$_rows['W'].'</td><td>'.$_rows['ϕX'].'</td><td>'.$_rows['Y_Z'].'</td><td>'.$_rows['X_Holes'].'</td><td></td></tr>'.
+              			'</table>';
+              }
+              elseif($_rows['type']=='2RB 920-7HH17' or $_rows['type']=='2RB 920-7HH27' or $_rows['type']=='2RB 920-7HH37' or $_rows['type']=='2RB 920-7HH47' ){
+              	echo '<table class="data"  cellspacing="0" cellpadding="0" style="margin-top:30px;">'.
+              			'<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>A</td><td>A′</td><td>B</td><td>B′</td><td>C</td><td>C′</td><td>D</td><td>E</td><td>F</td><td>F′</td><td>F"</td><td>G</td><td>H</td><td>H′</td><td>J</td></tr>'.
+              			'<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['A'].'</td><td>'.$_rows['A1'].'</td><td>'.$_rows['B'].'</td><td>'.$_rows['B1'].'</td><td>'.$_rows['C'].'</td><td>'.$_rows['C1'].'</td><td>'.$_rows['D'].'</td><td>'.$_rows['E'].'</td><td>'.$_rows['F'].'</td><td>'.$_rows['F1'].'</td><td>'.$_rows['F11'].'</td><td>'.$_rows['G'].'</td><td>'.$_rows['H'].'</td><td>'.$_rows['H1'].'</td><td>'.$_rows['J'].'</td></tr>'.
+              			'<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>K</td><td>M</td><td>N</td><td>O</td><td>P</td><td>Q</td><td>ϕR</td><td>S</td><td>T</td><td>U</td><td>V</td><td>W</td><td>ϕX</td><td>Y×Z</td><td>X-Holes</td></tr>'.
+              			'<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['K'].'</td><td>'.$_rows['M'].'</td><td>'.$_rows['N'].'</td><td>'.$_rows['O'].'</td><td>'.$_rows['P'].'</td><td>'.$_rows['Q'].'</td><td>'.$_rows['ϕR'].'</td><td>'.$_rows['S'].'</td><td>'.$_rows['T'].'</td><td>'.$_rows['U'].'</td><td>'.$_rows['V'].'</td><td>'.$_rows['W'].'</td><td>'.$_rows['ϕX'].'</td><td>'.$_rows['Y_Z'].'</td><td>'.$_rows['X_Holes'].'</td></tr>'.
+              			'</table>';
+              }
+              elseif($_rows['type']=='2RB 940-7BH27' or $_rows['type']=='2RB 940-7BH37' or $_rows['type']=='2RB 940-7BH47'){
+              	echo '<table class="data"  cellspacing="0" cellpadding="0" style="margin-top:30px;">'.
+              			'<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>A</td><td>B</td><td>B′</td><td>C</td><td>C′</td><td>D</td><td>E</td><td>F</td><td>F′</td><td>G</td><td>H</td><td>J</td><td>K</td></tr>'.
+              			'<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['A'].'</td><td>'.$_rows['B'].'</td><td>'.$_rows['B1'].'</td><td>'.$_rows['C'].'</td><td>'.$_rows['C1'].'</td><td>'.$_rows['D'].'</td><td>'.$_rows['E'].'</td><td>'.$_rows['F'].'</td><td>'.$_rows['F1'].'</td><td>'.$_rows['G'].'</td><td>'.$_rows['H'].'</td><td>'.$_rows['J'].'</td><td>'.$_rows['K'].'</td></tr>'.
+              			'<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>M</td><td>N</td><td>O</td><td>P</td><td>Q</td><td>ϕR</td><td>S</td><td>U</td><td>V</td><td>W</td><td>ϕX</td><td>Y×Z</td><td>X-Holes</td></tr>'.
+              			'<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['M'].'</td><td>'.$_rows['N'].'</td><td>'.$_rows['O'].'</td><td>'.$_rows['P'].'</td><td>'.$_rows['Q'].'</td><td>'.$_rows['ϕR'].'</td><td>'.$_rows['S'].'</td><td>'.$_rows['U'].'</td><td>'.$_rows['V'].'</td><td>'.$_rows['W'].'</td><td>'.$_rows['ϕX'].'</td><td>'.$_rows['Y_Z'].'</td><td>'.$_rows['X_Holes'].'</td></tr>'.
+              			'</table>';
+              }
+              elseif($_rows['type']=='2RB 943-7BH27' or $_rows['type']=='2RB 943-7BH37' or $_rows['type']=='2RB 943-7BH47'){
+              	echo '<table class="data"  cellspacing="0" cellpadding="0" style="margin-top:30px;">'.
+              			'<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>A</td><td>B</td><td>C</td><td>D</td><td>E</td><td>F</td><td>F′</td><td>F"</td><td>G</td></tr>'.
+              			'<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['A'].'</td><td>'.$_rows['B'].'</td><td>'.$_rows['C'].'</td><td>'.$_rows['D'].'</td><td>'.$_rows['E'].'</td><td>'.$_rows['F'].'</td><td>'.$_rows['F1'].'</td><td>'.$_rows['F11'].'</td><td>'.$_rows['G'].'</td></tr>'.
+              			'<tr class="one"><td style="font-style:Italic;">Type</td><td style="font-style:Italic;">Phases</td><td>P</td><td>P′</td><td>Q</td><td>S</td><td>U</td><td>V</td><td>W</td><td>Y×Z</td><td></td></tr>'.
+              			'<tr><td>'.$_rows['type'].'</td><td>'.$_rows['phases'].'</td><td>'.$_rows['P'].'</td><td>'.$_rows['P1'].'</td><td>'.$_rows['Q'].'</td><td>'.$_rows['S'].'</td><td>'.$_rows['U'].'</td><td>'.$_rows['V'].'</td><td>'.$_rows['W'].'</td><td>'.$_rows['Y_Z'].'</td><td></td></tr>'.
+              			'</table>';
+              }
+             ?>
+        <p style="position: absolute;bottom:20px;left:20px;"><?php echo _('Note:Model offerings and design parameters may change without notice.');?></p>
+       </div>
+   </div>
+</div>
+</div>
+<include file="../Public/footer" />
+
+
+</body>
+</html>
+
