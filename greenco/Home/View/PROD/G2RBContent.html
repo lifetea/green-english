@@ -3,8 +3,10 @@
 <head>
 <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
 <title><?php  echo $_GET['series'];?> <?php echo _('Side channel blower'); ?></title>
-<meta name="description" content="<?php echo _('Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.'); ?>" />
-<meta name="keywords" content="<?php echo _('Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO'); ?>" />
+<meta name="description"
+	content="<?php echo _('Greenco Side channel blower,Regenerative blower,Ring blower with NSK,SKF bearing high temperaturer grease,The world leader in manufacturer,export to more than 100 countries by Greenco.'); ?>" />
+<meta name="keywords"
+	content="<?php echo _('Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,single stage,double stage,multi stage blower,2RB,3RB,4RB series,GREENCO'); ?>" />
 <include file="../Public/css" />
 <link href="favicon.ico" rel="shortcut icon" />
 </head>
@@ -17,36 +19,136 @@
 			<div class="col-md-3">
 				<include file="../Public/pro-nav" />
 			</div>
-       <div class="right">
-              <div id="left">
-                <h4><?php echo $_rows['type'];?> <?php echo _('Technical Data');?></h4>
-                <table style="font-size:12px;">
-                <tr><td><strong><?php echo _('Model');?>: </strong><span><?php echo $_rows['type'];?></span></td>
-                <td><strong><?php echo _('Stage');?>:</strong> <span><?php echo _('Double');?></span></td><td>
-                <tr><td><strong><?php echo _('Freq');?>:</strong> <span><?php echo $_rows['Fre_quency'];?></span> (Hz)</td>
-                <td><strong><?php echo _('Power');?>:</strong> <span><?php echo $_rows['output'];?></span> (Kw)</td><td>
-                <tr><td><strong><?php echo _('Airflow');?>:</strong> <span><?php echo $_rows['maximum_airflow'];?></span> (m³/h)</td>
-                <td><strong><?php echo _('TH.CL');?>:</strong> <span>IP55</span></td><td>
-                <tr><td><strong><?php echo _('Pressure');?>:</strong> <span>+<?php echo $_rows['maximum_pressure'];?></span> (mbar)</td>
-                <td><strong><?php echo _('IN.CL');?>:</strong> <span>F or H</span></td><td>
-                <tr><td><strong><?php echo _('Vacuum');?>:</strong> <span><?php echo $_rows['maximum_vacuum'];?></span> (mbar)</td>
-                <td><strong><?php echo _('N.weight');?>:</strong> <span><?php echo $_rows['weight'];?></span> (kg)</td><td>
-                <tr><td><strong><?php echo _('Inlet/outlet');?>:</strong> <span><?php echo $_rows['Inlet_outlet'];?></span>(inch)</td>
-                <td><strong><?php echo _('Sound');?>:</strong> <span><?php echo $_rows['sound_level'];?></span> dB(A)</td><td>
-                <tr><td><strong><?php echo _('Dimension');?>(L*W*H):</strong> <span><?php  if($_rows['type']=='2RB 220-7HH26' or $_rows['type']=='2RB 320-7HH36' or $_rows['type']=='2RB 320-7HH26' or $_rows['type']=='2RB 320-7HA31' or $_rows['type']=='2RB 420-7HH36' or $_rows['type']=='2RB 420-7HH46' or $_rows['type']=='2RB 520-7HH46' or $_rows['type']=='2RB 520-7HH57' or $_rows['type']=='2RB 720-7HH16' or $_rows['type']=='2RB 720-7HH26' or $_rows['type']=='2RB 720-7HH37' or $_rows['type']=='2RB 720-7HH47' or $_rows['type']=='2RB 720-7HH57'){echo $_rows['F'].'×'  .intval($_rows['A1']+$_rows['A']/2).   '×'.$_rows['B'];}
-                                             elseif($_rows['type']=='2RB 820-7HH17' or $_rows['type']=='2RB 820-7HH27' or $_rows['type']=='2RB 820-7HH37' or $_rows['type']=='2RB 820-7HH47'){echo $_rows['F'].'×'  .intval($_rows['A1']+$_rows['A']/2).   '×'.$_rows['B1'];}
-                                             elseif($_rows['type']=='2RB 920-7HH17' or $_rows['type']=='2RB 920-7HH27' or $_rows['type']=='2RB 920-7HH37' or $_rows['type']=='2RB 920-7HH47'){echo $_rows['F1'].'×'  .intval($_rows['A1']+$_rows['A']/2).   '×'.($_rows['B']+$_rows['B1']);}
-                                             elseif($_rows['type']=='2RB 940-7BH27' or $_rows['type']=='2RB 940-7BH37' or $_rows['type']=='2RB 940-7BH47'){echo $_rows['F1'].'×' .$_rows['A'].   '×'.($_rows['B']+$_rows['B1']);}
-                                             elseif($_rows['type']=='2RB 943-7BH27' or $_rows['type']=='2RB 943-7BH37' or $_rows['type']=='2RB 943-7BH47'){echo $_rows['B'].'×'.$_rows['A'].'×'.$_rows['F'];}
-                	                         else{echo $_rows['F'].'×'.$_rows['A'].'×'.$_rows['B'];}?>
-                	                         </span> (mm)</td><td>
-                </table>
-             </div>
-             <div id="right">
-                <img src="product_image/product_content_big/<?php echo  substr($_rows['type'],0,7)?>.jpg" alt="<?php echo $_rows['type'];?> side channel blower image and picture"/>
-             </div>
+			<div class="col-md-9 split">
+				<div class="row pro-list content">
+					<div class="row">
+						<div class="col-md-5">
+							<p class="center">
+								<img src="{$Think.config.IMG_ROOT}/{$list.subtype}.jpg"
+									alt="{$list.type} side channel blower image and picture" />
+							</p>
+						</div>
+						<div class="col-md-7">
+								<div class="row">
+									<li>
+										<h3 class="title-1">{$list.type} Technical Data</h3>
+									</li>
+									<li>
+											<strong>Model: </strong>
+											 <span> {$list.type}</span>
+									</li>
+									<li>
+											<strong>Stage: </strong>
+											 <span> Double</span>
+									</li>
+									<li>
+											<strong>Freq: </strong> 
+											<span> Fre_quency(Hz)</span>
+									</li>
+									<li>
+											<strong>Power: </strong>
+											<span> {$list.output} (Kw)</span>
+									</li>
+									<li>
+											<strong>Airflow: </strong>
+											<span> {$list.maximum_airflow} (m³/h)</span>
+									</li>
+									<li>
+											<strong>TH.CL: </strong>
+											<span>IP55</span>
+									</li>
+									<li>
+											<strong>Pressure </strong>
+											<span> {$list.maximum_airflow} (mbar)</span>
+									</li>	
+									<li>
+											<strong>IN.CL </strong>
+											<span> F or H</span>
+									</li>		
+									<li>
+											<strong>IN.CL </strong>
+											<span> F or H</span>
+									</li>		
+									<li>
+											<strong>Vacuum </strong>
+											<span>{$list.maximum_vacuum}</span>
+									</li>	
+									<li>
+											<strong>N.weight</strong>
+											<span>{$list.weight}</span>
+									</li>	
+									<li>
+											<strong>Inlet/outlet</strong>
+											<span>{$list.Inlet_outlet}</span>
+									</li>
+									<li>
+											<strong>Sound</strong>
+											<span>{$list.sound_level}</span>
+									</li>																																																																									
+									</div>						
+						</div>
+					</div>
+					<div>
+						<h3 class="head-1">
+							Dimension for Inlet Vacuum Filter
+							<?php echo $_rows['type'];?>
+						</h3>
+						<p class="center">
+							<a rel="shadowbox"
+								href="{$Think.config.IMG_ROOT}/Inlet_Vacuum_Filter_big.jpg">
+								<img alt="Dimension for Silencer '.$_rows['type'].' "
+								class="border"
+								src="{$Think.config.IMG_ROOT}/Inlet_Vacuum_Filter_small.jpg"
+								title="Click to Enlarge" />
+							</a>
+						</p>
+						<table class="table table-bordered table-striped">
+							<tr class="one">
+								<td style="font-style: Italic;">Type</td>
+								<td>material</td>
+								<td>FPT Inlet & Outlet</td>
+								<td>d1</td>
+								<td>d2</td>
+								<td>d3</td>
+								<td>d4</td>
+								<td>h1</td>
+								<td>h2</td>
+								<td>h3</td>
+								<td>h4</td>
+								<td>Rated Flow (m³/min)
+								</td>
+								<td>Approx.wt.(kg)</td>
+							</tr>
+							<tr>
+								<td>{$list.type}</td>
+								<td>{$list.material}</td>
+								<td>{$list.outlet}</td>
+								<td>{$list.d1}</td>
+								<td>{$list.d2}</td>
+								<td>{$list.d3}</td>
+								<td>{$list.d4}</td>
+								<td>{$list.h1}</td>
+								<td>{$list.h2}</td>
+								<td>{$list.h3}</td>
+								<td>{$list.h4}</td>
+								<td>{$list.rated_flow}</td>
+								<td>{$list.approx}</td>
+							</tr>
+						</table>
+					</div>
+					<p style="">Note:Model	offerings and design parameters may change without notice.</p>
+					<!-- 尺寸图判断 -->
 
-             <h5><?php echo _('Dimension for side channel blower');?> <?php echo $_rows['type'];?></h5>
+
+				</div>
+			</div>			
+       <div class="right">
+
+
+
+             <h5>
+					<?php echo _('Dimension for side channel blower');?> <?php echo $_rows['type'];?>
+				</h5>
              <!-- 尺寸图判断 -->
              <?php if($_rows['type']=='2RB 220-7HH26' or $_rows['type']=='2RB 320-7HH36' or $_rows['type']=='2RB 320-7HH26'or $_rows['type']=='2RB 320-7HA31' or $_rows['type']=='2RB 420-7HH36' or $_rows['type']=='2RB 420-7HH46' or $_rows['type']=='2RB 420-7HA31' or $_rows['type']=='2RB 420-7AV45'){echo       '<a rel="shadowbox" href="product_image/dimensions/2RB220_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB220_small.jpg"  title="Click to Enlarge"/></a>';}
              	elseif($_rows['type']=='2RB 520-7HH46' or $_rows['type']=='2RB 520-7HH57' or $_rows['type']=='2RB 720-7HH16' or $_rows['type']=='2RB 720-7HH26' or $_rows['type']=='2RB 720-7HH37'){echo  '<a rel="shadowbox" href="product_image/dimensions/2RB520_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB520_small.jpg"  title="Click to Enlarge"/></a>';}
@@ -136,7 +238,6 @@
               			'</table>';
               }
              ?>
-        <p style="position: absolute;bottom:20px;left:20px;"><?php echo _('Note:Model offerings and design parameters may change without notice.');?></p>
        </div>
    </div>
 </div>

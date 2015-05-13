@@ -10,7 +10,7 @@ class PRODController extends Controller {
     	//$list = S('contact-data');
     	//if (!$list) {
     		$prod = M("product");
-    		$list = $prod->where("type like '%2RB {$_GET['series']}%'")->order('id ASC')->select();
+    		$list = $prod->where("type like '%2RB {$_GET['series']}%'")->select();
     		//S('contact-data', $list, 7000);
     	//}
     	$this->assign('series',I('get.series'));
@@ -21,11 +21,14 @@ class PRODController extends Controller {
     	//product  type like '%2RB {$_GET['series']}%'
     	//$list = S('contact-data');
     	//if (!$list) {
+   //  like '%{$_GET['series']}%' and output={$_GET['output']}
+    			
     	$prod = M("product");
-    	$list = $prod->where("type like '%2RB {$_GET['series']}%'")->order('id ASC')->select();
+    	$list = $prod->where("type like '%{$_GET['series']}%' and output={$_GET['output']}")->find();
     	//S('contact-data', $list, 7000);
     	//}
     	$this->assign('series',I('get.series'));
+    	$list["subtype"] = substr($list["type"],0,7);
     	$this->assign('list',$list);
     	$this->display();
     }    
