@@ -240,6 +240,20 @@ return array(
 		'LIST_DOWNLOAD'=>'Download',
 		'LIST_ORDER&PERFOR'=>'Series Ordering Data and Performance Data',
 		'LIST_SERIES'=>'Series',
-		
+		'CONTENT_MODEL'=>'Model',
+		'CONTENT_STAGE'=>'Stage',
+		'CONTENT_FREQ'=>'Freq',
+		'CONTENT_POWER'=>'Power',
+		'CONTENT_AIRFLOW'=>'Airflow',
+		'CONTENT_TH&CL'=>'TH.CL',
+		'CONTENT_PRESSURE'=>'Pressure',
+		'CONTENT_IN&CL'=>'IN.CL',
+		'CONTENT_VACUUM'=>'Vacuum',
+		'CONTENT_WEIGHT'=>'N.weight',
+		'CONTENT_INLET/OUTLET'=>'Inlet/outlet',
+		'CONTENT_SOUND'=>'Sound',
+		'CONTENT_DIMENSION'=>'Dimension',
+		'CONTENT_TECHNICAL_DATA'=>'Technical Data',
+		'CONTENT_NOTICE'=>'Note:Model offerings and design parameters may change without notice.',
 );
 ?>

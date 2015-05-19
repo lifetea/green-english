@@ -2,7 +2,7 @@
 /*common*/
 body{
   background:#eee;
-  font-family:Tahoma,Geneva,sans-serif;
+  font-family:Microsoft YaHei,Tahoma,Geneva,sans-serif;
   font-size:13px;
 }
 div,p,h1,h2,h3,h4,h5{margin:0;padding:0}
@@ -18,7 +18,8 @@ ul{padding:0;list-style:none}
 .text-2{line-height: 2em;text-indent: 2em;text-align: justify;}
 .para-1,.text-3{text-indent: 2em;padding: 1em 0;line-height: 2em;text-align: justify;}
 .title-1{font-weight:600;font-size:18px;color:#333;font-family:tahoma;}
-.title-2{	color: #1e448c;font-weight: 600;	line-height: 30px;}
+.title-2{color: #1e448c;font-weight: 600;line-height: 30px;}
+.title-3{border-bottom: 1px dashed #ccc;  color: #1850a3;  font-size: 21px;font-weight: 600;line-height: 50px;}
 .split{border-left: 1px solid #ccc;}
 .line{	  border-bottom: 1px solid #ccc;}
 .center {text-align:center}
@@ -66,7 +67,7 @@ ul{padding:0;list-style:none}
 #copyright p{font-variant:normal;}
    #copyright ul li{margin-top:5px;}
   /*common*/
-  .container-fluid.content{background: #ccc;padding-bottom:1em;} 
+ 
  /*header  footer*/ 
  	.header .logo img{width:330px;height:92px;margin-top:10px;}  
    .header{height:115px;margin:0 auto;}
@@ -156,7 +157,7 @@ ul{padding:0;list-style:none}
 /*about*/
 .eq-list div{text-align:center}
 .honour-list img{ border: 1px solid #999;}
-.cert-list,.honour-list,.content{margin-top: 1em;}
+.cert-list,.honour-list{margin-top: 1em;}
 .cert-list img{width:12em;height:16em;  border: 1px solid #999;vertical-align:middle}
 .eq-list img {width:96%;border: 1px solid #999;}
 .pro-nav li,.about-nav li,.news-nav li{margin-top: 13px;background: url(../img/arrow.png) no-repeat 0 2px;padding-left: 18px;}
@@ -172,3 +173,7 @@ ul{padding:0;list-style:none}
 
 .prod-detail li{line-height:2.6em;padding:0.8em 0}
 .prod-detail{padding-left:2em}
+.prod-data{line-height:36px;}
+.prod-row li{float:left;width:10%;}
+.prod-row .hd{background-color: #f9f9f9;line-height:38px;font-weight:600;font-size:12px;border-bottom: 1px dashed #ccc;}
+.prod-row .dt{min-height:36px}
