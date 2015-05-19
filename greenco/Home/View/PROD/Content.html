@@ -22,7 +22,9 @@
                 <include file="../Public/pro-nav" />
             </div>
             <div class="col-md-9 split">
+            	<h3 class="title-1">{$list.type} Technical Data</h3>
                 <div class="row pro-list content">
+                	
                     <div class="row">
                         <div class="col-md-5">
                             <p class="center">
@@ -30,7 +32,7 @@
                             </p>
                         </div>
                         <div class="col-md-7">
-                        	<h3 class="title-1">{$list.type} Technical Data</h3>
+                        	
                             <ul class="row">
                                 <li class="col-md-6">
                                     <strong>Model: </strong>
@@ -93,9 +95,8 @@
 						</h3>
                         <p class="center">
                             <a rel="shadowbox" href="{$Think.config.IMG_ROOT}/Inlet_Vacuum_Filter_big.jpg">
-                                <img alt="Dimension for Silencer '.$_rows['type'].' " class="border" src="{$Think.config.IMG_ROOT}/Inlet_Vacuum_Filter_small.jpg" title="Click to Enlarge" />
+                                <img alt="Dimension for Silencer '.$_rows['type'].' " class="border" src="{$Think.config.IMG_ROOT}/{$list.dimension}_small.jpg" title="Click to Enlarge" />
                             </a>
-                            <?php if($_rows[ 'type']=='2RB 220-7HH26' or $_rows[ 'type']=='2RB 320-7HH36' or $_rows[ 'type']=='2RB 320-7HH26' or $_rows[ 'type']=='2RB 320-7HA31' or $_rows[ 'type']=='2RB 420-7HH36' or $_rows[ 'type']=='2RB 420-7HH46' or $_rows[ 'type']=='2RB 420-7HA31' or $_rows[ 'type']=='2RB 420-7AV45' ){echo '<a rel="shadowbox" href="product_image/dimensions/2RB220_big.jpg"><img alt="Dimension for side channel blower '.$_rows[ 'type']. ' " class="border" src="product_image/dimensions/2RB220_small.jpg"  title="Click to Enlarge"/></a>';} elseif($_rows[ 'type']=='2RB 520-7HH46' or $_rows[ 'type']=='2RB 520-7HH57' or $_rows[ 'type']=='2RB 720-7HH16' or $_rows[ 'type']=='2RB 720-7HH26' or $_rows[ 'type']=='2RB 720-7HH37' ){echo '<a rel="shadowbox" href="product_image/dimensions/2RB520_big.jpg"><img alt="Dimension for side channel blower '.$_rows[ 'type']. ' " class="border" src="product_image/dimensions/2RB520_small.jpg"  title="Click to Enlarge"/></a>';} elseif($_rows[ 'type']=='2RB 720-7HH47' or $_rows[ 'type']=='2RB 720-7HH57' ){echo '<a rel="shadowbox" href="product_image/dimensions/2RB720_big.jpg"><img alt="Dimension for side channel blower '.$_rows[ 'type']. ' " class="border" src="product_image/dimensions/2RB720_small.jpg"  title="Click to Enlarge"/></a>';} elseif($_rows[ 'type']=='2RB 740-7GH37' ){echo '<a rel="shadowbox" href="product_image/dimensions/2RB740-3_big.jpg"><img alt="Dimension for side channel blower '.$_rows[ 'type']. ' " class="border" src="product_image/dimensions/2RB740-3_small.jpg"  title="Click to Enlarge"/></a>';} elseif($_rows[ 'type']=='2RB 740-7GH47' or $_rows[ 'type']=='2RB 740-7GH57' ){echo '<a rel="shadowbox" href="product_image/dimensions/2RB740-4_big.jpg"><img alt="Dimension for side channel blower '.$_rows[ 'type']. ' " class="border" src="product_image/dimensions/2RB740-4_small.jpg"  title="Click to Enlarge"/></a>';} elseif($_rows[ 'type']=='2RB 820-7HH37' or $_rows[ 'type']=='2RB 820-7HH47' ){echo '<a rel="shadowbox" href="product_image/dimensions/2RB820-3_big.jpg"><img alt="Dimension for side channel blower '.$_rows[ 'type']. ' " class="border" src="product_image/dimensions/2RB820-3_small.jpg"  title="Click to Enlarge"/></a>';} elseif($_rows[ 'type']=='2RB 820-7HH17' or $_rows[ 'type']=='2RB 820-7HH27' ){echo '<a rel="shadowbox" href="product_image/dimensions/2RB820-1_big.jpg"><img alt="Dimension for side channel blower '.$_rows[ 'type']. ' " class="border" src="product_image/dimensions/2RB820-1_small.jpg"  title="Click to Enlarge"/></a>';} elseif($_rows[ 'type']=='2RB 840-7GH27' ){echo '<a rel="shadowbox" href="product_image/dimensions/2RB840-2_big.jpg"><img alt="Dimension for side channel blower '.$_rows[ 'type']. ' " class="border" src="product_image/dimensions/2RB840-2_small.jpg"  title="Click to Enlarge"/></a>';} elseif($_rows[ 'type']=='2RB 840-7GH37' ){echo '<a rel="shadowbox" href="product_image/dimensions/2RB840-3_big.jpg"><img alt="Dimension for side channel blower '.$_rows[ 'type']. ' " class="border" src="product_image/dimensions/2RB840-3_small.jpg"  title="Click to Enlarge"/></a>';} elseif($_rows[ 'type']=='2RB 920-7HH17' or $_rows[ 'type']=='2RB 920-7HH27' or $_rows[ 'type']=='2RB 920-7HH37' or $_rows[ 'type']=='2RB 920-7HH47' ){echo '<a rel="shadowbox" href="product_image/dimensions/2RB920_big.jpg"><img alt="Dimension for side channel blower '.$_rows[ 'type']. ' " class="border" src="product_image/dimensions/2RB920_small.jpg"  title="Click to Enlarge"/></a>';} elseif($_rows[ 'type']=='2RB 940-7BH27' or $_rows[ 'type']=='2RB 940-7BH37' or $_rows[ 'type']=='2RB 940-7BH47' ){echo '<a rel="shadowbox" href="product_image/dimensions/2RB940_big.jpg"><img alt="Dimension for side channel blower '.$_rows[ 'type']. ' " class="border" src="product_image/dimensions/2RB940_small.jpg"  title="Click to Enlarge"/></a>';} elseif($_rows[ 'type']=='2RB 943-7BH27' or $_rows[ 'type']=='2RB 943-7BH37' or $_rows[ 'type']=='2RB 943-7BH47' ){echo '<a rel="shadowbox" href="product_image/dimensions/2RB943_big.jpg"><img alt="Dimension for side channel blower '.$_rows[ 'type']. ' " class="border" src="product_image/dimensions/2RB943_small.jpg"  title="Click to Enlarge"/></a>';} ?>                            
                         </p>
                         <table class="table table-bordered table-striped">
                             <tr class="one">

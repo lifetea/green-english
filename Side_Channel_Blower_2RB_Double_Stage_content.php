@@ -129,7 +129,12 @@ Shadowbox.init({
 
              <h5><?php echo _('Dimension for side channel blower');?> <?php echo $_rows['type'];?></h5>
              <!-- 尺寸图判断 -->
-             <?php if($_rows['type']=='2RB 220-7HH26' or $_rows['type']=='2RB 320-7HH36' or $_rows['type']=='2RB 320-7HH26'or $_rows['type']=='2RB 320-7HA31' or $_rows['type']=='2RB 420-7HH36' or $_rows['type']=='2RB 420-7HH46' or $_rows['type']=='2RB 420-7HA31' or $_rows['type']=='2RB 420-7AV45'){echo       '<a rel="shadowbox" href="product_image/dimensions/2RB220_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB220_small.jpg"  title="Click to Enlarge"/></a>';}
+             <?php if($_rows['type']=='2RB 220-7HH26' or $_rows['type']=='2RB 320-7HH36' or
+             		 $_rows['type']=='2RB 320-7HH26'or $_rows['type']=='2RB 320-7HA31' or $_rows['type']=='2RB 420-7HH36' or $_rows['type']
+             		=='2RB 420-7HH46' or $_rows['type']=='2RB 420-7HA31' or $_rows['type']=='2RB 420-7AV45'){echo
+                    '<a rel="shadowbox" href="product_image/dimensions/2RB220_big.jpg">
+		<img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB220_small.jpg" 
+		 title="Click to Enlarge"/></a>';}
              	elseif($_rows['type']=='2RB 520-7HH46' or $_rows['type']=='2RB 520-7HH57' or $_rows['type']=='2RB 720-7HH16' or $_rows['type']=='2RB 720-7HH26' or $_rows['type']=='2RB 720-7HH37'){echo  '<a rel="shadowbox" href="product_image/dimensions/2RB520_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB520_small.jpg"  title="Click to Enlarge"/></a>';}
              	elseif($_rows['type']=='2RB 720-7HH47' or $_rows['type']=='2RB 720-7HH57'){echo  '<a rel="shadowbox" href="product_image/dimensions/2RB720_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB720_small.jpg"  title="Click to Enlarge"/></a>';}
              	elseif($_rows['type']=='2RB 740-7GH37' ){echo  '<a rel="shadowbox" href="product_image/dimensions/2RB740-3_big.jpg"><img alt="Dimension for side channel blower '.$_rows['type'].' " class="border" src="product_image/dimensions/2RB740-3_small.jpg"  title="Click to Enlarge"/></a>';}

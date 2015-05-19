@@ -17,7 +17,7 @@ class PRODController extends Controller {
     	$this->assign('list',$list);
     	$this->display();
     }
-    public function G2RBContent(){
+    public function Content(){
     	//product  type like '%2RB {$_GET['series']}%'
     	//$list = S('contact-data');
     	//if (!$list) {
