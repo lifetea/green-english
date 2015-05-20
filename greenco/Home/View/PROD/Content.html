@@ -74,7 +74,7 @@
                                 </li>
                                 <li class="col-md-6">
                                     <strong>{$Think.lang.CONTENT_VACUUM}:</strong>
-                                    <span>{$list.maximum_vacuum}</span>
+                                    <span>{$list.maximum_vacuum} (mbar)</span>
                                 </li>
                                 <li class="col-md-6">
                                     <strong>{$Think.lang.CONTENT_WEIGHT}:</strong>
@@ -82,7 +82,7 @@
                                 </li>
                                 <li class="col-md-6">
                                     <strong>{$Think.lang.CONTENT_INLET/OUTLET}:</strong>
-                                    <span>{$list.Inlet_outlet}</span>
+                                    <span>{$list['inlet_outlet']}</span>
                                 </li>
                                 <li class="col-md-6">
                                     <strong>{$Think.lang.CONTENT_SOUND}:</strong>
@@ -155,6 +155,18 @@
                                     <div class="dt">{$list.f}</div>
                                 </li>  
                             </if> 
+                            <if condition="$list.f1 neq '' ">
+                                <li>
+                                    <div class="hd">F′</div>
+                                    <div class="dt">{$list.f1}</div>
+                                </li>  
+                            </if> 
+                            <if condition="$list.f11 neq '' ">
+                                <li>
+                                    <div class="hd">F"</div>
+                                    <div class="dt">{$list.f11}</div>
+                                </li>  
+                            </if>                           
                             <if condition="$list.g neq '' ">
                                 <li>
                                     <div class="hd">G</div>
@@ -215,13 +227,19 @@
                                     <div class="dt">{$list.p}</div>
                                 </li>  
                             </if>
+                            <if condition="$list.p1 neq '' ">
+                                <li>
+                                    <div class="hd">P′</div>
+                                    <div class="dt">{$list.p1}</div>
+                                </li>  
+                            </if>                            
                             <if condition="$list.q neq '' ">
                                 <li>
                                     <div class="hd">Q</div>
                                     <div class="dt">{$list.q}</div>
                                 </li>  
                             </if>
-                            <if condition="$list.ϕR neq '' ">
+                            <if condition="$list['ϕr'] neq '' ">
                                 <li>
                                     <div class="hd">ϕR</div>
                                     <div class="dt">{$list["ϕr"]}</div>
@@ -250,7 +268,19 @@
                                     <div class="hd">V</div>
                                     <div class="dt">{$list.v}</div>
                                 </li>  
-                            </if>                            
+                            </if>
+                            <if condition="$list.v1 neq '' ">
+                                <li>
+                                    <div class="hd">V1</div>
+                                    <div class="dt">{$list.v1}</div>
+                                </li>  
+                            </if>
+                            <if condition="$list.v2 neq '' ">
+                                <li>
+                                    <div class="hd">V2</div>
+                                    <div class="dt">{$list.v2}</div>
+                                </li>  
+                            </if>                                                      
                             <if condition="$list.v3 neq '' ">
                                 <li>
                                     <div class="hd">V<span>1(3-)</span></div>
@@ -263,7 +293,13 @@
                                     <div class="dt">{$list.v3_}</div>
                                 </li>  
                             </if>
-                            <if condition="$list.ϕx neq '' ">
+                            <if condition="$list.w neq '' ">
+                                <li>
+                                    <div class="hd">W</div>
+                                    <div class="dt">{$list.w}</div>
+                                </li>  
+                            </if>                            
+                            <if condition="$list['ϕx'] neq '' ">
                                 <li>
                                     <div class="hd">ϕX</div>
                                     <div class="dt">{$list["ϕx"]}</div>

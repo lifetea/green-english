@@ -30,7 +30,7 @@ class PRODController extends Controller {
     	$this->assign('series',I('get.series'));
     	$list["subtype"] = substr($list["type"],0,7);
     	$this->assign('list',$list);
-    	//dump($list);
+    	dump($list);
     	$this->display();
     }    
     public function get3RBList(){
