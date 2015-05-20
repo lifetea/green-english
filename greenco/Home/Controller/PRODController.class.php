@@ -30,7 +30,23 @@ class PRODController extends Controller {
     	$this->assign('series',I('get.series'));
     	$list["subtype"] = substr($list["type"],0,7);
     	$this->assign('list',$list);
-    	dump($list);
+    	//dump($list);
+    	$this->display();
+    }
+    public function IEContent(){
+    	//product  type like '%2RB {$_GET['series']}%'
+    	//$list = S('contact-data');
+    	//if (!$list) {
+    	//  like '%{$_GET['series']}%' and output={$_GET['output']}
+    	 
+    	$prod = M("ie2");
+    	$list = $prod->where("type like '%{$_GET['series']}%' and output={$_GET['output']}")->find();
+    	//S('contact-data', $list, 7000);
+    	//}
+    	$this->assign('series',I('get.series'));
+    	$list["subtype"] = substr($list["type"],0,7);
+    	$this->assign('list',$list);
+    	//dump($list);
     	$this->display();
     }    
     public function get3RBList(){
