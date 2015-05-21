@@ -17,6 +17,17 @@ class PRODController extends Controller {
     	$this->assign('list',$list);
     	$this->display();
     }
+    public function Search(){
+    	$prod = M("product");
+    	//echo I('get.airFlow');
+    	$list = $prod->where("maximum_airflow =".I('get.airFlow')."")->select();
+    	//S('contact-data', $list, 7000);
+    	//}
+    	$this->assign('series',I('get.series'));
+    	$this->assign('list',$list);
+    	$this->display();
+    }    
+    
     public function Content(){
     	//product  type like '%2RB {$_GET['series']}%'
     	//$list = S('contact-data');
