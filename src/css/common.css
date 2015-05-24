@@ -17,6 +17,7 @@ ul{padding:0;list-style:none}
 .text-1{font-weight:600;font-size:12px;line-height:200%;}
 .text-2{line-height: 2em;text-indent: 2em;text-align: justify;}
 .para-1,.text-3{text-indent: 2em;padding: 1em 0;line-height: 2em;text-align: justify;}
+.text-4{line-height: 3.6em;}
 .title-1{font-weight:600;font-size:18px;color:#333;font-family:tahoma;}
 .title-2{color: #1e448c;font-weight: 600;line-height: 30px;}
 .title-3{border-bottom: 1px dashed #ccc;  color: #1850a3;  font-size: 21px;font-weight: 600;line-height: 50px;}
@@ -128,7 +129,7 @@ ul{padding:0;list-style:none}
 	margin-left:2em;
 }
 .contact .detail p{
-	line-height:180%;
+	line-height:240%;
 }
 .support ,.news,.application,.about,.pro{
   margin: 0 auto;

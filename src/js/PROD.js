@@ -5,7 +5,4 @@
 			pager : $("#page_text")
 		})
 	});
-	$(function() {
-		$("#airFlow").validate();
-	});
 })()

@@ -54,7 +54,7 @@
 <h3 class="head-1" style="">{$Think.lang.NAV_SEARCH_PRODUCT}
 		<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
 </h3>
-<form class="search-bar" action="{$Think.config.PROD_ROOT}/Search" method="get">
+<form id="searchForm" role="form" class="search-bar" action="{$Think.config.PROD_ROOT}/Search" method="get">
 		<div class="form-group">
 				<label for="type" class="control-label ">1:{$Think.lang.NAV_SEARCH_SELECT_GRAPH}</label>
 				<select name="type" class="form-control">
@@ -66,7 +66,7 @@
 			<label for="airFlow" class="control-label">2:{$Think.lang.NAV_SEARCH_AIR_FLOW}(e.g.120):</label>
 			<div class="row">
 				<div class="col-md-6">
-				  <input id="airFlow" name="airFlow" type="text" class="form-control  {required:true,minlength:5,number:true}">
+				  <input id="airFlow" check-type="number"  name="airFlow" type="text" class="form-control">
 				</div>
 				<div class="col-md-6">
 					<select class="form-control">
@@ -80,7 +80,7 @@
 			  <label for="pressure"  class="control-label">3:{$Think.lang.NAV_SEARCH_PRESSURE}(e.g.200):</label>
 				<div class="row">
 						  <div class="col-md-6">
-								  <input id="pressure" name="pressure" type="text" class="form-control">
+								  <input check-type="number" id="pressure" name="pressure" type="text" class="form-control">
 						  </div>
 						  <div class="col-md-6">
 									<select class="form-control">

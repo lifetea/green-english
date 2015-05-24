@@ -19,10 +19,16 @@ class PRODController extends Controller {
     }
     public function Search(){
     	$prod = M("product");
-    	//echo I('get.airFlow');
-    	$list = $prod->where("maximum_airflow =".I('get.airFlow')."")->select();
+    	$airFlow = I('get.airFlow');
+    	$pressure = I('get.pressure');
+    	if(empty($airFlow) && empty($pressure)){
+    		E('请添加搜索条件');
+    		return false;
+    	}
+    	$sql =!empty($airFlow) ? "maximum_airflow =".$airFlow." " : "maximum_pressure=".$pressure." ";
+    	$sql =!empty($pressure) && !empty($airFlow) ? "maximum_airflow=".$airFlow." and maximum_pressure=".$pressure." " :"";
+    	$list = $prod->where($sql)->select();
     	//S('contact-data', $list, 7000);
-    	//}
     	$this->assign('series',I('get.series'));
     	$this->assign('list',$list);
     	$this->display();
