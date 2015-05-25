@@ -136,7 +136,20 @@
                                     <div class="hd">C</div>
                                     <div class="dt">{$list.c}</div>
                                 </li>  
-                            </if>                                                        
+                            </if>
+                            <if condition="$list.c1 neq '' ">
+                                <li>
+                                    <div class="hd">C′</div>
+                                    <div class="dt">{$list.c1}</div>
+                                </li>  
+                            </if>  
+                            <if condition="$list.c2 neq '' ">
+                                <li>
+                                    <div class="hd">C′′</div>
+                                    <div class="dt">{$list.c2}</div>
+                                </li>  
+                            </if>  
+                                                     
                             <if condition="$list.d neq '' ">
                                 <li>
                                     <div class="hd">D</div>
@@ -251,12 +264,36 @@
                                     <div class="dt">{$list.s}</div>
                                 </li>  
                             </if>
+                            <if condition="$list.s1 neq '' ">
+                                <li>
+                                    <div class="hd">S1</div>
+                                    <div class="dt">{$list.s1}</div>
+                                </li>  
+                            </if>
+                            <if condition="$list.s2 neq '' ">
+                                <li>
+                                    <div class="hd">S2</div>
+                                    <div class="dt">{$list.s2}</div>
+                                </li>  
+                            </if>
+                            <if condition="$list.s3 neq '' ">
+                                <li>
+                                    <div class="hd">S3</div>
+                                    <div class="dt">{$list.s3}</div>
+                                </li>  
+                            </if>
                             <if condition="$list.t neq '' ">
                                 <li>
                                     <div class="hd">T</div>
                                     <div class="dt">{$list.t}</div>
                                 </li>  
                             </if>
+                            <if condition="$list.t1 neq '' ">
+                                <li>
+                                    <div class="hd">T1</div>
+                                    <div class="dt">{$list.t1}</div>
+                                </li>  
+                            </if>                            
                             <if condition="$list.u neq '' ">
                                 <li>
                                     <div class="hd">U</div>
@@ -298,7 +335,19 @@
                                     <div class="hd">W</div>
                                     <div class="dt">{$list.w}</div>
                                 </li>  
-                            </if>                            
+                            </if>
+                            <if condition="$list.w1 neq '' ">
+                                <li>
+                                    <div class="hd">W1</div>
+                                    <div class="dt">{$list.w1}</div>
+                                </li>  
+                            </if> 
+                            <if condition="$list.w2 neq '' ">
+                                <li>
+                                    <div class="hd">W2</div>
+                                    <div class="dt">{$list.w2}</div>
+                                </li>  
+                            </if>                                                                                     
                             <if condition="$list['ϕx'] neq '' ">
                                 <li>
                                     <div class="hd">ϕX</div>
@@ -307,7 +356,7 @@
                             </if>                            
                             <if condition="$list.y_z neq '' ">
                                 <li>
-                                    <div class="hd">Y×Z</div>
+                                    <div class="hd">Y_Z</div>
                                     <div class="dt">{$list.y_z}</div>
                                 </li>  
                             </if>
@@ -321,7 +370,7 @@
                                                         
                         </ul>
                     </div>
-                    <p style="">{$Think.lang.CONTENT_NOTICE}</p>
+                    <p class="notice">{$Think.lang.CONTENT_NOTICE}</p>
                     <!-- 尺寸图判断 -->
                 </div>
             </div>
@@ -331,6 +380,7 @@
     </div>
 </div>
 <include file="../Public/footer" />
+<script src="{$Think.config.JS_ROOT}/bootstrap3-validation.js"	type="text/javascript"></script>
 </body>
 
 </html>

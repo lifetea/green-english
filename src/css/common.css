@@ -18,7 +18,7 @@ ul{padding:0;list-style:none}
 .text-2{line-height: 2em;text-indent: 2em;text-align: justify;}
 .para-1,.text-3{text-indent: 2em;padding: 1em 0;line-height: 2em;text-align: justify;}
 .text-4{line-height: 3.6em;}
-.title-1{font-weight:600;font-size:18px;color:#333;font-family:tahoma;}
+.title-1{font-weight:600;font-size:18px;color:#333;font-family:tahoma;padding-bottom:0.8em;}
 .title-2{color: #1e448c;font-weight: 600;line-height: 30px;}
 .title-3{border-bottom: 1px dashed #ccc;  color: #1850a3;  font-size: 21px;font-weight: 600;line-height: 50px;}
 .split{border-left: 1px solid #ccc;}
@@ -64,8 +64,8 @@ ul{padding:0;list-style:none}
 	text-decoration:none;
 	color:#145183;
 }
- 	#copyright a{color:#999;font-variant:normal;}
-#copyright p{font-variant:normal;}
+	#copyright a{color:#999;font-variant:normal;}
+	#copyright p{font-variant:normal;}
    #copyright ul li{margin-top:5px;}
   /*common*/
  
@@ -175,6 +175,7 @@ ul{padding:0;list-style:none}
 .prod-detail li{line-height:2.6em;padding:0.8em 0}
 .prod-detail{padding-left:2em}
 .prod-data{line-height:36px;}
-.prod-row li{float:left;width:10%;}
-.prod-row .hd{background-color: #f9f9f9;line-height:38px;font-weight:600;font-size:12px;border-bottom: 1px dashed #ccc;}
-.prod-row .dt{min-height:36px}
+.prod-row li{float:left;width:12%;}
+.prod-row .hd{background-color: #f9f9f9;line-height:38px;font-weight:600;border-bottom: 1px dashed #ccc;text-align:center;'}
+.prod-row .dt{min-height:36px;text-align:center;line-height:38px;}
+.notice{font-weight:600;padding-top:2em;}
