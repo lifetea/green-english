@@ -60,13 +60,14 @@
 	    	var cacheBuster = "?t=" + Date.parse(new Date());
 			var flashvars = {};
 			flashvars.xml = $("#swfConfig").val();
+			var root = $("#swfConfig").attr("root");
 			var params = {};
 			params.allowscriptaccess = "always";
 			params.allownetworking = "all";
 			params.wmode = "Transparent";
 			var attributes = {};
 			attributes.id = "slider";
-			swfobject.embedSWF("cu3er.swf"+cacheBuster, "cu3erSwf", "980", "300", "9.0.124", "expressInstall.swf", flashvars, params);
+			swfobject.embedSWF(root+"/cu3er.swf"+cacheBuster, "cu3erSwf", "980", "300", "9.0.124",  root+"/expressInstall.swf", flashvars, params);
 		})
 	
 })()

@@ -5,12 +5,12 @@ class PRODController extends Controller {
     public function index(){
         $this->display();
     }
-    public function G2RBList(){
+    public function get2RBList(){
     	//product  type like '%2RB {$_GET['series']}%' 
     	//$list = S('contact-data');
     	//if (!$list) {
     		$prod = M("product");
-    		$list = $prod->where("type like '%2RB {$_GET['series']}%'")->select();
+    		$list = $prod->where("type like '%2RB {$_GET['series']}%'")->order('id ASC')->select();
     		//S('contact-data', $list, 7000);
     	//}
     	$this->assign('series',I('get.series'));
@@ -43,6 +43,17 @@ class PRODController extends Controller {
     
     public function Content(){
     	$prod = M("product");
+    	$list = $prod->where("type like '%{$_GET['series']}%' and output={$_GET['output']}")->find();
+    	$this->assign('series',I('get.series'));
+    	$list["subtype"] = substr($list["type"],0,7);
+    	if($list["subtype"] =="3RB 350"){
+    		$list["subtype"] = substr($list["type"],0,9);
+    	}
+    	$this->assign('list',$list);
+    	$this->display();
+    }
+    public function BContent(){
+    	$prod = M("b_series");
     	$list = $prod->where("type like '%{$_GET['series']}%' and output={$_GET['output']}")->find();
     	$this->assign('series',I('get.series'));
     	$list["subtype"] = substr($list["type"],0,7);

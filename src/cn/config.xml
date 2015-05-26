@@ -34,29 +34,29 @@
 
 	<slides>
 		<slide>
-			<url>images/image6.jpg</url>
+			<url>../src/en/image6.jpg</url>
 		</slide>
 			
 		<slide>
-			<url>images/image1-cn.jpg</url>
+			<url>../src/en/image1.jpg</url>
 		</slide>
 		
 		<transition direction="left"/>		
 		
 		<slide>
-			<url>images/image2-cn.jpg</url>
+			<url>../src/en/image2.jpg</url>
 		</slide>
 		
 		<transition duration="0.6" delay=".2" direction="down"/>		
 		
 		<slide>
-			<url>images/image3-cn.jpg</url>
+			<url>../src/en/image3.jpg</url>
 		</slide>	
 		
 		<transition   direction="right" delay=".2"/>			
 		
 		<slide>
-			<url>images/image4-cn.jpg</url>
+			<url>../src/en/image4.jpg</url>
 		</slide>	
 		
 		<transition   direction="up" delay=".2"/>		
