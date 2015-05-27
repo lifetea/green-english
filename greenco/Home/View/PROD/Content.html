@@ -1,6 +1,5 @@
 ﻿<!DOCTYPE html>
 <html>
-
 <head>
     <meta http-equiv="content-Type" content="text/html; charset=utf-8" />
     <title>
@@ -24,7 +23,6 @@
             <div class="col-md-9 split content">
             	<h3 class="title-3">{$list.type} {$Think.lang.CONTENT_TECHNICAL_DATA}</h3>
                 <div class="row pro-list">
-                	
                     <div class="row">
                         <div class="col-md-5">
                             <p class="center">
@@ -50,7 +48,7 @@
                                 </li>
                                 <li class="col-md-6">
                                     <strong>{$Think.lang.CONTENT_FREQ}:</strong>
-                                    <span> Fre_quency(Hz)</span>
+                                    <span>{$list.fre_quency}(Hz)</span>
                                 </li>
                                 <li class="col-md-6">
                                     <strong>{$Think.lang.CONTENT_POWER}:</strong>
@@ -78,19 +76,19 @@
                                 </li>
                                 <li class="col-md-6">
                                     <strong>{$Think.lang.CONTENT_WEIGHT}:</strong>
-                                    <span>{$list.weight}</span>
+                                    <span>{$list.weight} (kg)</span>
                                 </li>
                                 <li class="col-md-6">
                                     <strong>{$Think.lang.CONTENT_INLET/OUTLET}:</strong>
-                                    <span>{$list['inlet_outlet']}</span>
+                                    <span>{$list['inlet_outlet']} (inch)</span>
                                 </li>
                                 <li class="col-md-6">
                                     <strong>{$Think.lang.CONTENT_SOUND}:</strong>
-                                    <span>{$list.sound_level}</span>
+                                    <span>{$list.sound_level} dB(A)</span>
                                 </li>
                                 <li class="col-md-6">
                                     <strong>{$Think.lang.CONTENT_DIMENSION}(L*W*H):</strong>
-                                    <span>{$list.sound_level}</span>
+                                    <span>{$list.sound_level} </span>
                                 </li>
                             </ul>
                         </div>
