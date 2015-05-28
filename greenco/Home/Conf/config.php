@@ -15,6 +15,6 @@ return array(
 		'HTML_FILE_SUFFIX' => '.html',// 默认静态文件后缀
 		//缓存规则
 		'HTML_CACHE_RULES'=>array(
-				'About:aboutUs'=>array('{:controller}/{:action}',60),
+			//	'About:aboutUs'=>array('{:controller}/{:action}',60),
 		)
 );

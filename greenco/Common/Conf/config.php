@@ -23,5 +23,6 @@ return array(
 		'ABOUT_ROOT'=>URL.'/About',
 		'PROD_ROOT'=>URL.'/PROD',
 		'NEWS_ROOT'=>URL.'/News',
+		'CONTACT_ROOT'=>URL.'/Contact',
 		
 );

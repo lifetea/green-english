@@ -19,7 +19,8 @@ define('APP_DEBUG',true);
 // 定义应用目录
 define('APP_PATH','./greenco/');
 define('URL',"http://".$_SERVER["HTTP_HOST"]);
-define('HTML_PATH', './htm');//生成静态页面的文件位置
+//define('HTML_PATH', './htm');
+//生成静态页面的文件位置
 // 引入ThinkPHP入口文件
 require './ThinkPHP/ThinkPHP.php';
 
