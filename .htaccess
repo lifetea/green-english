@@ -6,14 +6,5 @@
   RewriteCond %{REQUEST_FILENAME} !-f
 
   RewriteRule ^(.*)$ index.php/Home/$1 [QSA,PT,L]
-  RewriteRule ^about_us.php$ Index/about_us
-  RewriteRule ^Download.php$ download
-  RewriteRule ^Contact_us.php$ contact_us
-  RewriteRule ^Support.php$ support
-  RewriteRule ^news_Company.php$ company
-  RewriteRule ^news_Industry.php$ industry
-  RewriteRule ^Video.php$ video
-  RewriteRule ^Certification.php$ certification
-  RewriteRule ^Equipments.php$ equipments
   
 </IfModule>

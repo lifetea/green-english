@@ -5,7 +5,7 @@ class AboutController extends Controller {
     public function index(){
         $this->display();
     }
-    public function about_us(){
+    public function aboutUs(){
     	$this->display();
     }
     public function certification(){

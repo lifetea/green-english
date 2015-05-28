@@ -26,12 +26,15 @@ class IndexController extends Controller {
     	$this->display();
     }
     public function code(){
-    	//     	print  L('add_user_error');　
     	$Verify = new \Think\Verify();
     	$Verify->fontSize = 12;
     	$Verify->length   = 4;
     	$Verify->useNoise = false;
 		$Verify->entry();
+    }
+    function check_verify($code, $id = ''){
+    	$verify = new \Think\Verify();
+    	return $verify->check($code, $id);
     }
     public function support(){
     	$list = S("support-data-".L('LAN'));
@@ -97,18 +100,6 @@ class IndexController extends Controller {
 //     	$this->assign('list',$list);
     	$this->display();
     }
-    public function certification(){
-    	$this->display();
-    }    
-    public function honour(){
-    	$this->display();
-    }   
-    public function video(){
-    	$this->display();
-    }
-    public function equipments(){
-    	$this->display();
-    }       
   private  function _content($_string,$_len) {
     	if (mb_strlen($_string,'utf-8') > $_len) {
     		$_string = mb_substr(strip_tags($_string),0,$_len,'utf-8');
