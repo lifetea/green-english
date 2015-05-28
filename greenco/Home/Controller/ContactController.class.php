@@ -1,7 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
-class IndexController extends Controller {
+class ContactController extends Controller {
     public function index(){
 //     	print  L('add_user_error');　
         $this->display();
@@ -23,8 +23,12 @@ class IndexController extends Controller {
     	$Verify->useNoise = false;
 		$Verify->entry();
     }
-    function check_verify($code, $id = ''){
-    	$verify = new \Think\Verify();
-    	return $verify->check($code, $id);
+    public function checkVerify($code, $id = ''){
+    	$Verify = new \Think\Verify();
+    	return $Verify->check($code, $id);
+    }
+    public function test(){
+    	$code = I('get.code');
+		var_dump($this->checkVerify($code));
     }
 }
