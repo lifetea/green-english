@@ -16,5 +16,20 @@ return array(
 		//缓存规则
 		'HTML_CACHE_RULES'=>array(
 			//	'About:aboutUs'=>array('{:controller}/{:action}',60),
-		)
+		),
+		// 邮箱地址
+		'MAIL_ADDRESS'=>'494886251@qq.com',
+		// 邮箱SMTP服务器
+		'MAIL_SMTP'=>'smtp.qq.com',
+		// 邮箱登录帐号
+		'MAIL_LOGINNAME'=>'494886251@qq.com',
+		// 邮箱密码
+		'MAIL_PASSWORD'=>'woyaokuaile',
+		//编码
+		'MAIL_CHARSET'=>'UTF-8',
+		//邮箱认证
+		'MAIL_AUTH'=>true,
+		//true HTML格式 false TXT格式
+		'MAIL_HTML'=>true,
+		
 );

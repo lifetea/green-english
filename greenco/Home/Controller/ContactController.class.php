@@ -1,6 +1,7 @@
 <?php
 namespace Home\Controller;
 use Think\Controller;
+import('.ORG.Mail');
 class ContactController extends Controller {
     public function index(){
 //     	print  L('add_user_error');　
@@ -30,5 +31,16 @@ class ContactController extends Controller {
     public function test(){
     	$code = I('get.code');
 		var_dump($this->checkVerify($code));
+    }
+    public function sendEmail(){
+    	$name = I('get.name');
+    	$company = I('get.company');
+    	$phone = I('get.phone');
+    	$email = I('get.email');
+    	$content = I('get.content');
+    	$code = I('get.code');
+    	SendMail("494886251@qq.com","邮件标题","邮件正文");
+    	//$code = I('get.code');
+    	var_dump($name,$company,$phone,$email);
     }
 }
