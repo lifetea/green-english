@@ -17,6 +17,7 @@ require(['jquery','bootstrap','swfobject'], function($) {
 		params.wmode = "Transparent";
 		var attributes = {};
 		attributes.id = "slider";
+		root +="/js/lib"
 		swfobject.embedSWF(root+"/cu3er.swf"+cacheBuster, "cu3erSwf", "980", "300", "9.0.124",  root+"/expressInstall.swf", flashvars, params);
 	});
 	
