@@ -1,4 +1,22 @@
-(function(){
+require.config({
+    paths: {
+        jquery: './lib/jquery-1.11.3.min',
+        bootstrap:'./lib/bootstrap.min',
+        validation: './lib/bootstrap3-validation'
+    },
+    shim: {
+    	bootstrap: {
+            deps: ['jquery'],
+        },
+    	validation:{
+    		deps: ["jquery","bootstrap"],
+    	},
+    	search: {
+	    	deps: ["jquery","validation"],
+    		}
+    }
+});
+require(['jquery','bootstrap','validation'], function($) {
 	$(function(){
 		var count = $('.phone').length;
 		var i = Math.floor(Math.random()*count);
@@ -26,5 +44,5 @@
 					});
 			}
 		});
-	})
-})()
+	});
+});

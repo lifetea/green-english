@@ -13,11 +13,11 @@ require.config({
     		deps: ["jquery","bootstrap"],
     	},
     	search: {
-	    	deps: ["jquery"],
+	    	deps: ["jquery","validation"],
     		}
     }
 });
-require(['jquery','bootstrap'], function($) {
+require(['jquery','bootstrap','validation','search'], function($) {
 	$(function(){
 		$(".pic-item").click(function(){
 			var data = $(this).attr("data");
