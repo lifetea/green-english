@@ -255,5 +255,6 @@ return array(
 		'CONTENT_DIMENSION'=>'Dimension',
 		'CONTENT_TECHNICAL_DATA'=>'Technical Data',
 		'CONTENT_NOTICE'=>'Note:Model offerings and design parameters may change without notice.',
+		'CONTENT_DIMENSION'=>'Dimension for Side Channel Blower',
 );
 ?>

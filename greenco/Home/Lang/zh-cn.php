@@ -256,5 +256,6 @@ return array(
 		'CONTENT_DIMENSION'=>'尺寸',
 		'CONTENT_TECHNICAL_DATA'=>'技术参数',
 		'CONTENT_NOTICE'=>'注意：产品模型和设计参数可能会更改,不另行通知。',
+		'CONTENT_DIMENSION'=>'漩涡气泵尺寸',
 );
 ?>
