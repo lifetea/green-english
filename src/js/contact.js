@@ -16,7 +16,14 @@
 				return false;
 			}else{
 				//console.log($("form"));
-				$("#contactForm").submit();
+					var code = $("#codeValue").val();
+					$.get("checkVerify?code="+code, function(result){
+							if(result == 1){
+								$("#contactForm").submit();
+							}else{
+								alert("yanzhengma cuowu");
+							}
+					});
 			}
 		});
 	})

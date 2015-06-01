@@ -128,7 +128,7 @@
 
    $.fn.validation.defaults = {
         validRules : [
-            {name: 'required', validate: function(value) {return ($.trim(value) == '');}, defaultMsg: '请输入内容。'},
+            {name: 'required', validate: function(value) {return ($.trim(value) == '');}, defaultMsg: '必填'},
             //{name: 'number', validate: function(value) {return (!/^[0-9]\d*$/.test(value));}, defaultMsg: '请输入数字。'},
             {name: 'number', validate: function(value) {return (!/^-?(?:\d+|\d{1,3}(?:,\d{3})+)?(?:\.\d+)?$/.test(value));}, defaultMsg: '请输入数字。'},
             //{name: 'mail', validate: function(value) {return (!/^[a-zA-Z0-9]{1}([\._a-zA-Z0-9-]+)(\.[_a-zA-Z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+){1,3}$/.test(value));}, defaultMsg: '请输入邮箱地址。'},
@@ -267,7 +267,7 @@
             }
             else if (fstyle == 2){
                 controlGroup.find("#valierr").remove();
-                el.parent().after('<span class="help-block" id="valierr">' + errorMsg +'</span>');
+                el.parent().prev().append('<span class="help-block" id="valierr">' + errorMsg +'</span>');
             }
         };//end !form
         return !error;
@@ -322,7 +322,7 @@
                     valid = (el.attr('check-type')==undefined)?null:el.attr('check-type').split(' ');
                     if (valid){
                         if ($.inArray('required',valid)>=0){
-                            el.parent().after('<span class="help-block" id="valierr" style="color:#FF9966">*</span>');
+                            el.parent().prev().append('<span class="help-block" id="valierr" style="color:#FF9966">*</span>');
                         }
                     };
                 }); 

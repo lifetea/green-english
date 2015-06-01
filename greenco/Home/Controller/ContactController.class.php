@@ -4,7 +4,6 @@ use Think\Controller;
 import('.ORG.Mail');
 class ContactController extends Controller {
     public function index(){
-//     	print  L('add_user_error');　
         $this->display();
     }
     public function contact(){
@@ -26,11 +25,7 @@ class ContactController extends Controller {
     }
     public function checkVerify($code, $id = ''){
     	$Verify = new \Think\Verify();
-    	return $Verify->check($code, $id);
-    }
-    public function test(){
-    	$code = I('get.code');
-		var_dump($this->checkVerify($code));
+    	echo $Verify->check($code, $id);
     }
     public function sendEmail(){
     	$name = I('get.name');
@@ -39,8 +34,8 @@ class ContactController extends Controller {
     	$email = I('get.email');
     	$content = I('get.content');
     	$code = I('get.code');
-    	SendMail("494886251@qq.com","邮件标题","邮件正文");
-    	//$code = I('get.code');
-    	var_dump($name,$company,$phone,$email);
+    	//if($this->checkVerify($code)){
+			SendMail("greenco@greenco.cn",$company,"姓名:".$name."<br/>电话:".$phone."<br/>邮箱:".$email."<br/>留言:".$content);
+    	//}
     }
 }

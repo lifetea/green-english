@@ -169,6 +169,7 @@ ul{padding:0;list-style:none}
 .prod-row .dt{min-height:36px;text-align:center;line-height:38px;}
 .notice{font-weight:600;padding-top:2em;}
 .code{cursor: pointer;border:1px solid #999;padding:2px;}
+.help-block{display:inline-block}
 #从上面我们可以看出有几个临界点的分辨率，那么我们就可以轻松的来写自己的自适应代码了
 @media (min-width: 768px){
 	

@@ -61,47 +61,59 @@
 						{$Think.lang.CONTACT_SUGGEST}
 					</p>
 				    <form role="form"  id="contactForm"  method="get"  class="form-horizontal"  action="{$Think.config.Contact_ROOT}/sendEmail"  novalidate="novalidate">
-					  <div class="form-group">
-					    <label class="col-sm-2 control-label">{$Think.lang.CONTACT_NAME}:</label>
-					    <div class="col-sm-10">
-					    	<input type="text" class="form-control" name="name" placeholder="{$Think.lang.CONTACT_NAME}">
-					    </div>
-					  </div>
-					  <div class="form-group">
-					  	<label class="col-sm-2 control-label">{$Think.lang.CONTACT_COMPANY}:</label>
-					    <div class="col-sm-10">
-						    <input type="text" name="company" class="form-control" id="exampleInputPassword1" placeholder={$Think.lang.CONTACT_COMPANY}>
-					    </div>
-					  </div>
-					  <div class="form-group">
-					  	<label class="col-sm-2 control-label">{$Think.lang.CONTACT_TELEPHONE}:</label>
-					    <div class="col-sm-10">
-						    <input type="text" name="phone" class="form-control" id="exampleInputPassword1" placeholder="{$Think.lang.CONTACT_TELEPHONE}">
-					    </div>						  
-					  </div>						  
-					  <div class="form-group">
-					  	<label class="col-sm-2 control-label">{$Think.lang.CONTACT_EMAIL}:</label>
-					    <div class="col-sm-10">
-						    <input type="email" name="email" check-type="email" class="form-control" id="exampleInputPassword1" placeholder="{$Think.lang.CONTACT_EMAIL}">
-					    </div>	
-					  </div>
-					  <div class="form-group">
-					  	<label class="col-sm-2 control-label">{$Think.lang.CONTACT_COMMENTS}:</label>
-					    <div class="col-sm-10">
-						    <textarea name="content"   class="form-control" rows="3" placeholder="{$Think.lang.CONTACT_COMMENTS}"></textarea>
-					    </div>	
-					  </div>
-					  <div class="form-group">
-					  	<label class="col-sm-2 control-label" for="codeValue">{$Think.lang.CONTACT_CODE}:</label>
-					    <div class="col-sm-6">
-					    	<img src="{$Think.config.Contact_ROOT}/Code"  id="code" class="pull-left code"/>
-					    	<input id="codeValue"  check-type="required"  type="text" style="width:100px;margin-left:6px" name="code" class="form-control pull-left"/>
-					    </div>
-					  </div>
+						<div class="form-group">
+							<div  class="col-sm-2 error-info">
+								<label class="control-label" for="name">{$Think.lang.CONTACT_NAME}:</label>
+							</div>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" check-type="required" id="name" name="name" placeholder="{$Think.lang.CONTACT_NAME}">
+							</div>
+						</div>
+						<div class="form-group">
+							<div  class="col-sm-2 error-info">
+								<label class="control-label" for="company">{$Think.lang.CONTACT_COMPANY}:</label>
+							</div>							
+							<div class="col-sm-10">
+								<input type="text" name="company" class="form-control" check-type="required" id="company" placeholder={$Think.lang.CONTACT_COMPANY}>
+							</div>
+						</div>
+						<div class="form-group">
+							<div  class="col-sm-2 error-info">
+					  			<label class="control-label" for="phone">{$Think.lang.CONTACT_TELEPHONE}:</label>
+					  		</div>
+						    <div class="col-sm-10">
+							    <input type="text" name="phone" class="form-control" check-type="required" id="phone" placeholder="{$Think.lang.CONTACT_TELEPHONE}">
+						    </div>						  
+						</div>						  
+						<div class="form-group">
+							<div  class="col-sm-2 error-info">
+								<label class="control-label" for="email">{$Think.lang.CONTACT_EMAIL}:</label>
+							</div>
+							<div class="col-sm-10">
+								<input type="email" name="email" check-type="email required"  class="form-control" id="email" placeholder="{$Think.lang.CONTACT_EMAIL}">
+							</div>	
+						</div>
+						<div class="form-group">
+							<div  class="col-sm-2 error-info">
+								<label class="control-label" for="contnet">{$Think.lang.CONTACT_COMMENTS}:</label>
+							</div>
+							<div class="col-sm-10">
+								<textarea name="content"   class="form-control" check-type="required" rows="3" id="content" placeholder="{$Think.lang.CONTACT_COMMENTS}"></textarea>
+							</div>	
+						</div>
+						<div class="form-group">
+							<div  class="col-sm-2 error-info">
+								<label class="control-label" for="codeValue">{$Think.lang.CONTACT_CODE}:</label>
+							</div>							
+							<div class="col-sm-6">
+								<img src="{$Think.config.Contact_ROOT}/Code"  id="code" class="pull-left code"/>
+								<input id="codeValue"  check-type="required"  type="text" style="width:100px;margin-left:6px" name="code" class="form-control pull-left"/>
+							</div>
+						</div>
 					  <div class="form-group">
 					  		<button type="submit"   class="btn btn-default pull-right">{$Think.lang.CONTACT_SEND}</button>
 					  </div>					  
-				        </form>
+				    </form>
 				</div>
 			</div>		    
 		</div>
