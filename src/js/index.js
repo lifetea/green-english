@@ -1,4 +1,25 @@
-(function(){
+require.config({
+    paths: {
+        jquery: './lib/jquery-1.11.3.min',
+        bootstrap:'http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min',
+        swfobject:'./lib/swfobject'
+    }
+});
+require(['jquery','bootstrap','swfobject'], function($) {
+	$(function(){
+    	var cacheBuster = "?t=" + Date.parse(new Date());
+		var flashvars = {};
+		flashvars.xml = $("#swfConfig").val();
+		var root = $("#swfConfig").attr("root");
+		var params = {};
+		params.allowscriptaccess = "always";
+		params.allownetworking = "all";
+		params.wmode = "Transparent";
+		var attributes = {};
+		attributes.id = "slider";
+		swfobject.embedSWF(root+"/cu3er.swf"+cacheBuster, "cu3erSwf", "980", "300", "9.0.124",  root+"/expressInstall.swf", flashvars, params);
+	});
+	
 	$(function(){
 		var  slider = {};
 		slider.sync = true;
@@ -54,20 +75,5 @@
 		})
 		//$("#sliderWrap").hover(slider.pause,slider.start);
 		//slider.start();
-	});
-		
-	$(function(){
-	    	var cacheBuster = "?t=" + Date.parse(new Date());
-			var flashvars = {};
-			flashvars.xml = $("#swfConfig").val();
-			var root = $("#swfConfig").attr("root");
-			var params = {};
-			params.allowscriptaccess = "always";
-			params.allownetworking = "all";
-			params.wmode = "Transparent";
-			var attributes = {};
-			attributes.id = "slider";
-			swfobject.embedSWF(root+"/cu3er.swf"+cacheBuster, "cu3erSwf", "980", "300", "9.0.124",  root+"/expressInstall.swf", flashvars, params);
-		})
-	
-})()
+	});	
+});

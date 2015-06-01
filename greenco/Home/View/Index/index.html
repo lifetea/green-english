@@ -39,8 +39,7 @@
 				</div>
 				<input id="swfConfig" type="hidden"  root="{$Think.config.SRC_ROOT}"  value="{$Think.lang.SRC_LAN}/config.xml">
 				<include file="../Public/footer" />
-				<script src="{$Think.config.JS_ROOT}/swfobject.js"></script>
-				<script src="{$Think.config.JS_ROOT}/index.js"></script>
+				<script type="text/javascript"  data-main="{$Think.config.JS_ROOT}/index" src="{$Think.config.JS_ROOT}/require.js"></script>
 		</body>
 </html>
 

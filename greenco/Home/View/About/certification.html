@@ -116,15 +116,7 @@
 
 
 <include file="../Public/footer" />
-<script type="text/javascript">
-		$(".pic-item").click(function(){
-			var data = $(this).attr("data");
-			$("#mypic").attr("src",data);
-			$('#myModal').modal();
-		});
-</script>
-<script src="{$Think.config.JS_ROOT}/bootstrap3-validation.js"	type="text/javascript"></script>
-<script src="{$Think.config.JS_ROOT}/search.js" type="text/javascript"></script>
+<script type="text/javascript"  data-main="{$Think.config.JS_ROOT}/about" src="{$Think.config.JS_ROOT}/require.js"></script>
 </body>
 </html>
 
