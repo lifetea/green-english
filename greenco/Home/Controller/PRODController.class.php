@@ -5,6 +5,41 @@ class PRODController extends Controller {
     public function index(){
         $this->display();
     }
+    public function getProd(){
+    	$model = I('get.model');
+    	$type = I('get.type');
+    	$stage = I('get.stage');
+    	$prod = M("pandect");
+    	$blower = "";
+    	$dsc = "";
+    	$list = $prod->where("model like '%".$model."%' and blower_type='".$type."' and stage='".$stage."' ")->order('id ASC')->select();
+    	if($stage =="Single"){
+    		$stage = L('PROD_SINGLE_STAGE');
+    	}elseif($stage =="Double"){
+    		$stage = L('PROD_DOUBLE_STAGE');
+    	}else{
+    		$stage = L('PROD_THREE_STAGE');
+    	}
+    	switch($model){
+    		case "2RB" : $blower =L('2RB_SIDE_CHANNEL_BLOWER');
+    		break;
+    		case  "3RB" :$blower =L('3RB_SIDE_CHANNEL_BLOWER');
+    		$dsc = L('3RB_DSC');
+    		break;
+    	}
+//     	'2RB_SIDE_CHANNEL_BLOWER'=>'高压风机',
+//     	'3RB_SIDE_CHANNEL_BLOWER'=>'高压鼓风机',
+//     	'3RB_DSC'=>'浙江格凌实业有限公司以独创的创新技术最新研发的3RB系列旋涡气泵，该系列比原来的2RB系列和4RB系列能够产生更高的压力，更高的真空和更大的风量。3RB系列旋涡气泵完全能够代替同等功率的罗茨鼓风机，并且比罗茨鼓风机有更大的优势：材料完全铝压铸，体积小重量更轻、无油，免维护、寿命更长、噪音比2RB和4RB系列更低，性价比更高。',
+//     	'4RB_SIDE_CHANNEL_BLOWER'=>'漩涡气泵',
+//     	'Belt_2RB_REGENERATIVE_BLOWER'=>'皮带式气环风机 ',
+//     	'IE2_2RB_REGENERATIVE_BLOWER'=>'漩涡风机 ',
+//     	'COVER_SUCTION_RING_BLOWER'=>'吸顶式漩涡风机',
+    	$this->assign('blower',$blower);
+    	$this->assign('list',$list);
+    	$this->assign('model',$model);
+    	$this->assign('stage',$stage);
+    	$this->display();
+    }    
     public function get2RBList(){
     	//product  type like '%2RB {$_GET['series']}%' 
     	//$list = S('contact-data');

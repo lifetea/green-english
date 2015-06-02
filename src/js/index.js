@@ -1,8 +1,13 @@
 require.config({
     paths: {
-        jquery: './lib/jquery-1.11.3.min',
-        bootstrap:'http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min',
+        jquery: "./lib/jquery-1.11.3.min",
+        bootstrap:"./lib/bootstrap.min",
         swfobject:'./lib/swfobject'
+    },
+    shim: {
+        swfobject:{
+    		deps: ["jquery","bootstrap"],
+    	}
     }
 });
 require(['jquery','bootstrap','swfobject'], function($) {
