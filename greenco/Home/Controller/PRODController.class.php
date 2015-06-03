@@ -35,11 +35,23 @@ class PRODController extends Controller {
     		case "cover" : $blower =L('COVER_SUCTION_RING_BLOWER');
     		break;
     	}
-//     	'COVER_SUCTION_RING_BLOWER'=>'吸顶式漩涡风机',
     	$this->assign('blower',$blower);
     	$this->assign('list',$list);
     	$this->assign('model',$model);
+    	$this->assign('dsc',$dsc);
     	$this->assign('stage',$stage);
+    	$this->display();
+    }
+    public function get2RBList(){
+    	//product  type like '%2RB {$_GET['series']}%'
+    	//$list = S('contact-data');
+    	//if (!$list) {
+    	$prod = M("product");
+    	$list = $prod->where("type like '%2RB {$_GET['series']}%'")->order('id ASC')->select();
+    	//S('contact-data', $list, 7000);
+    	//}
+    	$this->assign('series',I('get.series'));
+    	$this->assign('list',$list);
     	$this->display();
     }    
     public function Search(){
@@ -103,7 +115,19 @@ class PRODController extends Controller {
     	$this->assign('list',$list);
     	//dump($list);
     	$this->display();
-    }    
+    }
+    public function get3RBList(){
+    	//product  type like '%2RB {$_GET['series']}%'
+    	//$list = S('contact-data');
+    	//if (!$list) {
+    	$prod = M("product");
+    	$list = $prod->where("type like '%3RB {$_GET['series']}%'")->order('id ASC')->select();
+    	//S('contact-data', $list, 7000);
+    	//}
+    	$this->assign('series',I('get.series'));
+    	$this->assign('list',$list);
+    	$this->display();
+    }        
     public function get4RBList(){
     	//product  type like '%2RB {$_GET['series']}%'
     	//$list = S('contact-data');
