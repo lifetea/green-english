@@ -13,6 +13,9 @@ require.config({
     	validation:{
     		deps: ["jquery","bootstrap"],
     	},
+    	quickpaginate:{
+    		deps: ["jquery","bootstrap"],
+    	},
     	search: {
 	    	deps: ["jquery","validation"],
     		}

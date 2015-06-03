@@ -2,9 +2,12 @@ require.config({
     paths: {
         jquery: "./lib/jquery-1.11.3.min",
         bootstrap:"./lib/bootstrap.min",
-        swfobject:'./lib/swfobject'
+        swfobject:'./lib/swfobject.min'
     },
     shim: {
+    	bootstrap:{
+    		deps: ["jquery"],
+    	},
         swfobject:{
     		deps: ["jquery","bootstrap"],
     	}

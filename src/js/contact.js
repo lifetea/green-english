@@ -39,7 +39,7 @@ require(['jquery','bootstrap','validation'], function($) {
 							if(result == 1){
 								$("#contactForm").submit();
 							}else{
-								alert("yanzhengma cuowu");
+								console.log("yanzhengma cuowu");
 							}
 					});
 			}
