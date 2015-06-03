@@ -1,57 +1,56 @@
 ﻿<!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-<include file="../Public/css" />
-<link href="{$Think.config.IMG_ROOT}/favicon.ico" rel="shortcut icon"/>
-</head>
-<include file="../Public/header" />
-
-<!-- 应用内容 -->
-<div class="container-fuild">
-	<div class="container pro">
-		<img src="{$Think.lang.SRC_LAN}/product_banner.jpg" class="banner" />
-		<div class="row">
-			<div class="col-md-3">
-				<include file="../Public/pro-nav" />
-			</div>
-			<div class="col-md-9 split">
-				<div class="row pro-list content">
-					<div class="row">
-						<div class="col-md-5">
-							<p class="center">
-								<img
+	<head>
+		<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+		<include file="../Public/css" />
+		<link href="{$Think.config.IMG_ROOT}/favicon.ico" rel="shortcut icon"/>
+	</head>
+	<include file="../Public/header" />
+	<!-- 应用内容 -->
+	<div class="container-fuild">
+		<div class="container pro">
+			<img src="{$Think.lang.SRC_LAN}/product_banner.jpg" class="banner" />
+			<div class="row">
+				<div class="col-md-3">
+					<include file="../Public/pro-nav" />
+				</div>
+				<div class="col-md-9 split">
+					<div class="row pro-list content">
+						<div class="row">
+							<div class="col-md-5">
+								<p class="center">
+									<img
 									src="{$Think.config.IMG_ROOT}/Inlet vacuum filters {$type}.jpg"
 									alt="{$type}.jpg side channel blower inlet vacuum filters image and picture" />
-							</p>
-						</div>
-						<div class="col-md-7">
-							<form class="form-inline" action="#">
-								<ul class="prod-detail">
-									<li>
-										<h3 class="title-1">Vacuum Filter {$list.type} Technical
+								</p>
+							</div>
+							<div class="col-md-7">
+								<form class="form-inline" action="#">
+									<ul class="prod-detail">
+										<li>
+											<h3 class="title-1">Vacuum Filter {$list.type} Technical
 											Data</h3>
-									</li>
-									<li><strong>Model: </strong> <span> {$list.type}</span></li>
-									<li>
-										<div class="form-group">
-											<label for="inputEmail3" class="control-label">数量：</label> <span
-												class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+										</li>
+										<li><strong>Model: </strong> <span> {$list.type}</span></li>
+										<li>
+											<div class="form-group">
+												<label for="inputEmail3" class="control-label">数量：</label> <span
+											class="glyphicon glyphicon-minus" aria-hidden="true"></span>
 											<input type="text" class="form-control" style="width: 40px"
-												placeholder="1"> <span
-												class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+											placeholder="1"> <span
+											class="glyphicon glyphicon-plus" aria-hidden="true"></span>
 										</div>
 									</li>
 									<li>
 										<button class="btn btn-default" type="submit">
-											<span class="glyphicon glyphicon-shopping-cart"
-												aria-hidden="true"></span> 加入询价单
+										<span class="glyphicon glyphicon-shopping-cart"
+										aria-hidden="true"></span> 加入询价单
 										</button>
 									</li>
 									<li><a href="{$Think.lang.SRC_LAN}/filter.pdf"
 										target="_blank" class="link-1"> <span
-											class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
-											<span>Download PDF Inlet Vacuum Filters</span>
+										class="glyphicon glyphicon-download-alt" aria-hidden="true"></span>
+										<span>Download PDF Inlet Vacuum Filters</span>
 									</a></li>
 								</ul>
 							</form>
@@ -59,8 +58,8 @@
 					</div>
 					<div>
 						<h3 class="head-1">
-							Dimension for Inlet Vacuum Filter
-							<?php echo $_rows['type'];?>
+						Dimension for Inlet Vacuum Filter
+						<?php echo $_rows['type'];?>
 						</h3>
 						<p class="center">
 							<a rel="shadowbox"
@@ -107,8 +106,6 @@
 					</div>
 					<p class="notice">{$Think.lang.CONTENT_NOTICE}</p>
 					<!-- 尺寸图判断 -->
-
-
 				</div>
 			</div>
 		</div>
@@ -119,4 +116,3 @@
 <script type="text/javascript"  data-main="{$Think.config.JS_ROOT}/prod" src="{$Think.config.JS_ROOT}/require.js"></script>
 </body>
 </html>
-
