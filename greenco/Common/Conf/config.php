@@ -1,6 +1,6 @@
 <?php
 return array(
-	//'配置项'=>'配置值'
+		//'配置项'=>'配置值'
 		//数据库配置信息
 		'DB_TYPE'   => 'mysql', // 数据库类型
 		'DB_HOST'   => 'greenco3306.mysql.rds.aliyuncs.com', // 服务器地址
@@ -9,7 +9,8 @@ return array(
 		'DB_PWD'    => '1isongyang', // 密码
 		'DB_PORT'   => 3306, // 端口
 		'DB_PREFIX' => '', // 数据库表前缀
-			
+
+		//资源路径设置
 		'SRC_ROOT'=>URL.'/src',
 		'IMG_ROOT'=>URL.'/src/img',
 		'JS_ROOT'=>URL.'/src/js',
@@ -19,10 +20,17 @@ return array(
 		'EN_URL'=>'http://www.greenco.cn',
 		'ES_URL'=>'http://spanish.greenco.cn',
 		
+		//
 		'Index_ROOT'=>URL.'/Index',
 		'ABOUT_ROOT'=>URL.'/About',
 		'PROD_ROOT'=>URL.'/PROD',
 		'NEWS_ROOT'=>URL.'/News',
 		'CONTACT_ROOT'=>URL.'/Contact',
+		
+		//memcache缓存设置
+		'DATA_CACHE_TYPE' => 'Memcache',
+		//memcache服务器地址和端口，这里为本机
+		'MEMCACHE_HOST' => 'tcp://127.0.0.1:11211', 
+		'DATA_CACHE_TIME' => '3600' ,
 		
 );

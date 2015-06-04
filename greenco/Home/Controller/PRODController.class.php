@@ -6,13 +6,13 @@ class PRODController extends Controller {
         $this->display();
     }
     public function getProd(){
-    	$model = I('get.model');
-    	$type = I('get.type');
-    	$stage = I('get.stage');
-    	$prod = M("pandect");
-    	$blower = "";
-    	$dsc = "";
-    	$list = $prod->where("model like '%".$model."%' and blower_type='".$type."' and stage='".$stage."' ")->order('id ASC')->select();
+    	$model	=trim(I('get.model'));
+    	$type	= I('get.type');
+    	$stage	= I('get.stage');
+    	$prod	= M("pandect");
+    	$blower= "";
+    	$dsc     = "";
+    	$list = $prod->where("model like '".$model."%' and blower_type='".$type."' and stage='".$stage."' ")->order('id ASC')->cache(true)->select();
     	if($stage =="Single"){
     		$stage = L('PROD_SINGLE_STAGE');
     	}elseif($stage =="Double"){
@@ -21,19 +21,25 @@ class PRODController extends Controller {
     		$stage = L('PROD_THREE_STAGE');
     	}
     	switch($model){
-    		case "2RB" : $blower =L('2RB_SIDE_CHANNEL_BLOWER');
-    		break;
-    		case  "3RB" : $blower =L('3RB_SIDE_CHANNEL_BLOWER');
-    		$dsc = L('3RB_DSC');
-    		break;
-    		case  "4RB" : $blower =L('4RB_SIDE_CHANNEL_BLOWER');
-    		break;
-    		case  "Belt" : $blower =L('Belt_2RB_REGENERATIVE_BLOWER');
-    		break;
-    		case "IE2" : $blower = L('IE2_2RB_REGENERATIVE_BLOWER');
-    		break;
-    		case "cover" : $blower =L('COVER_SUCTION_RING_BLOWER');
-    		break;
+    		case "2RB" :
+    			$blower =L('2RB_SIDE_CHANNEL_BLOWER');
+    			break;
+    		case  "3RB" : 
+    			$blower =L('3RB_SIDE_CHANNEL_BLOWER');
+    			$dsc = L('3RB_DSC');
+    			break;
+    		case  "4RB" :
+    			$blower =L('4RB_SIDE_CHANNEL_BLOWER');
+    			break;
+    		case  "Belt" : 
+    			$blower =L('Belt_2RB_REGENERATIVE_BLOWER');
+    			break;
+    		case "IE2" : 
+    			$blower = L('IE2_2RB_REGENERATIVE_BLOWER');
+    			break;
+    		default:
+    			 $blower =L('COVER_SUCTION_RING_BLOWER');
+    			 break;
     	}
     	$this->assign('blower',$blower);
     	$this->assign('list',$list);
