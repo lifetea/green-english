@@ -2,17 +2,19 @@
 namespace Home\Controller;
 use Think\Controller;
 class PRODController extends Controller {
+	private  $dsc;
+	private $blowerName;
     public function index(){
         $this->display();
     }
     public function getProd(){
     	$model	=trim(I('get.model'));
-    	$type	= I('get.type');
+    	$type	=trim(I('get.type'));
     	$stage	= I('get.stage');
     	$prod	= M("pandect");
     	$blower= "";
     	$dsc     = "";
-    	$list = $prod->where("model like '".$model."%' and blower_type='".$type."' and stage='".$stage."' ")->order('id ASC')->cache(true)->select();
+    	$list = $prod->where("model like '".$model."%' and blower_type='".$type."' and stage='".$stage."' ")->order('id ASC')->select();
     	if($stage =="Single"){
     		$stage = L('PROD_SINGLE_STAGE');
     	}elseif($stage =="Double"){
@@ -20,46 +22,67 @@ class PRODController extends Controller {
     	}else{
     		$stage = L('PROD_THREE_STAGE');
     	}
-    	switch($model){
-    		case "2RB" :
-    			$blower =L('2RB_SIDE_CHANNEL_BLOWER');
-    			break;
-    		case  "3RB" : 
-    			$blower =L('3RB_SIDE_CHANNEL_BLOWER');
-    			$dsc = L('3RB_DSC');
-    			break;
-    		case  "4RB" :
-    			$blower =L('4RB_SIDE_CHANNEL_BLOWER');
-    			break;
-    		case  "Belt" : 
-    			$blower =L('Belt_2RB_REGENERATIVE_BLOWER');
-    			break;
-    		case "IE2" : 
-    			$blower = L('IE2_2RB_REGENERATIVE_BLOWER');
-    			break;
-    		default:
-    			 $blower =L('COVER_SUCTION_RING_BLOWER');
-    			 break;
-    	}
-    	$this->assign('blower',$blower);
+    	$this->getBlowerName($model,$type);
+    	$this->assign('blowerName',$this->blowerName);
     	$this->assign('list',$list);
     	$this->assign('model',$model);
-    	$this->assign('dsc',$dsc);
+    	$this->assign('type',$type);
+    	$this->assign('dsc',$this->dsc);
     	$this->assign('stage',$stage);
     	$this->display();
     }
+    public function getList(){
+    	$model	=trim(I('get.model'));
+    	$pdf	=trim(I('get.pdf'));
+    	$type	=trim(I('get.type'));
+    	$series	=trim(I('get.series'));
+    	$prod = M("product");
+    	$list = $prod->where("type like '".$model." {$_GET['series']}%' and blower_type='".$type."' ")->order('id ASC')->select();
+    	$this->getBlowerName($model,$type);
+    	$this->assign('blowerName',$this->blowerName);
+    	$this->assign('series',I('get.series'));
+    	$this->assign('pdf',$pdf);
+    	$this->assign('list',$list);
+    	$this->assign('model',$model);
+    	$this->display();
+    }    
+    
     public function get2RBList(){
     	//product  type like '%2RB {$_GET['series']}%'
     	//$list = S('contact-data');
     	//if (!$list) {
     	$prod = M("product");
-    	$list = $prod->where("type like '%2RB {$_GET['series']}%'")->order('id ASC')->select();
+    	$list = $prod->where("type like '%2RB {$_GET['series']}%' and blower_type='ie1' ")->order('id ASC')->select();
     	//S('contact-data', $list, 7000);
     	//}
     	$this->assign('series',I('get.series'));
     	$this->assign('list',$list);
     	$this->display();
     }    
+    public function get3RBList(){
+    	//product  type like '%2RB {$_GET['series']}%'
+    	//$list = S('contact-data');
+    	//if (!$list) {
+    	$prod = M("product");
+    	$list = $prod->where("type like '%3RB {$_GET['series']}%' and blower_type='ie1'")->order('id ASC')->select();
+    	//S('contact-data', $list, 7000);
+    	//}
+    	$this->assign('series',I('get.series'));
+    	$this->assign('list',$list);
+    	$this->display();
+    }        
+    public function get4RBList(){
+    	//product  type like '%2RB {$_GET['series']}%'
+    	//$list = S('contact-data');
+    	//if (!$list) {
+    	$prod = M("product");
+    	$list = $prod->where("type like '%4RB {$_GET['series']}%' and blower_type='ie1' ")->order('id ASC')->select();
+    	//S('contact-data', $list, 7000);
+    	//}
+    	$this->assign('list',$list);
+    	$this->assign('series',I('get.series'));
+    	$this->display();
+    }
     public function Search(){
     	$prod = M("product");
     	$airFlow = I('get.airFlow');
@@ -120,30 +143,6 @@ class PRODController extends Controller {
     	$list["subtype"] = substr($list["type"],0,7);
     	$this->assign('list',$list);
     	//dump($list);
-    	$this->display();
-    }
-    public function get3RBList(){
-    	//product  type like '%2RB {$_GET['series']}%'
-    	//$list = S('contact-data');
-    	//if (!$list) {
-    	$prod = M("product");
-    	$list = $prod->where("type like '%3RB {$_GET['series']}%'")->order('id ASC')->select();
-    	//S('contact-data', $list, 7000);
-    	//}
-    	$this->assign('series',I('get.series'));
-    	$this->assign('list',$list);
-    	$this->display();
-    }        
-    public function get4RBList(){
-    	//product  type like '%2RB {$_GET['series']}%'
-    	//$list = S('contact-data');
-    	//if (!$list) {
-    	$prod = M("product");
-    	$list = $prod->where("type like '%4RB {$_GET['series']}%'")->order('id ASC')->select();
-    	//S('contact-data', $list, 7000);
-    	//}
-    	$this->assign('list',$list);
-    	$this->assign('series',I('get.series'));
     	$this->display();
     }
 
@@ -208,5 +207,29 @@ class PRODController extends Controller {
     	$this->assign('subType',substr(I('get.type'),0,2));
     	$this->display();
     }    
-    
+    private  function getBlowerName($model,$type){
+    	$this->dsc = "";
+    	$this->blowerName ="";
+    	switch($model){
+    		case "2RB" :
+    			$type == "ie2"?$this->blowerName =L('IE2_2RB_REGENERATIVE_BLOWER'):$this->blowerName =L('2RB_SIDE_CHANNEL_BLOWER');
+    			break;
+    		case  "3RB" :
+    			$this->blowerName =L('3RB_SIDE_CHANNEL_BLOWER');
+    			$this->dsc = L('3RB_DSC');
+    			break;
+    		case  "4RB" :
+    			$this->blowerName =L('4RB_SIDE_CHANNEL_BLOWER');
+    			break;
+    		case  "Belt" :
+    			$this->blowerName =L('Belt_2RB_REGENERATIVE_BLOWER');
+    			break;
+    		case "IE2" :
+    			$this->blowerName = L('IE2_2RB_REGENERATIVE_BLOWER');
+    			break;
+    		default:
+    			$this->blowerName =L('COVER_SUCTION_RING_BLOWER');
+    			break;
+    	}
+    }    
 }
