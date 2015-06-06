@@ -1,7 +1,7 @@
 <body class="{$Think.lang.HEADER_BODY_CLASS}">
 	<div class="container header row" >
 		<div class="col-xs-4">
-			<a class="logo" rel="nofollow" href="{$Think.config.Index_ROOT}/index">
+			<a class="logo" rel="nofollow" href="{$Think.config.Index_ROOT}/index.html">
 				<img src="{$Think.lang.SRC_LAN}/logo.jpg" />
 			</a>
 		</div>
@@ -28,28 +28,28 @@
 			<div class="navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
 					<li>
-						<a rel="nofollow"  href="{$Think.config.Index_ROOT}/index">{$Think.lang.HEADER_HOME}</a>
+						<a rel="nofollow"  href="{$Think.config.Index_ROOT}/index.html">{$Think.lang.HEADER_HOME}</a>
 					</li>
 					<li class="dropdown">
-						<a href="{$Think.config.ABOUT_ROOT}/about_us" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+						<a href="{$Think.config.ABOUT_ROOT}/aboutUs.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
 							{$Think.lang.HEADER_ABOUT_US}
 							<span class="caret"></span>
 						</a>
 						<ul class="dropdown-menu" role="menu">
 							<li>
-								<a rel="nofollow" href="{$Think.config.ABOUT_ROOT}/aboutUs">{$Think.lang.HEADER_ABOUT_GREENCO}</a>
+								<a rel="nofollow" href="{$Think.config.ABOUT_ROOT}/aboutUs.html">{$Think.lang.HEADER_ABOUT_GREENCO}</a>
 							</li>
 							<li>
-								<a rel="nofollow" href="{$Think.config.ABOUT_ROOT}/certification">{$Think.lang.HEADER_CERTIFICATION}</a>
+								<a rel="nofollow" href="{$Think.config.ABOUT_ROOT}/certification.html">{$Think.lang.HEADER_CERTIFICATION}</a>
 							</li>
 							<li>
-								<a rel="nofollow" href="{$Think.config.ABOUT_ROOT}/honour">{$Think.lang.HEADER_HONOUR}</a>
+								<a rel="nofollow" href="{$Think.config.ABOUT_ROOT}/honour.html">{$Think.lang.HEADER_HONOUR}</a>
 							</li>
 							<li>
-								<a rel="nofollow" href="{$Think.config.ABOUT_ROOT}/video">{$Think.lang.HEADER_VIDEO}</a>
+								<a rel="nofollow" href="{$Think.config.ABOUT_ROOT}/video.html">{$Think.lang.HEADER_VIDEO}</a>
 							</li>
 							<li>
-								<a rel="nofollow" href="{$Think.config.ABOUT_ROOT}/equipments">{$Think.lang.HEADER_EQUIPMENTS}</a>
+								<a rel="nofollow" href="{$Think.config.ABOUT_ROOT}/equipments.html">{$Think.lang.HEADER_EQUIPMENTS}</a>
 							</li>
 						</ul>
 					</li>
@@ -124,21 +124,27 @@
 										</li>
 										
 										<li class="dropdown">
-											<a href="{$Think.config.NEWS_ROOT}/company" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+											<a href="{$Think.config.NEWS_ROOT}/company.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
 												{$Think.lang.HEADER_NEWS_CENTER}
 												<span class="caret"></span>
 											</a>
 											<ul class="dropdown-menu" role="menu">
-												<li><a rel="nofollow" href="{$Think.config.NEWS_ROOT}/company">{$Think.lang.HEADER_COMPANY_NEWS}</a></li>
-												<li><a rel="nofollow" href="{$Think.config.NEWS_ROOT}/industry">{$Think.lang.HEADER_INDUSTRY_NEWS}</a></li>
-												<li><a rel="nofollow" href="{$Think.config.NEWS_ROOT}/support">{$Think.lang.HEADER_SUPPORT}</a></li>
+												<li>
+													<a rel="nofollow" href="{$Think.config.NEWS_ROOT}/company.html">{$Think.lang.HEADER_COMPANY_NEWS}</a>
+												</li>
+												<li>
+													<a rel="nofollow" href="{$Think.config.NEWS_ROOT}/industry.html">{$Think.lang.HEADER_INDUSTRY_NEWS}</a>
+												</li>
+												<li>
+													<a rel="nofollow" href="{$Think.config.NEWS_ROOT}/support.html">{$Think.lang.HEADER_SUPPORT}</a>
+												</li>
 											</ul>
 										</li>
 										<li>
-											<a rel="nofollow" href="{$Think.config.INDEX_ROOT}/download">{$Think.lang.HEADER_DOWNLOADS}</a>
+											<a rel="nofollow" href="{$Think.config.INDEX_ROOT}/download.html">{$Think.lang.HEADER_DOWNLOADS}</a>
 										</li>
 										<li>
-											<a rel="nofollow" href="{$Think.config.Contact_ROOT}/contact">{$Think.lang.HEADER_CONTACT_US}</a>
+											<a rel="nofollow" href="{$Think.config.Contact_ROOT}/contact.html">{$Think.lang.HEADER_CONTACT_US}</a>
 										</li>
 										<li>
 											<a rel="nofollow" href="#">{$Think.lang.HEADER_JOIN_US}</a>
@@ -146,7 +152,9 @@
 									</ul>
 									<form class="navbar-form navbar-right" role="search">
 										<input type="text"  id="searchBox" name="term"  class="form-control" placeholder="{$Think.lang.HEADER_SEARCH}">
-										<button type="submit" class="btn btn-success btn-search"><span class="glyphicon glyphicon-search"></span></button>
+										<button type="submit" class="btn btn-success btn-search">
+											<span class="glyphicon glyphicon-search"></span>
+										</button>
 									</form>
 									</div><!-- /.navbar-collapse -->
 									</div><!-- /.container-fluid -->

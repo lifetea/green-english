@@ -15,7 +15,7 @@ return array(
 		'IMG_ROOT'=>URL.'/src/img',
 		'JS_ROOT'=>URL.'/src/js',
 		'COM_TP'=>'../Public',
-	//多语言网址
+		//多语言网址
 		'ZH_URL'=>'http://www.greenco.com.cn',
 		'EN_URL'=>'http://www.greenco.cn',
 		'ES_URL'=>'http://spanish.greenco.cn',
@@ -26,11 +26,33 @@ return array(
 		'PROD_ROOT'=>URL.'/PROD',
 		'NEWS_ROOT'=>URL.'/News',
 		'CONTACT_ROOT'=>URL.'/Contact',
-		
+		//伪静态
+		'URL_HTML_SUFFIX'=>'html',
 		//memcache缓存设置
-		'DATA_CACHE_TYPE' => 'Memcache',
+		//'DATA_CACHE_TYPE' => 'Memcache',
 		//memcache服务器地址和端口，这里为本机
-		'MEMCACHE_HOST' => 'tcp://127.0.0.1:11211', 
-		'DATA_CACHE_TIME' => '3600' ,
+		//'MEMCACHE_HOST' => 'tcp://127.0.0.1:11211', 
+		//'DATA_CACHE_TIME' => '3600' ,
+		
+		
+		//域名绑定
+		'APP_SUB_DOMAIN_DEPLOY'   =>    1, // 开启子域名或者IP配置
+		'APP_SUB_DOMAIN_RULES'    =>    array(
+				'www.greenco.com.cn'=>array('Home','lan=zh-cn'),
+				'www.greenco.cn'=>array('Home','lan=en-us'),
+				/* 域名部署配置
+				 *格式1: '子域名或泛域名或IP'=> '模块名[/控制器名]';
+		*格式2: '子域名或泛域名或IP'=> array('模块名[/控制器名]','var1=a&var2=b&var3=*');
+		*/
+		),
+		
+		//静态缓存
+		'HTML_CACHE_ON'     =>    true, // 开启静态缓存
+		'HTML_CACHE_TIME'   =>    60,   // 全局静态缓存有效期（秒）
+		'HTML_FILE_SUFFIX'  =>    '.html', // 设置静态缓存文件后缀
+		'HTML_CACHE_RULES'  =>     array(  // 定义静态缓存规则
+				// 定义格式1 数组方式
+				'Index:'=>array('Index/{:action}_{lan}','600'),
+		)
 		
 );

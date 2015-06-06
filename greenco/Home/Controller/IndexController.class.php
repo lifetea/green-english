@@ -4,6 +4,8 @@ use Think\Controller;
 class IndexController extends Controller {
     public function index(){
 //     	print  L('add_user_error');　
+		//var_dump(I(get.lan));
+		//echo $_GET['lan'];
         $this->display();
     }
     public function about_us(){
