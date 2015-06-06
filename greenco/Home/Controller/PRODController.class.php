@@ -46,43 +46,6 @@ class PRODController extends Controller {
     	$this->assign('model',$model);
     	$this->display();
     }    
-    
-    public function get2RBList(){
-    	//product  type like '%2RB {$_GET['series']}%'
-    	//$list = S('contact-data');
-    	//if (!$list) {
-    	$prod = M("product");
-    	$list = $prod->where("type like '%2RB {$_GET['series']}%' and blower_type='ie1' ")->order('id ASC')->select();
-    	//S('contact-data', $list, 7000);
-    	//}
-    	$this->assign('series',I('get.series'));
-    	$this->assign('list',$list);
-    	$this->display();
-    }    
-    public function get3RBList(){
-    	//product  type like '%2RB {$_GET['series']}%'
-    	//$list = S('contact-data');
-    	//if (!$list) {
-    	$prod = M("product");
-    	$list = $prod->where("type like '%3RB {$_GET['series']}%' and blower_type='ie1'")->order('id ASC')->select();
-    	//S('contact-data', $list, 7000);
-    	//}
-    	$this->assign('series',I('get.series'));
-    	$this->assign('list',$list);
-    	$this->display();
-    }        
-    public function get4RBList(){
-    	//product  type like '%2RB {$_GET['series']}%'
-    	//$list = S('contact-data');
-    	//if (!$list) {
-    	$prod = M("product");
-    	$list = $prod->where("type like '%4RB {$_GET['series']}%' and blower_type='ie1' ")->order('id ASC')->select();
-    	//S('contact-data', $list, 7000);
-    	//}
-    	$this->assign('list',$list);
-    	$this->assign('series',I('get.series'));
-    	$this->display();
-    }
     public function Search(){
     	$prod = M("product");
     	$airFlow = I('get.airFlow');
@@ -127,35 +90,6 @@ class PRODController extends Controller {
     		$list["subtype"] = substr($list["type"],0,9);
     	}
     	$this->assign('list',$list);
-    	$this->display();
-    }
-    public function IEContent(){
-    	//product  type like '%2RB {$_GET['series']}%'
-    	//$list = S('contact-data');
-    	//if (!$list) {
-    	//  like '%{$_GET['series']}%' and output={$_GET['output']}
-    	 
-    	$prod = M("ie2");
-    	$list = $prod->where("type like '%{$_GET['series']}%' and output={$_GET['output']}")->find();
-    	//S('contact-data', $list, 7000);
-    	//}
-    	$this->assign('series',I('get.series'));
-    	$list["subtype"] = substr($list["type"],0,7);
-    	$this->assign('list',$list);
-    	//dump($list);
-    	$this->display();
-    }
-
-    public function getIE2List(){
-    	//product  type like '%2RB {$_GET['series']}%'
-    	//$list = S('contact-data');
-    	//if (!$list) {
-    	$prod = M("ie2");
-    	$list = $prod->where("type like '%2RB {$_GET['series']}%'")->order('id ASC')->select();
-    	//S('contact-data', $list, 7000);
-    	//}
-    	$this->assign('list',$list);
-    	$this->assign('series',I('get.series'));
     	$this->display();
     }
     public function getSuctionList(){
