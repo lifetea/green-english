@@ -256,5 +256,8 @@ return array(
 		'CONTENT_TECHNICAL_DATA'=>'Technical Data',
 		'CONTENT_NOTICE'=>'Note:Model offerings and design parameters may change without notice.',
 		'CONTENT_DIMENSION'=>'Dimension for Side Channel Blower',
+		'CONTENT_SILENCER_DIMENSION'=>'Dimension for Silencer',
+		'CONTENT_RELIEF_VALVE_DIMENSION'=>'Dimension for Relief Valve',
+		'CONTENT_FILTER_DIMENSION'=>'Dimension for Inlet Vacuum Filter',
 );
 ?>

@@ -257,5 +257,8 @@ return array(
 		'CONTENT_TECHNICAL_DATA'=>'技术参数',
 		'CONTENT_NOTICE'=>'注意：产品模型和设计参数可能会更改,不另行通知。',
 		'CONTENT_DIMENSION'=>'漩涡气泵尺寸',
+		'CONTENT_SILENCER_DIMENSION'=>'消音器尺寸',
+		'CONTENT_RELIEF_VALVE_DIMENSION'=>'释压阀尺寸',
+		'CONTENT_FILTER_DIMENSION'=>'过滤器尺寸',
 );
 ?>

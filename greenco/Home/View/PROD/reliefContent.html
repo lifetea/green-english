@@ -2,6 +2,9 @@
 <html>
 	<head>
 		<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+		<title>{$Think.lang.RELIEF_TITLE}</title>
+		<meta name="keywords"	 content="{$Think.lang.RELIEF_DESCRIPTION}" />
+		<meta name="description" content="{$Think.lang.RELIEF_KEYWORDS}" />
 		<include file="../Public/css" />
 		<link href="{$Think.config.IMG_ROOT}/favicon.ico" rel="shortcut icon"/>
 	</head>
@@ -27,10 +30,9 @@
 								<form class="form-inline" action="#">
 									<ul class="prod-detail">
 										<li>
-											<h3 class="title-1">Relief Valve {$list.type} Technical
-											Data</h3>
+											<h3 class="title-1">{$Think.lang.HEADER_RELIEF_VALUE} {$list.type} {$Think.lang.CONTENT_TECHNICAL_DATA}</h3>
 										</li>
-										<li><strong>Model: </strong> <span> {$list.type}</span></li>
+										<li><strong>{$Think.lang.CONTENT_MODEL}: </strong> <span> {$list.type}</span></li>
 										<li>
 											<div class="form-group">
 												<label for="inputEmail3" class="control-label">数量：</label> <span
@@ -56,9 +58,7 @@
 						</div>
 					</div>
 					<div>
-						<h3 class="head-1">
-						Dimension for Relief Valve <?php echo $_GET['type'];?>
-						</h3>
+						<h3 class="head-1">{$Think.lang.CONTENT_RELIEF_VALVE_DIMENSION} </h3>
 						<p class="center">
 							<a rel="shadowbox"
 								href="{$Think.config.IMG_ROOT}/Relief_valve_{$subType}_big.jpg">
@@ -69,7 +69,7 @@
 							</a>
 						</p>
 						<table class="table table-striped" >
-							<if condition="$subType eq 'RV'"> '
+							<if condition="$subType eq 'RV'"> 
 							<tr class="one">
 								<td>Model</td>
 								<td>MPaG</td>

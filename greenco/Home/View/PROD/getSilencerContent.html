@@ -2,12 +2,9 @@
 <html>
 	<head>
 		<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
-		<title><?php echo _('Silencer|Blower Silencer|Side channel blower'); ?><?php echo  $_GET['type'];?>
-		<?php echo _('Technical Data|Zhejiang GREENCO Industry Co Ltd'); ?></title>
-		<meta name="description"
-		content="<?php echo  $_GET['type'];?> <?php echo _('Silencers are used for the reduce in positive displacement air blowers and vacuum pumps.') ?>" />
-		<meta name="keywords"
-		content="<?php echo _('Silencer,Blower Silencer,Air Silencer,Side channel blower,Regenerative blower,Ring blower,Air blower,Vacuum pump,2BX4 series,GREENCO'); ?>" />
+		<title>{$Think.lang.SILENCER_TITLE} <?php echo  $_GET['type'];?></title>
+		<meta name="keywords"	 content="{$Think.lang.SILENCER_DESCRIPTION}" />
+		<meta name="description" content="{$Think.lang.SILENCER_KEYWORDS}" />
 		<include file="../Public/css" />
 		<link href="{$Think.config.IMG_ROOT}/favicon.ico" rel="shortcut icon"/>
 	</head>
@@ -31,10 +28,10 @@
 								<form class="form-inline" >
 									<ul class="prod-detail">
 										<li>
-											<h3 class="title-1">Silencer {$list.type} Technical Data</h3>
+											<h3 class="title-1">{$Think.lang.HEADER_SILENCER} {$list.type} {$Think.lang.CONTENT_TECHNICAL_DATA}</h3>
 										</li>
 										<li>
-											<strong>Model: </strong>
+											<strong>{$Think.lang.CONTENT_MODEL}: </strong>
 											<span> {$list.type}</span>
 										</li>
 										<li>
@@ -62,7 +59,7 @@
 							</div>
 						</div>
 						<div>
-							<h3 class="head-1">Dimension for Silencer {$list.type}</h3>
+							<h3 class="head-1">{$Think.lang.CONTENT_SILENCER_DIMENSION}</h3>
 							<!-- 尺寸图判断 -->
 							<a rel="shadowbox"
 								href="{$Think.config.IMG_ROOT}/silencer_2BX4_big.jpg"> <img

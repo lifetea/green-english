@@ -2,6 +2,9 @@
 <html>
 	<head>
 		<meta http-equiv="content-Type" content="text/html; charset=utf-8" />
+		<title>{$Think.lang.FILTER_TITLE}</title>
+		<meta name="keywords"	 content="{$Think.lang.FILTER_KEYWORDS}" />
+		<meta name="description" content="{$Think.lang.FILTER_DESCRIPTION}" />
 		<include file="../Public/css" />
 		<link href="{$Think.config.IMG_ROOT}/favicon.ico" rel="shortcut icon"/>
 	</head>
@@ -28,10 +31,9 @@
 								<form class="form-inline" action="#">
 									<ul class="prod-detail">
 										<li>
-											<h3 class="title-1">Vacuum Filter {$list.type} Technical
-											Data</h3>
+											<h3 class="title-1">{$Think.lang.HEADER_FILTER} {$list.type} {$Think.lang.CONTENT_TECHNICAL_DATA}</h3>
 										</li>
-										<li><strong>Model: </strong> <span> {$list.type}</span></li>
+										<li><strong>{$Think.lang.CONTENT_MODEL}: </strong> <span> {$list.type}</span></li>
 										<li>
 											<div class="form-group">
 												<label for="inputEmail3" class="control-label">数量：</label> <span
@@ -57,10 +59,7 @@
 						</div>
 					</div>
 					<div>
-						<h3 class="head-1">
-						Dimension for Inlet Vacuum Filter
-						<?php echo $_rows['type'];?>
-						</h3>
+						<h3 class="head-1">{$Think.lang.CONTENT_FILTER_DIMENSION}</h3>
 						<p class="center">
 							<a rel="shadowbox"
 								href="{$Think.config.IMG_ROOT}/Inlet_Vacuum_Filter_big.jpg">
