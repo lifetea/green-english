@@ -142,8 +142,8 @@ ul{padding:0;list-style:none}
 /*application*/
 .app-list dl img{width:98%;margin:0 auto;border: 1px dashed #888;}
 .app-list dl,.cert-list div,.honour-list div{text-align:center}
-
-
+#codeValue{width:100px;margin-left:6px}
+.contact-left-img{margin:0 auto;width:70%}
 /*about*/
 .eq-list div{text-align:center}
 .honour-list img{ border: 1px solid #999;}

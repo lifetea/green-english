@@ -46,7 +46,7 @@
 					</div>
 				</div>
 				<div class="col-md-6">
-					<img style="margin:0 auto;width:70%" src="{$Think.config.IMG_ROOT}/contact_us.jpg"/>
+					<img class="contact-left-img"  src="{$Think.config.IMG_ROOT}/contact_us.jpg"/>
 				</div>
 			</div>
 			<div class="row">
@@ -106,7 +106,7 @@
 								</div>
 								<div class="col-sm-6">
 									<img src="{$Think.config.Contact_ROOT}/Code"  id="code" class="pull-left code"/>
-									<input id="codeValue"  check-type="required"  type="text" style="width:100px;margin-left:6px" name="code" class="form-control pull-left"/>
+									<input id="codeValue"  check-type="required"  type="text"  name="code" class="form-control pull-left"/>
 								</div>
 							</div>
 							<div class="form-group">
@@ -118,7 +118,35 @@
 			</div>
 		</div>
 	</div>
-	<!-- 下载内容end -->
+<!-- set up the modal to start hidden and fade in and out -->
+<div id="emailMsg" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- dialog body -->
+		<div class="modal-body">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<span>邮件发送成功</span>
+		</div>
+      <!-- dialog buttons -->
+      <div class="modal-footer"><button type="button" class="btn btn-primary">OK</button></div>
+    </div>
+  </div>
+</div>
+ 
+ <div id="codeMsg" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- dialog body -->
+		<div class="modal-body">
+			<button type="button" class="close" data-dismiss="modal">&times;</button>
+			<span>验证码有误</span>
+		</div>
+      <!-- dialog buttons -->
+      <div class="modal-footer"><button type="button" class="btn btn-primary">OK</button></div>
+    </div>
+  </div>
+</div>
+<!-- sometime later, probably inside your on load event callback -->
 	
 	<include file="../Public/footer" />
 	<script type="text/javascript"  data-main="{$Think.config.JS_ROOT}/contact" src="{$Think.config.JS_ROOT}/require.js"></script>

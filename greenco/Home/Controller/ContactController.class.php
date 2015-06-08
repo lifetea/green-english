@@ -34,8 +34,13 @@ class ContactController extends Controller {
     	$email = I('get.email');
     	$content = I('get.content');
     	$code = I('get.code');
-    	//if($this->checkVerify($code)){
+    	$Verify = new \Think\Verify();
+    	$flag =  $Verify->check($code, $id);
+    	if($flag ==true){
 			SendMail("greenco@greenco.cn",$company,"姓名:".$name."<br/>电话:".$phone."<br/>邮箱:".$email."<br/>留言:".$content);
-    	//}
+    		echo "1";
+    	}else{
+    		echo "0";
+    	}
     }
 }

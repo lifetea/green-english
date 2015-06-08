@@ -2,7 +2,8 @@ require.config({
     paths: {
         jquery: './lib/jquery-1.11.3.min',
         bootstrap:'./lib/bootstrap.min',
-        validation: './lib/bootstrap3-validation'
+        validation: './lib/bootstrap3-validation',
+        bootbox: './lib/bootbox.min',
     },
     shim: {
     	bootstrap: {
@@ -11,12 +12,12 @@ require.config({
     	validation:{
     		deps: ["jquery","bootstrap"],
     	},
-    	search: {
-	    	deps: ["jquery","validation"],
+    	bootbox: {
+	    	deps: ["jquery","bootstrap"],
     		}
     }
 });
-require(['jquery','bootstrap','validation'], function($) {
+require(['jquery','bootstrap','validation','bootbox'], function($) {
 	$(function(){
 		var count = $('.phone').length;
 		var i = Math.floor(Math.random()*count);
@@ -26,21 +27,29 @@ require(['jquery','bootstrap','validation'], function($) {
 			$(this).attr("src","Code?r="+Math.random());
 		});
 		
+	    $("#codeMsg a.btn").on("click", function(e) {
+	    	$("#codeMsg").modal('hide');
+	    });
+	    $("#emailMsg a.btn").on("click", function(e) {
+	    	$("#emailMsg").modal('hide');
+	    });	    
+	    
 		$("#contactForm").validation();
 		$("button[type='submit']").on('click',function(event){
 			event.preventDefault();
-			// 2.最后要调用 valid()方法。 
 			if ($("#contactForm").valid(this,"error!")==false){
 				return false;
 			}else{
-				//console.log($("form"));
 					var code = $("#codeValue").val();
-					$.get("checkVerify?code="+code, function(result){
-							if(result == 1){
-								$("#contactForm").submit();
-							}else{
-								console.log("yanzhengma cuowu");
-							}
+					var data = $("#contactForm").serialize();
+					$.get("sendEmail?"+data, function(result){
+						if(result == 1){
+							$("#emailMsg").modal("show"); 
+						}else{
+							$("#codeMsg").modal("show"); 
+							$('#code').click();
+							$('#codeValue').val("");
+						}
 					});
 			}
 		});
