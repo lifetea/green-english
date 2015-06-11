@@ -40,6 +40,9 @@ return array(
 		'APP_SUB_DOMAIN_RULES'    =>    array(
 				'www.greenco.com.cn'=>array('Home','lan=zh-cn'),
 				'www.greenco.cn'=>array('Home','lan=en-us'),
+				'test.greenco.cn'=>array('Home','lan=en-us'),
+				'test.greenco.com.cn'=>array('Home','lan=en-us'),
+				'admin.greenco.cn'=>array('Admin',''),
 				/* 域名部署配置
 				 *格式1: '子域名或泛域名或IP'=> '模块名[/控制器名]';
 		*格式2: '子域名或泛域名或IP'=> array('模块名[/控制器名]','var1=a&var2=b&var3=*');
