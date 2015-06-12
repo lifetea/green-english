@@ -11,29 +11,39 @@
 	<include file="../Public/header" />
 	<div class="container-fluid content">
 		<div class="container">
-			<div class="flash-wrap">
-				<div id="cu3erSwf"></div>
-			</div>
-			<div id="sildeContainer">
-				<img class="flash-shadow" src="{$Think.config.IMG_ROOT}/bg_shadow.png"/>
-				<div id="sliderWrap">
-					<a class="slider-item first" href="{$Think.config.ABOUT_ROOT}/about_us" >
-						<img src="{$Think.lang.SRC_LAN}/home2.jpg"/>
-					</a>
-					<a class="slider-item second" href="{$Think.config.PROD_ROOT}/3RB_1" >
-						<img src="{$Think.lang.SRC_LAN}/home4.jpg" />
-					</a>
-					<a class="slider-item last"  href="{$Think.config.INDEX_ROOT}/Download">
-						<img src="{$Think.lang.SRC_LAN}/home3.jpg" />
-					</a>
-					<a id="prev" href="javascript:void(0)">
-						<img src="{$Think.config.IMG_ROOT}/prev.jpg" />
-					</a>
-					<a id="next" href="javascript:void(0)">
-						<img src="{$Think.config.IMG_ROOT}/next.jpg" />
-					</a>
+			<div class="banner-wrap">
+				<div id="slides"  class="banner-main">
+			        		<img src="{$Think.lang.SRC_LAN}/image6.jpg"/>
+			        		<img src="{$Think.lang.SRC_LAN}/image3.jpg"/>
+			        		<img src="{$Think.lang.SRC_LAN}/image4.jpg"/>
 				</div>
 			</div>
+			<div class="notice-wrap center">
+				<ul class="row">
+					<li class="col-md-4" >
+						<div>
+							<a  href="{$Think.config.ABOUT_ROOT}/aboutUs.html" >
+								<img src="{$Think.lang.SRC_LAN}/home2.jpg"/>
+							</a>
+						</div>
+					</li>
+					<li class="col-md-4" >
+						<div>
+							<a  href="{$Think.config.PROD_ROOT}/3RB_1" >
+								<img src="{$Think.lang.SRC_LAN}/home4.jpg" />
+							</a>
+						</div>
+					</li>
+					<li class="col-md-4" >
+						<div>
+							<a  href="{$Think.config.INDEX_ROOT}/Download">
+								<img src="{$Think.lang.SRC_LAN}/home3.jpg" />
+							</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
 		</div>
 		
 	</div>

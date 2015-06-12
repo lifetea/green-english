@@ -1,6 +1,5 @@
 <?php
 return array(
-        'welcome'=>'西班牙语',
         //Index 页面
         		'INDEX_TITLE'=>'GreenCO-Side Channel Blower | soplador Anillo | soplador regenerativo | Ventilador | Bomba de vacío',
         		'INDEX_KEYWORDS'=>' GREENCO_The fabricante líder mundial en el soplador de canal lateral, soplador regenerativo, soplador del anillo, soplador de aire en China, las bombas de canal lateral se puede utilizar como bombas o compresores de vacío y son una tecnología de funcionamiento en seco altamente eficiente para numerosas aplicaciones.',

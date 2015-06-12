@@ -2,31 +2,29 @@ require.config({
     paths: {
         jquery: "./lib/jquery-1.11.3.min",
         bootstrap:"./lib/bootstrap.min",
-        swfobject:'./lib/swfobject.min'
+        slides:"./lib/jquery.slides.min", 
     },
     shim: {
     	bootstrap:{
     		deps: ["jquery"],
     	},
-        swfobject:{
-    		deps: ["jquery","bootstrap"],
-    	}
+    	slides:{
+    		deps: ["jquery"],
+    	},
+    	
     }
 });
-require(['jquery','bootstrap','swfobject'], function($) {
-	$(function(){
-    	var cacheBuster = "?t=" + Date.parse(new Date());
-		var flashvars = {};
-		flashvars.xml = $("#swfConfig").val();
-		var root = $("#swfConfig").attr("root");
-		var params = {};
-		params.allowscriptaccess = "always";
-		params.allownetworking = "all";
-		params.wmode = "Transparent";
-		var attributes = {};
-		attributes.id = "slider";
-		root +="/js/lib"
-		swfobject.embedSWF(root+"/cu3er.swf"+cacheBuster, "cu3erSwf", "980", "300", "9.0.124",  root+"/expressInstall.swf", flashvars, params);
+require(['jquery','bootstrap','slides'], function($) {
+	$(function() {
+	        $('#slides').slidesjs({
+	          width: 1000,
+	          height: 300,
+	          play: {
+	            auto: true,
+	            interval: 4000,
+	            swap: false
+	          }
+	        });
 	});
 	
 	$(function(){

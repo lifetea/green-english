@@ -26,6 +26,72 @@ ul{padding:0;list-style:none}
 .center {text-align:center}
 
 .banner{margin:1em auto;width:100%;border:1px solid #999;}
+
+.banner-wrap{
+	background:white;
+	padding:1em 1em 0.2em;
+	margin:1em 0;
+	
+}
+#slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      display:none;
+    }
+
+    .slidesjs-pagination {
+      margin: 3px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(../img/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
 .news-content p{text-indent: 2em;padding: 0.6em 0;line-height: 2.5em;text-align: justify;}
 .lang-select,.trademark{
 	padding-top: 0.8em;
@@ -84,16 +150,7 @@ ul{padding:0;list-style:none}
    .footer .last{margin-right:0}
    .footer  a , .footer  span{color:#999}
 /*index.php*/
-	.flash-wrap {width:1000px;height:326px;border:1px solid #ccc;padding:10px;background:#fff;margin:1em auto 0;}
-	.flash-shadow{margin-top:-5px;}
-    #sildeContainer{position:relative;width:1000px;margin:0 auto 10px;height: 201px;overflow:hidden}
-    #sildeContainer a{position:absolute;}
-    #sildeContainer  .first{left:0}
-    #sildeContainer  .second{left:344px}
-    #sildeContainer  .last{left:688px}
-    #sildeContainer .slider-item img{border:1px solid #999;top:2em;}
-    #prev{left:0x;top:90px;}
-    #next{left:978px;top:90px;}
+	.notice-wrap img{border: 10px solid #fff;box-shadow: 4px 4px 3px rgba(0,0,0,.25)}
 /*download*/
 	.download{margin: 0 auto;background: #fafafa;border: 1px solid #999;border-top: none;padding-bottom: 2em;}
 	.download a{color:#333;}
