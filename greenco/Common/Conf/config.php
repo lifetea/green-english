@@ -40,6 +40,7 @@ return array(
 		'APP_SUB_DOMAIN_RULES'    =>    array(
 				'www.greenco.com.cn'=>array('Home','lan=zh-cn'),
 				'www.greenco.cn'=>array('Home','lan=en-us'),
+				'spanish.greenco.cn'=>array('Home','lan=es'),
 				'test.greenco.cn'=>array('Home','lan=en-us'),
 				'test.greenco.com.cn'=>array('Home','lan=en-us'),
 				'admin.greenco.cn'=>array('Admin',''),

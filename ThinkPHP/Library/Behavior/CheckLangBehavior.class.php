@@ -57,7 +57,7 @@ class CheckLangBehavior {
         	define('LANG_SET',strtolower('zh-cn'));
         }elseif ($domain == 'www.greenco.cn'){
         	define('LANG_SET',strtolower('en-us'));
-        }elseif ($domain == 'localhost'){
+        }elseif ($domain == 'spanish.greenco.cn'){
         	define('LANG_SET',strtolower('es'));//西班牙
         }elseif ($domain == '127.0.0.1'){
         	define('LANG_SET',strtolower('en-us'));//英文
