@@ -11,13 +11,19 @@
 		<div class="col-xs-4">
 			<div class="row">
 				<div class="lang-select pull-right">
-					<a href="{$Think.config.ZH_URL}"  target="_blank" ><img src="{$Think.config.IMG_ROOT}/china.png" class="language_china" title="中文" alt="中文"/></a>
-					<a href="{$Think.config.EN_URL}"  rel='nofollow' ><img src="{$Think.config.IMG_ROOT}/english.png" class="language_english" title="English" alt="英文"/></a>
-					<a href="{$Think.config.ES_URL}"  target="_blank" ><img src="{$Think.config.IMG_ROOT}/spanish.png" class="language_english" title="Spanish" alt="西班牙"/></a>
+					<a href="{$Think.config.ZH_URL}"  target="_blank" >
+						<img src="{$Think.config.IMG_ROOT}/china.png" class="language_china" title="中文" alt="中文"/>
+					</a>
+					<a href="{$Think.config.EN_URL}"  rel='nofollow' >
+						<img src="{$Think.config.IMG_ROOT}/english.png" class="language_english" title="English" alt="英文"/>
+					</a>
+					<a href="{$Think.config.ES_URL}"  target="_blank" >
+						<img src="{$Think.config.IMG_ROOT}/spanish.png" class="language_english" title="Spanish" alt="西班牙"/>
+					</a>
 				</div>
 			</div>
 			<div class="row">
-				<div class="lang-select pull-right">
+				<div class="lang-select pull-right cert-icon">
 					<img src="{$Think.config.IMG_ROOT}/home6.png"/>
 				</div>
 			</div>
@@ -56,8 +62,6 @@
 							</li>
 						</ul>
 					</li>
-					
-					
 					<li class="dropdown">
 						<a href="{$Think.config.PROD_ROOT}/getProd?model=2RB&type=ie1&stage=Single" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
 							{$Think.lang.HEADER_PRODUCTS}
@@ -150,7 +154,7 @@
 											<a rel="nofollow" href="{$Think.config.Contact_ROOT}/contact.html">{$Think.lang.HEADER_CONTACT_US}</a>
 										</li>
 									</ul>
-									<form class="navbar-form navbar-right" role="search">
+									<form class="navbar-form navbar-right search-area" role="search">
 										<input type="text"  id="searchBox" name="term"  class="form-control" placeholder="{$Think.lang.HEADER_SEARCH}">
 										<button type="submit" class="btn btn-success btn-search">
 											<span class="glyphicon glyphicon-search"></span>
