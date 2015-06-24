@@ -21,20 +21,18 @@
 					<h3 style="color:#eee;text-indent:5px;font-size:14px;font-family:tahoma;font-family:tahoma;  text-indent: 10px; background: #666; font-size: 14px;  font-weight: 600; ;height: 32px;color: #fff;line-height: 32px;border: 1px solid #555; ">{$Think.lang.HEADER_COMPANY_NEWS}</h3>
 					<ul>
 						<volist name="list" id="vo">
-						
-						<li class="mypagination">
-							<p></p>
-							<p>
-								<strong>
-								<a href="{$Think.config.NEWS_ROOT}/newsContent?id={$vo.id} ">{$vo.title}</a>
-								</strong>
-							</p>
-							<p>{$vo.content}</p>
-							<p class="row">
-								<span class="more col-md-2">{$vo.time}</span>
-								<a class="more col-md-1 col-md-offset-9"  href="{$Think.config.NEWS_ROOT}/newsContent?id={$vo.id} ">{$Think.lang.SUPPORT_DETAIL}</a>
-							</p>
-						</li>
+							<li class="mypagination">
+								<p>
+									<strong>
+										<a href="{$Think.config.NEWS_ROOT}/newsContent.html?id={$vo.id} ">{$vo.title}</a>
+									</strong>
+								</p>
+								<p>{$vo.content}</p>
+								<p class="row">
+									<span class="more col-md-2">{$vo.time}</span>
+									<a class="more col-md-1 col-md-offset-9"  href="{$Think.config.NEWS_ROOT}/newsContent.html?id={$vo.id} ">{$Think.lang.SUPPORT_DETAIL}</a>
+								</p>
+							</li>
 						</volist>
 					</ul>
 					<div  id="page_text"></div>

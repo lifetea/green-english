@@ -1,654 +1,197 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-<url>
-  <loc>http://www.greenco.cn/</loc>
-  <changefreq>daily</changefreq>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/about_us.php</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Belt_Drive_Air_Blower_2RB_Single_Stage.php</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Belt_Drive_Air_Blower_2RB_Double_Stage.php</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Liquid_Ring_Vacuum_Pump_2LV7.php</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Silencer.php</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Relief_Valve.php</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/application</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Download.php</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Certification.php</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Honour.php</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/History.php</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Video.php</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Equipments.php</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Liquid_Ring_Vacuum_Pump_2LV5.php</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB213.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB233.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB413.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB433.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB513.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB533.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB613.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB713.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB733.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB813.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB833.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB913.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB933.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB223.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB423.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB523.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB723.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB743.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB823.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB923.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20Channel%20Blower%20Belt%20drive%202RB943.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Liquid_Ring_Vacuum_Pump_2LV7_table.php?type=2LV7%20060-7AH06</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Liquid_Ring_Vacuum_Pump_2LV7_table.php?type=2LV7%20061-7AH16</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/silencer_content.php?type=2BX4%20011</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/silencer_content.php?type=2BX4%20012</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/silencer_content.php?type=2BX4%20013</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/silencer_content.php?type=2BX4%20014</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/silencer_content.php?type=2BX4%20015</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Relief_valve_content.php?type=RV-01</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Relief_valve_content.php?type=RV-02</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Relief_valve_content.php?type=2BX4%20141</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Relief_valve_content.php?type=2BX4%20142</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Relief_valve_content.php?type=2BX4%20143</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Relief_valve_content.php?type=2BX4%20144</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/Relief_valve_content.php?type=2BX4%20145</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/overview_2rb/side%20channel%20blower%202RB_1AC_pressure_selection_diagram.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/overview_2rb/side%20channel%20blower%202RB_3AC_Pressure_selection_diagram.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/overview_2rb/side%20channel%20blower%202RB_1AC_Vacuum_selection_diagram.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/overview_2rb/side%20channel%20blower%202RB_3AC_Vacuum_selection_diagram.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/overview_4rb/side%20channel%20blower%204RB_1AC_pressure_selection_diagram.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/overview_4rb/side%20channel%20blower%204RB_3AC_Pressure_selection_diagram.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/overview_4rb/side%20channel%20blower%204RB_1AC_Vacuum_selection_diagram.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/overview_4rb/side%20channel%20blower%204RB_3AC_Vacuum_selection_diagram.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB010.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB110.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB210.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB220.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB230.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB310.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB320.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB330.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB410.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB420.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB430.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB490.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB510.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB520.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB530.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB590.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB610.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB630.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB710.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB720.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB730.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB740.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB790.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB810.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB820.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB830.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB840.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB910.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB920.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB930.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB940.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/2RB_Series/side%20channel%20blower%202RB943.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB213.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB223.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB233.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB413.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB423.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB433.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB513.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
-</url>
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<!-- Free Sitemap Generator http://www.sitemapx.com -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB523.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/</loc>
+<priority>1.0</priority>
+<lastmod>2015-06-16T17:12:46+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB533.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/About/aboutUs.html</loc>
+<priority>0.6</priority>
+<lastmod>2015-06-16T17:12:47+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB613.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/About/certification.html</loc>
+<priority>0.6</priority>
+<lastmod>2015-06-16T17:12:47+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB713.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/About/equipments.html</loc>
+<priority>0.6</priority>
+<lastmod>2015-06-16T17:12:48+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB723.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/About/honour.html</loc>
+<priority>0.6</priority>
+<lastmod>2015-06-16T17:12:47+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB733.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/About/video.html</loc>
+<priority>0.6</priority>
+<lastmod>2015-06-16T17:12:48+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB743.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/Contact/contact.html</loc>
+<priority>0.6</priority>
+<lastmod>2015-06-16T17:12:50+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB813.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/Index/download.html</loc>
+<priority>0.6</priority>
+<lastmod>2015-06-16T17:12:49+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB823.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/Index/index.html</loc>
+<priority>0.6</priority>
+<lastmod>2015-06-16T17:12:47+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB833.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/News/company.html</loc>
+<priority>0.6</priority>
+<lastmod>2015-06-16T17:12:48+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB913.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/News/industry.html</loc>
+<priority>0.6</priority>
+<lastmod>2015-06-16T17:12:49+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB923.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/News/support.html</loc>
+<priority>0.6</priority>
+<lastmod>2015-06-16T17:12:49+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB933.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/About/aboutUs/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:55+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/Belt_drive/Side%20channel%20blower%20Belt%20drive%202RB943.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/About/certification/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:52+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/4RB_Series/side%20channel%20blower%204RB210.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/About/equipments/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:53+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/4RB_Series/side%20channel%20blower%204RB220.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/About/honour/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:53+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/4RB_Series/side%20channel%20blower%204RB310.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/About/video/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:53+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/4RB_Series/side%20channel%20blower%204RB320.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/Index/application/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:52+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/4RB_Series/side%20channel%20blower%204RB410.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/News/company/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:54+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/4RB_Series/side%20channel%20blower%204RB420.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/News/industry/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:54+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/4RB_Series/side%20channel%20blower%204RB510.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/News/support/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:55+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/4RB_Series/side%20channel%20blower%204RB520.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/PROD/Belt_2RB_1/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:50+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/4RB_Series/side%20channel%20blower%204RB530.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/PROD/Belt_2RB_2/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:51+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/4RB_Series/side%20channel%20blower%204RB610.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/PROD/Filter/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:52+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/4RB_Series/side%20channel%20blower%204RB620.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/PROD/filterContent/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:57+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/4RB_Series/side%20channel%20blower%204RB630.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/PROD/getProd/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:50+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/upfile/Liqudi%20Ring%20Vacuum%20Pump%202LV7%20series.pdf</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.64</priority>
+<loc>http://www.greenco.com.cn/PROD/getSilencerContent/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:56+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/index.php</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.51</priority>
+<loc>http://www.greenco.com.cn/PROD/getSuctionList/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:56+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/Liquid_Ring_Vacuum_Pump_2LV7_content.php?series=2LV7%20060-7AH06&amp;output=0.75</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.51</priority>
+<loc>http://www.greenco.com.cn/PROD/Relief/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:52+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/Liquid_Ring_Vacuum_Pump_2LV7_content.php?series=2LV7%20060-7AH06&amp;output=1.10</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.51</priority>
+<loc>http://www.greenco.com.cn/PROD/reliefContent/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:56+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/Liquid_Ring_Vacuum_Pump_2LV7_content.php?series=2LV7%20061-7AH16&amp;output=1.50</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.51</priority>
+<loc>http://www.greenco.com.cn/PROD/Silencer/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:51+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 <url>
-  <loc>http://www.greenco.cn/Liquid_Ring_Vacuum_Pump_2LV7_content.php?series=2LV7%20061-7AH16&amp;output=2.20</loc>
-  <changefreq>daily</changefreq>
-  <priority>0.51</priority>
+<loc>http://www.greenco.com.cn/PROD/Suction/</loc>
+<priority>0.4</priority>
+<lastmod>2015-06-16T17:12:51+00:00</lastmod>
+<changefreq>Always</changefreq>
 </url>
 </urlset>

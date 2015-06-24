@@ -87,7 +87,7 @@ ul{padding:0;list-style:none}
     #slides a:active {
       color: #9e2020
     }
-
+.notice-wrap img{width:100%;}
     .navbar {
       overflow: hidden
     }
@@ -226,7 +226,16 @@ ul{padding:0;list-style:none}
 .notice{font-weight:600;padding-top:2em;}
 .code{cursor: pointer;border:1px solid #999;padding:2px;}
 .help-block{display:inline-block}
-#从上面我们可以看出有几个临界点的分辨率，那么我们就可以轻松的来写自己的自适应代码了
+.navbar-nav .open .dropdown-menu{
+	background:#fff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a{
+  color: #333;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+  color: #9d9d9d;
+}
+
 @media (min-width: 768px){
 	
 }
@@ -238,3 +247,4 @@ ul{padding:0;list-style:none}
 	.navbar-nav>li{margin-right: 1.4em;}
 	#searchBox{width:auto;}
 }
+

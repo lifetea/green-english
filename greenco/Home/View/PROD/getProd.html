@@ -24,11 +24,11 @@
 						<div class="row pro-list ">
 							<volist name="list" id="vo">
 							<div id="mypage" class="col-md-4 pro-item">
-								<a href="{$Think.config.PROD_ROOT}/getList?pdf={$vo.pdf}&type={$type}&model={$model}&series={$vo.model|substr=4,10}"	target="_blank" >
+								<a href="{$Think.config.PROD_ROOT}/getList.html?pdf={$vo.pdf}&type={$type}&model={$model}&series={$vo.model|substr=4,10}"	target="_blank" >
 									<img src="{$Think.config.IMG_ROOT}/{$vo.snapshot}" />
 								</a>
 								<h4 class="center">
-								<a class="link-4"	href="{$Think.config.PROD_ROOT}/getList?type={$type}&model={$model}&series={$vo.model|substr=4,10}" target="_blank">{$vo.model|substr=0,7}</a>
+								<a class="link-4"	href="{$Think.config.PROD_ROOT}/getList.html?type={$type}&model={$model}&series={$vo.model|substr=4,10}" target="_blank">{$vo.model|substr=0,7}</a>
 								</h4>
 							</div>
 							</volist>

@@ -15,7 +15,7 @@
 			<img src="{$Think.lang.SRC_LAN}/support.jpg"  class="banner" alt="Greenco side channel blower news"/>
 			<div class="row">
 				<div class="col-md-3">
-					<include file="../Public/news-nav" />
+					<include file="../Public/news-nav"/>
 				</div>
 				<div class="col-md-9" style="border-left: 1px solid #ccc;">
 					<h3 style="color:#eee;text-indent:5px;font-size:14px;font-family:tahoma;font-family:tahoma;  text-indent: 10px; background: #666; font-size: 14px;  font-weight: 600; ;height: 32px;color: #fff;line-height: 32px;border: 1px solid #555; ">{$Think.lang.HEADER_SUPPORT}</h3>
@@ -26,13 +26,13 @@
 							<p></p>
 							<p>
 								<strong>
-								<a href="{$Think.config.NEWS_ROOT}/newsContent?id={$vo.id} ">{$vo.title}</a>
+								<a href="{$Think.config.NEWS_ROOT}/newsContent.html?id={$vo.id} ">{$vo.title}</a>
 								</strong>
 							</p>
 							<p>{$vo.content}</p>
 							<p class="row">
 								<span class="more col-md-2">{$vo.time}</span>
-								<a class="more col-md-1 col-md-offset-9"  href="{$Think.config.NEWS_ROOT}/newsContent?id={$vo.id} ">{$Think.lang.SUPPORT_DETAIL}</a>
+								<a class="more col-md-1 col-md-offset-9"  href="{$Think.config.NEWS_ROOT}/newsContent.html?id={$vo.id} ">{$Think.lang.SUPPORT_DETAIL}</a>
 							</p>
 						</li>
 						</volist>
