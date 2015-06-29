@@ -1,4 +1,0 @@
-﻿User-agent: *
-Disallow: /admin
-Disallow: admin.php
-Sitemap: http://www.greenco.cn/sitemap_baidu.xml

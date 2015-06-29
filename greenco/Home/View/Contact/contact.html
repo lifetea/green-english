@@ -118,35 +118,33 @@
 			</div>
 		</div>
 	</div>
-<!-- set up the modal to start hidden and fade in and out -->
-<div id="emailMsg" class="modal fade">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <!-- dialog body -->
-		<div class="modal-body">
-			<button type="button" class="close" data-dismiss="modal">&times;</button>
-			<span>邮件发送成功</span>
-		</div>
-      <!-- dialog buttons -->
-      <div class="modal-footer"><button type="button" class="btn btn-primary">OK</button></div>
-    </div>
-  </div>
-</div>
+	<div id="emailMsg" class="modal fade">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <!-- dialog body -->
+			<div class="modal-body">
+				<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<span>邮件发送成功</span>
+			</div>
+	      <!-- dialog buttons -->
+	      <div class="modal-footer"><button type="button" class="btn btn-primary">OK</button></div>
+	    </div>
+	  </div>
+	</div>
  
- <div id="codeMsg" class="modal fade">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <!-- dialog body -->
-		<div class="modal-body">
-			<button type="button" class="close" data-dismiss="modal">&times;</button>
-			<span>验证码有误</span>
+	<div id="codeMsg" class="modal fade">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<span>验证码有误</span>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary">OK</button>
+				</div>
+			</div>
 		</div>
-      <!-- dialog buttons -->
-      <div class="modal-footer"><button type="button" class="btn btn-primary">OK</button></div>
-    </div>
-  </div>
-</div>
-<!-- sometime later, probably inside your on load event callback -->
+	</div>
 	
 	<include file="../Public/footer" />
 	<script type="text/javascript"  data-main="{$Think.config.JS_ROOT}/contact" src="{$Think.config.JS_ROOT}/require.js"></script>
