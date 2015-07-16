@@ -75,7 +75,7 @@ class PRODController extends Controller {
     	$list = $prod->where("type like '%{$_GET['series']}%' and output={$_GET['output']}")->find();
     	$this->assign('series',I('get.series'));
     	$list["subtype"] = substr($list["type"],0,7);
-    	if($list["subtype"] =="3RB 350"){
+    	if($list["subtype"] =="3RB 350" || $list["subtype"] =="3RB 550" || $list["subtype"] =="3RB 750"){
     		$list["subtype"] = substr($list["type"],0,9);
     	}
     	$this->assign('list',$list);
